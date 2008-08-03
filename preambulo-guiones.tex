@@ -1,6 +1,11 @@
 \RequirePackage{amsthm}
 
 \newtheorem{pregunta}{Pregunta}
+
+\newcommand*{\repositorio}[1]{\texttt{#1}}
+\newcommand*{\gitk}{\texttt{gitk}}
+\newcommand*{\fichero}[1]{\texttt{#1}}
+
 \newcounter{saveenum}
 \newcommand{\savelp}{\setcounter{saveenum}{\value{enumi}}}
 \newcommand{\loadlp}{\setcounter{enumi}{\value{saveenum}}}

@@ -33,16 +33,249 @@
 \section{Clonar un repositorio existente}
 \label{sec:clon-repos}
 
-Clonar.
+\begin{first-enumerate}
+\item Antes de nada, necesitaremos un repositorio Git. Para ello,
+  \emph{clonaremos} un repositorio existente. Esto difiere del
+  \emph{checkout} de SVN o CVS en que conseguimos no una simple copia
+  de trabajo que aún depende del repositorio central, sino un
+  repositorio completamente independiente. 
+
+  Normalmente, los repositorios se clonan usando el protocolo Git (con
+  URL que comienzan por \url{git://}) en caso de usar acceso anónimo o
+  con acceso autenticado y encriptado mediante SSH (con direcciones de
+  la forma \url{usuario@host:ruta-repositorio}). Se puede usar HTTP si
+  tenemos problemas con cortafuegos y demás, pero es menos eficiente y
+  requiere ciertos ajustes adicionales.
+  
+  Vamos a clonar el repositorio de Git:
+
+\begin{verbatim}
+git clone git://git.kernel.org/pub/scm/git/git.git
+\end{verbatim}
+
+\end{first-enumerate}
+
+\begin{pregunta}
+  ¿A qué se refiere Git por ``objetos''?
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Cuántos directorios \verb#.git# hay en el repositorio creado?
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Sabría decir para qué sirven los siguientes conjuntos de rutas del
+  \verb#.git#?
+
+  \begin{itemize}
+  \item \fichero{config}
+  \item \fichero{description}
+  \item \fichero{HEAD}
+  \item \fichero{hooks/*}
+  \item \fichero{refs/heads/*}
+  \item \fichero{refs/remotes/*}
+  \item \fichero{refs/tags/*}
+  \end{itemize}
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Sabría decir cómo consigue Git una transferencia más eficiente de
+  la información del repositorio, a partir de la salida obtenida?
+  Recuerde los conceptos de objetos ``sueltos'' y objetos
+  ``empaquetados''.
+\end{pregunta}
+
+\begin{continue-enumerate}
+\item Ahora vamos a hacer un clonado superficial, que sólo tomará lo
+  necesario para los últimos \emph{commits} que haya en el
+  repositorio:
+
+\begin{verbatim}
+git clone --depth 1 \
+    git://git.kernel.org/pub/scm/git/git.git \
+    git-superficial
+\end{verbatim}
+
+  Fíjese en cómo cambia el número de objetos a descargar.
+\end{continue-enumerate}
+
+\begin{pregunta}
+  ¿Qué problemas cree que puede presentar un clonado superficial?
+\end{pregunta}
+
+\begin{continue-enumerate}
+\item Ahora, por último, veremos cómo clonar un repositorio
+  Subversion. Para ello, ejecute la siguiente orden:
+
+\begin{verbatim}
+git svn clone http://osl.uca.es/svn/ForjaDeSoftware
+\end{verbatim}
+\end{continue-enumerate}
+
+\begin{pregunta}
+  ¿Qué es lo que está haciendo realmente git-svn aquí?
+\end{pregunta}
 
 \section{Navegar por el historial}
 \label{sec:navegar-historial}
 
+\begin{first-enumerate}
+\item Pruebe a ejecutar las siguiente órdenes dentro del repositorio
+  \repositorio{git}:
+
+\begin{verbatim}
+git log
+git log -p
+git log --stat
+git log --name-status
+git log --pretty=fuller
+git log --pretty=oneline
+git log -Shello
+\end{verbatim}
+\end{first-enumerate}
+
+\begin{pregunta}
+  ¿Qué ha obtenido con la opción \verb#-p#?
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Qué significan los ``+'' y ``-'' de \verb#--stat#?
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Ha visto el formato de \verb#--name-status# anteriormente?
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Por qué cree que hay entradas separadas para Author y Commit con el
+  formato \verb#fuller#?
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Para qué podría usar la salida de \verb#oneline#? Pista: piense en
+  tuberías.
+\end{pregunta}
+
+\begin{pregunta}
+  Consulte la ayuda de \verb#git-log# y explique para qué sirve la opción \verb#-S#.
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Cómo obtendría el historial de las últimas 10 revisiones?
+\end{pregunta}
+
+\begin{continue-enumerate}
+\item Ahora pruebe a ejecutar esto:
+
+\begin{verbatim}
+git cat-file -p HEAD
+git cat-file -p master
+\end{verbatim}
+
+\end{continue-enumerate}
+
+\begin{pregunta}
+  ¿Podría responder ahora a cómo, si no hay números secuenciales de
+  revisión, se mantiene la secuencia de commits?
+\end{pregunta}
+
+\begin{pregunta}
+  Mire en la ayuda de rev-parse y averigüe dónde exactamente se
+  guardan las referencias antes usadas.
+\end{pregunta}
+
+\begin{continue-enumerate}
+\item Veamos cómo consultar los \emph{commits} por fecha:
+
+\begin{verbatim}
+git log master@{yesterday}
+git log --since="2 days ago" --until="yesterday"
+\end{verbatim}  
+\end{continue-enumerate}
+
+\begin{pregunta}
+  ¿Por qué no funciona la primera orden? Mire en la ayuda de
+  \verb#rev-parse# (``SPECIFYING REVISIONS'') para una pista.
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Qué es lo que hace la segunda orden?
+\end{pregunta}
+
+\begin{continue-enumerate}
+\item Ahora probaremos algunas otras herramientas que nos da Git para
+  navegar por el historial. En primer lugar, probaremos \gitk{}, el
+  visor Tcl/Tk incluido con Git.
+
+\begin{verbatim}
+gitk
+gitk --all
+\end{verbatim}
+\end{continue-enumerate}
+
+\begin{pregunta}
+  ¿Qué diferencia nota entre la primera orden y la segunda?
+\end{pregunta}
+
+\begin{continue-enumerate}
+\item También podemos conseguir algo al estilo de \verb#svn log#, con
+  números secuenciales de revisiones mediante \verb#-r#. Vaya al
+  repositorio SVN \verb#ForjaDeSoftware# y pruebe estas órdenes:
+
+\begin{verbatim}
+git svn log -r 180:190
+git svn log --oneline --show-commit
+git cat-file -p a74128c
+\end{verbatim}  
+\end{continue-enumerate}
+
+\begin{pregunta}
+  ¿Cómo conoce Git los números de revisión originales?
+\end{pregunta}
+
 \section{Examinar los objetos a bajo nivel}
 \label{sec:examinar-objetos}
 
+\begin{first-enumerate}
+\item Pruebe a ejecutar lo siguiente:
 
+\begin{verbatim}
+git cat-file -p v1.5.6.4
+git cat-file -p v1.5.6.4^{commit}
+git cat-file -p v1.5.6.4^{tree}
+git cat-file -p v1.5.6.4^{tree}:COPYING
+\end{verbatim}
 
+\end{first-enumerate}  
+
+\begin{pregunta}
+  Cambie \verb#-p# por \verb#-t# en las anteriores órdenes. ¿Adivina
+  qué es lo que hace la sintaxis \verb#^{tipo}#?
+\end{pregunta}
+
+\begin{pregunta}
+  ¿Ha notado algo particular al final de la salida de la primera orden?
+\end{pregunta}
+
+\begin{continue-enumerate}
+\item Existen muchos sinónimos para lo que acaba de hacer, con ciertas
+  diferencias en su salida. Por ejemplo, pruebe estas órdenes:
+
+\begin{verbatim}
+git show v1.5.6.4
+git show v1.5.6.4^{commit}
+git show v1.5.6.4^{tree}
+git show v1.5.6.4:COPYING
+git ls-tree v1.5.6.4
+git ls-tree --name-only v1.5.6.4
+\end{verbatim}
+
+\end{continue-enumerate}
+
+\begin{pregunta}
+  ¿Cómo es que no hace falta indicar \verb#^{tree}# en las tres
+  últimas órdenes, si lo que se espera es un árbol?
+\end{pregunta}
 
 \end{document}
 
