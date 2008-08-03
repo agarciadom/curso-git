@@ -1,0 +1,13 @@
+\RequirePackage{amsthm}
+
+\newtheorem{pregunta}{Pregunta}
+\newcounter{saveenum}
+\newcommand{\savelp}{\setcounter{saveenum}{\value{enumi}}}
+\newcommand{\loadlp}{\setcounter{enumi}{\value{saveenum}}}
+\newenvironment{first-enumerate}{\begin{enumerate}}{\savelp{}\end{enumerate}}
+\newenvironment{continue-enumerate}{\begin{enumerate}\loadlp{}}{\savelp{}\end{enumerate}}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
