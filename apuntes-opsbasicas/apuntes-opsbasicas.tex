@@ -1,0 +1,661 @@
+%; whizzy -pdf
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{ctable}
+\usepackage{multirow}
+\usepackage[spanish]{varioref}
+\usepackage{listings}
+
+\title{Apuntes de prácticas:\\Operaciones básicas con Git}
+\author{Antonio García Domínguez}
+\date{\today}
+
+\input{../preambulo-guiones}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+  Distribuido bajo la licencia CC v3.0 BY-SA (\url{http://creativecommons.org/licenses/by-sa/3.0/deed.es}).
+
+  \vskip 2em
+
+  \includegraphics{../cc-by-sa}
+\end{center}
+
+\vskip .1\textheight
+
+\tableofcontents{}
+
+\clearpage
+
+\section{Configuración inicial}
+\label{sec:conf-inicial}
+
+\begin{first-enumerate}
+\item Primero tendremos que decirle a Git nuestro nombre y dirección
+  de correo. Se utilizará para indicarnos como autor en cada una de
+  nuestras revisiones y para firmar con GPG, entre otras cosas. Para
+  ello, modificaremos la configuración global en
+  \fichero{\~{}/.gitignore} mediante estas órdenes:
+
+\begin{lstlisting}
+git config --global user.name "Nombre Apellidos"
+git config --global user.email micorreo@example.com
+\end{lstlisting}
+
+\item Ahora diremos a Git que nos coloree ciertas salidas de interés:
+
+\begin{lstlisting}
+git config --global user.name
+git config --global user.email
+git config --global color.diff
+\end{lstlisting}
+
+\item Por último, indicaremos cuál es nuestro editor favorito (se usa
+  Vim por defecto):
+
+\begin{lstlisting}
+git config --global core.editor
+\end{lstlisting}
+\end{first-enumerate}
+
+\section{Inicialización de un repositorio}
+\label{sec:inicializacion-repo}
+
+\begin{first-enumerate}
+\item Para crear un repositorio vacío, en vez de clonar uno existente,
+  lo que se hace es ejecutar \orden{git init} sobre el directorio raíz
+  con todos los ficheros que queramos controlar. Este repositorio no
+  tendrá aún ninguna revisión enviada. Crearemos un directorio vacío
+  en este caso y creamos el repositorio Git en su interior:
+
+\begin{lstlisting}
+mkdir ejemplo-curso
+git init
+\end{lstlisting}
+
+\item Vemos que únicamente tenemos el directorio oculto
+  \fichero{.git}:
+
+\begin{lstlisting}
+ls -a
+ls .git
+\end{lstlisting}
+
+  Este directorio contiene, entre otros, las entradas:
+
+  \begin{description}
+  \item[config] Fichero con la configuración local de Git para este repositorio.
+  \item[description] Descripción del repositorio para \fichero{gitweb}.
+  \item[HEAD] Referencia a la revisión actual con que trabajamos.
+  \item[hooks] Guiones Bash o programas para responder ante eventos.
+  \item[info/exclude] Fichero del estilo de \fichero{.gitignore}
+    global para el repositorio y no controlado por Git. Lo veremos después.
+  \item[objects] Base de datos de objetos.
+  \item[refs] Referencias por nombre a las puntas de las distintas
+    ramas locales y remotas y a otras revisiones etiquetadas por
+    nombre.
+  \end{description}
+  
+\end{first-enumerate}
+
+\section{Gestión básica de ficheros y revisiones}
+\label{sec:gestion-basica-ficheros}
+
+\begin{first-enumerate}
+\item Ahora crearemos un fichero muy sencillo de una sola línea:
+
+\begin{lstlisting}
+echo -e "A\nB" > f
+\end{lstlisting}
+
+\item Si miramos qué tal vamos con \orden{git status}, obtendremos:
+
+\begin{lstlisting}
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#       f
+nothing added to commit but untracked files present (use "git add" to track)
+\end{lstlisting}
+
+  Con esto sabemos que:
+
+  \begin{itemize}
+  \item Estamos en la rama <<master>> de desarrollo. Esta es la rama
+    principal estable que Git crea por defecto para todo
+    repositorio. Veremos más tarde en profundidad el concepto y los
+    usos de las ramas.
+
+  \item La siguiente revisión que creemos será la primera revisión
+    raíz del repositorio.
+
+  \item Hay una serie de ficheros cuyos cambios no se están
+    monitorizando: en este caso es el fichero \fichero{f} que antes
+    creamos.
+  \end{itemize}
+
+\item Para que Git monitorice \fichero{f}, lo añadimos a la zona
+  intermedia de almacenamiento para preparar envíos (el \emph{índice}
+  o \emph{caché}):
+
+\begin{lstlisting}
+git add f
+\end{lstlisting}
+
+\item Si miramos de nuevo la salida de \orden{git status}, veremos
+  cómo ha cambiado su estado, indicando que el nuevo fichero
+  \fichero{f} pasará a formar parte de la siguiente revisión:
+
+\begin{lstlisting}
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#       new file: f
+#
+\end{lstlisting}
+
+\item Ahora lo enviamos y creamos la primera revisión. Al ejecutar la
+  siguiente orden, se abrirá nuestro editor y podremos introducir un
+  mensaje para describir qué introduce la nueva revisión. Se
+  recomienda que la primera línea sea un resumen corto de 50 o menos
+  caracteres.
+
+\begin{lstlisting}
+git commit
+\end{lstlisting}
+
+\item Ya se ha creado la primera revisión:
+
+\begin{lstlisting}
+Created initial commit 2600adf: Primera revisión.
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 f
+\end{lstlisting}
+
+\item Ahora haremos unas cuantas revisiones más. La opción \orden{-m}
+  de \orden{git commit} nos ahorra tener que darle un mensaje a cada
+  nueva revisión:
+
+\begin{lstlisting}
+cp f g
+git add f g
+git commit -m "Copiado f a g"
+echo B >> f
+\end{lstlisting}
+
+\item Si hicieramos \orden{git status} ahora, veríamos:
+
+\begin{lstlisting}
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#
+#       modified:   f
+\end{lstlisting}
+
+  Tenemos una serie de cambios en el directorio de trabajo sobre
+  \fichero{f}, pero no los hemos enviado al índice aún, así que
+  todavía no son parte de la siguiente revisión. Para confirmar estos
+  cambios para la próxima revisión, usaremos:
+
+\begin{lstlisting}
+git add f
+\end{lstlisting}
+
+\item Seguimos con otras órdenes. La opción \orden{-v} nos dará un
+  informe de los cambios exactos que introduciremos en esta nueva
+  revisión, que no formarán parte de su descripción.
+
+\begin{lstlisting}
+cp f h
+git add h
+git commit -v -m "Cambiado f y copiado a h"
+\end{lstlisting}
+
+\item Es el momento de consultar nuestros logs, y comparar las salidas
+  de:
+
+\begin{lstlisting}
+git log --stat
+git log -C --stat
+git log -C --find-copies-harder --stat
+\end{lstlisting}
+
+  La primera salida no informa de ninguna copia: aparentemente, los
+  ficheros \fichero{f}, \fichero{g} y \fichero{h} no guardan ninguna
+  relación. Esto se debe a que Git únicamente sigue su contenido, y no
+  guarda historiales de cada fichero, al estilo de Subversion, por
+  ejemplo. Recordemos que Git es conocido como un <<stupid content
+  tracker>>, o monitor estúpido de contenido.
+
+  Sin embargo, la segunda operación sí detecta la copia de \fichero{f}
+  a \fichero{h}, pero no la de \fichero{f} a \fichero{g}. Hemos
+  activado la detección heurística de copias, pero por defecto sólo se
+  comparan aquellos ficheros que hayan sido cambiados en esa revisión,
+  por motivos de rendimiento. Retirando esa limitación como hacemos en
+  la tercera operación conseguimos que se detecte la copia.
+
+\item Vamos ahora a practicar el borrado y renombrado de ficheros. De
+  nuevo, a diferencia de Subversion, no hay nada especial que
+  hacer. Primero añadiremos algunos ficheros en una nueva revisión y
+  luego los moveremos:
+
+\begin{lstlisting}
+echo X > mueveme
+echo Y > borrame
+git add mueveme borrame
+git commit -m "Añadido ficheros para mover y borrar"
+git rm borrame
+mv mueveme movido
+git add movido
+git commit -a -m "Borrado un fichero y movido otro"
+\end{lstlisting}
+
+  Las tres últimas órdenes son más interesantes: primero, \orden{git
+    rm} retira un fichero de la copia de trabajo y del índice,
+  marcando su borrado para la próxima revisión. Sin embargo, no hemos
+  usado la orden \orden{git mv} existente para mover
+  \fichero{mueveme}, y en su lugar hemos pasado la opción \orden{-a} a
+  \orden{git commit}.
+
+  Esta opción añade todos los cambios pendientes sobre los ficheros
+  que se hallen bajo control de versiones: con él, nos podemos ahorrar
+  tener que manualmente enviar el \orden{git rm mueveme}
+  pertinente. Realmente, \orden{git mv a b} es lo mismo que:
+
+\begin{lstlisting}
+cp a b
+git rm a
+git add b
+\end{lstlisting}
+
+\item Ahora probaremos con:
+
+\begin{lstlisting}
+git log -1 --stat
+git log -1 -M --stat
+\end{lstlisting}
+
+  La segunda orden activa la detección heurística de renombrados: se
+  basa en que en una misma revisión se borre un fichero y aparezca
+  otro con la misma huella SHA-1.
+
+\end{first-enumerate}
+
+% git add
+% git rm, git mv, git log -M -C --find-copies-harder
+% gitignore
+% git commit -a -m -v
+
+\section{Uso avanzado del índice}
+\label{sec:uso-indice}
+
+\subsection{Enviando cambios parciales}
+\label{sec:envi-camb-parc}
+
+\begin{first-enumerate}
+\item El uso de un índice como zona intermedia de preparación nos
+  permite hacer muchas cosas que de otra forma serían muy complicadas
+  de hacer. Una cosa que podemos hacer es enviar en una revisión sólo
+  una parte de los cambios que hemos introducido en las líneas de un
+  fichero. Probaremos a hacer lo siguiente:
+
+\begin{lstlisting}
+echo A >> f
+echo D | cat - f > fnuevo
+mv fnuevo f
+git add -p f
+\end{lstlisting}
+
+\item Se nos mostrará algo así:
+
+\begin{lstlisting}
+diff --git a/f b/f
+index b1e6722..4e43a4f 100644
+--- a/f
++++ b/f
+@@ -1,3 +1,5 @@
++D
+ A
+ B
+ C
++A
+Stage this hunk [y/n/a/d/s/?]?
+\end{lstlisting}
+
+\item Pediremos con <<s>> que nos divida este bloque o \emph{hunk} en
+  otros más pequeños, ya que queremos enviar sólo el cambio
+  representado por la primera línea.
+
+\item Ahora se nos mostrará el bloque con la primera línea, y diremos
+  que sí lo prepare para su envío con <<y>>.
+
+\item Por último, respondiendo <<n>> al segundo bloque evitaremos que
+  lo prepare para envío.
+
+\item Ahora podríamos enviarlo, pero no lo haremos aún: nos servirá
+  para la siguiente parte.
+
+\end{first-enumerate}
+
+Una nota: los bloques sólo pueden dividirse de esta forma hasta el
+punto en que sean todos líneas contiguas. Para poder ir a un nivel más
+fino aún, tendremos que esperar a Git 1.6.0 y la nueva orden <<e>>
+para editar el bloque a mano. También se ha añadido la posibilidad de
+preparar una única línea para envío.
+
+\subsection{Comparando cambios realizados}
+\label{sec:desh-camb}
+
+\begin{first-enumerate}
+\item Recordemos que en Git trabajamos con tres estructuras de datos:
+  el repositorio (el directorio \fichero{.git}), el índice o caché
+  (\fichero{.git/index}) y el directorio de trabajo (todo lo que está
+  fuera de \fichero{.git}). Git nos permite hacer comparaciones entre
+  los tres.
+
+  Primero, una curiosidad: si ejecutamos \orden{git status}, veremos
+  algo así:
+
+\begin{lstlisting}
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#       modified:   f
+#
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#
+#       modified:   f
+#
+\end{lstlisting}
+
+  La razón por la que aparece tanto para enviar como no actualizado es
+  que sólo hemos preparado para envío algunos de los cambios
+  introducidos. La primera parte viene de que la versión en el índice
+  difiere de la de la última revisión, y la segunda de que la versión
+  del índice también difiere de la del directorio de trabajo.
+
+\item Primero, probaremos \orden{git diff}, que obtiene las
+  diferencias entre el directorio de trabajo y la versión preparada
+  para envío en el índice. Esta orden destacará aquella línea que no
+  preparamos para envío.
+
+\item \orden{git diff --cached} compara la versión del índice con la
+  versión de la revisión actual (\fichero{HEAD}), y así nos señalará
+  la línea que tenemos preparada para enviar.
+
+\item \orden{git diff HEAD} compara el directorio de trabajo con la
+  revisión actual, y destacará por lo tanto las dos líneas que hemos
+  introducido.
+
+\item Ya podemos crear la siguiente revisión:
+
+\begin{lstlisting}
+git commit -m "Añadido una línea al principio de f"
+\end{lstlisting}
+  
+\end{first-enumerate}
+
+\subsection{Deshaciendo cambios en el directorio de trabajo}
+\label{sec:desh-cambios}
+
+\begin{first-enumerate}
+\item Git nos permite deshacer los cambios que tengamos hechos sobre
+  el índice o el directorio de trabajo de múltiples maneras. En primer
+  lugar, podemos restaurar un fichero del directorio de trabajo a la
+  versión que se halle en el índice. Tras el último \orden{git commit}
+  que hicimos, podemos descartar esa línea de \fichero{f} que en su
+  momento no enviamos con:
+
+\begin{lstlisting}
+git checkout f
+\end{lstlisting}
+
+  Si hiciéramos \orden{git status} ahora, veríamos que nos dice que el
+  directorio de trabajo se halla limpio (sin cambios
+  pendientes). Veremos cómo hacerlo posteriormente.
+
+\item Otra posibilidad es restaurar un fichero al estado que tenía en
+  alguna otra revisión, que identificaremos con un \emph{commitish},
+  con la misma sintaxis de los \emph{treeish} pero resultando en una
+  revisión en vez de un árbol. En particular, \commitish{HEAD\^}
+  apunta a la revisión anterior a la actual. Usaremos una variante de
+  la orden anterior:
+
+\begin{lstlisting}
+git checkout HEAD^ f
+\end{lstlisting}
+
+  Dado que tanto el índice como el directorio de trabajo son
+  modificados, \orden{git status} reflejará ahora que está listo para
+  enviar en la siguiente revisión una copia de \fichero{f} con los
+  contenidos que tenía hace 2 revisiones.
+
+\item Supongamos que queremos cancelar este cambio que acabamos de
+  hacer. Para retirar la versión modificada del índice y situar la
+  existente en HEAD, usaremos:
+
+\begin{lstlisting}
+git reset -- f
+\end{lstlisting}
+
+  Esta orden no revierte la copia del directorio de trabajo. Tendremos
+  que hacer tal y como se vio en el primer paso:
+
+\begin{lstlisting}
+git checkout f
+\end{lstlisting}
+
+\item Podemos usar \orden{git reset} también para cancelar un borrado:
+
+\begin{lstlisting}
+git rm h
+git reset -- h
+git checkout h
+\end{lstlisting}
+
+  Si queremos reunir las dos últimas órdenes en una sola, podemos
+  hacer lo siguiente:
+
+\begin{lstlisting}
+git checkout HEAD h
+\end{lstlisting}
+
+  Esto recupera de una sola vez tanto la entrada del índice (segunda
+  orden) como la copia del directorio de trabajo (tercera orden).
+
+\item \orden{git reset} también sirve para cancelar el añadido de un
+  nuevo fichero:
+
+\begin{lstlisting}
+touch j
+git add j
+git reset -- j
+rm j
+\end{lstlisting}
+
+  Al igual que antes, al hacer \orden{git reset} no se toca el nuevo
+  \fichero{j} de la copia de trabajo, así que lo tendremos que borrar
+  a mano. Se pueden hacer los dos últimos pasos de una sola orden con
+  \orden{git rm -f j}.
+  
+\end{first-enumerate}
+
+Todas las posibilidades se hallan reunidas en la
+tabla~\vref{tab:resumen-deshacer}.
+
+\ctable[
+  botcap,
+  caption=Formas de deshacer cambios sobre el fichero \texttt{f},
+  label=tab:resumen-deshacer,
+]{c c >{\ttfamily}l}{}{\FL
+  Acción a deshacer & Afecta a                                             & \multicolumn{1}{c}{Orden}
+  \ML
+  Añadido           & \multirow{3}{12ex}{\centering índice}                & \multirow{3}*{git reset -- f} \NN
+  Modificación      &                                                      & \NN
+  Borrado           &                                                      & 
+  \ML
+  Añadido           & \multirow{3}{12ex}[-.5ex]{\centering directorio de trabajo} & rm f \NN
+  \cmidrule{3-3}
+  Modificación      &                                                      & \multirow{2}*{git checkout f}  \NN
+  Borrado           &                                                      & 
+  \ML
+  Añadido           & \multirow{3}{12ex}[-.5ex]{\centering ambos de una vez}      & git rm -f f \NN
+  \cmidrule{3-3}
+  Modificación      &                                                      & \multirow{2}*{git checkout HEAD f} \NN
+  Borrado           &                                                      & 
+  \LL
+}
+
+\section{Corrigiendo errores en revisiones anteriores}
+\label{sec:manip-basica}
+
+Si no hemos enviado aún nuestros cambios a ningún otro repositorio ni
+nadie los ha tomado de nuestro repositorio, podemos corregir errores
+fácilmente en la última revisión que hayamos hecho. Simplemente
+haremos como si preparáramos una nueva revisión y al enviarla utilizar
+la opción \orden{--amend}:
+
+\begin{lstlisting}
+git commit --amend
+\end{lstlisting}
+
+Con esto, la anterior revisión se ignorará y será efectivamente
+sustituida por otra que incorporará sus cambios y los que hayamos
+hecho ahora.
+
+Para arreglar commits anteriores, una posible solución de bajo nivel
+(recomendamos usar \orden{git rebase --interactive}, descrito en un
+documento posterior) es emplear \orden{git reset} para mover el
+puntero \commitish{HEAD} y hacer corresponder el índice, el índice y
+el directorio de trabajo o ninguno de los dos a una revisión
+anterior. Para movernos al primer padre del primer padre de
+\commitish{HEAD}, usaríamos \orden{git reset HEAD\~{}2}, \orden{git
+  reset --hard HEAD\~{}2} o \orden{git reset --soft HEAD\~{}2},
+respectivamente, y seguiríamos trabajando desde allí.
+
+El \commitish{HEAD} antiguo y su padre son efectivamente olvidados, y
+serán borrados automáticamente al ejecutar \orden{git gc} tras un
+período de gracia (por defecto de 2 semanas) o inmediatamente al
+ejecutar \orden{git prune}.
+
+La única forma de acceder a esas revisiones olvidadas es mediante la
+sintaxis \commitish{HEAD@\{N\}}, donde N es un entero, que señala al
+N-ésimo valor anterior que tomó \commitish{HEAD}. Esto no salvará a
+esas revisiones de ser <<limpiadas>>: para retirarlas de todo peligro,
+hay que asegurarse de que sean accesibles desde un tag o la última
+revisión o \emph{punta} (<<tip>> en el original inglés) de alguna
+rama. Veremos más tarde en este documento cómo etiquetar cualquier
+revisión, y se describirá en un documento posterior el proceso de
+creación de ramas.
+
+Repetimos igualmente que \emph{no} debemos modificar revisiones que
+hayan sido enviadas a algún otro repositorio si queremos poder
+colaborar entre ambos.
+
+\section{Etiquetando revisiones}
+\label{sec:etiq-revis}
+
+Cada revisión se puede identificar por un \emph{commitish} de manera
+inequívoca. Hay varias opciones, mejor descritas bajo la página
+\emph{man} de \fichero{git-rev-parse}, como usar un prefijo único de
+su huella SHA-1 o alguna ruta relativa a otro \emph{commitish}, usando
+ciertas relaciones de ascendencia y demás.
+
+Muchas veces, sin embargo, nos interesará darle un nombre más
+descriptivo, como <<v1.0>>, por ejemplo. Estas referencias por nombres
+arbitrarios se conocen como \emph{etiquetas}, y se pueden crear de una
+forma muy sencilla.
+
+\begin{first-enumerate}
+\item Podemos etiquetar la revisión actual con:
+
+\begin{lstlisting}
+git tag v2.0
+\end{lstlisting}
+
+  Como no hemos pasado otro argumento que el nombre del tag, se
+  etiquetará la revisión actual con una etiqueta <<ligera>>, que sólo
+  incluye el SHA-1 de la revisión a la que referencia.
+
+\item También podemos etiquetar cualquier otra revisión dando su
+  \emph{commitish}, y crear objetos reales de tipo etiqueta con
+  comentarios (\orden{-a}) y firmadas con nuestra clave pública GnuPG
+  (\orden{-s}) que tenga el mismo correo y nombre que le dimos a Git:
+
+\begin{lstlisting}
+git tag -a -s v1.0 HEAD~2
+\end{lstlisting}
+
+\item Para listarlas todas, podemos usar simplemente:
+
+\begin{lstlisting}
+git tag
+\end{lstlisting}
+
+\item Un detalle adicional: si quisiéramos saber en qué versión está
+  basada la revisión anterior, por ejemplo, podríamos usar esta orden:
+
+\begin{lstlisting}
+git describe HEAD^
+\end{lstlisting}
+
+  Por defecto sólo tiene en cuenta los objetos etiqueta y no las
+  etiquetas ligeras. Podemos corregir esto con la opción
+  \orden{--all}.
+  
+\end{first-enumerate}
+
+\section{Distribuyendo revisiones}
+\label{sec:distr-revis}
+
+Podemos redistribuir los contenidos de cualquier revisión mediante la
+orden \orden{git archive}. Si, por ejemplo, quisiéramos distribuir la
+versión 1.0 en formato \fichero{tar.gz}, usaríamos:
+
+\begin{lstlisting}
+git archive --format=tar v1.0 | gzip > ../miproyecto-1.0.tar.gz
+\end{lstlisting}
+
+Por otro lado, podríamos distribuir la revisión anterior a la actual
+en formato \fichero{zip} con:
+
+\begin{lstlisting}
+git archive --format=zip HEAD^ > ../miproyecto-1.0.zip
+\end{lstlisting}
+
+\section{Mantenimiento de un repositorio Git}
+\label{sec:mantenimiento-repo-git}
+
+A diferencia de otros sistemas como Subversion o Mercurial, un
+repositorio Git tiene la pega de requerir cierto mantenimiento
+periódico para ahorrar espacio y tiempo de ejecución. Sin embargo, no
+se trata de un problema grave: sólo hemos de ejecutar \fichero{git gc}
+de vez en cuando para eliminar objetos inútiles y aprovechar mejor el
+espacio, entre otras tareas de mantenimiento, y usar \fichero{git
+  fsck} para comprobar la consistencia de nuestro repositorio.
+
+Una de las cosas que \orden{git gc} hace es retirar los objetos a
+los que no se puede llegar desde ninguna referencia con nombre que no
+sea \commitish{HEAD}, como una etiqueta o la punta de alguna rama de
+desarrollo. Esto lo hace tras un período de gracia configurable de 2
+semanas por defecto, pero se puede ejecutar inmediatamente para todo
+el repositorio mediante \orden{git prune}.
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

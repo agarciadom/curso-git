@@ -5,12 +5,17 @@
 \newcommand*{\repositorio}[1]{\texttt{#1}}
 \newcommand*{\gitk}{\texttt{gitk}}
 \newcommand*{\fichero}[1]{\texttt{#1}}
+\newcommand*{\orden}[1]{\texttt{#1}}
+\newcommand*{\treeish}[1]{\texttt{#1}}
+\newcommand*{\commitish}[1]{\texttt{#1}}
 
 \newcounter{saveenum}
 \newcommand{\savelp}{\setcounter{saveenum}{\value{enumi}}}
 \newcommand{\loadlp}{\setcounter{enumi}{\value{saveenum}}}
 \newenvironment{first-enumerate}{\begin{enumerate}}{\savelp{}\end{enumerate}}
 \newenvironment{continue-enumerate}{\begin{enumerate}\loadlp{}}{\savelp{}\end{enumerate}}
+
+\lstset{basicstyle=\small,breaklines=true,columns=fullflexible,frame=tb}
 
 %%% Local Variables: 
 %%% mode: latex
