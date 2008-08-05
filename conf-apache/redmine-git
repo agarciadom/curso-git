@@ -1,0 +1,48 @@
+<VirtualHost 192.168.1.166:80>
+  ServerName redmine.example.com
+  DocumentRoot /home/git/redmine/public
+
+  <Directory />
+    Order deny,allow
+    Deny from all
+  </Directory>
+
+  <Directory /home/git/redmine/public/>
+    Order allow,deny
+    Allow from all
+  </Directory>
+
+  RewriteEngine On
+  RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_FILENAME} !-f
+  RewriteRule ^/(.*)$ https://%{SERVER_NAME}:4431/$1 [R,L]
+</VirtualHost>
+
+<VirtualHost 192.168.1.166:4431>
+  ServerName redmine.example.com:4431
+  DocumentRoot /home/git/redmine/public
+
+  <Directory />
+    Order deny,allow
+    Deny from all
+  </Directory>
+
+  SSLEngine on
+  SSLCertificateFile /etc/apache2/redmine.crt
+  SSLCertificateKeyFile /etc/apache2/server.key
+  SSLProtocol all
+  SSLCipherSuite HIGH:MEDIUM
+ 
+  <Proxy balancer://redmine_cluster>
+    Order allow,deny
+    Allow from all
+    BalancerMember http://127.0.0.1:3000
+    BalancerMember http://127.0.0.1:3001
+    BalancerMember http://127.0.0.1:3002
+    SSLRequireSSL
+  </Proxy>
+
+  ProxyPass / balancer://redmine_cluster/
+  ProxyPassReverse / balancer://redmine_cluster/
+  RequestHeader set X_FORWARDED_PROTO 'https'
+
+</VirtualHost>

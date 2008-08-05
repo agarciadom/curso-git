@@ -1,0 +1,73 @@
+<VirtualHost 192.168.1.166:80>
+  ServerName gitweb.example.com
+  DocumentRoot /home/git/gitweb/
+  CustomLog /var/log/apache2/access.log combined
+  ErrorLog  /var/log/apache2/error.log
+
+  <Directory /home/git/gitweb/>
+    Order allow,deny
+    Allow from all
+  </Directory>
+
+  RewriteEngine on
+  RewriteRule ^/(.*)$ https://%{SERVER_NAME}:4430/$1 [R,L] 
+</VirtualHost>
+
+<VirtualHost 192.168.1.166:4430>
+  ServerName gitweb.example.com:4430
+  DocumentRoot /home/git/repositories/
+  CustomLog /var/log/apache2/access.log combined
+  ErrorLog  /var/log/apache2/error.log
+
+  DavLockDB /home/git/DavLock
+
+  SSLEngine on
+  SSLCertificateFile    /etc/apache2/server.crt
+  SSLCertificateKeyFile /etc/apache2/server.key
+  SSLProtocol all
+  SSLCipherSuite HIGH:MEDIUM
+
+  Alias /gitweb.css   /home/git/gitweb/gitweb.css
+  Alias /git-logo.png /home/git/gitweb/git-logo.png
+  Alias /git-favicon.png /home/git/gitweb/git-logo.png
+  ScriptAlias /index  /home/git/gitweb/gitweb.cgi
+
+  <Directory />
+    Options -Indexes
+    AllowOverride None
+    Order deny,allow
+    Deny from all
+  </Directory>
+
+  <Directory /home/git/gitweb/>
+    Order allow,deny
+    Allow from all
+    SSLRequireSSL
+  </Directory>
+
+  <Directory /home/git/repositories/>
+    DirectoryIndex index
+
+    Order allow,deny
+    Allow from all
+    SSLRequireSSL
+  </Directory>
+
+  # Repositorio de prueba con escritura por WebDAV:
+  # cambiar a /home/git/repositories/*/ para que afecte
+  # a todos los repositorios
+  <Directory /home/git/repositories/nuevo-proyecto.git/>
+    Options +Indexes
+
+    DAV on
+ 
+    AuthType Basic
+    AuthUserFile /etc/apache2/git-repos.htpasswd
+    AuthName "Repositorios Git"
+    # Quitar LimitExcept para cerrarlo por completo
+    <LimitExcept OPTIONS GET REPORT PROPFIND>
+      Require valid-user
+    </LimitExcept>
+  </Directory>
+
+</VirtualHost>
