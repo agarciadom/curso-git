@@ -1,7 +1,10 @@
 * Dudas a resolver:
 ** "git checkout" con cambios pendientes
+** permisos: qué guarda y qué no guarda Git
 * Aspectos a comentar:
 ** git rebase --interactive
-* Poner en el guión:
+** tipos de tag
+*** ligeros
+*** completos (firma GPG, mensaje, etc.)
 ** git rm, svn mv, copias, movimientos
 
