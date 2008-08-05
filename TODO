@@ -1,0 +1,7 @@
+* Dudas a resolver:
+** "git checkout" con cambios pendientes
+* Aspectos a comentar:
+** git rebase --interactive
+* Poner en el guión:
+** git rm, svn mv, copias, movimientos
+
