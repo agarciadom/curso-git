@@ -4,8 +4,10 @@
 \usepackage[latin1]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{amsthm}
-\usepackage{graphicx}
+\usepackage{tikz}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[spanish]{varioref}
 
 \title{Guión de prácticas:\\Gestión de ramas\footnote{Sin preguntas por el momento.}}
 \author{Antonio García Domínguez}
@@ -33,18 +35,94 @@
 \section{Gestión básica de ramas}
 \label{sec:creacion-ramas}
 
-% git branch
-% git branch -a
-% git branch -d
-% git branch -D
-% gitk
-% gitk --all
+Las revisiones enviadas a un repositorio Git forman un grafo acíclico
+dirigido, en el que podemos tener líneas de revisiones que se dividen
+a partir de un cierto punto en múltiples ramas. Estas ramas
+posteriormente pueden reunirse opcionalmente, aunque no es
+estrictamente necesario.
+
+Siempre estamos trabajando con una rama: por defecto, Git crea siempre
+la rama \rama{master}, considerada normalmente como la rama principal
+de desarrollo (\rama{trunk} para aquellos que conozcan
+Subversion). Podemos ver en qué rama estamos con:
+
+\begin{lstlisting}
+git branch
+\end{lstlisting}
+
+Obtendremos una salida como:
+
+\begin{lstlisting}
+* master
+\end{lstlisting}
+
+Esta salida indica que nos hallamos actualmente trabajando sobre la
+punta de la rama \rama{master}, con lo que cualquier revisión que
+vayamos enviando no sólo creará el objeto correspondiente, sino que
+además hará avanzar el puntero \rama{master} además del
+\commitish{HEAD}. Puede que no estemos sobre la punta de ninguna rama
+si hemos movido el \commitish{HEAD} manualmente (después veremos
+cómo). En dicho caso veríamos algo así:
+
+\begin{lstlisting}
+* (no branch)
+  master
+\end{lstlisting}
+
+Hay que tener cuidado: si creamos nuevas revisiones sin que sean
+alcanzables por una rama, estas revisiones no son alcanzables de forma
+normal y serán recolectadas como basura tras un período de gracia de
+30 días por defecto. Podemos marcar la revisión actual como la punta
+de una rama (sin llegar a cambiarnos a ella) con:
+
+\begin{lstlisting}
+git branch -a nombrerama
+\end{lstlisting}
+
+Por otro lado, podemos eliminar una rama (es decir, la referencia a su
+punta) con:
+
+\begin{lstlisting}
+git branch -d nombrerama
+\end{lstlisting}
+
+Sin embargo, hay que tener cuidado en ciertos casos. Borrar la
+referencia a una rama que ya ha sido reunida con alguna otra no tiene
+problema, ya que sus revisiones son alcanzables desde la otra rama,
+como se ve en el caso de \rama{develop}
+en~\vref{fig:sin-problema-borrar-rama}. Sin embargo, si aún no se ha
+hecho esto, como en~\ref{fig:problema-borrar-rama}, podríamos acabar
+perdiendo las revisiones de dicha rama, al quedar inalcanzables por
+toda referencia.
+
+Por ello, \orden{git checkout -d develop} fallaría en el segundo caso,
+y si de verdad quisiéramos eliminar esa rama y descartar todas sus
+revisiones, sustituiríamos la opción \orden{-d} por \orden{-D}. Esto
+es útil, por ejemplo, para descartar una rama que hayamos visto
+improductiva por completo sin tener que reunirla.
+
+\begin{figure}
+  \centering
+  \resizebox{\textwidth}{!}{\input{sinproblema-borrar-ramas}}
+  \caption{Situación no problemática al borrar la rama \rama{develop}}
+  \label{fig:sin-problema-borrar-rama}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \resizebox{\textwidth}{!}{\input{problema-borrar-ramas}}
+  \caption{Situación problemática al borrar la rama \rama{develop}}
+  \label{fig:problema-borrar-rama}
+\end{figure}
+
+Se recuerda que para ver de forma cómoda el grafo de revisiones
+desde la revisión actual, podemos usar \orden{gitk}, y para ver el
+grafo completo, se puede utilizar \orden{gitk --all}.
 
 \section{Cambio entre ramas}
 \label{sec:cambio-entre-ramas}
 
 % git checkout
-% git checkout -b <commitish>
 % mencionar que podemos ir a algo que no sea la punta de una rama, pero los problemas que trae
 
 % git stash (v1.5.3+)
@@ -53,6 +131,9 @@
 % git stash pop
 % git stash list
 % git stash clear
+
+% git checkout -m
+% git checkout -b <commitish>
 
 \section{Reunión de ramas}
 \label{sec:reunion-ramas}
@@ -68,12 +149,11 @@
 %
 % git revert -m
 
-\section{Cambiar la revisión base de una rama}
+\section{Reescribir varias revisiones en base a otra}
 \label{sec:cambiar-rev-base-rama}
 
 % git rebase
 % git rebase --interactive
-
 
 \end{document}
 
