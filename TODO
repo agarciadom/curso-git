@@ -1,10 +1,18 @@
 * Dudas a resolver:
-** "git checkout" con cambios pendientes
-** permisos: qué guarda y qué no guarda Git
+** TODO "git checkout" con cambios pendientes
+** TODO permisos: qué guarda y qué no guarda Git
 * Aspectos a comentar:
-** git rebase --interactive
-** tipos de tag
+** DONE git rebase --interactive
+** DONE tipos de tag
 *** ligeros
 *** completos (firma GPG, mensaje, etc.)
-** git rm, svn mv, copias, movimientos
+** DONE git rm, svn mv, copias, movimientos
+** TODO Los reflog se usan en git-prune y git-gc
+   No son exactamente 2 semanas: las entradas que quedan sin
+   referenciar duran 30 días por defecto, y el resto de entradas duran
+   90.
+** TODO Los packs también llevan mantenimiento
+   Los pack guardan objetos sin referenciar y puede que vayan habiendo
+   varios packs pequeños, pero git-gc se ocupa de irlos reuniendo y
+   limpiando periódicamente.
 
