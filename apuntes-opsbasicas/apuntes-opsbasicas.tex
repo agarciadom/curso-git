@@ -548,10 +548,10 @@ por ejemplo, para después enviar una serie de revisiones a una lista
 de correo y no molestarles con nuestras equivocaciones. Una posible
 solución de bajo nivel (realmente recomendamos usar \orden{git rebase
   --interactive}, descrito en un documento posterior) es emplear
-\orden{git reset} para mover el puntero \commitish{HEAD} y hacer
-corresponder el índice, el índice y el directorio de trabajo o ninguno
-de los dos a una revisión anterior. Para movernos al primer padre del
-primer padre de \commitish{HEAD}, usaríamos \orden{git reset
+\orden{git reset} para mover el puntero \commitish{HEAD} a una
+revisión anterior. Para movernos al primer padre del primer padre de
+\commitish{HEAD} y hacer corresponder el índice, el índice y el
+directorio de trabajo o ninguno de los dos, usaríamos \orden{git reset
   HEAD\~{}2}, \orden{git reset --hard HEAD\~{}2} o \orden{git reset
   --soft HEAD\~{}2}, respectivamente, y seguiríamos trabajando desde
 allí.
