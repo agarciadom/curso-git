@@ -1,12 +1,22 @@
 * Dudas a resolver:
-** TODO "git checkout" con cambios pendientes
-** TODO permisos: qué guarda y qué no guarda Git
 * Aspectos a comentar:
 ** DONE git rebase --interactive
 ** DONE tipos de tag
 *** ligeros
 *** completos (firma GPG, mensaje, etc.)
 ** DONE git rm, svn mv, copias, movimientos
+** TODO "git checkout" con cambios pendientes
+   Si es que hay que RTFM, está claro. Citando la documentación de la
+   opción -m de la página de man de git-checkout:
+
+   "If you have local modifications to one or more files that are
+   different between the current branch and the branch to which you
+   are switching, the command refuses to switch branches in order to
+   preserve your modifications in context."
+
+   Es decir, el fallo lo da cuando tenemos modificaciones locales _y_
+   la copia de la revisión destino difiere de la de la revisión
+   actual.
 ** TODO Los reflog se usan en git-prune y git-gc
    No son exactamente 2 semanas: las entradas que quedan sin
    referenciar duran 30 días por defecto, y el resto de entradas duran
@@ -16,3 +26,8 @@
    varios packs pequeños, pero git-gc se ocupa de irlos reuniendo y
    limpiando periódicamente.
 
+
+** TODO git init --shared=group
+** TODO permisos: qué guarda y qué no guarda Git
+   Está claro que el dueño no, ni la fecha/hora. Git se fija
+   únicamente en el bit de ejecutable.

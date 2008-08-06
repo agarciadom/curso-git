@@ -80,6 +80,11 @@ mkdir ejemplo-curso
 git init
 \end{lstlisting}
 
+  Una nota: si el repositorio va a ser usado por varios usuarios, es
+  recomendable utilizar la opción \orden{--shared=group} para que
+  todos los miembros del grupo al que pertenezcan los ficheros del
+  repositorio puedan empujar a él.
+
 \item Vemos que únicamente tenemos el directorio oculto
   \fichero{.git}:
 
@@ -691,7 +696,8 @@ repositorio Git tiene la pega de requerir cierto mantenimiento
 periódico para ahorrar espacio y tiempo de ejecución. Sin embargo, no
 se trata de un problema grave: sólo hemos de ejecutar \fichero{git gc}
 de vez en cuando para eliminar objetos inútiles y aprovechar mejor el
-espacio, entre otras tareas de mantenimiento.
+espacio, entre otras tareas de mantenimiento. De todas formas, podemos
+hacerlo todo también de forma manual.
 
 Para comprobar la consistencia de nuestro repositorio y ver si hay
 algún objeto que deje de ser alcanzable por alguna de las ramas,
