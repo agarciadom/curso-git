@@ -535,15 +535,26 @@ Con esto, la anterior revisión se ignorará y será efectivamente
 sustituida por otra que incorporará sus cambios y los que hayamos
 hecho ahora.
 
-Para arreglar commits anteriores, una posible solución de bajo nivel
-(recomendamos usar \orden{git rebase --interactive}, descrito en un
-documento posterior) es emplear \orden{git reset} para mover el
-puntero \commitish{HEAD} y hacer corresponder el índice, el índice y
-el directorio de trabajo o ninguno de los dos a una revisión
-anterior. Para movernos al primer padre del primer padre de
-\commitish{HEAD}, usaríamos \orden{git reset HEAD\~{}2}, \orden{git
-  reset --hard HEAD\~{}2} o \orden{git reset --soft HEAD\~{}2},
-respectivamente, y seguiríamos trabajando desde allí.
+Si ya hemos enviado a alguien la revisión con las equivocaciones, no
+podemos hacer esto. En su lugar, tenemos \orden{git revert
+  <commitish>} que genera una nueva revisión que invierte los cambios
+de la revisión señalada por el \emph{commitish} proporcionado. Esto
+también es útil para revisiones anteriores a la actual: por ejemplo,
+podríamos deshacer los cambios hechos en \commitish{HEAD\~{}2} con
+\orden{git revert HEAD\^}.
+
+Puede que queramos arreglar una o varias revisiones sin dejar rastro:
+por ejemplo, para después enviar una serie de revisiones a una lista
+de correo y no molestarles con nuestras equivocaciones. Una posible
+solución de bajo nivel (realmente recomendamos usar \orden{git rebase
+  --interactive}, descrito en un documento posterior) es emplear
+\orden{git reset} para mover el puntero \commitish{HEAD} y hacer
+corresponder el índice, el índice y el directorio de trabajo o ninguno
+de los dos a una revisión anterior. Para movernos al primer padre del
+primer padre de \commitish{HEAD}, usaríamos \orden{git reset
+  HEAD\~{}2}, \orden{git reset --hard HEAD\~{}2} o \orden{git reset
+  --soft HEAD\~{}2}, respectivamente, y seguiríamos trabajando desde
+allí.
 
 El \commitish{HEAD} antiguo y su padre son efectivamente olvidados, y
 serán borrados automáticamente al ejecutar \orden{git gc} tras un
