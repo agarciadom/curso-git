@@ -1,5 +1,12 @@
 DOC=apuntes-ramas.pdf
-DOTTEX=problema-borrar-ramas.tex sinproblema-borrar-ramas.tex
+DOTTEX=\
+  problema-borrar-ramas.tex \
+  sinproblema-borrar-ramas.tex \
+  original-reunir-ramas.tex \
+  merged-reunir-ramas.tex \
+  rebased-reunir-ramas.tex \
+  fforward-reunir-ramas.tex
+
 .PHONY: clean
 
 $(DOC) :: $(DOTTEX) 

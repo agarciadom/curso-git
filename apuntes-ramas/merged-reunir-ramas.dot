@@ -1,0 +1,27 @@
+digraph G {
+  rankdir=RL
+
+  node [shape=rectangle,style="fill=green!20"]
+  C1
+  C2
+  C3
+  C4
+  C5
+  C6
+
+  node [shape=rectangle,style="fill=yellow!20"]
+  develop
+  "topic-A"
+  master
+
+  C2 -> C1
+  C3 -> C2
+  C4 -> C1
+  C5 -> C4
+  C6 -> C5
+  C6 -> C3
+
+  master -> C6
+  "topic-A" -> C4
+  develop -> C5
+}

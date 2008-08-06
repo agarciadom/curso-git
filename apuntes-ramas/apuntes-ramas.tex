@@ -5,7 +5,7 @@
 \usepackage[spanish]{babel}
 \usepackage{amsthm}
 \usepackage{tikz}
-\usepackage{hyperref}
+\usepackage[colorlinks]{hyperref}
 \usepackage{graphicx}
 \usepackage[spanish]{varioref}
 
@@ -89,11 +89,11 @@ git branch -d nombrerama
 Sin embargo, hay que tener cuidado en ciertos casos. Borrar la
 referencia a una rama que ya ha sido reunida con alguna otra no tiene
 problema, ya que sus revisiones son alcanzables desde la otra rama,
-como se ve en el caso de \rama{develop}
-en~\vref{fig:sin-problema-borrar-rama}. Sin embargo, si aún no se ha
-hecho esto, como en~\ref{fig:problema-borrar-rama}, podríamos acabar
-perdiendo las revisiones de dicha rama, al quedar inalcanzables por
-toda referencia.
+como se ve en el caso de \rama{develop} en la
+figura~\vref{fig:sin-problema-borrar-rama}. Sin embargo, si aún no se
+ha hecho esto, como en~\vref{fig:problema-borrar-rama}, podríamos
+acabar perdiendo las revisiones de dicha rama, al quedar inalcanzables
+por toda referencia.
 
 Por ello, \orden{git checkout -d develop} fallaría en el segundo caso,
 y si de verdad quisiéramos eliminar esa rama y descartar todas sus
@@ -186,19 +186,217 @@ git checkout -b otrarama HEAD~2
 \section{Reunión de ramas}
 \label{sec:reunion-ramas}
 
-% git merge
-% concepto de fast forward
-%
-% conflictos:
-% * git diff --ours
-% * git diff --theirs
-% * git diff --base
-% * resolución
-%
-% git revert -m
+\begin{figure}
+  \centering
+  \resizebox{\textwidth}{!}{\input{original-reunir-ramas}}
+  \caption{Estado original de las ramas a reunir}
+  \label{fig:original-reunir-ramas}
+\end{figure}
 
-\section{Reescribir varias revisiones en base a otra}
+Ya sabemos ramificar nuestro árbol de revisiones. Ahora hemos de
+averiguar cómo reunir esas ramas de nuevo en una sola. Para ello, Git
+nos ofrece dos posibilidades. Si nadie tiene aún nuestras revisiones,
+no hay problema en usar cualquiera de las dos, pero de lo contrario,
+lo mejor es no utilizar la segunda solución aquí ofrecida, o nos
+buscamos un buen disgusto. Usaremos como estado inicial del
+repositorio el de la figura~\vref{fig:original-reunir-ramas}.
+
+\subsection{Añadir una revisión que reúne a las dos}
+\label{sec:anadir-revision}
+
+\begin{figure}
+  \centering
+  \resizebox{\textwidth}{!}{\input{merged-reunir-ramas}}
+  \caption{Estado tras \orden{git merge develop} con \commitish{HEAD} en \commitish{master}}
+  \label{fig:merged-reunir-ramas}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \resizebox{\textwidth}{!}{\input{fforward-reunir-ramas}}
+  \caption{Estado tras \orden{git merge develop} con \commitish{HEAD} en \commitish{topic-A}}
+  \label{fig:fforward-reunir-ramas}
+\end{figure}
+
+Esta primera solución, la más segura con diferencia, consiste en crear
+una nueva revisión que reunirá los cambios de una rama con los de la
+otra, tal y como se ve en la figura~\vref{fig:merged-reunir-ramas}. Es
+posible que aparezca un conflicto entre dos cambios que se hayan
+hecho. Supongamos que estamos en la rama \rama{master} y que estamos
+reuniéndola con la rama \rama{develop}. Si en nuestra rama hemos
+añadido al final la línea <<D>> y en la otra la línea <<1>>, se
+producirá un conflicto, que nos dejará el fichero \fichero{f} con este
+aspecto:
+
+\begin{lstlisting}
+A
+C
+B
+<<<<<<< HEAD:f
+D
+=======
+1
+>>>>>>> develop:f
+\end{lstlisting}
+
+La primera parte antes de <<=======>> indica el contenido en conflicto
+de la versión de la rama \rama{master} del fichero \fichero{f}. La
+otra mitad se ocupa de la parte del contenido correspondiente a la
+rama \rama{develop}.
+
+Otra forma de ver el conflicto es a través de las órdenes:
+
+\begin{itemize}
+\item \orden{git diff --base}, que muestra las diferencias entre el
+  directorio de trabajo y el ancestro común a las dos ramas que
+  estamos uniendo.
+\item \orden{git diff --ours} toma como base la copia de la rama en la
+  que estábamos antes de iniciar la reunión.
+\item \orden{git diff --theirs}, por el contrario, toma como base la
+  copia de la rama con que nos estamos reuniendo.
+\item \orden{git show :1:f} permite acceder a la copia de \orden{f}
+  del ancestro común a las dos ramas que están siendo reunidas.
+\item \orden{git show :2:f} es una forma de ver el fichero \orden{f} tal y como
+  estaba en la rama en que estábamos.
+\item \orden{git show :3:f} muestra cómo estaba \fichero{f} en la rama
+  con que nos estamos reuniendo.
+\end{itemize}
+
+Una vez el conflicto quede resuelto, añadiremos los ficheros afectados
+al índice y crearemos la revisión:
+
+\begin{lstlisting}
+git add f
+git commit
+\end{lstlisting}
+
+No siempre tendrá por qué crearse una nueva revisión por completo. Si
+volvemos al ejemplo de la figura~\vref{fig:original-reunir-ramas},
+veremos que la rama \rama{topic-A} es una antecesora de la rama
+\rama{develop}. Ejecutando estas órdenes:
+
+\begin{lstlisting}
+git checkout topic-A
+git merge develop
+\end{lstlisting}
+
+Veremos con toda seguridad el texto <<Fast forward>> entre la salida
+de la segunda orden. Esto quiere decir que como \rama{topic-A} era un
+antecesor de \rama{develop}, sólo ha tenido que adelantarlo hasta
+donde estaba \rama{develop}, quedando el grafo de revisiones como en
+la figura~\vref{fig:fforward-reunir-ramas}.
+
+Si posteriormente queremos deshacer el \orden{git merge}, volvemos a
+tener dos opciones:
+
+\begin{enumerate}
+\item Si nadie tiene aún la revisión creada, la siguiente orden la
+  elimina por completo. No se debe usar si ya se ha enviado a algún
+  repositorio.
+
+\begin{lstlisting}
+git reset --hard HEAD^
+\end{lstlisting}
+
+\item Si ya la tiene alguien, habremos de crear una nueva revisión que
+  deshaga los cambios. \orden{git revert} es capaz de hacerlo si
+  decimos con la opción \orden{-m} cuál de los padres constituye la
+  rama principal, cancelando los cambios de la otra rama.
+
+  Para el caso de la figura~\vref{fig:merged-reunir-ramas}, esto
+  desharía los cambios introducidos por la rama \rama{develop}:
+
+\begin{lstlisting}
+git revert -m 1 HEAD    
+\end{lstlisting}
+
+  Para revertir los cambios introducidos por la rama \rama{master}, usaríamos:
+
+\begin{lstlisting}
+git revert -m 2 HEAD    
+\end{lstlisting}
+
+\end{enumerate}
+
+\subsection{Reescribir varias revisiones en base a otras}
 \label{sec:cambiar-rev-base-rama}
+
+\begin{figure}
+  \centering
+  \resizebox{\textwidth}{!}{\input{rebased-reunir-ramas}}
+  \caption{Estado tras \orden{git rebase master} con \commitish{HEAD} en \commitish{develop}}
+  \label{fig:rebased-reunir-ramas}
+\end{figure}
+
+Para entender mejor esta opción, comentaremos un caso en el que es
+particularmente útil. Supongamos que hemos clonado un repositorio de
+un proyecto de software libre muy activo (como Git) y que hemos
+desarrollado una nueva funcionalidad. Queremos enviarla a la lista de
+correo, pero mientras estuvimos haciéndola alguien estuvo tocando esa
+misma parte. Tenemos que asegurarnos de que nuestras modificaciones se
+siguen aplicando limpiamente sobre la última versión: es posible que
+esa persona introdujera cambios que incluyeran a los nuestros o
+incluso que entraran en conflicto.
+
+Así, lo que queremos es reescribir los cambios introducidos en una
+rama a partir de otra. Para ello disponemos de la orden \orden{git
+  rebase}. Supongamos que a partir de la situación de la
+figura~\vref{fig:original-reunir-ramas} ejecutamos o bien:
+
+\begin{lstlisting}
+git checkout develop
+git rebase master
+\end{lstlisting}
+
+O bien:
+
+\begin{lstlisting}
+git rebase master develop
+\end{lstlisting}
+
+En ambos casos obtendremos la situación de la
+figura~\vref{fig:rebased-reunir-ramas}, en que las antiguas revisiones
+C4 y C5 se han reescrito en términos de la punta de \rama{master},
+C3. Si C2 o C3 incluían parte de los cambios de C4 o C5, puede que C4'
+o C5' se vean reducidos o eliminados.
+
+También puede que se dé un conflicto, que resolveremos de forma
+equivalente al caso de \orden{git merge}, salvo por el hecho de que en
+vez de seguir tras un \orden{git commit}, seguiremos con \orden{git
+  rebase --continue}. También podemos saltarnos la revisión en que nos
+quedamos parados con \orden{git rebase --skip}, o cancelar por
+completo el proceso de reescritura y volver al estado original con
+\orden{git rebase --abort}.
+
+Una opción muy potente de \orden{git rebase} es \orden{--interactive},
+que activa un modo interactivo en el que se nos abre un editor y
+podemos editar una serie de líneas para fusionar, retirar y editar las
+revisiones a ser reescritas a nuestro antojo. Editaremos un fichero
+como éste:
+
+\begin{lstlisting}
+pick 61fc270 primero
+pick e16e7b1 segundo
+pick 0749d26 tercero
+\end{lstlisting}
+
+Si cambiamos un <<pick>> a <<squash>>, reuniremos esa revisión con la
+anterior. Por el contrario, si usamos <<edit>> \orden{git rebase} se
+detendrá en dicha revisión, dejándonos editarla y prepararla como para
+envío sin hacer \orden{git commit} y continuando el proceso con
+\orden{git rebase --continue}.
+
+También podemos reordenar las líneas o borrarlas para reordenar o
+retirar las revisiones correspondientes.
+
+Un uso que tiene esto es para reordenar nuestras revisiones más
+recientes que aún no tiene nadie, y enviar un parche lo más limpio
+posible a una lista de correo. Si quisiéramos reorganizar nuestras
+últimas 4 revisiones, usaríamos:
+
+\begin{lstlisting}
+git rebase --interactive HEAD~4
+\end{lstlisting}
 
 % git rebase
 % git rebase --interactive
