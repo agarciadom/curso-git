@@ -122,18 +122,66 @@ grafo completo, se puede utilizar \orden{gitk --all}.
 \section{Cambio entre ramas}
 \label{sec:cambio-entre-ramas}
 
-% git checkout
-% mencionar que podemos ir a algo que no sea la punta de una rama, pero los problemas que trae
+Para cambiar entre ramas, o en general mover el \rama{HEAD} de forma
+no destructiva a cualquier revisión, usaremos la orden \orden{git
+  commit <treeish>}. Así, cambiar a la rama \rama{develop} es tan
+simple como ejecutar \orden{git checkout develop}. Esto actualizará
+tanto el índice como el directorio del trabajo al aspecto que tenían
+en dicha revisión. Si tenemos cambios locales sobre ficheros cuyo
+contenido es distinto en la revisión en la que estamos trabajando,
+\orden{git checkout} informará del error y abortará su ejecución.
 
-% git stash (v1.5.3+)
-% git stash apply
-% git stash drop
-% git stash pop
-% git stash list
-% git stash clear
+Para solventar este problema, tenemos dos opciones:
 
-% git checkout -m
-% git checkout -b <commitish>
+\begin{enumerate}
+\item Guardar los cambios aparte mediante \orden{git stash}, una nueva
+  orden introducida en Git v1.5.3, antes de cambiar de revisión. Esta
+  orden es puramente de conveniencia: internamente usa operaciones
+  normales y corrientes de Git.
+
+  Las entradas del \emph{stash} forman una pila, y se pueden gestionar
+  de forma muy flexible. Las órdenes disponibles son:
+
+  \begin{itemize}
+  \item \orden{git stash}: guarda los cambios sobre el índice y el
+    directorio de trabajo aparte en una nueva entrada, y deja el
+    índice y el directorio de trabajo con los contenidos de
+    \commitish{HEAD}.
+  \item \orden{git stash apply [stash@\{N\}]}: toma la entrada $N$ y
+    aplica sus cambios. Por defecto, utiliza $N=0$, es decir, el tope
+    de la pila.
+  \item \orden{git stash drop stash@\{N\}}: elimina la entrada $N$.
+  \item \orden{git stash pop}: aplica el tope de la pila y lo retira.
+  \item \orden{git stash clear}: elimina todas las entradas.
+  \item \orden{git stash list}: lista todas las entradas.
+  \end{itemize}
+
+\item Obligar con la opción \orden{-m} de \orden{git checkout} a hacer
+  una reunión (veremos posteriormente en qué consisten) entre el
+  estado del índice, la revisión en que se estaba y la revisión
+  destino. Esto puede generar conflictos: los veremos posteriormente.
+  
+\end{enumerate}
+
+Se recuerda que al cambiar a una revisión que no esté en la punta de
+una rama (Git nos avisará con algo del estilo de <<moving to X which
+isn't a local branch>>), las posteriores revisiones que enviemos no
+serán alcanzables desde ninguna de las ramas. Deberíamos de añadir una
+rama en donde estemos para evitar esto, y cambiar a dicha
+rama. Podríamos hacerlo así para la revisión con \emph{commitish}
+\commitish{HEAD~2}
+
+\begin{lstlisting}
+git checkout HEAD~2
+git branch -a otrarama
+git checkout otrarama
+\end{lstlisting}
+
+Existe un atajo:
+
+\begin{lstlisting}
+git checkout -b otrarama HEAD~2
+\end{lstlisting}
 
 \section{Reunión de ramas}
 \label{sec:reunion-ramas}
