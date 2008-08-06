@@ -570,7 +570,7 @@ La única forma de acceder a esas revisiones olvidadas es mediante la
 sintaxis \commitish{HEAD@\{N\}}, donde N es un entero, que señala al
 N-ésimo valor anterior que tomó \commitish{HEAD}. Esto no salvará a
 esas revisiones de ser <<limpiadas>>: para retirarlas de todo peligro,
-hay que asegurarse de que sean accesibles desde un tag o la última
+hay que asegurarse de que sean accesibles desde una etiqueta o la última
 revisión o \emph{punta} (<<tip>> en el original inglés) de alguna
 rama. Veremos más tarde en este documento cómo etiquetar cualquier
 revisión, y se describirá en un documento posterior el proceso de
@@ -601,23 +601,9 @@ forma muy sencilla.
 git tag v2.0
 \end{lstlisting}
 
-  Como no hemos pasado otro argumento que el nombre del tag, se
+  Como no hemos pasado otro argumento que el nombre de la etiqueta, se
   etiquetará la revisión actual con una etiqueta <<ligera>>, que sólo
   incluye el SHA-1 de la revisión a la que referencia.
-
-\item Para mover un tag, usamos la opción \orden{-f} para forzar su
-  sobreescritura. Obviamente, esto sólo lo podemos hacer si aún nadie
-  tiene una copia de esta etiqueta:
-
-\begin{lstlisting}
-git tag -f v2.0 HEAD~3
-\end{lstlisting}
-
-\item Para retirar una etiqueta, podemos usar la opción \orden{-d}:
-
-\begin{lstlisting}
-git tag -d v1.0
-\end{lstlisting}
 
 \item También podemos etiquetar cualquier otra revisión dando su
   \emph{commitish}, y crear objetos reales de tipo etiqueta con
@@ -646,6 +632,20 @@ git tag -v v1.0
 gpg: Firmado el mié 06 ago 2008 18:40:26 CEST usando clave DSA ID 73D6A764
 gpg: Firma correcta de "Antonio García <nyoescape@gmail.com>"
 gpg:                 alias "Antonio Garcia <nyoescape@gmail.com>"
+\end{lstlisting}
+
+\item Para mover una etiqueta, usamos la opción \orden{-f} para forzar
+  su sobreescritura. Obviamente, esto sólo lo podemos hacer si aún
+  nadie tiene una copia de esta etiqueta:
+
+\begin{lstlisting}
+git tag -f v2.0 HEAD~3
+\end{lstlisting}
+
+\item Para retirar una etiqueta, podemos usar la opción \orden{-d}:
+
+\begin{lstlisting}
+git tag -d v1.0
 \end{lstlisting}
 
 \item Un detalle adicional: si quisiéramos saber en qué versión está
