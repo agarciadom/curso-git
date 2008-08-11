@@ -5,7 +5,7 @@
 *** ligeros
 *** completos (firma GPG, mensaje, etc.)
 ** DONE git rm, svn mv, copias, movimientos
-** TODO "git checkout" con cambios pendientes
+** DONE "git checkout" con cambios pendientes
    Si es que hay que RTFM, está claro. Citando la documentación de la
    opción -m de la página de man de git-checkout:
 
@@ -17,17 +17,58 @@
    Es decir, el fallo lo da cuando tenemos modificaciones locales _y_
    la copia de la revisión destino difiere de la de la revisión
    actual.
-** TODO Los reflog se usan en git-prune y git-gc
+** DONE Los reflog se usan en git-prune y git-gc
    No son exactamente 2 semanas: las entradas que quedan sin
    referenciar duran 30 días por defecto, y el resto de entradas duran
    90.
-** TODO Los packs también llevan mantenimiento
+** DONE Los packs también llevan mantenimiento
    Los pack guardan objetos sin referenciar y puede que vayan habiendo
    varios packs pequeños, pero git-gc se ocupa de irlos reuniendo y
    limpiando periódicamente.
-
-
-** TODO git init --shared=group
-** TODO permisos: qué guarda y qué no guarda Git
+** DONE git init --shared=group
+** DONE permisos: qué guarda y qué no guarda Git
    Está claro que el dueño no, ni la fecha/hora. Git se fija
-   únicamente en el bit de ejecutable.
+   únicamente en el bit de ejecutable.*
+** DONE Mejor explicación de la salida de 'git describe'
+   La salida es X-Y-Z, donde X es el nombre del tag, Y el número de
+   revisiones por delante que está de ese tag, y Z el inicio de su
+   SHA-1.
+** TODO No se aprovecha la clave SSH de Joaquín
+   Raro: he repetido el proceso desde mi servidor Debian y no he
+   tenido problemas en absoluto. El problema parece ser algo
+   específico de MacOS X. Sospecho que habrá que hacerlo desde alguna
+   interfaz gráfica, como en el caso de los certificados SSL.
+** DONE En la URL no hay por qué poner la clave
+   Se puede usar el fichero ~/.netrc, gracias al uso de Curl, con
+   cuidado de darle 600 de permisos, para evitar que otros usuarios
+   lean nuestras contraseñas.
+** TODO Problemas con los cerrojos WebDAV:
+   Puede ser con bastante probabilidad un bug arreglado en Git 1.5.4,
+   conocido como "http-push: fix webdav lock leak", e identificado con
+   el SHA-1 9116de5957423d553fce5857a835284a0527d037 en el Gitweb de
+   Git. Mejor cambiar a 1.5.6.5 (por lo que más queráis).
+
+   La documentación de Apache no dice explícitamente que pueda haber
+   un problema con los cerrojos por reutilizar el mismo usuario entre
+   varios clientes, pero por si acaso mejor usamos usuarios
+   distintos. He recreado el repositorio. Los cerrojos que no se abren
+   se van automáticamente por defecto a los 10 minutos.
+
+   También sería bueno usar una versión reciente de Git (v1.5.6.5,
+   comprobar con 'git version') y de Curl (7.18+, comprobar con 'curl
+   --version'). La documentación de Git dice que con 7.16+ vale, pero
+   el Macbook Air y Curl 7.16.3 de Joaquín originan problemas.
+
+   La ayuda de "git http-push" dice explícitamente que: 
+
+   "NOTE: This command is temporarily disabled if your libcurl is older
+   than 7.16, as the combination has been reported not to work and
+   sometimes corrupts repository."
+
+   git-http-push es el que se ocupa de hacer el trabajo de
+   git-update-server-info cuando hacemos un push sobre HTTP (mirad. El
+   segundo está para cuando hacemos un push mediante SSH, y entonces
+   sí podemos ejecutar los hooks.
+
+
+   
