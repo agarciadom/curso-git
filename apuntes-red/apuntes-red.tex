@@ -303,57 +303,380 @@ git push origin master~5:otrarama
 \section{Conectividad por red entre repositorios}
 \label{sec:conectividad-por-red}
 
+\subsection{Introducción}
+\label{sec:introduccion}
+
+Git puede trabajar completamente en local, utilizando rutas a otros
+directorios y URL de la forma \url{file:///ruta/a/.git}, pero esto
+evidentemente no es suficiente: normalmente, los repositorios con los
+que querremos colaborar se hallarán en otras máquinas, y para ello
+tendremos que utilizar alguna conexión de red.
+
+Git dispone de múltiples opciones según nuestras necesidades, e
+incluso facilita su uso entre entornos donde la conectividad es
+intermitente o inexistente o no tenemos los permisos de escritura
+necesarios. En esta sección daremos un repaso por las distintas
+opciones, con sus ventajas y desventajas.
+
+Antes que nada, es importante destacar que cualquier repositorio que
+sea accesible por terceras partes debería ser lo que se conoce en Git
+como un repositorio <<pelado>> (\emph{bare} en el original
+inglés). Estos repositorios tienen la particularidad de que no
+disponen de un directorio de trabajo ni un índice, y así evitan que
+cualquiera trabaje en ellos y se confunda cuando cambien sus objetos
+tras un \orden{git push} remoto y no se actualice su directorio de
+trabajo. Sólo sirven como punto de reunión para varios
+desarrolladores. Lo normal es que, en caso de que necesitemos un
+repositorio público, nuestro repositorio privado sea un clon de éste,
+para facilitarnos posteriormente el intercambio de revisiones.
+
 \subsection{Acceso por SSH}
 \label{sec:acceso-ssh}
 
-% git-shell
-% Gitosis permite una gestión sencilla y segura (¿y lo de Mac?)
+El acceso por el protocolo cifrado y autenticado Secure Shell (SSH) es
+el preferido, de lejos, para realizar cualquier tipo de operación con
+Git que requiera autenticación: es el utilizado normalmente para
+realizar la operación \orden{git push} y también puede usarse para
+limitar el acceso de lectura. Las URL de acceso a un repositorio por
+SSH tienen la forma \url{usuario@host:ruta}, del mismo estilo que se
+usan en herramientas como \orden{scp}, por ejemplo.
+
+En su forma más básica, este método de acceso requiere que cada
+usuario tenga una cuenta en una máquina dedicada. De todas formas, Git
+incluye un shell de entrada limitado exclusivamente a las órdenes
+\orden{git push} y \orden{git fetch} (y por ende \orden{git pull})
+llamado \orden{git-shell}, con lo que se reduce a un problema sobre
+todo administrativo, y no tanto de seguridad. Podemos incluso reunir
+todos los directorios personales en uno solo y controlar el acceso a
+cada repositorio mediante el sistema de permisos clásico de UNIX.
+
+Hay otra posibilidad que puede resultar más cómoda y a la vez más
+segura de utilizar: Gitosis. Se trata de un conjunto de guiones Python
+que permiten gestionar una serie de repositorios Git a través de un
+repositorio Git. El proceso general, tomado de~\cite{HostingGit}, es
+el que sigue:
+
+\begin{enumerate}
+\item Necesitaremos algunos paquetes Debian:
+
+\begin{lstlisting}
+sudo aptitude install python-setuptools
+\end{lstlisting}
+
+\item Descargamos Gitosis clonando su repositorio, y lo instalamos:
+
+\begin{lstlisting}
+git clone git://eagain.net/gitosis.git
+cd gitosis
+sudo python setup.py install
+\end{lstlisting}
+
+\item Se crea una única cuenta de usuario llamada \usuario{git}, que
+  no tendrá contraseña. Esta cuenta se trata de un usuario de sistema
+  con su propio directorio personal y un shell Bourne básico
+  (\fichero{/bin/sh}).
+
+\item Crearemos un par de claves pública y privada SSH ejecutando:
+
+\begin{lstlisting}
+ssh-keygen -t rsa
+\end{lstlisting}
+
+\item Copiaremos la clave pública que se habrá creado en su
+  localización a \fichero{/tmp}, y ejecutaremos:
+
+\begin{lstlisting}
+sudo -H -u git gitosis-init < /tmp/id_rsa.pub
+\end{lstlisting}
+
+  Entre otras cosas, esta acción prepara el directorio personal del
+  usuario de Git para que sólo sea accesible para el usuario con la
+  clave pública SSH proporcionada, y únicamente para hacer \orden{git
+    push}, \orden{git pull} \orden{git fetch}. Para ello configura
+  debidamente el fichero \fichero{\~{}/.ssh/authorized\_keys}
+
+\item Ya podemos clonar el repositorio de administración de Gitosis:
+
+\begin{lstlisting}
+git clone git@127.0.0.1:gitosis-admin.git
+\end{lstlisting}
+
+  Si la clave privada SSH se halla cifrada, se nos pedirá la
+  clave. Así, un atacante tendría no sólo que tener una copia de la
+  clave privada, sino también su propia clave de cifrado. Además,
+  normalmente las claves privadas SSH no viajan por la red (tenemos
+  una por usuario y máquina).
+
+\item El contenido del repositorio es muy sencillo: hay un directorio
+  \fichero{keydir} en el que situaremos todas las claves públicas SSH
+  de los usuarios que queramos reconocer (con extensión
+  \fichero{.pub}), y un fichero \fichero{gitosis.conf} que
+  modificaremos para definir nuevos grupos de usuarios y cambiar las
+  opciones por defecto y/o específicas a ciertos repositorios. Sólo
+  tendremos que ir creando nuevas revisiones de la configuración y
+  empujarlas al servidor.
+
+  Podemos seguir las instrucciones de la web anterior, o las del
+  fichero \fichero{example.conf} que incluye Gitosis. En particular,
+  el segundo fichero menciona la posibilidad de dejar que Gitosis sea
+  quien controle el acceso mediante Web o con el demonio de lectura
+  anónima a ciertos repositorios.
+
+\end{enumerate}
+
+\begin{nota}
+  he tenido algunos problemas para que Git use la clave generada por
+  \orden{ssh-keygen} a la hora de acceder a los repositorios
+  gestionados con Gitosis. Si alguien sabe algo del tema, que me envíe
+  un correo, por favor.
+\end{nota}
 
 \subsection{Acceso por el protocolo Git}
 \label{sec:acceso-git}
 
-% Facilita mucho el acceso de sólo lectura, y es más eficiente que
-% HTTP normal y corriente. Aun así se pueden hacer push anónimos, pero
-% no está recomendado.
+El acceso por SSH es bastante eficiente en términos de ancho de banda,
+pero evidentemente el cifrado, la autenticación y demás imponen una
+carga administrativa y de rendimiento. Cuando no necesitemos el
+cifrado ni la autenticación, como en el caso del acceso de sólo
+lectura en los proyectos de software libre y/o código abierto, podemos
+usar el protocolo de transferencia propio de Git, que es
+extremadamente eficiente y permite clonar de manera rápida los
+repositorios. Las URL tienen la forma \url{git://host/ruta}.
 
-% Gitosis - daemon
-% git daemon (--base-path, --export-all)
-% git daemon --enable=receive-pack para que los demás vayan probando
-% el flujo distribuido de trabajo, sin pedir mucha configuración (sólo
-% para LAN amigables)
+Para usarlo para compartir nuestros repositorios, únicamente tenemos
+que iniciar el demonio, que quedará normalmente a la escucha en el
+puerto 9418 TCP, con una lista de rutas a los directorios
+\fichero{.git} o, preferiblemente, a los repositorios <<pelados>>:
+
+\begin{lstlisting}
+git daemon /ruta/a/pelado.git /ruta/a/nopelado/.git
+\end{lstlisting}
+
+Por razones de seguridad, el demonio se negará en redondo a servir
+cualquier otra cosa que no sea un repositorio Git, e incluso así, sólo
+lo hará si contiene un fichero (da igual que esté vacío) llamado
+\fichero{git-daemon-export-ok}. Esta última comprobación puede
+desactivarse con \orden{--export-all} si se desea. Si utilizamos
+Gitosis, con poner la variable \variable{daemon} al valor <<yes>> y
+empujar la revisión correspondiente se nos creará sin más problemas.
+
+Otra configuración muy común es situar todos los repositorios como
+subdirectorios de un directorio principal (como en el caso de
+Gitosis). Para este escenario, el demonio dispone de la orden
+\orden{--base-path}. Si estuviéramos usando el esquema propuesto por
+Gitosis, podríamos hacer algo así:
+
+\begin{lstlisting}
+sudo -H -u git git daemon --base-path=/home/git/repositories/
+\end{lstlisting}
+
+El protocolo de Git permite hacer envíos anónimos con \orden{git
+  push}, pero no por defecto: tendremos que invocar al demonio y
+activar dicho servicio explícitamente con
+\orden{--enable=receive-pack}. Sólo se recomienda su uso en entornos
+muy amigables, como una LAN muy controlada.
 
 \subsection{Acceso por HTTP}
 \label{sec:acceso-http}
 
-% WebDAV actual: proceso de preparado de un repositorio y desventajas
-% frente al acceso por SSH
+Si nuestra mayor preocupación es el mantenimiento de conectividad
+incluso ante cortafuegos muy restrictivos, muy comunes en las grandes
+organizaciones, nuestra mejor opción es HTTP, el único protocolo
+permitido por la mayoría. No es el mejor en rendimiento, y requiere
+algo de cuidado en su uso, sin embargo, por lo que en caso de ser
+posible, se recomienda el uso de las dos opciones anteriores. Podemos
+conseguir cifrado y autenticación segura mediante SSL (incluso HTTP
+Digest no es del todo seguro~\cite{HTTPDigest}). Las URL son de la
+forma \url{http://host/ruta} o \url{https://host/ruta}.
 
-% proceso necesario para servir un repositorio escribible bajo WebDAV:
-% * que sea bare (git clone --bare)
-% * ejecutar una vez al menos git-update-server-info antes de usar
-%   WebDAV
-% * hacer ejecutable el hook post-update que viene por defecto, por
-%   si alguien envía algo por SSH (git http-push hace su trabajo sobre
-%   HTTP)
-% * gc.packrefs global a notbare (¡importante!), o cualquier git gc
-%   nos impediría después acceder por WebDAV.
-% * usar versiones _recientes_ de Git (1.5.4+) y Curl (7.16+)
+\begin{nota}
+  actualmente (desde el commit \commitish{v1.6.0-rc1-92-g0d79a45}) se
+  está trabajando en un reemplazo que efectivamente consistiría en una
+  traducción a HTTP del protocolo Git, permitiendo así un acceso
+  eficiente, transparente para cortafuegos y autenticado. De todas
+  formas, a fecha de hoy (11 de agosto del 2008) sólo permite el
+  acceso para lectura, emulando al servidor <<tonto>> tradicional.
+\end{nota}
 
-% git+http en progreso
-% Desde el commit v1.6.0-rc1-92-g0d79a45, Git ya empieza a
-% incluir una versión sobre HTTP más inteligente para Git basada en un
-% CGI, que no requeriría WebDAV. Aún no está terminada (sólo está el
-% servidor y a medias), pero ya podría atender a un cliente tonto de
-% los que espera utilizar WebDAV, según parece.
+Para preparar un repositorio Git para su acceso de sólo lectura por
+HTTP, hay que seguir una serie de recomendaciones:
 
-% git instaweb (Gitosis - gitweb)
+\begin{enumerate}
+\item Debería de ser un repositorio <<pelado>>, como de costumbre.
+\item Hay que ejecutar manualmente una vez al menos por repositorio la
+  orden \orden{git-update-server-info}, que dejará información
+  necesaria para que el cliente pueda seguir funcionando incluso con
+  un servidor que sólo sabe servir ficheros estáticos.
+\item Por si alguien realiza algún \orden{git push} posteriormente por
+  SSH, se tendrá que dar permisos de ejecución al gancho
+  \fichero{hooks/post-update} del repositorio, para que se ejecute
+  \orden{git-update-server-info} en cada actualización de nuevo.
+\item Habrá que configurar en el fichero global para Git para el
+  usuario o usuarios que alojen los repositorios Git que no se
+  empaqueten las referencias de los repositorios (suponemos que sólo
+  servimos <<pelados>> aquí), cosa que haría dejar de funcionar a los
+  clientes por HTTP:
+\begin{lstlisting}
+git config --global gc.packrefs notbare
+\end{lstlisting}
+\end{enumerate}
+
+Hecho esto, servirlo para sólo lectura es tan sencillo como ofrecer
+sus ficheros de manera estática por cualquier servidor HTTP que
+queramos. Si además queremos poder hacer \orden{git push}, habrá que
+seguir algunas recomendaciones adicionales (complementadas y ampliadas
+en~\cite{GitHTTPS}):
+
+\begin{enumerate}
+\item Habrá que activar su acceso por WebDAV, habilitando el sistema
+  de cerrojos necesario y restringiendo su acceso a los usuarios
+  autenticados. Se incluye en el repositorio de estos apuntes un
+  fichero \fichero{conf-apache/gitweb} de configuración de Apache de
+  ejemplo. Este fichero también detalla una forma en que se podría
+  utilizar el CGI de Gitweb para servir una interfaz de sólo lectura
+  al contenido de una serie de repositorios.
+
+\item Además, se tendrá que asegurar que todos los clientes utilicen
+  versiones relativamente recientes de Git (1.5.4+ como mínimo, aunque
+  se recomienda 1.5.6+) y de la biblioteca Curl (supuestamente 7.6+
+  vale, pero nos hemos encontrado con problemas, así que recomendamos
+  7.8+). Esto se debe a que, como no hay servidor que se ocupe de
+  actualizar los ficheros del repositorio por su cuenta, son los
+  propios clientes (con los defectos que traigan sus versiones) los
+  que lo actualizan todo, sustituyendo entre otras cosas a las
+  ejecuciones posteriores a la primera del guión
+  \orden{git-update-server-info}.
+\end{enumerate}
+
+\subsection{Acceso por Web}
+\label{sec:acceso-por-web}
+
+Aunque técnicamente sigue siendo HTTP, consideramos que el acceso
+mediante páginas Web constituye su propio apartado. Para un solo
+directorio, podemos utilizar \orden{git instaweb}, para ver cómo
+quedaría Gitweb sobre él. Suponiendo que utilizamos Apache, nos
+situaríamos en nuestro repositorio de trabajo y ejecutaríamos algo
+así:
+
+\begin{lstlisting}
+git instaweb --httpd=apache
+\end{lstlisting}
+
+Para más de un directorio, se recomienda tener un servidor Web
+debidamente configurado, que utilice el CGI de Gitweb tras haberlo
+configurado debidamente. Si usamos Gitosis y sus variables
+\variable{gitweb}, no debemos de olvidar referenciar en
+\fichero{gitweb.cgi} a la lista de proyectos incluida en
+\fichero{\~{}git/gitosis/projects.list}, o dichas variables no tendrán
+efecto alguno.
+
+Otra opción es usar algún software de gestión de proyectos y la
+integración de Git que incluya. Existe un plug-in, aunque algo
+inmaduro, de Git para el conocido Trac~\cite{GitPluginTrac,Trac}, pero
+recomiendo en su lugar utilizar Redmine~\cite{Redmine}, que además de
+tener soporte para una mayor variedad de sistemas de control de
+versiones, permite utilizar la misma base de datos para gestionar
+múltiples proyectos. 
+
+La única pega es que la configuración inicial es algo más compleja,
+recomendándose el uso de Apache como proxy inverso del servidor Apache
+Mongrels que alojará a Redmine, ya que es una aplicación Ruby. El
+proceso de instalación se halla bien documentado en su página oficial,
+y de todas formas se ha incluido también en
+\fichero{conf-apache/redmine-git} un fichero de configuración de
+Apache que representa un caso más realista.
 
 \subsection{Acceso en conectividad limitada}
 \label{sec:acceso-otros}
 
-% git bundle, con cuidado de usar nombres de ramas para actualizarlas
-% git format-patch, git send-email, git am
-% diff + git apply
+Puede que no dispongamos de una conexión de red decente al repositorio
+al que o desde el cual queramos enviar nuestros cambios: la red no
+funciona, tenemos poco ancho de banda, el cortafuegos es más estricto
+de la cuenta o estamos de viaje, por ejemplo. Otras veces, puede que
+sencillamente no tengamos los permisos necesarios de escritura, pero
+aún así queramos hacer lo más fácil posible a los desarrolladores
+originales el uso de nuestras aportaciones.
+
+Para estos casos, Git dispone de ciertas facilidades:
+
+\begin{itemize}
+\item \orden{git bundle} permite empaquetar en un único fichero una
+  serie de revisiones de una rama, llevarlo en el medio que haga falta
+  a otro sitio (como un \emph{pendrive} USB o un CD, por ejemplo), y
+  volver a crear esas revisiones en el otro lado. Los pasos serían:
+
+  \begin{enumerate}
+  \item Creamos el fichero con:
+
+\begin{lstlisting}
+git bundle create mibundle a..b
+\end{lstlisting}
+
+    Es importante que \commitish{a} sea el \emph{commitish} de una
+    revisión que sepamos que existe en el otro lado, y que
+    \commitish{b} sea alguna rama que exista también en el otro lado,
+    o de lo contrario no podremos realmente actualizar nada.
+
+  \item Lo llevamos como sea a donde sea y lo usamos como sustituto
+    del repositorio de un \orden{git fetch} o \orden{git pull}:
+
+\begin{lstlisting}
+git pull ../mibundle master
+git fetch ../mibundle master:origin/master
+\end{lstlisting}
+
+    La primera orden es un \orden{git pull} normal y corriente, y la
+    segunda orden actualiza una rama remota a partir de un
+    \emph{bundle}.
+  \end{enumerate}
+
+\item Si lo que nos falta es acceso de escritura a un repositorio, la
+  forma más directa es crear un fichero \fichero{diff} y que otra
+  persona lo aplique. No hace falta que usemos Git para la primera
+  parte, pero \orden{git diff a..b} puede ser muy útil, como aquí:
+
+\begin{lstlisting}
+git diff HEAD^..HEAD | gzip -9 > miparche.diff.gz
+\end{lstlisting}
+
+  Ahora se envía el fichero \fichero{miparche.diff.gz} a quien sea,
+  que ejecutaría esto sobre su repositorio:
+
+\begin{lstlisting}
+zcat miparche.diff.gz | git apply -
+\end{lstlisting}
+
+\item Otra forma más directa de hacerlo sería dar formato a cada
+  parche como un correo especial que pudiera recibirse y aplicarse
+  directamente. Esto se puede hacer con las órdenes \orden{git
+    format-patch}, \orden{git send-email} y \orden{git am}, que hacen
+  lo siguiente:
+
+  \begin{enumerate}
+  \item \orden{git format-patch} convierte una serie de revisiones a
+    un formato que es legible por humanos y contiene toda la
+    información necesaria para Git. Normalmente se vuelcan como
+    ficheros de un directorio de correos:
+
+\begin{lstlisting}
+git format-patch -o parches master~2..
+\end{lstlisting}
+
+  \item Ahora se envían por correo:
+
+\begin{lstlisting}
+git send-email ../parches
+\end{lstlisting}
+
+  \item Si recibimos los correos en formato \emph{mbox} o
+    \emph{Maildir}, podemos aplicar sus cambios con:
+
+\begin{lstlisting}
+git am ~/mbox
+\end{lstlisting}
+
+  \end{enumerate}
+\end{itemize}
 
 \section{Flujo de trabajo centralizado}
 \label{sec:flujo-centralizado}
@@ -374,6 +697,9 @@ git push origin master~5:otrarama
 
 % git remote add/rm/show/update/prune
 % git push/pull
+
+\bibliographystyle{alpha}
+\bibliography{../bibliografia}
 
 \end{document}
 

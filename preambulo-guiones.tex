@@ -4,19 +4,20 @@
 
 \newtheorem{pregunta}{Pregunta}
 
-\newcommand*{\repositorio}[1]{\texttt{#1}}
-\newcommand*{\preambulo}[1]{\texttt{#1}}
-\newcommand*{\gitk}{\texttt{gitk}}
-\newcommand*{\fichero}[1]{\texttt{#1}}
-\newcommand*{\orden}[1]{\texttt{#1}}
-\newcommand*{\variable}[1]{\emph{#1}}
+% no se puede usar el atajo <<x>> de Babel dentro de una orden: en su
+% lugar, invocamos manualmente al entorno quoting
 
-% no se puede usar el atajo <<x>> de Babel dentro de una orden
-\newcommand*{\remote}[1]{\begin{quoting}#1\end{quoting}}
-
-\newcommand*{\treeish}[1]{\texttt{#1}}
 \newcommand*{\commitish}[1]{\texttt{#1}}
+\newcommand*{\fichero}[1]{\texttt{#1}}
+\newcommand*{\gitk}{\texttt{gitk}}
+\newcommand*{\orden}[1]{\texttt{#1}}
+\newcommand*{\preambulo}[1]{\texttt{#1}}
 \newcommand*{\rama}[1]{\texttt{#1}}
+\newcommand*{\remote}[1]{\begin{quoting}#1\end{quoting}}
+\newcommand*{\repositorio}[1]{\texttt{#1}}
+\newcommand*{\treeish}[1]{\texttt{#1}}
+\newcommand*{\usuario}[1]{\begin{quoting}#1\end{quoting}}
+\newcommand*{\variable}[1]{\emph{#1}}
 
 \newcounter{saveenum}
 \newcommand{\savelp}{\setcounter{saveenum}{\value{enumi}}}
