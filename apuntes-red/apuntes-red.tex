@@ -1,0 +1,383 @@
+%; whizzy -pdf
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage[spanish]{varioref}
+\usepackage{hyperref}
+\usepackage{subfig}
+
+\title{Apuntes de prácticas:\\Colaboración con Git}
+\author{Antonio García Domínguez\\nyoescape arroba gmail punto com}
+\date{\today}
+
+\input{../preambulo-guiones}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+  Distribuido bajo la licencia CC v3.0 BY-SA (\url{http://creativecommons.org/licenses/by-sa/3.0/deed.es}).
+
+  \vskip 2em
+
+  \includegraphics{../cc-by-sa}
+\end{center}
+
+\vskip .1\textheight
+
+\tableofcontents{}
+
+\clearpage
+
+\section{Acciones básicas}
+\label{sec:metodos-de-acceso}
+
+\subsection{Clonado de repositorios}
+\label{sec:conceptos-basicos}
+
+Cuando varias personas han de colaborar en un mismo proyecto en el que
+se use Git, normalmente usarán un clon de algún repositorio destacado
+como punto inicial, creado mediante una orden del estilo de \orden{git
+  clone url}, donde la URL variará según qué protocolo usemos. Una vez
+se cree el clon, podemos indicar a Git la URL desde que clonamos
+utilizando el identificador \remote{origin}. Éste es un ejemplo de un
+<<remote>> de Git: una referencia por nombre a una URL con ciertos
+atributos adicionales configurables. Podemos añadir los nuestros
+propios mediante las órdenes \orden{git remote add nombre url} y
+retirarlos con \orden{git remote rm nombre}.
+
+Nuestro clon del repositorio destacado incluirá, además de los objetos
+que en ese momento tenía el repositorio, referencias de sólo lectura a
+las revisiones en que se hallaban las ramas disponibles. Estas últimas
+son conocidas como \emph{ramas remotas}, y para desarrollar a partir
+de ellas necesitaremos usar nuestras propias ramas locales: podemos
+comenzar nuevas ramas desde los puntos señalados por las ramas
+remotas, o reunir nuestras ramas locales con ellas.
+
+% figura: original
+% figura: clonado
+
+\subsection{Recepción de revisiones}
+\label{sec:recib-los-camb}
+
+Periódicamente, podremos tomar los nuevos objetos que se hayan creado
+en cualquiera de los repositorios remotos que estemos monitorizando y
+añadirlos a nuestro repositorio, actualizando las ramas remotas. Para
+ello, usaremos la orden \orden{git fetch [repositorio
+  [refspec]]}. Según vayamos dando más o menos argumentos, su lógica
+cambiará:
+
+\begin{itemize}
+\item Sin argumentos, es equivalente a \orden{git fetch origin}.
+
+\item Si se especifica sólo el repositorio, mediante su URL o el
+  nombre de su \emph{remote}, buscará su valor en varios sitios. Uno
+  de ellos es la variable \variable{remote.mirama.fetch} de
+  \fichero{.git/config}, donde \variable{mirama} es el nombre de la
+  rama actual.
+
+  Git aprovecha este comportamiento cuando clonamos un repositorio: al
+  dar el valor correcto a la variable \variable{remote.origin.fetch},
+  podemos hacer \orden{git fetch} sin tener que pasar ningún
+  argumento.
+
+\item Con los dos argumentos su comportamiento ya queda completamente
+  definido. El segundo argumento es un tanto especial: la sintaxis es
+  algo más compleja, teniendo la forma \verb#[+]fuente[:destino]#. Su
+  significado también se va construyendo poco a poco:
+
+  \begin{itemize}
+  \item Con \verb#fuente# a secas, decimos que queremos recibir la
+    rama remota \rama{fuente} y situar la punta en la referencia
+    \rama{FETCH\_HEAD}. Esto es útil sobre todo para ver qué cambios
+    se han introducido en una rama remota sin que afecte a nuestro
+    repositorio.
+
+  \item \verb#fuente:destino# toma la referencia fuente y actualiza o
+    crea con ella la referencia
+    destino. \verb|refs/heads/*:refs/remotes/origin/*|, por ejemplo,
+    es el valor configurado en \variable{remote.origin.fetch} al
+    clonar un repositorio. Este valor es el que indica a \orden{git
+      fetch} que actualice todas las ramas remotas con sus valores en
+    el repositorio remoto, manteniendo los nombres.
+
+  \item \verb#+fuente:destino#, por otro lado, permite que aunque la
+    punta de la fuente no sea descendiente de la punta actual del
+    destino (es decir, no se pueda simplemente hacer un \emph{fast
+      forward}), se permita la actualización. Esta opción conlleva
+    ciertos riesgos: puede verse en la figura~\ref{fig:pull-ff} cómo
+    forzar la actualización ha hecho que \commitish{C} quede sin
+    referenciar por ninguna rama.
+
+  \end{itemize}
+\end{itemize}
+
+\begin{figure}
+  \centering
+  \subfloat[Local]{\resizebox{.75\textwidth}{!}{\input{fetch-ff-1}}}
+
+  \subfloat[Remoto]{\resizebox{.75\textwidth}{!}{\input{fetch-ff-2}}}
+
+  \subfloat[Local tras \orden{git fetch origin +master:master}: se pierde \commitish{C}]{\resizebox{.75\textwidth}{!}{\input{fetch-ff-3}}}
+  \caption{Problema introducido por actualizaciones no \emph{fast forward}}
+  \label{fig:pull-ff}
+\end{figure}
+
+\subsection{Reunión de las ramas locales con las remotas}
+\label{sec:reunion-loc-rem}
+
+\orden{git fetch} no reúne nuestras ramas locales con las ramas
+remotas (véase la figura~\vref{fig:fetch-nomerge}): para ello
+tendremos que usar \orden{git merge}, tal y como se vio en los apuntes
+de ramas. Podemos unir \orden{git fetch} y \orden{git merge} en una
+sola orden, \orden{git pull [repositorio refspecs]}.
+
+\begin{nota}
+  he estado intentando utilizar \orden{git pull} especificando
+  únicamente el repositorio y dejando las ramas en la configuración
+  con la variable \variable{branch.rama.merge}, pero parece depender
+  del valor de la variable \variable{branch.rama.remote}, y si ésta
+  también se especifica ya no tiene sentido usar la versión de un solo
+  argumento \orden{git pull repositorio}. Si alguien tiene éxito en
+  hacer esto que me envíe un correo, gracias.
+\end{nota}
+
+\begin{figure}
+  \centering
+  \subfloat[Local]{\resizebox{.75\textwidth}{!}{\input{fetch-nomerge-1}}}
+
+  \subfloat[Remoto]{\resizebox{.75\textwidth}{!}{\input{fetch-nomerge-2}}}
+
+  \subfloat[Local tras \orden{git fetch}: \rama{master} no se mueve]{\resizebox{.75\textwidth}{!}{\input{fetch-nomerge-3}}}
+
+  \caption{Ejemplo de cómo \orden{git fetch} no reúne ramas}
+  \label{fig:fetch-nomerge}
+\end{figure}
+
+En su forma completa con la referencia al repositorio y al menos el
+nombre de una rama de dicho repositorio, el proceso seguido por
+\orden{git pull X Y...} es:
+
+\begin{enumerate}
+\item Primero se ejecuta \orden{git fetch} con todos los argumentos
+  recibidos para recibir los objetos del repositorio remoto.
+
+\item Por último se reúne la rama actual con las puntas de todas las
+  ramas referenciadas en los argumentos \orden{Y...}, usando
+  \orden{git merge}. Si se pasa la opción \orden{--rebase} se
+  sustituye por \orden{git rebase}. No olvidar que sólo puede usarse
+  esta última orden si aún nadie tiene la parte del historial que va a
+  ser afectada.
+\end{enumerate}
+
+Cuando no decimos nada, \orden{git pull} utiliza algunos ficheros de
+configuración, con ciertos cambios. Simplificando un poco, sería algo
+así:
+
+\begin{enumerate}
+\item La referencia al repositorio en cuestión se obtiene a partir de
+  la variable local \variable{branch.mirama.remote} de
+  \fichero{.git/config}, suponiendo que nos hallamos en la rama
+  \rama{mirama}.
+
+\item Los argumentos para \orden{git fetch} se extraen de la variable
+  local \variable{remote.miremoto.fetch}, suponiendo que el remoto
+  antes indicado era \remote{miremoto}.
+
+\item Las ramas del repositorio remoto con que se debería reunir la
+  rama actual se encuentran en la variable local
+  \variable{branch.mirama.merge}.
+\end{enumerate}
+
+Estas tres variables son configuradas automáticamente para la rama
+principal y el \emph{remote} \remote{origin} creados tras un clonado.
+Si creamos una nueva rama local, tendremos que indicarle de qué
+\emph{remote} y rama remota actualizarse. Suponiendo que queramos
+desarrollar a partir de la rama \rama{mirama} del \emph{remote}
+\remote{miremoto} en una nueva rama \rama{nuevarama}, tenemos varias
+opciones:
+
+\begin{enumerate}
+\item Ir indicándolo manualmente con más argumentos:
+
+\begin{lstlisting}
+git pull miremoto mirama:nuevarama
+\end{lstlisting}
+
+\item Crear la rama con la opción \orden{--track}. Hay varias formas
+  de hacerlo. La más sencilla es:
+
+\begin{lstlisting}
+git checkout -b nuevarama --track miremoto/mirama
+\end{lstlisting}
+
+Se trata de un atajo para:
+
+\begin{lstlisting}
+git branch --track nuevarama miremoto/mirama
+git checkout nuevarama
+\end{lstlisting}
+
+\item Configurarlo manualmente. Hay varios posibles ficheros a
+  modificar, pero si usáramos \fichero{.git/config}, por ejemplo,
+  ejecutaríamos algo así:
+
+\begin{lstlisting}
+git checkout -b nuevarama miremoto/mirama
+git config branch.nuevarama.remote miremoto
+git config branch.nuevarama.merge mirama
+\end{lstlisting}
+\end{enumerate}
+
+\subsection{Envío de revisiones}
+\label{sec:envio-de-cambios}
+
+Otras veces desearemos enviar nuestras propias revisiones a otro
+repositorio. Esta acción se realiza mediante la orden \orden{git push
+  [repositorio [refspecs]]}, y al igual que \orden{git fetch}, su
+significado se va construyendo progresivamente a medida que se le
+pasan argumentos:
+
+\begin{itemize}
+\item \orden{git push} sin argumentos equivale a \orden{git push origin}.
+
+\item Si se ejecuta \orden{git push nombre}, y existe una variable
+  \variable{remote.nombre.push} con una o más \emph{refspecs} \orden{Y...},
+  entonces la orden equivale a \orden{git push nombre Y...}.
+
+\item Si se ejecuta \orden{git push nombre} pero no existe la anterior
+  variable, entonces equivale a \orden{git push nombre :}.
+
+\item Una vez todos los argumentos quedan determinados, \orden{git
+    push X Y...} actualizaría cada una de las ramas destino con los
+  objetos del repositorio local, recorriendo cada uno de los
+  \emph{refspec} proporcionados.
+
+  Estos \emph{refspec} son un tanto especiales, y difieren en
+  bastantes cosas de los de \orden{git fetch} (y por tanto de los de
+  \orden{git pull}). La sintaxis básica \verb#[+]fuente[:destino]#
+  sigue siendo admitida y funciona de la misma forma, pero hay algunas
+  diferencias:
+
+  \begin{itemize}
+  \item Si no damos el nombre del destino, se asume que es el mismo
+    que el origen. Estas dos órdenes son equivalentes:
+
+\begin{lstlisting}
+git push origin foo
+git push origin foo:foo
+\end{lstlisting}
+
+  \item La fuente puede ser cualquier \emph{commitish}, y en
+    particular podemos enviar etiquetas:
+
+\begin{lstlisting}
+git tag -a v1.0
+git push origin v1.0
+\end{lstlisting}
+
+    Si usamos un \emph{commitish} a una revisión cualquiera, estaremos
+    obligados a dar un destino:
+
+\begin{lstlisting}
+git push origin master~5:otrarama
+\end{lstlisting}
+
+  \item Podemos omitir la fuente y dejar sólo el destino, borrando así
+    la rama (\verb#:mirama#)o etiqueta (\verb#:v1.0#) indicada en el
+    destino.
+
+  \item Podemos omitir tanto la fuente como el destino, quedando
+    \verb#:#, o \verb#+:# para actualizar incluso cuando no sea un
+    \emph{fast forward}. El comportamiento de \orden{git push} al
+    recibir este argumento es un tanto peculiar: básicamente, cada
+    rama en el repositorio indicado es actualizada desde la rama local
+    con el mismo nombre, si existe.
+  \end{itemize}
+
+\end{itemize}
+
+\section{Conectividad por red entre repositorios}
+\label{sec:conectividad-por-red}
+
+\subsection{Acceso por SSH}
+\label{sec:acceso-ssh}
+
+% git-shell
+% Gitosis permite una gestión sencilla y segura (¿y lo de Mac?)
+
+\subsection{Acceso por el protocolo Git}
+\label{sec:acceso-git}
+
+% Facilita mucho el acceso de sólo lectura, y es más eficiente que
+% HTTP normal y corriente. Aun así se pueden hacer push anónimos, pero
+% no está recomendado.
+
+% Gitosis - daemon
+% git daemon (--base-path, --export-all)
+% git daemon --enable=receive-pack para que los demás vayan probando
+% el flujo distribuido de trabajo, sin pedir mucha configuración (sólo
+% para LAN amigables)
+
+\subsection{Acceso por HTTP}
+\label{sec:acceso-http}
+
+% WebDAV actual: proceso de preparado de un repositorio y desventajas
+% frente al acceso por SSH
+
+% proceso necesario para servir un repositorio escribible bajo WebDAV:
+% * que sea bare (git clone --bare)
+% * ejecutar una vez al menos git-update-server-info antes de usar
+%   WebDAV
+% * hacer ejecutable el hook post-update que viene por defecto, por
+%   si alguien envía algo por SSH (git http-push hace su trabajo sobre
+%   HTTP)
+% * gc.packrefs global a notbare (¡importante!), o cualquier git gc
+%   nos impediría después acceder por WebDAV.
+% * usar versiones _recientes_ de Git (1.5.4+) y Curl (7.16+)
+
+% git+http en progreso
+% Desde el commit v1.6.0-rc1-92-g0d79a45, Git ya empieza a
+% incluir una versión sobre HTTP más inteligente para Git basada en un
+% CGI, que no requeriría WebDAV. Aún no está terminada (sólo está el
+% servidor y a medias), pero ya podría atender a un cliente tonto de
+% los que espera utilizar WebDAV, según parece.
+
+% git instaweb (Gitosis - gitweb)
+
+\subsection{Acceso en conectividad limitada}
+\label{sec:acceso-otros}
+
+% git bundle, con cuidado de usar nombres de ramas para actualizarlas
+% git format-patch, git send-email, git am
+% diff + git apply
+
+\section{Flujo de trabajo centralizado}
+\label{sec:flujo-centralizado}
+
+% Flujo centralizado:
+
+% git blame (opciones: -n para ver la línea original, -M
+% -C para líneas copiadas y movidas de otros ficheros, curiosear en
+% git.c del Git)
+
+% git fetch + git merge = git pull
+% git push (también sirve para borrar y crear nuevas ramas y etiquetas)
+
+\section{Flujo de trabajo distribuido}
+\label{sec:flujo-distribuido}
+
+% Flujo distribuido:
+
+% git remote add/rm/show/update/prune
+% git push/pull
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

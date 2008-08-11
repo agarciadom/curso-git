@@ -1,0 +1,17 @@
+digraph G {
+  rankdir=RL
+
+  node [shape=rectangle,style="fill=green!20"]
+  A
+  B
+  C
+
+  node [shape=rectangle,style="fill=yellow!20"]
+  master
+  "origin/master"
+
+  B -> A
+  C -> B
+  master -> B
+  "origin/master" -> C
+}

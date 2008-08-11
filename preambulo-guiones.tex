@@ -1,5 +1,6 @@
 \RequirePackage{amsthm}
 \RequirePackage{listings}
+\RequirePackage{tikz}
 
 \newtheorem{pregunta}{Pregunta}
 
@@ -8,6 +9,11 @@
 \newcommand*{\gitk}{\texttt{gitk}}
 \newcommand*{\fichero}[1]{\texttt{#1}}
 \newcommand*{\orden}[1]{\texttt{#1}}
+\newcommand*{\variable}[1]{\emph{#1}}
+
+% no se puede usar el atajo <<x>> de Babel dentro de una orden
+\newcommand*{\remote}[1]{\begin{quoting}#1\end{quoting}}
+
 \newcommand*{\treeish}[1]{\texttt{#1}}
 \newcommand*{\commitish}[1]{\texttt{#1}}
 \newcommand*{\rama}[1]{\texttt{#1}}
@@ -17,6 +23,7 @@
 \newcommand{\loadlp}{\setcounter{enumi}{\value{saveenum}}}
 \newenvironment{first-enumerate}{\begin{enumerate}}{\savelp{}\end{enumerate}}
 \newenvironment{continue-enumerate}{\begin{enumerate}\loadlp{}}{\savelp{}\end{enumerate}}
+\newenvironment{nota}{\begin{quote}\emph{Nota: }}{\end{quote}}
 
 \lstset{basicstyle=\small,breaklines=true,columns=fullflexible,frame=tb}
 
