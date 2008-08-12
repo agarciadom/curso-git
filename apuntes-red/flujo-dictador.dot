@@ -1,0 +1,39 @@
+digraph G {
+  rankdir=BT
+
+  node  [style="fill=blue!20"]
+  d1 [label="Desarrollador"]
+  d2 [label="Desarrollador"]
+  d3 [label="Desarrollador"]
+  d4 [label="Desarrollador"]
+
+  node [style="fill=green!20"]
+  t1 [label="Teniente"]
+  t2 [label="Teniente"]
+
+  node [style="fill=red!20"]
+  dic [label="Dictador"]
+  {rank=max; dic}
+
+  node [style="fill=yellow!20"]
+  b [label="Repositorio bendecido"]
+
+  /* Rojo para los push */
+  edge [color=red]
+  dic -> b
+
+  /* Azul para los pull */
+  edge [color=blue]
+  d1 -> t1
+  d2 -> t1
+  d3 -> t2
+  d4 -> t2
+  t1 -> dic
+  t2 -> dic
+
+  b -> d1
+  b -> d2
+  b -> d3
+  b -> d4
+
+}

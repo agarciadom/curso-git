@@ -1,0 +1,33 @@
+digraph G {
+  rankdir=RL
+
+  node [shape=rectangle,style="fill=green!20"]
+  A
+  B
+  C
+  D
+  E
+  F
+  G
+  H
+  {rank=same; D B F}
+
+  node [shape=rectangle,style="fill=yellow!20"]
+  master
+  develop
+  topicoA [label="topico-A"]
+  v1_0m [label="v1.0-maint"]
+
+  node [shape=rectangle,style="fill=blue!20"]
+  v1_0 [label="v1.0"]
+
+  H -> C -> B -> A
+  C -> E -> D -> A
+  H -> G -> F -> A
+
+  master -> A
+  v1_0 -> A
+  develop -> H
+  v1_0m -> G
+  topicoA -> E
+}

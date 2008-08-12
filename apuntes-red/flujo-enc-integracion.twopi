@@ -1,0 +1,32 @@
+digraph G {
+  ranksep=1.5
+  root=i
+  splines=true
+
+  node  [style="fill=blue!20"]
+  d1pri [texlbl="\parbox{15ex}{\centering Desarrollador 1 (privado)}"]
+  d2pri [texlbl="\parbox{15ex}{\centering Desarrollador 2 (privado)}"]
+
+  node  [style="fill=green!20"]
+  i     [label="Integrador"]
+  d1pub [texlbl="\parbox{15ex}{\centering Desarrollador 1 (público)}"]
+  d2pub [texlbl="\parbox{15ex}{\centering Desarrollador 2 (público)}"]
+
+  node [style="fill=yellow!20"]
+  r [texlbl="\parbox{15ex}{\centering Repositorio bendecido}"]
+
+  /* Rojo para los push */
+  edge [color=red]
+  d1pri -> d1pub
+  d2pri -> d2pub
+  i -> r
+
+  /* Azul para los pull */
+  edge [color=blue]
+  r -> d1pri
+  r -> d2pri
+  d1pub -> d2pri
+  d2pub -> d1pri
+  d1pub -> i
+  d2pub -> i
+}

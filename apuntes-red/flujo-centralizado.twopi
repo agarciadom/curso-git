@@ -1,0 +1,30 @@
+digraph G {
+  ranksep=1.25
+
+  node [style="fill=green!20"]
+  d1 [texlbl="Desarrollador 1"]
+  d2 [texlbl="Desarrollador 2"]
+  d3 [texlbl="Desarrollador 3"]
+  d4 [texlbl="Desarrollador 4"]
+  d5 [texlbl="Desarrollador 5"]
+  d6 [texlbl="Desarrollador 6"]
+
+  node [style="fill=yellow!20"]
+  r [texlbl="\parbox{15ex}{\centering Repositorio principal}"]
+
+  edge [color=red]
+  d1 -> r
+  d2 -> r
+  d3 -> r
+  d4 -> r
+  d5 -> r
+  d6 -> r
+
+  edge [color=blue]
+  r -> d1
+  r -> d2
+  r -> d3
+  r -> d4
+  r -> d5
+  r -> d6
+}
