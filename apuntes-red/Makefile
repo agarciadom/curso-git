@@ -12,7 +12,7 @@ DOTTEX=\
 $(DOC) :: $(DOTTEX) 
 
 %.pdf: %.tex
-	pdflatex $< && pdflatex $<
+	pdflatex $< && pdflatex $< && bibtex ${<:.tex=} && pdflatex $<
 
 %.tex: %.dot
 	dot2tex -s --figonly $< > $@
