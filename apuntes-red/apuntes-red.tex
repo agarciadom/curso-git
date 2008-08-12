@@ -738,14 +738,97 @@ representan con arcos rojos y los \orden{git pull} con arcos azules.
 \subsection{Centralizado}
 \label{sec:flujo-centralizado}
 
-% Flujo centralizado:
+El flujo centralizado se corresponde con el utilizado en herramientas
+como Subversion o CVS, y utiliza un subconjunto muy pequeño de la
+funcionalidad de Git. Se tiene un repositorio <<pelado>> como punto
+central de reunión del trabajo de todos los demás desarrolladores, que
+clonan ese repositorio (véase la
+figura~\vref{fig:flujo-centralizado}).
 
-% git blame (opciones: -n para ver la línea original, -M
-% -C para líneas copiadas y movidas de otros ficheros, curiosear en
-% git.c del Git)
+\begin{figure}
+  \centering
+  \inputscalew{.6\textwidth}{flujo-centralizado}
+  \caption{Flujo centralizado de trabajo}
+  \label{fig:flujo-centralizado}
+\end{figure}
 
-% git fetch + git merge = git pull
-% git push (también sirve para borrar y crear nuevas ramas y etiquetas)
+La forma normal de trabajar es:
+
+\begin{enumerate}
+\item Si no se tiene el repositorio ya, habrá que clonarlo, y crear
+  una rama local \rama{develop} que vigile la rama remota del mismo nombre:
+\begin{lstlisting}
+git clone url-a-repositorio
+cd repositorio
+git checkout -b develop --track origin/develop
+\end{lstlisting}
+
+\item Antes de empezar, obtenemos los últimos cambios sobre \rama{develop}:
+\begin{lstlisting}
+git checkout develop
+git pull
+\end{lstlisting}
+
+\item Se trabaja a partir de una rama local propia desde la rama
+  remota de desarrollo:
+\begin{lstlisting}
+git checkout -b mi-funcionalidad --track origin/develop
+\end{lstlisting}
+
+\item Editamos, depuramos, etc. De vez en cuanto nos interesará
+  reunirnos con el trabajo de los demás:
+
+\begin{lstlisting}
+git pull --rebase
+\end{lstlisting}
+
+  \begin{nota}
+    podemos usar aquí la opción \orden{--rebase} ya que esta rama no
+    la hemos enviado aún a nadie. En caso contrario, deberíamos hacer
+    un \orden{git pull} normal y corriente, que empleará el más seguro
+    \orden{git merge}. El uso de esta opción nos permite dejar después
+    en el repositorio central un historial más lineal y fácil de
+    entender.
+  \end{nota}
+
+\item Una vez hayamos terminado nuestro trabajo, cambiaremos a la rama
+  local de desarrollo, la actualizaremos y la reuniremos con nuestra
+  rama local:
+
+\begin{lstlisting}
+git checkout develop
+git pull
+git merge mi-funcionalidad
+\end{lstlisting}
+
+  Si hemos estado reuniendo con frecuencia nuestro trabajo con el de
+  los demás, no deberían de producirse conflictos en este paso.
+
+\item Ahora podemos eliminar la antigua rama, si así lo deseamos, y
+  empujar los cambios al repositorio:
+
+\begin{lstlisting}
+git branch -d mi-funcionalidad
+git push
+\end{lstlisting}
+
+\item Cuando el director de proyecto (o el responsable de integración)
+  vea que la rama de desarrollo tiene la suficiente calidad como para
+  constituir la próxima publicación, puede actualizar sus dos ramas
+  \rama{master} y \rama{develop}, reunirlas, etiquetar y firmar la
+  versión por GnuPG y empujar los cambios:
+
+\begin{lstlisting}
+git checkout develop
+git pull
+git checkout master
+git pull
+git merge develop
+git tag -s v1.0
+git push --tags
+\end{lstlisting}
+
+\end{enumerate}
 
 \subsection{Distribuido}
 \label{sec:flujo-distribuido}
