@@ -833,10 +833,104 @@ git push --tags
 \subsection{Distribuido}
 \label{sec:flujo-distribuido}
 
-% Flujo distribuido:
+La verdadera utilidad de Git es como un sistema distribuido, en el que
+no existe una autoridad central de por sí. En ese aspecto ya no hay
+mucho que podamos restringir, y depende ya del tipo de proyecto en que
+nos hallemos.
 
-% git remote add/rm/show/update/prune
-% git push/pull
+De todas formas, generalmente existe algún repositorio destacado o
+<<bendecido>> que la mayoría de los usuarios y desarrolladores toman
+como referencia, y que tiene el acceso de escritura restringido a unos
+pocos que se ocupan fundamentalmente de integrar el trabajo de los
+repositorios públicos de los demás desarrolladores (como en el propio
+repositorio de Git). Los desarrolladores actualizan cuando lo ven
+necesario sus repositorios públicos a partir de sus privados usando
+\orden{git push}. Este modelo con un único nivel de integración se
+conoce como el <<modelo del integrador>>, y puede verse un esquema en
+la figura~\vref{fig:enc-integracion}. Es interesante ver en los arcos
+de \orden{git pull} (azules) del repositorio público del desarrollador
+2 al privado del 1 y viceversa cómo los desarrolladores pueden
+colaborar entre sí directamente sin necesidad de pasar por el
+repositorio bendecido.
+
+\begin{figure}
+  \centering
+  \inputscalew{.8\textwidth}{flujo-enc-integracion}
+  \caption{Flujo del integrador}
+  \label{fig:enc-integracion}
+\end{figure}
+
+Cuando el trabajo de integración ya no puede ser realizado por una
+única persona, surge el <<modelo del dictador y sus tenientes>>, en el
+que el trabajo de integración se hace en dos niveles: el dictador
+integra el trabajo de sus tenientes, y los tenientes el de los
+desarrolladores <<de a pie>>. Es el caso del kernel Linux. Se puede
+ver un ejemplo en el que se han reunido en un solo nodo del grafo el
+repositorio público y privado de cada desarrollador en la figura~.
+
+\begin{figure}
+  \centering
+  \inputscalew{.8\textwidth}{flujo-dictador}
+  \caption{Flujo del dictador y sus tenientes}
+  \label{fig:dictador-tenientes}
+\end{figure}
+
+En cuanto a las órdenes necesarias para su uso, no hay mucho que
+decir: 
+
+\begin{enumerate}
+\item Primero clonaríamos el repositorio bendecido a un repositorio
+  público <<pelado>>:
+
+\begin{lstlisting}
+git clone --bare url-repositorio-bendecido
+\end{lstlisting}
+
+\item Ahora clonaríamos nuestro repositorio público a otro privado,
+  esta vez con su directorio de trabajo:
+
+\begin{lstlisting}
+git clone url-o-ruta-repositorio-publico ruta-repositorio-privado
+\end{lstlisting}
+
+\item Nos introduciríamos en el repositorio e iríamos trabajando de la
+  forma usual. Si queremos colaborar con alguien, podemos añadir la
+  URL de su repositorio como un \emph{remote} más ejecutando:
+
+\begin{lstlisting}
+git remote add nombre-remote url-remote
+\end{lstlisting}
+
+  Una vez queda añadido, podemos hacer varias cosas:
+
+  \begin{itemize}
+  \item Ver todos los disponibles con \orden{git remote}.
+  \item Ver los detalles de uno en particular con \orden{git remote
+      show nombre-remoto}.
+  \item Retirar uno de la lista con \orden{git remote rm
+      nombre-remoto}.
+  \item Actualizar las ramas remotas de todos los \emph{remotes} con
+    \orden{git remote update}.
+  \item Eliminar las ramas remotas que ya no existan en sus
+    repositorios con \orden{git remote prune}.
+  \end{itemize}
+
+  Por ejemplo, si queremos añadir al repositorio bendecido como otro
+  \emph{remote} más en el repositorio privado, podríamos hacer:
+
+\begin{lstlisting}
+git remote add central url-del-central
+\end{lstlisting}
+
+  Así, podemos actualizar nuestra rama principal desde la principal
+  del repositorio bendecido con:
+
+\begin{lstlisting}
+git checkout master
+git pull central master
+\end{lstlisting}
+
+\end{enumerate}
 
 \bibliographystyle{../hispa}
 \bibliography{../bibliografia}
