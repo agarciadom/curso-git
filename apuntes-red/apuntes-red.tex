@@ -29,7 +29,7 @@
 \vskip .1\textheight
 
 \tableofcontents{}
-
+\listoffigures{}
 \clearpage
 
 \section{Acciones básicas}
@@ -299,6 +299,30 @@ git push origin master~5:otrarama
   \end{itemize}
 
 \end{itemize}
+
+\subsection{Autoría de las líneas de un fichero}
+\label{sec:autoria-de-lineas}
+
+Para ver quién es el responsable de cada línea de un fichero, es
+decir, la última persona que la modificó, y cuándo se hizo, Git nos
+proporciona la orden \orden{git blame}, a la que en su forma más
+sencilla únicamente tenemos que pasar la ruta de un fichero:
+
+\begin{lstlisting}
+git blame fichero
+\end{lstlisting}
+
+Si queremos activar todas las heurísticas de líneas movidas
+(\orden{-M}) y copiadas (\orden{-C}) desde otros ficheros al máximo
+(otra vez \orden{-C}), mostrando los números de línea originales
+(\orden{-n}), usaremos:
+
+\begin{lstlisting}
+git blame -n -M -C -C fichero
+\end{lstlisting}
+
+Evidentemente, esta segunda versión puede que tarde más, pero nos dará
+mucha más información.
 
 \section{Conectividad por red entre repositorios}
 \label{sec:conectividad-por-red}
@@ -668,8 +692,8 @@ git format-patch -o parches master~2..
 git send-email ../parches
 \end{lstlisting}
 
-  \item Si recibimos los correos en formato \emph{mbox} o
-    \emph{Maildir}, podemos aplicar sus cambios con:
+  \item Si recibimos los correos en formato \emph{mbox}, usando
+    \orden{mutt}, por ejemplo, podemos aplicar sus cambios con:
 
 \begin{lstlisting}
 git am ~/mbox
