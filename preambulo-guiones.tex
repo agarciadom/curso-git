@@ -19,6 +19,8 @@
 \newcommand*{\usuario}[1]{\begin{quoting}#1\end{quoting}}
 \newcommand*{\variable}[1]{\emph{#1}}
 
+\newcommand*{\inputscalew}[2]{\resizebox{#1}{!}{\input{#2}}}
+
 \newcounter{saveenum}
 \newcommand{\savelp}{\setcounter{saveenum}{\value{enumi}}}
 \newcommand{\loadlp}{\setcounter{enumi}{\value{saveenum}}}

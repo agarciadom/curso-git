@@ -702,7 +702,40 @@ git am ~/mbox
   \end{enumerate}
 \end{itemize}
 
-\section{Flujo de trabajo centralizado}
+\section{Flujos de trabajo usuales con Git}
+\label{sec:flujos-de-trabajo}
+
+\subsection{Introducción}
+\label{sec:introduccion-flujos}
+
+Esta sección describirá algunos de los flujos de trabajo más usuales
+con Git. Git, al tratarse de un sistema distribuido de control de
+versiones, no nos impone ninguno en particular. Sin embargo, en la
+práctica se suelen adoptar alguno de los tres enfoques que veremos a
+continuación. Estos enfoques han sido tomados de la excelente
+presentación <<Getting Git>> de Scott Chacon~\cite{GettingGit}.
+
+En la mayoría de los repositorios Git, existe una rama \rama{master}
+que únicamente registra las revisiones estables (publicables) del
+sistema, y otra rama \rama{develop} sobre la cual se van situando las
+revisiones inestables (\rama{next} en el repositorio de Git). Las
+ramas que implementan ciertas funcionalidades salen y se reúnen
+después con \rama{develop}, y cuando \rama{develop} está lo bastante
+estable, se reúne con \rama{master} (véase la figura~). También pueden
+aparecer ramas de mantenimiento de versiones más antiguas, como
+\rama{maint} en el repositorio de Git. Se muestra un ejemplo del
+aspecto típico de un repositorio Git en funcionamiento en la
+figura~\vref{fig:ramas-repo-git}, donde los \orden{git push} se
+representan con arcos rojos y los \orden{git pull} con arcos azules.
+
+\begin{figure}
+  \centering
+  \inputscalew{\textwidth}{ramas-repo-git}
+  \caption{Ramificación usual de un repositorio Git}
+  \label{fig:ramas-repo-git}
+\end{figure}
+
+\subsection{Centralizado}
 \label{sec:flujo-centralizado}
 
 % Flujo centralizado:
@@ -714,7 +747,7 @@ git am ~/mbox
 % git fetch + git merge = git pull
 % git push (también sirve para borrar y crear nuevas ramas y etiquetas)
 
-\section{Flujo de trabajo distribuido}
+\subsection{Distribuido}
 \label{sec:flujo-distribuido}
 
 % Flujo distribuido:
