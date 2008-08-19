@@ -678,7 +678,7 @@ subdirectorio). Para ello tenemos la opción \orden{--prefix}. Es muy
 importante que no se nos olvide la barra final:
 
 \begin{lstlisting}
-git archive v1.0 --prefix=miproyecto-1.0/ | gzip > ../miproyecto-1.0.tar.gz
+git archive --prefix=miproyecto-1.0/ v1.0 | gzip > ../miproyecto-1.0.tar.gz
 \end{lstlisting}
 
 Por otro lado, podríamos distribuir la revisión anterior a la actual
