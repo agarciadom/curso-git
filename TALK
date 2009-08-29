@@ -1,0 +1,52 @@
+== BIO
+
+Bart Trojanowski is an embedded Linux consultant and driver developer from 
+Ottawa, Canada.  Bart has been hacking on big- and small-embedded devices
+running Linux for over a decade.  Most recently his passion has been 
+poured into the android platform.
+
+While working, or just hacking, Bart has always depended on source code
+management (SCM) software to keep his source safe.  He's tried countless
+such tools and settled on Git, and today he wouldn't think of using
+anything else.
+
+
+
+== Tracking code changes in a distributed environment
+
+Software is very dynamic and always changing.  Developers use tools for
+source code management, or SCM, to track changes to their work over time.
+While traditionally SCM tools have been centralized (like CVS and
+Subversion) and relied on a single server to be the gate keeper, in the
+last part of this decade that has been changing.
+
+This talk will overview the terms and concepts used by distributed SCM
+(dSCM) tools.  While the talk is tailored towards Git, it will be useful for
+(new) users of Git's competitors, like Mercurial and Bazaar.
+
+Attendees are expected to know a little about revision control systems, and
+by the end of the session will be empowered to switch their projects to be
+tracked by a dSCM, perhaps even Git.
+
+Anyone wishing to learn more about using the Git dSCM, are encouraged to
+join Bart for a tutorial on this topic on __day__ at __time__ in
+__room__.
+
+
+== Git: source control, perfected
+
+Git is a distributed source code management (dSCM) tool started by Linus
+Torvalds and currently maintained by Junio C Hamano.  While Git was
+originally written with the intent to track the rapid development of the
+Linux kernel it has been picked up by a large number of prominent projects.
+While initially being a bit rough around the edges, Git's popularity
+forced it to improve in the areas of usability and documentation.
+
+This tutorial will demonstrate from the basic to the intermediate use cases
+of Git, and cover some internal details of how Git does what it does so
+well.
+
+Attendees are expected to know the basics of distributed source revision
+control possibly learned at Bart's earlier talk on __day__ at __time__ in
+__room__.
+
