@@ -11,7 +11,6 @@ such tools and settled on Git, and today he wouldn't think of using
 anything else.
 
 
-
 == Tracking code changes in a distributed environment
 
 Software is very dynamic and always changing.  Developers use tools for
@@ -24,9 +23,9 @@ This talk will overview the terms and concepts used by distributed SCM
 (dSCM) tools.  While the talk is tailored towards Git, it will be useful for
 (new) users of Git's competitors, like Mercurial and Bazaar.
 
-Attendees are expected to know a little about revision control systems, and
-by the end of the session will be empowered to switch their projects to be
-tracked by a dSCM, perhaps even Git.
+With even limited prior knowledge about revision control systems, by the end of
+the session attendees will be empowered to switch their projects to be tracked
+by a dSCM, perhaps even Git.
 
 Anyone wishing to learn more about using the Git dSCM, are encouraged to
 join Bart for a tutorial on this topic on __day__ at __time__ in
@@ -42,11 +41,10 @@ Linux kernel it has been picked up by a large number of prominent projects.
 While initially being a bit rough around the edges, Git's popularity
 forced it to improve in the areas of usability and documentation.
 
-This tutorial will demonstrate from the basic to the intermediate use cases
-of Git, and cover some internal details of how Git does what it does so
-well.
+This tutorial will demonstrate from basic to intermediate use cases of Git, and
+cover some internal details of how Git does what it does so well.
 
-Attendees are expected to know the basics of distributed source revision
-control possibly learned at Bart's earlier talk on __day__ at __time__ in
+Attendees will hopefully know the basics of distributed source revision
+control, possibly learned at Bart's earlier talk on __day__ at __time__ in
 __room__.
 
