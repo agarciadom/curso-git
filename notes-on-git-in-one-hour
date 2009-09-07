@@ -1,0 +1,144 @@
+config
+
+        git config --global user.name 'foo'
+        git config --global user.email 'foo'
+        git config --global color.ui true
+
+        git config --global core.editor emacs
+
+clone
+
+        goto github, grab an url
+
+        git clone <url>
+
+        one checkout, entrie repository
+
+init
+
+        mkdir foo
+        cd foo
+        git init
+        git status                  <--- show untracked files
+        git add .
+        git status                  <--- show added files
+        git commit -m 'message'
+        git status                  <--- it's clean
+        git show                    <--- last commit
+        git log                     <--- show history
+
+file status life cycle
+
+        untracked   unmodified  modified  staged
+                -add->      -edit->   -stage->
+                <-rm-
+                          <----commit--------
+
+    ... there is also unmerged
+
+committing
+
+        git commit -a               <--- comit all changes
+
+        git commit one-file         <--- commit all changes
+
+        git add one-file
+        git add another-file
+        git commit                  <--- commit staged changes
+
+        git add -p                  <--- add patches
+        git diff --staged
+        git commit
+
+        git log --stat
+
+local operations
+
+        working      staging   git directory
+        directory    area      (repository)
+             <------checkout---------
+             ---stage-->
+                        ---commit--->
+
+branching (local)
+
+        topic branches
+         - one branch per bug being fixes
+         - one branch per feature
+         - one branch per experiment
+
+        git branch                 <--- list branches
+
+        git branch test
+        git checkout test
+
+        # show new commits go on this branch
+
+        git checkout -b another
+
+        # show with gitk
+
+        git log --graph --all
+
+        git checkout master
+        git merge another
+        git merge test
+
+        git branch -v
+
+        git branch --merged            <--- stuff merged into the current branch
+        git branch --no-merged         <--- stuff not merged in
+        git branch --contains          <--- stuff that contains this commit
+
+        git branch -d another
+        git branch -d test
+
+        # show refs were removed, but commits are still there
+
+        git branch bug1234 <sha1>
+
+remotes
+
+        git remote add origin <url>
+        git push origin master
+
+        git remote add github <url>
+        git push github foo
+
+        git remote -v
+
+        git clone <something>
+        # show that origin is set
+        # master is tracking origin/master
+
+        git fetch
+        git branch -a
+        git branch -a -v
+
+        git log origin/master --not master      <--- everything on origin/master not merged into master
+
+git tools
+
+        git blame
+        git blame -C                             <--- who wrote the code, not who copied it
+
+        git bisect start
+        git bisect bad
+        git bisect good <old commit>
+        # test middle
+        git bisect good
+        # find another 
+
+
+
+
+
+
+
+notes for things that need to be mentioned
+ - refs are points
+ - show `git svn` basic commands
+ - show `git svn` basic commands
+
+
+
