@@ -1,0 +1,96 @@
+== Tracking code changes in a distributed environment
+
+Concepts
+ - Source Code Management
+ - Centralized SCM
+ - Distributed SCM
+
+  What SCM tracks
+   - working tree
+   - repository contents
+     - files
+     - commits
+     - ancestry
+     - refs
+     - HEAD
+     - index
+
+  SCM operations
+   - Centralized
+   - Distributed
+
+  Decentalization
+   - show the old slides here
+   - is it good?
+
+~~~~
+
+Git History
+ - reused 2002..2007
+ - TODO: need to summarize big advances in last 2 years
+
+~~~~
+
+Repo
+ - structure
+ - objects
+ - refs
+
+~~~~
+
+Using GIT
+
+  Commands
+   - anatomy
+   - big list -> small list
+
+  Help
+
+  Configuring
+
+  Initializing
+
+  Making commits
+
+  Status
+
+  Diff
+
+  Show
+
+  Log
+
+  Grep
+
+  References
+   - branches
+   - tags
+   - remote branches
+
+  Branching
+
+  Merging
+
+  Rebasing
+
+  Interactive rebase
+
+  Remotes
+
+  Loose ends
+   - gc
+   - stash
+   - 
+  
+Resources
+
+  - http://git-scm.com/
+  - http://progit.org/
+  - http://gitorious.org/learn-git
+
+
+
+
+== Git: source control, perfected
+
+
