@@ -73,6 +73,20 @@
        y1="9.4003391"
        x2="24.38051"
        y2="24.339334" />
+    <inkscape:perspective
+       id="perspective8912"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8976"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -85,10 +99,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="659.67915"
-     inkscape:cy="425.51129"
+     inkscape:cx="537.399"
+     inkscape:cy="341.62198"
      inkscape:document-units="px"
-     inkscape:current-layer="g7871"
+     inkscape:current-layer="layer37"
      showgrid="false"
      width="1024px"
      showguides="true"
@@ -97,7 +111,7 @@
      inkscape:window-height="1139"
      inkscape:window-x="1400"
      inkscape:window-y="12"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
     <inkscape:grid
@@ -241,13 +255,64 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer15"
+     id="g8523"
      inkscape:label="conc_decent."
      style="display:none" />
   <g
      inkscape:groupmode="layer"
-     id="layer9"
+     id="g8525"
      inkscape:label="#conc_decent"
+     style="display:none">
+    <g
+       style="display:inline"
+       id="g8527">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path8529"
+         d="M 206.429,-0.571 L 283.572,-0.571 L 0,283 L 0,205.857 L 206.429,-0.571 z"
+         style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
+         sodipodi:linespacing="125%"
+         id="text8531"
+         y="182.43355"
+         x="-1.3322449"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+           y="182.43355"
+           x="-1.3322449"
+           id="tspan8533"
+           sodipodi:role="line">Decentralization</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g8535"
+     inkscape:label="conc_Decentralization"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
+       x="334.56641"
+       y="398.95703"
+       id="text8537"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan8539"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="334.56641"
+         y="398.95703">Decentralization</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="conc_cent."
+     style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="#conc_cent"
      style="display:none">
     <g
        style="display:inline"
@@ -269,26 +334,63 @@
            y="182.43355"
            x="-1.3322449"
            id="tspan3446"
-           sodipodi:role="line">Decentralization</tspan></text>
+           sodipodi:role="line">Centralized</tspan></text>
     </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer37"
-     inkscape:label="conc_Decentralization"
-     style="display:none">
+     inkscape:label="conc_Centralized"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
-       x="334.56641"
+       x="513.34375"
        y="398.95703"
        id="text3543"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3545"
-         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         x="334.56641"
-         y="398.95703">Decentralization</tspan></text>
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="513.34375"
+         y="398.95703">Centralized SCM</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer46"
+     inkscape:label="conc_know_pub"
+     style="display:none">
+    <image
+       y="99.5"
+       x="372.5"
+       id="image8978"
+       height="569"
+       width="279"
+       sodipodi:absref="/home/oxygen/bart/proj/reflections/git-talk/external/guiness-big.gif"
+       xlink:href="external/guiness-big.gif" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer45"
+     inkscape:label="conc_know"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:90px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="513.99951"
+       y="463.65625"
+       id="text8839"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan8841"
+         style="font-size:90px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="513.99951"
+         y="463.65625">You already know</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:90px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="513.99951"
+         y="553.65625"
+         id="tspan8843">how to use git!</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -534,7 +636,7 @@
      inkscape:groupmode="layer"
      id="g7861"
      inkscape:label="conc_op.modify.svn+git"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -564,7 +666,7 @@
      inkscape:groupmode="layer"
      id="g7871"
      inkscape:label="conc_op.modify.svn"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -594,7 +696,7 @@
      inkscape:groupmode="layer"
      id="g7881"
      inkscape:label="conc_op.modify"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
