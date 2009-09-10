@@ -1,0 +1,12 @@
+archimport
+bundle
+cvsexportcommit
+cvsimport
+cvsserver
+daemon
+quiltimport
+request-pull
+send-email
+shell
+svn
+update-server-info
