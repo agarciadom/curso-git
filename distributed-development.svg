@@ -2269,19 +2269,19 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="480.48571"
-     inkscape:cy="398.67416"
+     inkscape:zoom="0.7071068"
+     inkscape:cx="512"
+     inkscape:cy="358.20039"
      inkscape:document-units="px"
-     inkscape:current-layer="layer115"
+     inkscape:current-layer="layer124"
      showgrid="true"
      width="1024px"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1435"
      inkscape:window-height="1127"
      inkscape:window-x="1400"
-     inkscape:window-y="0"
+     inkscape:window-y="12"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -2443,9 +2443,1001 @@
      style="display:none" />
   <g
      inkscape:groupmode="layer"
+     id="layer124"
+     inkscape:label="foo"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="308"
+       id="text67834"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67836"
+         x="200"
+         y="308"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer125"
+     inkscape:label="cmd_conf.usr.name.ui"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="48.271484"
+       y="508"
+       id="text71979"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan71981"
+         x="48.271484"
+         y="508"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config --global <tspan
+   style="fill:#4d4d4d;font-weight:bold"
+   id="tspan71995">color.pager</tspan><tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan72013"> true</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="48.271484"
+       y="568"
+       id="text71987"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan71989"
+         x="48.271484"
+         y="568"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config --global <tspan
+   style="fill:#4d4d4d;font-weight:bold"
+   id="tspan71993">color.ui</tspan><tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan72015"> auto</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer133"
+     inkscape:label="cmd_conf.usr.name"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="48.271484"
+       y="328"
+       id="text71959"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan71961"
+         x="48.271484"
+         y="328"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config --global <tspan
+   style="fill:#4d4d4d;font-weight:bold"
+   id="tspan72001">user.name</tspan><tspan
+   style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#999999;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+   id="tspan71963"> &quot;<tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan72005">Your Name</tspan>&quot;</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="48.271484"
+       y="388"
+       id="text71971"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan71973"
+         x="48.271484"
+         y="388"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config --global <tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan72003">user.email</tspan><tspan
+   style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#999999;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+   id="tspan71975"> &quot;<tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan72009">you@domain</tspan>&quot;</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer132"
+     inkscape:label="cmd_conf.usr"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text71967"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan71969"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">About you</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer131"
+     inkscape:label="cmd_conf.usr.file.ex.txt"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="528"
+       id="text67910"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67940"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="200"
+         y="528">[alias]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan67942"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="200"
+         y="568">    st = diff --stat</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer130"
+     inkscape:label="cmd_conf.glob.file.ex"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="20"
+       y="388"
+       id="text67894"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67896"
+         x="20"
+         y="388"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config --global <tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan67898">alias.st <tspan
+   style="fill:#999999"
+   id="tspan67903">&quot;diff --stat&quot;</tspan></tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer129"
+     inkscape:label="cmd_conf.glob.file.get.set"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="780"
+       y="388"
+       id="text67883"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67885"
+         x="780"
+         y="388"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><tspan
+           style="fill:#999999"
+           id="tspan67889"><tspan
+             style="font-weight:bold"
+             id="tspan67891">&lt;value&gt;</tspan></tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer128"
+     inkscape:label="cmd_conf.glob.file.get"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="20"
+       y="388"
+       id="text67860"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67862"
+         x="20"
+         y="388"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config --global <tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan67864">&lt;variable&gt;</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer127"
+     inkscape:label="cmd_conf.glob.file"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="228"
+       id="text67855"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67857"
+         x="200"
+         y="228"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">$HOME/.gitconfig</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer126"
+     inkscape:label="cmd_conf.glob"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text67850"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67852"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Global</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g68289"
+     inkscape:label="cmd_conf.repo.file.ex.txt"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="528"
+       id="text68291"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan68293"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="200"
+         y="528">[alias]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan68295"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="200"
+         y="568">    st = diff --stat</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g68297"
+     inkscape:label="cmd_conf.repo.file.ex"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="120"
+       y="388"
+       id="text68299"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan68301"
+         x="120"
+         y="388"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config <tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan68303">alias.st <tspan
+   style="fill:#999999"
+   id="tspan68305">&quot;diff --stat&quot;</tspan></tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g68307"
+     inkscape:label="cmd_conf.repo.file.get.set"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="660"
+       y="388"
+       id="text68309"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan68311"
+         x="660"
+         y="388"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><tspan
+           style="fill:#999999"
+           id="tspan68313"><tspan
+             style="font-weight:bold"
+             id="tspan68315">&lt;value&gt;</tspan></tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g68317"
+     inkscape:label="cmd_conf.repo.file.get"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="120"
+       y="388"
+       id="text68319"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan68321"
+         x="120"
+         y="388"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config <tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan68323">&lt;variable&gt;</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g68325"
+     inkscape:label="cmd_conf.repo.file"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="228"
+       id="text68327"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan68329"
+         x="200"
+         y="228"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">$REPO/.git/config</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g68331"
+     inkscape:label="cmd_conf.repo"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text68333"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan68335"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Repository</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer122"
+     inkscape:label="#cmd_conf"
+     style="display:inline">
+    <g
+       style="display:inline"
+       id="g67824">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path67826"
+         d="M 206.429,-0.571 L 283.572,-0.571 L 0,283 L 0,205.857 L 206.429,-0.571 z"
+         style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
+         sodipodi:linespacing="125%"
+         id="text67828"
+         y="182.43355"
+         x="-1.3322449"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+           y="182.43355"
+           x="-1.3322449"
+           id="tspan67830"
+           sodipodi:role="line">Config</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer123"
+     inkscape:label="cmd_Config"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
+       x="511.10938"
+       y="407.85938"
+       id="text67840"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="511.10938"
+         y="407.85938"
+         id="tspan67842">Configuration</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g55384"
+     inkscape:label="cmd_help.man.."
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="428"
+       id="text67801"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67803"
+         x="200"
+         y="428"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+           id="tspan67805">git <tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan67813">&lt;cmd&gt;</tspan> --help</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g55388"
+     inkscape:label="cmd_help.man."
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="328.05371"
+       id="text67795"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67797"
+         x="200"
+         y="328.05371"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git help <tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan67810">&lt;cmd&gt;</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer121"
+     inkscape:label="cmd_help.man"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="228"
+       id="text67789"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan67791"
+         x="200"
+         y="228"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">man git-<tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan67807">&lt;cmd&gt;</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g64170"
+     inkscape:label="cmd_help.short.out.hl2"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect64172"
+       width="180"
+       height="180"
+       x="230"
+       y="288"
+       ry="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g64174"
+     inkscape:label="cmd_help.short.out.hl1"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect64176"
+       width="400"
+       height="30"
+       x="200"
+       y="258"
+       ry="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g64178"
+     inkscape:label="cmd_help.short.out"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="206.47517"
+       y="278"
+       id="text64180"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan64182"
+         x="206.47517"
+         y="278">usage: git add [options] [--] &lt;filepattern&gt;...</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64184"
+         x="206.47517"
+         y="292" /><tspan
+         sodipodi:role="line"
+         id="tspan64186"
+         x="206.47517"
+         y="306">    -n, --dry-run         dry run</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64188"
+         x="206.47517"
+         y="320">    -v, --verbose         be verbose</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64190"
+         x="206.47517"
+         y="334" /><tspan
+         sodipodi:role="line"
+         id="tspan64192"
+         x="206.47517"
+         y="348">    -i, --interactive     interactive picking</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64194"
+         x="206.47517"
+         y="362">    -p, --patch           interactive patching</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64196"
+         x="206.47517"
+         y="376">    -e, --edit            edit current diff and apply</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64198"
+         x="206.47517"
+         y="390">    -f, --force           allow adding otherwise ignored files</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64200"
+         x="206.47517"
+         y="404">    -u, --update          update tracked files</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64202"
+         x="206.47517"
+         y="418">    -N, --intent-to-add   record only the fact that the path will be added later</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64204"
+         x="206.47517"
+         y="432">    -A, --all             add all, noticing removal of tracked files</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64206"
+         x="206.47517"
+         y="446">    --refresh             don't add, only refresh the index</tspan><tspan
+         sodipodi:role="line"
+         id="tspan64208"
+         x="206.47517"
+         y="460">    --ignore-errors       just skip files which cannot be added because of errors</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer118"
+     inkscape:label="cmd_help.short"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="228"
+       id="text63795"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan63797"
+         x="200"
+         y="228"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+           id="tspan63799">git add -h</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g55450"
+     inkscape:label="cmd_help.gshort"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="228"
+       id="text55452"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan55454"
+         x="200"
+         y="228"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+           id="tspan55456">git <tspan
+   style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+   id="tspan67817">&lt;command&gt;</tspan> -h</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer117"
+     inkscape:label="cmd_help.all.out.hl"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect55030"
+       width="510"
+       height="370"
+       x="220"
+       y="348"
+       ry="4.3631425" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
+       x="91.125"
+       y="528"
+       id="text59833"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="91.125"
+         y="528"
+         id="tspan59835">144</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer116"
+     inkscape:label="cmd_help.all.out"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="206.47517"
+       y="278"
+       id="text54930"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan59769"
+         x="206.47517"
+         y="278">usage: git [--version] [--exec-path[=GIT_EXEC_PATH]] [--html-path]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59771"
+         x="206.47517"
+         y="292">           [-p|--paginate|--no-pager] [--bare] [--git-dir=GIT_DIR]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59773"
+         x="206.47517"
+         y="306">           [--work-tree=GIT_WORK_TREE] [--help] COMMAND [ARGS]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59775"
+         x="206.47517"
+         y="320" /><tspan
+         sodipodi:role="line"
+         id="tspan59777"
+         x="206.47517"
+         y="334">available git commands in '/home/oxygen/bart/usr/libexec/git-core'</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59779"
+         x="206.47517"
+         y="348">------------------------------------------------------------------</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59781"
+         x="206.47517"
+         y="362">  add                 gc                  quiltimport</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59783"
+         x="206.47517"
+         y="376">  add--interactive    get-tar-commit-id   read-tree</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59785"
+         x="206.47517"
+         y="390">  am                  grep                rebase</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59787"
+         x="206.47517"
+         y="404">  annotate            gui                 rebase--interactive</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59789"
+         x="206.47517"
+         y="418">  apply               gui--askpass        receive-pack</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59791"
+         x="206.47517"
+         y="432">  archimport          hash-object         reflog</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59793"
+         x="206.47517"
+         y="446">  archive             help                relink</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59795"
+         x="206.47517"
+         y="460">  bisect              http-fetch          remote</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59797"
+         x="206.47517"
+         y="474">  bisect--helper      http-push           repack</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59799"
+         x="206.47517"
+         y="488">  blame               imap-send           repo-config</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59801"
+         x="206.47517"
+         y="502">  branch              index-pack          request-pull</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59803"
+         x="206.47517"
+         y="516">  bundle              init                rerere</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59805"
+         x="206.47517"
+         y="530">  cat-file            init-db             reset</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59807"
+         x="206.47517"
+         y="544">  check-attr          instaweb            rev-list</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59809"
+         x="206.47517"
+         y="558">  check-ref-format    log                 rev-parse</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59811"
+         x="206.47517"
+         y="572">  checkout            lost-found          revert</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59813"
+         x="206.47517"
+         y="586">  checkout-index      ls-files            rm</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59815"
+         x="206.47517"
+         y="600">  cherry              ls-remote           send-email</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59817"
+         x="206.47517"
+         y="614">  cherry-pick         ls-tree             send-pack</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59819"
+         x="206.47517"
+         y="628">  citool              mailinfo            sh-setup</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59821"
+         x="206.47517"
+         y="642">  clean               mailsplit           shell</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59823"
+         x="206.47517"
+         y="656">  clone               merge               shortlog</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59825"
+         x="206.47517"
+         y="670">  commit              merge-base          show</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59827"
+         x="206.47517"
+         y="684">  commit-tree         merge-file          show-branch</tspan><tspan
+         sodipodi:role="line"
+         id="tspan59829"
+         x="206.47517"
+         y="698" /><tspan
+         sodipodi:role="line"
+         id="tspan59831"
+         x="206.47517"
+         y="712">  --- 8&lt; ---</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer115"
-     inkscape:label="cmd_help."
-     style="display:none" />
+     inkscape:label="cmd_help.all"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="228"
+       id="text54918"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan54920"
+         x="200"
+         y="228"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+           id="tspan54922">git help --all</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g60231"
+     inkscape:label="cmd_help.com.out.hl2"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect60233"
+       width="70"
+       height="300"
+       x="230"
+       y="338"
+       ry="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer120"
+     inkscape:label="cmd_help.com.out.hl1"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect63833"
+       width="570"
+       height="60"
+       x="200"
+       y="258"
+       ry="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g60235"
+     inkscape:label="cmd_help.com.out"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="206.47517"
+       y="278"
+       id="text60237"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan60239"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="278">usage: git [--version] [--exec-path[=GIT_EXEC_PATH]] [--html-path]</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="292"
+         id="tspan60241">           [-p|--paginate|--no-pager] [--bare] [--git-dir=GIT_DIR]</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="306"
+         id="tspan60243">           [--work-tree=GIT_WORK_TREE] [--help] COMMAND [ARGS]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60245"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="320" /><tspan
+         sodipodi:role="line"
+         id="tspan60247"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="334">The most commonly used git commands are:</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60249"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="348">   add        Add file contents to the index</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60251"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="362">   bisect     Find by binary search the change that introduced a bug</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60253"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="376">   branch     List, create, or delete branches</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60255"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="390">   checkout   Checkout a branch or paths to the working tree</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60257"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="404">   clone      Clone a repository into a new directory</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60259"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="418">   commit     Record changes to the repository</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60261"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="432">   diff       Show changes between commits, commit and working tree, etc</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60263"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="446">   fetch      Download objects and refs from another repository</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60265"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="460">   grep       Print lines matching a pattern</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60267"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="474">   init       Create an empty git repository or reinitialize an existing one</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60269"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="488">   log        Show commit logs</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60271"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="502">   merge      Join two or more development histories together</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60273"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="516">   mv         Move or rename a file, a directory, or a symlink</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60275"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="530">   pull       Fetch from and merge with another repository or a local branch</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60277"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="544">   push       Update remote refs along with associated objects</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60279"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="558">   rebase     Forward-port local commits to the updated upstream head</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60281"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="572">   reset      Reset current HEAD to the specified state</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60283"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="586">   rm         Remove files from the working tree and from the index</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60285"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="600">   show       Show various types of objects</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60287"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="614">   status     Show the working tree status</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60289"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="628">   tag        Create, list, delete or verify a tag object signed with GPG</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60291"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="642" /><tspan
+         sodipodi:role="line"
+         id="tspan60293"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="656">See 'git help COMMAND' for more information on a specific command.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan60295"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         x="206.47517"
+         y="670" /></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g60297"
+     inkscape:label="cmd_help.com"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="200"
+       y="228"
+       id="text60299"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan60301"
+         x="200"
+         y="228"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+           id="tspan60303">git help</tspan></tspan></text>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer101"
@@ -16793,7 +17785,7 @@
      style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="120.04688"
        y="395.03516"
        id="text6993"
@@ -16801,21 +17793,22 @@
          sodipodi:role="line"
          id="tspan6995"
          x="120.04688"
-         y="395.03516"><tspan
-           style="fill:#008000;fill-opacity:1"
+         y="395.03516"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
            id="tspan7001">git</tspan><tspan
-           style="fill:#4d4d4d"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
            id="tspan7218"> &lt;options&gt;</tspan><tspan
-           style="fill:#008000;fill-opacity:1"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
            id="tspan7012"> &lt;command&gt;</tspan><tspan
-           style="fill:#4d4d4d"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
            id="tspan7220"> &lt;options&gt;</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer100"
      inkscape:label="#cmd"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="g6969">
@@ -16908,7 +17901,7 @@
            height="60"
            x="429"
            y="391" /></flowRegion><flowPara
-         id="flowPara6950"></flowPara></flowRoot>  </g>
+         id="flowPara6950" /></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer98"
@@ -17053,7 +18046,7 @@
          sodipodi:role="line"
          id="tspan6876"
          x="573"
-         y="404"></tspan></text>
+         y="404" /></text>
   </g>
   <g
      inkscape:groupmode="layer"
