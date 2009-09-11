@@ -2273,7 +2273,7 @@
      inkscape:cx="512"
      inkscape:cy="358.20039"
      inkscape:document-units="px"
-     inkscape:current-layer="layer133"
+     inkscape:current-layer="layer131"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -2462,26 +2462,51 @@
   <g
      inkscape:groupmode="layer"
      id="layer131"
-     inkscape:label="cmd_conf.usr.file.ex.txt"
-     style="display:none">
+     inkscape:label="cmd_conf.mine"
+     style="display:inline">
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="200"
-       y="528"
-       id="text67910"
+       y="168"
+       id="text72070"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan67942"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-         x="200"
-         y="528">foo</tspan></text>
+         id="tspan72136">[user]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72138">    name = &quot;Bart Trojanowski&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72140">    email = &quot;bart@jukie.net&quot;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72142">    signingkey = 2289688F</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72144"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan72146">[core]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72148">    editor = vim</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72150">    pager = less -FRSX</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72152"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan72154">[color]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72156">    ui = auto</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72158"></tspan><tspan
+         sodipodi:role="line"
+         id="tspan72160">[merge]</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72162">    tool = vimdiff</tspan><tspan
+         sodipodi:role="line"
+         id="tspan72164"></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer125"
      inkscape:label="cmd_conf.usr.name.ui"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -2519,7 +2544,7 @@
      inkscape:groupmode="layer"
      id="layer133"
      inkscape:label="cmd_conf.usr.name"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
