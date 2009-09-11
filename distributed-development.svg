@@ -2269,11 +2269,11 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7071068"
-     inkscape:cx="512"
-     inkscape:cy="358.20039"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="456.03621"
+     inkscape:cy="321.84329"
      inkscape:document-units="px"
-     inkscape:current-layer="layer131"
+     inkscape:current-layer="layer135"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -2416,17 +2416,6 @@
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="380"
-       y="758"
-       id="text2971"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan2977"
-         x="380"
-         y="758">Tracking code changes</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="790"
        y="758"
        id="text2979"
@@ -2435,6 +2424,86 @@
          id="tspan2981"
          x="790"
          y="758">ACM Reflections / 2009</tspan></text>
+    <g
+       id="g72264"
+       transform="translate(46.700831,0)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2971"
+         y="758"
+         x="330"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         xml:space="preserve"><tspan
+           y="758"
+           x="330"
+           id="tspan2977"
+           sodipodi:role="line">Tracking code changes in</tspan></text>
+      <g
+         transform="translate(-238.3846,-0.7948717)"
+         id="g72250">
+        <rect
+           style="fill:#c00000"
+           id="rect72172"
+           width="14.403849"
+           height="4.8012829"
+           x="508.77563"
+           y="736.39423" />
+        <use
+           height="768"
+           width="1024"
+           y="0"
+           x="0"
+           xlink:href="#minus"
+           transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
+           id="use72174" />
+        <use
+           height="768"
+           width="1024"
+           y="0"
+           x="0"
+           xlink:href="#minus"
+           transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
+           id="use72176" />
+        <path
+           style="fill:#008000"
+           id="path72178"
+           d="M 513.57691,748.39744 L 513.57691,753.19872 L 508.77563,753.19872 L 508.77563,758 L 513.57691,758 L 513.57691,762.80129 L 518.37819,762.80129 L 518.37819,758 L 523.17947,758 L 523.17947,753.19872 L 518.37819,753.19872 L 518.37819,748.39744 L 513.57691,748.39744 z" />
+        <use
+           height="768"
+           width="1024"
+           y="0"
+           x="0"
+           xlink:href="#plus"
+           transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
+           id="use72180" />
+        <use
+           height="768"
+           width="1024"
+           y="0"
+           x="0"
+           xlink:href="#plus"
+           transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
+           id="use72182" />
+      </g>
+      <g
+         transform="translate(8.3942344,-0.7948726)"
+         id="g72258">
+        <g
+           style="fill:#008000"
+           id="g72184"
+           transform="matrix(2.4006414,0,0,2.4006414,491.97113,717.1891)">
+          <path
+             id="path72186"
+             d="M 38,11 L 38,12 L 37,12 L 37,16 L 38,16 L 38,17 L 41,17 L 41,18 L 38,18 L 38,19 L 43,19 L 43,18 L 44,18 L 44,17 L 44,16 L 44,15 L 44,12 L 44,11 L 38,11 z M 40,12 L 41,12 L 41,16 L 40,16 L 40,12 z" />
+          <path
+             id="path72188"
+             d="M 47,8 L 47,10 L 50,10 L 50,8 L 47,8 z M 45,11 L 45,12 L 47,12 L 47,16 L 45,16 L 45,17 L 52,17 L 52,16 L 50,16 L 50,12 L 50,11 L 45,11 z" />
+          <path
+             id="path72190"
+             d="M 54,9 L 54,11 L 52,11 L 52,12 L 54,12 L 54,16 L 54,17 L 59,17 L 59,16 L 57,16 L 57,12 L 59,12 L 59,11 L 57,11 L 57,9 L 54,9 z" />
+        </g>
+      </g>
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2444,63 +2513,80 @@
   <g
      inkscape:groupmode="layer"
      id="layer124"
-     inkscape:label="foo"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="200"
-       y="308"
-       id="text67834"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan67836"
-         x="200"
-         y="308"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config</tspan></text>
-  </g>
+     inkscape:label="cmd_init"
+     style="display:inline" />
   <g
      inkscape:groupmode="layer"
      id="layer131"
      inkscape:label="cmd_conf.mine"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="200"
        y="168"
        id="text72070"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan72136">[user]</tspan><tspan
+         id="tspan72136"
+         x="200"
+         y="168">[user]</tspan><tspan
          sodipodi:role="line"
-         id="tspan72138">    name = &quot;Bart Trojanowski&quot;</tspan><tspan
+         id="tspan72138"
+         x="200"
+         y="204">    name = &quot;Bart Trojanowski&quot;</tspan><tspan
          sodipodi:role="line"
-         id="tspan72140">    email = &quot;bart@jukie.net&quot;</tspan><tspan
+         id="tspan72140"
+         x="200"
+         y="240">    email = &quot;bart@jukie.net&quot;</tspan><tspan
          sodipodi:role="line"
-         id="tspan72142">    signingkey = 2289688F</tspan><tspan
+         id="tspan72142"
+         x="200"
+         y="276">    signingkey = 2289688F</tspan><tspan
          sodipodi:role="line"
-         id="tspan72144"></tspan><tspan
+         id="tspan72144"
+         x="200"
+         y="312"></tspan><tspan
          sodipodi:role="line"
-         id="tspan72146">[core]</tspan><tspan
+         id="tspan72146"
+         x="200"
+         y="348">[core]</tspan><tspan
          sodipodi:role="line"
-         id="tspan72148">    editor = vim</tspan><tspan
+         id="tspan72148"
+         x="200"
+         y="384">    editor = vim</tspan><tspan
          sodipodi:role="line"
-         id="tspan72150">    pager = less -FRSX</tspan><tspan
+         id="tspan72150"
+         x="200"
+         y="420">    pager = less -FRSX</tspan><tspan
          sodipodi:role="line"
-         id="tspan72152"></tspan><tspan
+         id="tspan72152"
+         x="200"
+         y="456"></tspan><tspan
          sodipodi:role="line"
-         id="tspan72154">[color]</tspan><tspan
+         id="tspan72154"
+         x="200"
+         y="492">[color]</tspan><tspan
          sodipodi:role="line"
-         id="tspan72156">    ui = auto</tspan><tspan
+         id="tspan72156"
+         x="200"
+         y="528">    ui = auto</tspan><tspan
          sodipodi:role="line"
-         id="tspan72158"></tspan><tspan
+         id="tspan72158"
+         x="200"
+         y="564"></tspan><tspan
          sodipodi:role="line"
-         id="tspan72160">[merge]</tspan><tspan
+         id="tspan72160"
+         x="200"
+         y="600">[merge]</tspan><tspan
          sodipodi:role="line"
-         id="tspan72162">    tool = vimdiff</tspan><tspan
+         id="tspan72162"
+         x="200"
+         y="636">    tool = vimdiff</tspan><tspan
          sodipodi:role="line"
-         id="tspan72164"></tspan></text>
+         id="tspan72164"
+         x="200"
+         y="672"></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -23830,30 +23916,115 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer1"
-     inkscape:label="Title"
+     id="layer135"
+     inkscape:label="%Title.git"
+     style="display:none">
+    <g
+       id="g72332"
+       transform="translate(0,-52)">
+      <rect
+         y="458.46155"
+         x="275.48077"
+         height="16.615385"
+         width="49.846153"
+         id="rect72287"
+         style="fill:#c00000" />
+      <use
+         id="use72289"
+         transform="translate(66.711546,116)"
+         xlink:href="#minus"
+         x="0"
+         y="0"
+         width="1024"
+         height="768" />
+      <use
+         id="use72291"
+         transform="translate(133.17309,116)"
+         xlink:href="#minus"
+         x="0"
+         y="0"
+         width="1024"
+         height="768" />
+      <path
+         d="M 292.09616,500 L 292.09616,516.61538 L 275.48078,516.61538 L 275.48078,533.23077 L 292.09616,533.23077 L 292.09616,549.84615 L 308.71155,549.84615 L 308.71155,533.23077 L 325.32693,533.23077 L 325.32693,516.61538 L 308.71155,516.61538 L 308.71155,500 L 292.09616,500 z"
+         id="path72293"
+         style="fill:#008000" />
+      <use
+         id="use72295"
+         transform="translate(66.711546,116)"
+         xlink:href="#plus"
+         x="0"
+         y="0"
+         width="1024"
+         height="768" />
+      <use
+         id="use72297"
+         transform="translate(133.17309,116)"
+         xlink:href="#plus"
+         x="0"
+         y="0"
+         width="1024"
+         height="768" />
+      <g
+         transform="matrix(8.3076923,0,0,8.3076923,217.32693,392)"
+         id="g72299"
+         style="fill:#008000">
+        <path
+           d="M 38,11 L 38,12 L 37,12 L 37,16 L 38,16 L 38,17 L 41,17 L 41,18 L 38,18 L 38,19 L 43,19 L 43,18 L 44,18 L 44,17 L 44,16 L 44,15 L 44,12 L 44,11 L 38,11 z M 40,12 L 41,12 L 41,16 L 40,16 L 40,12 z"
+           id="path72301" />
+        <path
+           d="M 47,8 L 47,10 L 50,10 L 50,8 L 47,8 z M 45,11 L 45,12 L 47,12 L 47,16 L 45,16 L 45,17 L 52,17 L 52,16 L 50,16 L 50,12 L 50,11 L 45,11 z"
+           id="path72303" />
+        <path
+           d="M 54,9 L 54,11 L 52,11 L 52,12 L 54,12 L 54,16 L 54,17 L 59,17 L 59,16 L 57,16 L 57,12 L 59,12 L 59,11 L 57,11 L 57,9 L 54,9 z"
+           id="path72305" />
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer136"
+     inkscape:label="%Title.dist"
      style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="148.17188"
+       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="509.76562"
+       y="468"
+       id="text72314"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan72316"
+         x="509.76562"
+         y="468">in a distributed environment</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="#%Title"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:85px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="513.88086"
        y="288"
        id="text3545"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3551"
-         x="148.17188"
-         y="288">Tracking code changes</tspan></text>
+         x="513.88086"
+         y="288"
+         style="font-size:85px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">Tracking code changes</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="227.97852"
-       y="368"
-       id="text3553"
+       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="511.73438"
+       y="378.65796"
+       id="text72310"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan3557"
-         x="227.97852"
-         y="368">in a distributed environment</tspan></text>
+         id="tspan72312"
+         x="511.73438"
+         y="378.65796">in</tspan></text>
   </g>
 </svg>
