@@ -2271,9 +2271,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
      inkscape:cx="456.03621"
-     inkscape:cy="321.84329"
+     inkscape:cy="378.41184"
      inkscape:document-units="px"
-     inkscape:current-layer="layer135"
+     inkscape:current-layer="layer25"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -2546,7 +2546,7 @@
          sodipodi:role="line"
          id="tspan72144"
          x="200"
-         y="312"></tspan><tspan
+         y="312" /><tspan
          sodipodi:role="line"
          id="tspan72146"
          x="200"
@@ -2562,7 +2562,7 @@
          sodipodi:role="line"
          id="tspan72152"
          x="200"
-         y="456"></tspan><tspan
+         y="456" /><tspan
          sodipodi:role="line"
          id="tspan72154"
          x="200"
@@ -2574,7 +2574,7 @@
          sodipodi:role="line"
          id="tspan72158"
          x="200"
-         y="564"></tspan><tspan
+         y="564" /><tspan
          sodipodi:role="line"
          id="tspan72160"
          x="200"
@@ -2586,7 +2586,7 @@
          sodipodi:role="line"
          id="tspan72164"
          x="200"
-         y="672"></tspan></text>
+         y="672" /></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -23361,6 +23361,131 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer30"
+     inkscape:label="toc.4"
+     style="opacity:1;display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4850"
+       width="500.30942"
+       height="79.829346"
+       x="239.69058"
+       y="448.17065"
+       ry="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer29"
+     inkscape:label="toc.3"
+     style="opacity:1;display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4848"
+       width="360"
+       height="80"
+       x="240"
+       y="328"
+       ry="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer28"
+     inkscape:label="toc.2"
+     style="opacity:1;display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4846"
+       width="500.31003"
+       height="79.829346"
+       x="239.68997"
+       y="198.17065"
+       ry="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer27"
+     inkscape:label="toc.1"
+     style="opacity:1;display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4841"
+       width="470.31"
+       height="79.829346"
+       x="239.69058"
+       y="67.69059"
+       ry="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer21"
+     inkscape:label="toc."
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="206.47517"
+       y="128"
+       id="text2995"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="128"
+         id="tspan2999">- SCM concepts</tspan><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="192"
+         id="tspan4834" /><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="256"
+         id="tspan4830">- Decentraliztion</tspan><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="320"
+         id="tspan4836" /><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="384"
+         id="tspan4828">- Repository</tspan><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="448"
+         id="tspan4838" /><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="512"
+         id="tspan4832">- Quick GIT intro</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer20"
+     inkscape:label="#toc"
+     style="display:none">
+    <g
+       style="display:inline"
+       id="g2987">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2989"
+         d="M 129.286,-0.571 L 206.429,-0.571 L 0,205.857 L 0,128.714 L 129.286,-0.571 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
+         sodipodi:linespacing="125%"
+         id="text2991"
+         y="130.93117"
+         x="1.0967605"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+           y="130.93117"
+           x="1.0967605"
+           id="tspan2993"
+           sodipodi:role="line">TOC</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer18"
      inkscape:label="me git"
      style="display:none">
@@ -23475,6 +23600,37 @@
          style="opacity:1;fill:#aaaaaa;fill-opacity:1;stroke:#000000;stroke-width:0.49468169;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M -231.46876,925.65152 C -231.46876,926.56995 -232.2133,927.31449 -233.13173,927.31449 C -234.05017,927.31449 -234.7947,926.56995 -234.7947,925.65152 C -234.7947,924.73308 -234.05017,923.98854 -233.13173,923.98855 C -232.2133,923.98855 -231.46876,924.73308 -231.46876,925.65152 z" />
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer23"
+     inkscape:label="me lang."
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="289.80273"
+       y="558"
+       id="text3265"><tspan
+         sodipodi:role="line"
+         x="289.80273"
+         y="558"
+         id="tspan3269">c++  perl  lua  tcl  zsh</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="me lang"
+     style="display:none">
+    <image
+       style="display:inline"
+       y="148"
+       x="384.5"
+       id="image3319"
+       height="346"
+       width="255"
+       sodipodi:absref="/home/oxygen/bart/proj/reflections/git-talk/external/K&amp;R_C.jpg"
+       xlink:href="external/K&amp;R_C.jpg" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -23621,37 +23777,6 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer23"
-     inkscape:label="me lang."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-       x="289.80273"
-       y="558"
-       id="text3265"><tspan
-         sodipodi:role="line"
-         x="289.80273"
-         y="558"
-         id="tspan3269">c++  perl  lua  tcl  zsh</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="me lang"
-     style="display:none">
-    <image
-       style="display:inline"
-       y="148"
-       x="384.5"
-       id="image3319"
-       height="346"
-       width="255"
-       sodipodi:absref="/home/oxygen/bart/proj/reflections/git-talk/external/K&amp;R_C.jpg"
-       xlink:href="external/K&amp;R_C.jpg" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer25"
      inkscape:label="me kernel"
      style="display:none">
@@ -23787,131 +23912,6 @@
            x="1.0967605"
            id="tspan3227"
            sodipodi:role="line">about Bart</tspan></text>
-    </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer30"
-     inkscape:label="toc.4"
-     style="opacity:1;display:none">
-    <rect
-       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4850"
-       width="500.30942"
-       height="79.829346"
-       x="239.69058"
-       y="448.17065"
-       ry="4.3631425" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer29"
-     inkscape:label="toc.3"
-     style="opacity:1;display:none">
-    <rect
-       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4848"
-       width="360"
-       height="80"
-       x="240"
-       y="328"
-       ry="4.3631425" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer28"
-     inkscape:label="toc.2"
-     style="opacity:1;display:none">
-    <rect
-       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4846"
-       width="500.31003"
-       height="79.829346"
-       x="239.68997"
-       y="198.17065"
-       ry="4.3631425" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer27"
-     inkscape:label="toc.1"
-     style="opacity:1;display:none">
-    <rect
-       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="rect4841"
-       width="470.31"
-       height="79.829346"
-       x="239.69058"
-       y="67.69059"
-       ry="4.3631425" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer21"
-     inkscape:label="toc."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="206.47517"
-       y="128"
-       id="text2995"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="128"
-         id="tspan2999">- SCM concepts</tspan><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="192"
-         id="tspan4834" /><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="256"
-         id="tspan4830">- Decentraliztion</tspan><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="320"
-         id="tspan4836" /><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="384"
-         id="tspan4828">- Repository</tspan><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="448"
-         id="tspan4838" /><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="512"
-         id="tspan4832">- Quick GIT intro</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer20"
-     inkscape:label="#toc"
-     style="display:none">
-    <g
-       style="display:inline"
-       id="g2987">
-      <path
-         sodipodi:nodetypes="ccccc"
-         id="path2989"
-         d="M 129.286,-0.571 L 206.429,-0.571 L 0,205.857 L 0,128.714 L 129.286,-0.571 z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <text
-         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
-         sodipodi:linespacing="125%"
-         id="text2991"
-         y="130.93117"
-         x="1.0967605"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
-         xml:space="preserve"><tspan
-           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
-           y="130.93117"
-           x="1.0967605"
-           id="tspan2993"
-           sodipodi:role="line">TOC</tspan></text>
     </g>
   </g>
   <g
