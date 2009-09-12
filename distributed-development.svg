@@ -2283,10 +2283,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="539.46444"
+     inkscape:cx="525.96444"
      inkscape:cy="381.83766"
      inkscape:document-units="px"
-     inkscape:current-layer="layer170"
+     inkscape:current-layer="layer186"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -2562,7 +2562,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer177"
-     inkscape:label="use_cmt.show." />
+     inkscape:label="use_cmt.show."
+     style="display:inline" />
   <g
      inkscape:groupmode="layer"
      id="layer170"
@@ -2570,8 +2571,53 @@
      style="display:inline" />
   <g
      inkscape:groupmode="layer"
+     id="layer186"
+     inkscape:label="use_hst">
+    <g
+       style="display:inline"
+       id="g28409">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path28411"
+         d="M 206.429,-0.571 L 283.572,-0.571 L 0,283 L 0,205.857 L 206.429,-0.571 z"
+         style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
+         sodipodi:linespacing="125%"
+         id="text28413"
+         y="182.43355"
+         x="-1.3322449"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+           y="182.43355"
+           x="-1.3322449"
+           id="tspan28415"
+           sodipodi:role="line">History</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer185"
+     inkscape:label="use_History">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
+       x="511.10938"
+       y="407.85938"
+       id="text28404"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="511.10938"
+         y="407.85938"
+         id="tspan28406">History</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer176"
-     inkscape:label="use_cmt.cmd.ex1.2.hl4">
+     inkscape:label="use_cmt.cmd.ex1.2.hl4"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect23951"
@@ -2584,7 +2630,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer175"
-     inkscape:label="use_cmt.cmd.ex1.2.hl3">
+     inkscape:label="use_cmt.cmd.ex1.2.hl3"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect23948"
@@ -2597,7 +2644,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer174"
-     inkscape:label="use_cmt.cmd.ex1.2.hl2">
+     inkscape:label="use_cmt.cmd.ex1.2.hl2"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect23945"
@@ -2610,7 +2658,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer173"
-     inkscape:label="use_cmt.cmd.ex1.2.hl1">
+     inkscape:label="use_cmt.cmd.ex1.2.hl1"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect23942"
@@ -2624,23 +2673,28 @@
      inkscape:groupmode="layer"
      id="layer172"
      inkscape:label="use_cmt.cmd.ex1.2"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="80"
        y="548"
        id="text23899"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan28336">[master db35c00] another commit</tspan><tspan
+         id="tspan28336"
+         x="80"
+         y="548">[master db35c00] another commit</tspan><tspan
          sodipodi:role="line"
-         id="tspan28338"> 1 files changed, 1 insertions(+), 0 deletions(-)</tspan></text>
+         id="tspan28338"
+         x="80"
+         y="576"> 1 files changed, 1 insertions(+), 0 deletions(-)</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer181"
-     inkscape:label="use_cmt.cmd.ex1.hl1#1">
+     inkscape:label="use_cmt.cmd.ex1.hl1#1"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect28344"
@@ -2654,7 +2708,7 @@
      inkscape:groupmode="layer"
      id="layer179"
      inkscape:label="use_cmt.cmd.ex1."
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -2732,7 +2786,7 @@
      inkscape:groupmode="layer"
      id="g24315"
      inkscape:label="use_cmt.cmd.ex1.hl6"
-     style="display:inline">
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect24317"
@@ -2745,7 +2799,8 @@
   <g
      inkscape:groupmode="layer"
      id="g24319"
-     inkscape:label="use_cmt.cmd.ex1.hl5">
+     inkscape:label="use_cmt.cmd.ex1.hl5"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect24321"
@@ -2758,7 +2813,8 @@
   <g
      inkscape:groupmode="layer"
      id="g24323"
-     inkscape:label="use_cmt.cmd.ex1.hl4">
+     inkscape:label="use_cmt.cmd.ex1.hl4"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect24325"
@@ -2771,7 +2827,8 @@
   <g
      inkscape:groupmode="layer"
      id="g24327"
-     inkscape:label="use_cmt.cmd.ex1.hl3">
+     inkscape:label="use_cmt.cmd.ex1.hl3"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect24329"
@@ -2784,7 +2841,8 @@
   <g
      inkscape:groupmode="layer"
      id="g24331"
-     inkscape:label="use_cmt.cmd.ex1.hl2">
+     inkscape:label="use_cmt.cmd.ex1.hl2"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect24333"
@@ -2797,7 +2855,8 @@
   <g
      inkscape:groupmode="layer"
      id="g24335"
-     inkscape:label="use_cmt.cmd.ex1.hl1">
+     inkscape:label="use_cmt.cmd.ex1.hl1"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect24337"
@@ -2811,7 +2870,7 @@
      inkscape:groupmode="layer"
      id="g24339"
      inkscape:label="use_cmt.cmd.ex1"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -2839,7 +2898,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer180"
-     inkscape:label="use_cmt.cmd.ex.hl1">
+     inkscape:label="use_cmt.cmd.ex.hl1"
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect28341"
@@ -2853,7 +2913,7 @@
      inkscape:groupmode="layer"
      id="layer171"
      inkscape:label="use_cmt.cmd.ex"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -3163,7 +3223,7 @@
      inkscape:groupmode="layer"
      id="layer146"
      inkscape:label="#use_cmt"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g76574">
@@ -3213,10 +3273,10 @@
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect11183"
-       width="780"
+       width="790"
        height="120"
-       x="109.99998"
-       y="588"
+       x="100"
+       y="578"
        ry="13.089428" />
   </g>
   <g
@@ -3227,10 +3287,52 @@
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect11181"
-       width="910"
-       height="150"
-       x="110"
+       width="920"
+       height="160"
+       x="100"
        y="418"
+       ry="13.089428" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer184"
+     inkscape:label="use_staging.what.txt_hl2^hint"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect28397"
+       width="540"
+       height="30"
+       x="130"
+       y="318"
+       ry="13.089428" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer182"
+     inkscape:label="use_staging.what.txt_hl2^fn"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect28391"
+       width="350"
+       height="70"
+       x="410"
+       y="348"
+       ry="13.089428" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer183"
+     inkscape:label="use_staging.what.txt_hl2^type"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect28394"
+       width="170"
+       height="70"
+       x="210"
+       y="348"
        ry="13.089428" />
   </g>
   <g
@@ -3241,9 +3343,9 @@
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect11025"
-       width="569.99994"
-       height="120"
-       x="110.00006"
+       width="660"
+       height="140"
+       x="100"
        y="278"
        ry="13.089428" />
   </g>
@@ -3269,74 +3371,74 @@
     <text
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="79"
+       x="110"
        y="278"
        id="text10791"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan11145"
-         x="79"
-         y="278"># On branch master</tspan><tspan
+         id="tspan28354"
+         x="110"
+         y="278">On branch master</tspan><tspan
          sodipodi:role="line"
-         id="tspan11147"
-         x="79"
-         y="306"># Changes to be committed:</tspan><tspan
+         id="tspan28356"
+         x="110"
+         y="306">Changes to be committed:</tspan><tspan
          sodipodi:role="line"
-         id="tspan11149"
-         x="79"
-         y="334">#</tspan><tspan
+         id="tspan28358"
+         x="110"
+         y="334"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11151"
-         x="79"
-         y="362">#</tspan><tspan
+         id="tspan28360"
+         x="110"
+         y="362"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11153"
-         x="79"
-         y="390">#</tspan><tspan
+         id="tspan28362"
+         x="110"
+         y="390"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11155"
-         x="79"
-         y="418">#</tspan><tspan
+         id="tspan28364"
+         x="110"
+         y="418"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11157"
-         x="79"
-         y="446"># Changed but not updated:</tspan><tspan
+         id="tspan28366"
+         x="110"
+         y="446">Changed but not updated:</tspan><tspan
          sodipodi:role="line"
-         id="tspan11159"
-         x="79"
-         y="474">#</tspan><tspan
+         id="tspan28368"
+         x="110"
+         y="474"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11161"
-         x="79"
-         y="502">#</tspan><tspan
+         id="tspan28370"
+         x="110"
+         y="502"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11163"
-         x="79"
-         y="530">#</tspan><tspan
+         id="tspan28372"
+         x="110"
+         y="530"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11165"
-         x="79"
-         y="558">#</tspan><tspan
+         id="tspan28374"
+         x="110"
+         y="558"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11167"
-         x="79"
-         y="586">#</tspan><tspan
+         id="tspan28376"
+         x="110"
+         y="586"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11169"
-         x="79"
-         y="614"># Untracked files:</tspan><tspan
+         id="tspan28378"
+         x="110"
+         y="614">Untracked files:</tspan><tspan
          sodipodi:role="line"
-         id="tspan11171"
-         x="79"
-         y="642">#</tspan><tspan
+         id="tspan28380"
+         x="110"
+         y="642"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11173"
-         x="79"
-         y="670">#</tspan><tspan
+         id="tspan28382"
+         x="110"
+         y="670"></tspan><tspan
          sodipodi:role="line"
-         id="tspan11175"
-         x="79"
-         y="698">#</tspan></text>
+         id="tspan28384"
+         x="110"
+         y="698"></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -3386,39 +3488,47 @@
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="220"
-       y="388"
+       y="378"
        id="text11027"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan11137"
+         id="tspan28350"
          x="220"
-         y="388">new file:   staged-file.txt</tspan></text>
+         y="378">new file:   staged-with-git-add</tspan><tspan
+         sodipodi:role="line"
+         id="tspan28352"
+         x="220"
+         y="406">deleted:    deleted-with-git-rm</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="220"
-       y="558"
+       y="538"
        id="text11064"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan11139"
+         id="tspan28386"
          x="220"
-         y="558">modified:   modified-file.txt</tspan></text>
+         y="538">modified:   modified-file</tspan><tspan
+         sodipodi:role="line"
+         id="tspan28388"
+         x="220"
+         y="566">deleted:    deleted-with-rm</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="220"
-       y="698"
+       y="688"
        id="text11100"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan11141"
          x="220"
-         y="698">untracked-file.txt</tspan><tspan
+         y="688">untracked-file</tspan><tspan
          sodipodi:role="line"
          id="tspan11143"
          x="220"
-         y="726" /></text>
+         y="716" /></text>
   </g>
   <g
      inkscape:groupmode="layer"
