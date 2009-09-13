@@ -809,7 +809,7 @@
      inkscape:cx="536.23333"
      inkscape:cy="338.23253"
      inkscape:document-units="px"
-     inkscape:current-layer="layer217"
+     inkscape:current-layer="layer220"
      showgrid="true"
      width="1024px"
      showguides="true"
@@ -1224,13 +1224,154 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer226"
+     inkscape:label="use_hst.log.1"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="206.47517"
+       y="278"
+       id="text27527"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan27529"
+         x="206.47517"
+         y="278"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git log --stat</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer225"
+     inkscape:label="use_hst.log.txt"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="110"
+       y="268"
+       id="text27310"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan27492"
+         style="fill:#808000"
+         x="110"
+         y="268">commit 1d33b1b1b7530a1168d7c3adc44063bfe32592eb</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27494"
+         x="110"
+         y="294">Author: Bart Trojanowski &lt;bart@jukie.net&gt;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27496"
+         x="110"
+         y="320">Date:   Sat Sep 12 15:52:20 2009 -0400</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27498"
+         x="110"
+         y="346" /><tspan
+         sodipodi:role="line"
+         id="tspan27500"
+         x="110"
+         y="372">    third commit message</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27502"
+         x="110"
+         y="398" /><tspan
+         sodipodi:role="line"
+         id="tspan27504"
+         style="fill:#808000"
+         x="110"
+         y="424">commit 895740c342fdbc03ce26b6417051ab6f2188a6d0</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27506"
+         x="110"
+         y="450">Author: Bart Trojanowski &lt;bart@jukie.net&gt;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27508"
+         x="110"
+         y="476">Date:   Sat Sep 12 14:53:20 2009 -0400</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27510"
+         x="110"
+         y="502" /><tspan
+         sodipodi:role="line"
+         id="tspan27512"
+         x="110"
+         y="528">    second commit message</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27514"
+         x="110"
+         y="554" /><tspan
+         sodipodi:role="line"
+         id="tspan27516"
+         style="fill:#808000"
+         x="110"
+         y="580">commit db35c00c63a7e98c4a89e180d317c9fb08e40f4b</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27518"
+         x="110"
+         y="606">Author: Bart Trojanowski &lt;bart@jukie.net&gt;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27520"
+         x="110"
+         y="632">Date:   Sat Sep 12 10:08:20 2009 -0400</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27522"
+         x="110"
+         y="658" /><tspan
+         sodipodi:role="line"
+         id="tspan27524"
+         x="110"
+         y="684">    first commit!</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer224"
-     inkscape:label="use_hst.log.2" />
+     inkscape:label="use_hst.log.what"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="278"
+       id="text27301"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="278"
+         id="tspan27303"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- display revision logs</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="328"
+       id="text27305"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="328"
+         id="tspan27307"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- like show, but many commits</tspan></text>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer223"
-     inkscape:label="use_hst.log.1"
-     style="display:inline" />
+     inkscape:label="use_hst.log."
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="207.47516"
+       y="228"
+       id="text27297"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan27299"
+         x="207.47516"
+         y="228"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git log</tspan></text>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer217"
@@ -1277,7 +1418,7 @@
          x="299"
          y="488"
          id="tspan27267"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- HEAD is implied as the branch</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- HEAD is implied as revision</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1295,7 +1436,7 @@
          id="tspan27258"
          x="207.47516"
          y="388"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git show &lt;branch&gt;:&lt;file&gt;</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git show &lt;revision&gt;:&lt;file&gt;</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
