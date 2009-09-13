@@ -20,13 +20,19 @@
    style="display:inline">
   <defs
      id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 384 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="1024 : 384 : 1"
-       inkscape:persp3d-origin="512 : 256 : 1"
-       id="perspective22605" />
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path12565"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
     <linearGradient
        id="linearGradient11743">
       <stop
@@ -794,20 +800,6 @@
        y1="379.46408"
        x2="332.71664"
        y2="55.698593" />
-    <inkscape:perspective
-       id="perspective32456"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <inkscape:perspective
-       id="perspective32506"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -820,18 +812,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="548.85951"
-     inkscape:cy="178.23253"
+     inkscape:cx="512"
+     inkscape:cy="413.11644"
      inkscape:document-units="px"
-     inkscape:current-layer="layer227"
+     inkscape:current-layer="layer234"
      showgrid="true"
      width="1024px"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1433"
      inkscape:window-height="1115"
      inkscape:window-x="1400"
-     inkscape:window-y="12"
+     inkscape:window-y="24"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -1238,9 +1230,360 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer234"
+     inkscape:label="use_ref.bra.10"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16384"
+     inkscape:label="use_ref.bra.9"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16386"
+     inkscape:label="use_ref.bra.8"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16388"
+     inkscape:label="use_ref.bra.7"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16390"
+     inkscape:label="use_ref.bra.6"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16392"
+     inkscape:label="use_ref.bra.5"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16394"
+     inkscape:label="use_ref.bra.4"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16396"
+     inkscape:label="use_ref.bra.3"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16398"
+     inkscape:label="use_ref.bra.2"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16400"
+     inkscape:label="use_ref.bra.1"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g16402"
+     inkscape:label="use_ref.bra.0"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer232"
+     inkscape:label="use_ref.bra"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text16191"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan16193"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Branching</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer231"
+     inkscape:label="use_ref.ex012"
+     style="display:none">
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1;display:inline"
+       d="M 663.74508,308 L 663.74508,408"
+       id="path11733"
+       inkscape:connector-type="polyline"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="630"
+       y="288"
+       id="text11711"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan11713"
+         x="630"
+         y="288"
+         style="fill:#008000">HEAD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="548"
+       id="text16138"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="548"
+         id="tspan16140"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">HEAD</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer230"
+     inkscape:label="use_ref.ex01"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="886.91803"
+       y="448"
+       id="text16105"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan16107"
+         x="886.91803"
+         y="448"
+         style="fill:#000080">tag</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1;display:inline"
+       d="M 911.7627,468 L 911.7627,668"
+       id="path16111"
+       inkscape:connector-type="polyline"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="433.13672"
+       id="text16134"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="433.13672"
+         id="tspan16136"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000080;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">tags</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer229"
+     inkscape:label="use_ref.ex0"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="326.89453"
+       y="708"
+       id="text11719"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan11721"
+         x="326.89453"
+         y="708">895740c342fdbc03ce26b6417051ab6f2188a6d0</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1;display:inline"
+       d="M 663.74508,468 L 663.74508,668"
+       id="path16101"
+       inkscape:connector-type="polyline"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="613.0127"
+       y="448"
+       id="text11715"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan11717"
+         x="613.0127"
+         y="448"
+         style="fill:#800000">master</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="328"
+       id="text16130"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="328"
+         id="tspan16132"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#800000;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">branches</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer233"
+     inkscape:label="use_ref.ex"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="110"
+       y="228"
+       id="text16126"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="110"
+         y="228"
+         id="tspan16128"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">3 types:</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer228"
+     inkscape:label="use_ref.what12345"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="698"
+       id="text7031"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="698"
+         id="tspan7033"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">... 3 basic types</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g7220"
+     inkscape:label="use_ref.what1234"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="488"
+       id="text7027"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="488"
+         id="tspan7029"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- disposable</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g7222"
+     inkscape:label="use_ref.what123"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="405.2103"
+       id="text7023"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="405.2103"
+         id="tspan7025"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- mutable</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g7224"
+     inkscape:label="use_ref.what12"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="314.66669"
+       id="text7019"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="314.66669"
+         id="tspan7021"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- lightweight</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g7226"
+     inkscape:label="use_ref.what1"
+     style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer191"
+     inkscape:label="use_ref.what"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="228"
+       id="text7015"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="228"
+         id="tspan7017"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- point to commits</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer209"
+     inkscape:label="#use_ref"
+     style="display:inline">
+    <g
+       style="display:inline"
+       id="g7002">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path7004"
+         d="M 206.429,-0.571 L 283.572,-0.571 L 0,283 L 0,205.857 L 206.429,-0.571 z"
+         style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
+         sodipodi:linespacing="125%"
+         id="text7006"
+         y="182.43355"
+         x="-1.3322449"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+           y="182.43355"
+           x="-1.3322449"
+           id="tspan7008"
+           sodipodi:role="line">Refs</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer178"
+     inkscape:label="use_References"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
+       x="511.10938"
+       y="407.85938"
+       id="text6992"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="511.10938"
+         y="407.85938"
+         id="tspan6996">References</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer227"
      inkscape:label="use_hst.log.g.pic"
-     style="display:inline">
+     style="display:none">
     <image
        y="258"
        x="110"
@@ -1254,7 +1597,7 @@
      inkscape:groupmode="layer"
      id="layer226"
      inkscape:label="use_hst.log.g"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -1656,7 +1999,7 @@
      inkscape:groupmode="layer"
      id="layer217"
      inkscape:label="use_hst.log"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -2158,7 +2501,7 @@
      inkscape:groupmode="layer"
      id="layer186"
      inkscape:label="#use_hst"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g28409">
