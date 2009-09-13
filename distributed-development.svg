@@ -20,6 +20,13 @@
    style="display:inline">
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective22605" />
     <linearGradient
        id="linearGradient11743">
       <stop
@@ -799,13 +806,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="500.69111"
-     inkscape:cy="363.3966"
+     inkscape:cx="536.23333"
+     inkscape:cy="338.23253"
      inkscape:document-units="px"
-     inkscape:current-layer="layer185"
+     inkscape:current-layer="layer217"
      showgrid="true"
      width="1024px"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1433"
      inkscape:window-height="1127"
@@ -1217,155 +1224,219 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer187"
-     inkscape:label="use_hst.show.txt"
-     style="display:none">
+     id="layer224"
+     inkscape:label="use_hst.log.2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer223"
+     inkscape:label="use_hst.log.1"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer217"
+     inkscape:label="use_hst.log"
+     style="display:inline">
     <text
        xml:space="preserve"
-       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="79"
-       y="278"
-       id="text28475"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text27246"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan28485"
-         x="79"
-         y="278">commit db35c00c63a7e98c4a89e180d317c9fb08e40f4b</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28487"
-         x="79"
-         y="306">Author: Bart Trojanowski &lt;bart@jukie.net&gt;</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28489"
-         x="79"
-         y="334">Date:   Sat Sep 12 10:08:20 2009 -0400</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28491"
-         x="79"
-         y="362" /><tspan
-         sodipodi:role="line"
-         id="tspan28493"
-         x="79"
-         y="390">    another commit</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28495"
-         x="79"
-         y="418" /><tspan
-         sodipodi:role="line"
-         id="tspan28497"
-         x="79"
-         y="446">diff --git a/test b/test</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28499"
-         x="79"
-         y="474">index deba01f..32e11ad 100644</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28501"
-         x="79"
-         y="502">--- a/test</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28503"
-         x="79"
-         y="530">+++ b/test</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28505"
-         x="79"
-         y="558">@@ -1 +1,2 @@</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28507"
-         x="79"
-         y="586"> something</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28509"
-         x="79"
-         y="614">+something else</tspan><tspan
-         sodipodi:role="line"
-         id="tspan28511"
-         x="79"
-         y="642" /></text>
+         id="tspan27248"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Logs</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer178"
-     inkscape:label="use_hst.show.what"
+     id="layer220"
+     inkscape:label="use_hst.moshow.rev.cat."
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="438"
+       id="text27261"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="438"
+         id="tspan27263"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- contents of file</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="488"
+       id="text27265"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="488"
+         id="tspan27267"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- HEAD is implied as the branch</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer219"
+     inkscape:label="use_hst.moshow.rev.cat"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="207.47516"
+       y="388"
+       id="text27256"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan27258"
+         x="207.47516"
+         y="388"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git show &lt;branch&gt;:&lt;file&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer222"
+     inkscape:label="use_hst.moshow.rev."
      style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="299"
        y="278"
-       id="text28421"
+       id="text27279"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="299"
          y="278"
-         id="tspan28423"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- show last commit</tspan></text>
+         id="tspan27281"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- historical commit</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer221"
+     inkscape:label="use_hst.moshow.rev"
+     style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="360"
-       y="318"
-       id="text28431"
-       sodipodi:linespacing="125%"><tspan
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="207.47516"
+       y="228"
+       id="text27274"
+       sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         x="360"
-         y="318"
-         id="tspan28433"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- ID</tspan></text>
+         id="tspan27276"
+         x="207.47516"
+         y="228"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git show &lt;revision&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer218"
+     inkscape:label="use_hst.moshow"
+     style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="360"
-       y="358"
-       id="text28435"
-       sodipodi:linespacing="125%"><tspan
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text27251"
+       sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         x="360"
-         y="358"
-         id="tspan28437"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- author</tspan></text>
+         id="tspan27253"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">More uses of 'show'</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer187"
+     inkscape:label="use_hst.stat.txt"
+     style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="360"
-       y="398"
-       id="text28460"
-       sodipodi:linespacing="125%"><tspan
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="110"
+       y="278"
+       id="text28475"
+       sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         x="360"
-         y="398"
-         id="tspan28462"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- date</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="360"
-       y="438"
-       id="text28464"
-       sodipodi:linespacing="125%"><tspan
+         id="tspan27201"
+         x="110"
+         y="278"
+         style="fill:#808000">commit 3ff323f89075624b6891e7c428edb8e8a35be13c</tspan><tspan
          sodipodi:role="line"
-         x="360"
-         y="438"
-         id="tspan28466"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- message</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="360"
-       y="478"
-       id="text28468"
-       sodipodi:linespacing="125%"><tspan
+         id="tspan27203"
+         x="110"
+         y="304">Merge: 755ae76 a54775c</tspan><tspan
          sodipodi:role="line"
-         x="360"
-         y="478"
-         id="tspan28470"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- diff</tspan></text>
+         id="tspan27205"
+         x="110"
+         y="330">Author: Linus Torvalds &lt;torvalds@linux-foundation.org&gt;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27207"
+         x="110"
+         y="356">Date:   Mon Sep 7 11:42:25 2009 -0700</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27209"
+         x="110"
+         y="382" /><tspan
+         sodipodi:role="line"
+         id="tspan27211"
+         x="110"
+         y="408">    Merge branch 'drm-fixes'</tspan><tspan
+         sodipodi:role="line"
+         id="tspan27213"
+         x="110"
+         y="434">    </tspan><tspan
+         sodipodi:role="line"
+         id="tspan27215"
+         x="110"
+         y="460"> r300.c        |    2 <tspan
+   style="fill:#008000"
+   id="tspan27227">+</tspan><tspan
+   style="fill:#800000"
+   id="tspan27243">-</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan27217"
+         x="110"
+         y="486"> radeon_asic.h |    6 <tspan
+   style="fill:#008000"
+   id="tspan27229">++</tspan><tspan
+   style="fill:#800000"
+   id="tspan27241">--</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan27219"
+         x="110"
+         y="512"> rs600.c       |   65 <tspan
+   style="fill:#008000"
+   id="tspan27231">++++++++++++++++++++++++++++++++++</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan27221"
+         x="110"
+         y="538"> rs690.c       |   64 <tspan
+   style="fill:#800000"
+   id="tspan27233">---------------------------------</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan27223"
+         x="110"
+         y="564"> rv515.c       |    2 <tspan
+   style="fill:#008000"
+   id="tspan27235">+</tspan><tspan
+   style="fill:#800000"
+   id="tspan27239">-</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan27225"
+         x="110"
+         y="590"> 5 files changed, 70 insertions(+), 69 deletions(-)</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer177"
-     inkscape:label="use_hst.show."
+     inkscape:label="use_hst.stat."
      style="display:none">
     <text
        xml:space="preserve"
@@ -1378,12 +1449,12 @@
          id="tspan28419"
          x="207.47516"
          y="228"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git show</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git show --stat</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer170"
-     inkscape:label="use_hst.show"
+     inkscape:label="#use_hst.stat"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1396,13 +1467,277 @@
          id="tspan28441"
          style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
          x="206.47517"
+         y="128">Show commit (diffstat)</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer216"
+     inkscape:label="use_hst.show.txt.hl4"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect27134"
+       width="460"
+       height="110"
+       x="100"
+       y="608"
+       ry="3.1996379" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g22790"
+     inkscape:label="use_hst.show.txt.hl3"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect27132"
+       width="460"
+       height="110"
+       x="100"
+       y="503"
+       ry="3.1996379" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g22792"
+     inkscape:label="use_hst.show.txt.hl2"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect27130"
+       width="759.99994"
+       height="320"
+       x="100"
+       y="398"
+       ry="9.3080378" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g22794"
+     inkscape:label="use_hst.show.txt.hl1"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect27128"
+       width="759.99994"
+       height="150"
+       x="100.00006"
+       y="238"
+       ry="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g18273"
+     inkscape:label="use_hst.show.txt"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="110"
+       y="268"
+       id="text18275"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan18277"
+         style="fill:#808000"
+         x="110"
+         y="268">commit 1d33b1b1b7530a1168d7c3adc44063bfe32592eb</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18279"
+         x="110"
+         y="294">Author: Bart Trojanowski &lt;bart@jukie.net&gt;</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18281"
+         x="110"
+         y="320">Date:   Sat Sep 12 15:52:20 2009 -0400</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18283"
+         x="110"
+         y="346" /><tspan
+         sodipodi:role="line"
+         id="tspan18285"
+         x="110"
+         y="372">    fixed month order</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18287"
+         x="110"
+         y="398" /><tspan
+         sodipodi:role="line"
+         id="tspan18289"
+         x="110"
+         y="424">diff --git a/test b/test</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18291"
+         x="110"
+         y="450">index a652737..750d793 100644</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18293"
+         x="110"
+         y="476">--- a/test</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18295"
+         x="110"
+         y="502">+++ b/test</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18297"
+         style="fill:#008080"
+         x="110"
+         y="528">@@ -1,2 +1,3 @@</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18299"
+         x="110"
+         y="554"> January</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18301"
+         style="fill:#008000"
+         x="110"
+         y="580">+February</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18303"
+         x="110"
+         y="606"> March</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18305"
+         style="fill:#008080"
+         x="110"
+         y="632">@@ -9,3 +10,2 @@ September</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18307"
+         x="110"
+         y="658"> October</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18309"
+         style="fill:#800000"
+         x="110"
+         y="684">-February</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18311"
+         x="110"
+         y="710"> November</tspan><tspan
+         sodipodi:role="line"
+         id="tspan18313"
+         x="110"
+         y="736" /></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g18315"
+     inkscape:label="use_hst.show.what"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="278"
+       id="text18317"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="278"
+         id="tspan18319"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- show last commit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="360"
+       y="318"
+       id="text18321"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="360"
+         y="318"
+         id="tspan18323"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- ID</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="360"
+       y="358"
+       id="text18325"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="360"
+         y="358"
+         id="tspan18327"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- author</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="360"
+       y="398"
+       id="text18329"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="360"
+         y="398"
+         id="tspan18331"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- date</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="360"
+       y="438"
+       id="text18333"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="360"
+         y="438"
+         id="tspan18335"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- message</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="360"
+       y="478"
+       id="text18337"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="360"
+         y="478"
+         id="tspan18339"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- diff</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g18341"
+     inkscape:label="use_hst.show."
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="207.47516"
+       y="228"
+       id="text18343"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan18345"
+         x="207.47516"
+         y="228"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git show</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g18347"
+     inkscape:label="use_hst.show"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text18349"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan18351"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
          y="128">Show commit</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer186"
      inkscape:label="#use_hst"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="g28409">
@@ -1430,7 +1765,7 @@
      inkscape:groupmode="layer"
      id="layer185"
      inkscape:label="use_History"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
@@ -3485,7 +3820,7 @@
      inkscape:groupmode="layer"
      id="layer146"
      inkscape:label="#use_cmt"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g76574">
