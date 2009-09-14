@@ -822,7 +822,7 @@
      inkscape:cx="537.19298"
      inkscape:cy="397.0354"
      inkscape:document-units="px"
-     inkscape:current-layer="layer229"
+     inkscape:current-layer="layer237"
      showgrid="true"
      width="1024px"
      showguides="true"
@@ -1237,14 +1237,59 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer236"
+     inkscape:label="use_ref.ex"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer237"
+     inkscape:label="use_ref.tag"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="210.5"
+       y="128"
+       id="text25822"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="210.5"
+         y="184"
+         id="tspan25826">Tags</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer234"
-     inkscape:label="use_ref.bra.10"
-     style="display:none" />
+     inkscape:label="use_ref.bra.n.w.co.fr.cb"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="210.18748"
+       y="648"
+       id="text25812"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan25814"
+         x="210.18748"
+         y="648"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git checkout -b &lt;name&gt;</tspan></text>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="g16384"
-     inkscape:label="use_ref.bra.9"
-     style="display:none" />
+     inkscape:label="use_ref.bra.n.w.co.fr"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect25810"
+       width="570"
+       height="280"
+       x="190"
+       y="228"
+       ry="13.089428" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="g16386"
@@ -1522,7 +1567,7 @@
      inkscape:groupmode="layer"
      id="layer232"
      inkscape:label="use_ref.bra"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -1539,7 +1584,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer231"
-     inkscape:label="use_ref.ex012"
+     inkscape:label="use_ref.ty012"
      style="display:none">
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Lend);stroke-opacity:1;display:inline"
@@ -1575,7 +1620,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer230"
-     inkscape:label="use_ref.ex01"
+     inkscape:label="use_ref.ty01"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1611,7 +1656,7 @@
   <g
      inkscape:groupmode="layer"
      id="g2659"
-     inkscape:label="use_ref.ex0"
+     inkscape:label="use_ref.ty0"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1658,7 +1703,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer233"
-     inkscape:label="use_ref.ex"
+     inkscape:label="use_ref.ty"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1749,11 +1794,6 @@
      inkscape:groupmode="layer"
      id="g7226"
      inkscape:label="use_ref.what1"
-     style="display:none" />
-  <g
-     inkscape:groupmode="layer"
-     id="layer191"
-     inkscape:label="use_ref.what"
      style="display:none">
     <text
        xml:space="preserve"
@@ -27391,4 +27431,16 @@
          x="511.73438"
          y="378.65796">in</tspan></text>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+     x="299.99005"
+     y="388"
+     id="text25817"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="299.99005"
+       y="388"
+       id="tspan25819"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">TODO: example?</tspan></text>
 </svg>
