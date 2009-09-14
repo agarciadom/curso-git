@@ -20,72 +20,6 @@
    style="display:inline">
   <defs
      id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 384 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="1024 : 384 : 1"
-       inkscape:persp3d-origin="512 : 256 : 1"
-       id="perspective7129" />
-    <marker
-       inkscape:stockid="Arrow2Lend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="Arrow2Lend"
-       style="overflow:visible;">
-      <path
-         id="path12565"
-         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
-    </marker>
-    <linearGradient
-       id="linearGradient11743">
-      <stop
-         id="stop11745"
-         offset="0"
-         style="stop-color:white;stop-opacity:1" />
-      <stop
-         id="stop11751"
-         offset="0.5"
-         style="stop-color:#aaa;stop-opacity:1" />
-      <stop
-         id="stop11747"
-         offset="1"
-         style="stop-color:#888;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3675">
-      <stop
-         id="stop3677"
-         offset="0"
-         style="stop-color:lime;stop-opacity:1" />
-      <stop
-         id="stop3679"
-         offset="1"
-         style="stop-color:green;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3675"
-       id="linearGradient3538"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-816.8631,462.9054)"
-       x1="10.779217"
-       y1="11.848195"
-       x2="-0.13148172"
-       y2="33.731068" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient11743"
-       id="linearGradient3540"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-250.2857,904.9336)"
-       x1="10.387058"
-       y1="9.4003391"
-       x2="24.38051"
-       y2="24.339334" />
     <marker
        style="overflow:visible"
        id="Arrow1Sstart"
@@ -807,34 +741,6 @@
        y1="379.46408"
        x2="332.71664"
        y2="55.698593" />
-    <inkscape:perspective
-       id="perspective30838"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <inkscape:perspective
-       id="perspective30905"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <inkscape:perspective
-       id="perspective35864"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <inkscape:perspective
-       id="perspective35938"
-       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
-       inkscape:vp_z="744.09448 : 526.18109 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 526.18109 : 1"
-       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -847,16 +753,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="465.7807"
-     inkscape:cy="397.54732"
+     inkscape:cx="531.87734"
+     inkscape:cy="368.71479"
      inkscape:document-units="px"
-     inkscape:current-layer="g47314"
+     inkscape:current-layer="layer17"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1433"
-     inkscape:window-height="1055"
+     inkscape:window-height="1043"
      inkscape:window-x="1400"
      inkscape:window-y="72"
      inkscape:snap-global="true"
@@ -1002,68 +908,20 @@
          x="790"
          y="758">ACM Reflections / 2009</tspan></text>
     <g
-       id="g72264"
-       transform="translate(46.700831,0)">
+       id="g52259">
       <text
          sodipodi:linespacing="125%"
          id="text2971"
          y="758"
-         x="330"
+         x="376.70084"
          style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
          xml:space="preserve"><tspan
            y="758"
-           x="330"
+           x="376.70084"
            id="tspan2977"
            sodipodi:role="line">Tracking code changes in</tspan></text>
       <g
-         transform="translate(-238.3846,-0.7948717)"
-         id="g72250">
-        <rect
-           style="fill:#c00000"
-           id="rect72172"
-           width="14.403849"
-           height="4.8012829"
-           x="508.77563"
-           y="736.39423" />
-        <use
-           height="768"
-           width="1024"
-           y="0"
-           x="0"
-           xlink:href="#minus"
-           transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
-           id="use72174" />
-        <use
-           height="768"
-           width="1024"
-           y="0"
-           x="0"
-           xlink:href="#minus"
-           transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
-           id="use72176" />
-        <path
-           style="fill:#008000"
-           id="path72178"
-           d="M 513.57691,748.39744 L 513.57691,753.19872 L 508.77563,753.19872 L 508.77563,758 L 513.57691,758 L 513.57691,762.80129 L 518.37819,762.80129 L 518.37819,758 L 523.17947,758 L 523.17947,753.19872 L 518.37819,753.19872 L 518.37819,748.39744 L 513.57691,748.39744 z" />
-        <use
-           height="768"
-           width="1024"
-           y="0"
-           x="0"
-           xlink:href="#plus"
-           transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
-           id="use72180" />
-        <use
-           height="768"
-           width="1024"
-           y="0"
-           x="0"
-           xlink:href="#plus"
-           transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
-           id="use72182" />
-      </g>
-      <g
-         transform="translate(8.3942344,-0.7948726)"
+         transform="translate(55.095065,-0.7948726)"
          id="g72258">
         <g
            style="fill:#008000"
@@ -1078,6 +936,152 @@
           <path
              id="path72190"
              d="M 54,9 L 54,11 L 52,11 L 52,12 L 54,12 L 54,16 L 54,17 L 59,17 L 59,16 L 57,16 L 57,12 L 59,12 L 59,11 L 57,11 L 57,9 L 54,9 z" />
+        </g>
+      </g>
+      <g
+         id="g52236">
+        <g
+           id="g72250"
+           transform="translate(-191.68377,-0.7948717)">
+          <rect
+             y="736.39423"
+             x="508.77563"
+             height="4.8012829"
+             width="14.403849"
+             id="rect72172"
+             style="fill:#c00000" />
+          <use
+             id="use72174"
+             transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
+             xlink:href="#minus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+          <use
+             id="use72176"
+             transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
+             xlink:href="#minus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+          <path
+             d="M 513.57691,748.39744 L 513.57691,753.19872 L 508.77563,753.19872 L 508.77563,758 L 513.57691,758 L 513.57691,762.80129 L 518.37819,762.80129 L 518.37819,758 L 523.17947,758 L 523.17947,753.19872 L 518.37819,753.19872 L 518.37819,748.39744 L 513.57691,748.39744 z"
+             id="path72178"
+             style="fill:#008000" />
+          <use
+             id="use72180"
+             transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
+             xlink:href="#plus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+          <use
+             id="use72182"
+             transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
+             xlink:href="#plus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+        </g>
+        <g
+           style="display:inline"
+           id="g52208"
+           transform="translate(-171.68377,-0.7948717)">
+          <rect
+             y="736.39423"
+             x="508.77563"
+             height="4.8012829"
+             width="14.403849"
+             id="rect52210"
+             style="fill:#c00000" />
+          <use
+             id="use52212"
+             transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
+             xlink:href="#minus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+          <use
+             id="use52214"
+             transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
+             xlink:href="#minus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+          <path
+             d="M 513.57691,748.39744 L 513.57691,753.19872 L 508.77563,753.19872 L 508.77563,758 L 513.57691,758 L 513.57691,762.80129 L 518.37819,762.80129 L 518.37819,758 L 523.17947,758 L 523.17947,753.19872 L 518.37819,753.19872 L 518.37819,748.39744 L 513.57691,748.39744 z"
+             id="path52216"
+             style="fill:#008000" />
+          <use
+             id="use52218"
+             transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
+             xlink:href="#plus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+          <use
+             id="use52220"
+             transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
+             xlink:href="#plus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+        </g>
+        <g
+           style="display:inline"
+           id="g52222"
+           transform="translate(-151.68377,-0.7948717)">
+          <rect
+             y="736.39423"
+             x="508.77563"
+             height="4.8012829"
+             width="14.403849"
+             id="rect52224"
+             style="fill:#c00000" />
+          <use
+             id="use52226"
+             transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
+             xlink:href="#minus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+          <use
+             id="use52228"
+             transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
+             xlink:href="#minus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+          <path
+             d="M 513.57691,748.39744 L 513.57691,753.19872 L 508.77563,753.19872 L 508.77563,758 L 513.57691,758 L 513.57691,762.80129 L 518.37819,762.80129 L 518.37819,758 L 523.17947,758 L 523.17947,753.19872 L 518.37819,753.19872 L 518.37819,748.39744 L 513.57691,748.39744 z"
+             id="path52230"
+             style="fill:#008000" />
+          <use
+             id="use52232"
+             transform="matrix(0.2889661,0,0,0.2889661,448.44839,637.43446)"
+             xlink:href="#plus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
+          <use
+             id="use52234"
+             transform="matrix(0.2889661,0,0,0.2889661,467.65353,637.43446)"
+             xlink:href="#plus"
+             x="0"
+             y="0"
+             width="1024"
+             height="768" />
         </g>
       </g>
     </g>
