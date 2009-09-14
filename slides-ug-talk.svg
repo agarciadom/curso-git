@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="distributed-development.svg"
+   sodipodi:docname="slides-ug-talk.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
@@ -847,18 +847,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="581.2807"
+     inkscape:cx="465.7807"
      inkscape:cy="397.54732"
      inkscape:document-units="px"
-     inkscape:current-layer="layer252"
+     inkscape:current-layer="layer193"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1433"
-     inkscape:window-height="1115"
+     inkscape:window-height="1055"
      inkscape:window-x="1400"
-     inkscape:window-y="24"
+     inkscape:window-y="84"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -1226,12 +1226,6 @@
              style="font-size:1.89999998px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">3fb8a8e</tspan></text>
       </g>
     </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer69"
-     inkscape:label="blank"
-     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -1263,24 +1257,101 @@
    style="font-weight:bold;fill:#4d4d4d"
    id="tspan76600">&lt;variable&gt;</tspan></tspan></text>
   </g>
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.19" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.18" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.17" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.16" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.15" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.14" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.13" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.12" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.11" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.9" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.8" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.7" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.6" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.5" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.4" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.3" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.2" style="display:inline" />
-  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.1" style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer69"
+     inkscape:label="blank"
+     style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer252"
+     inkscape:label="use_dst_github.19"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48404"
+     inkscape:label="use_dst_github.18"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48406"
+     inkscape:label="use_dst_github.17"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48408"
+     inkscape:label="use_dst_github.16"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48410"
+     inkscape:label="use_dst_github.15"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48412"
+     inkscape:label="use_dst_github.14"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48414"
+     inkscape:label="use_dst_github.13"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48416"
+     inkscape:label="use_dst_github.12"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48418"
+     inkscape:label="use_dst_github.11"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48420"
+     inkscape:label="use_dst_github.9"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48422"
+     inkscape:label="use_dst_github.8"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48424"
+     inkscape:label="use_dst_github.7"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48426"
+     inkscape:label="use_dst_github.6"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48428"
+     inkscape:label="use_dst_github.5"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48430"
+     inkscape:label="use_dst_github.4"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48432"
+     inkscape:label="use_dst_github.3"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48434"
+     inkscape:label="use_dst_github.2"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="g48436"
+     inkscape:label="use_dst_github.1"
+     style="display:inline" />
   <g
      inkscape:groupmode="layer"
      id="layer251"
