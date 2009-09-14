@@ -850,7 +850,7 @@
      inkscape:cx="581.2807"
      inkscape:cy="397.54732"
      inkscape:document-units="px"
-     inkscape:current-layer="layer251"
+     inkscape:current-layer="layer252"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -1263,6 +1263,24 @@
    style="font-weight:bold;fill:#4d4d4d"
    id="tspan76600">&lt;variable&gt;</tspan></tspan></text>
   </g>
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.19" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.18" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.17" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.16" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.15" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.14" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.13" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.12" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.11" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.9" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.8" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.7" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.6" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.5" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.4" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.3" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.2" style="display:inline" />
+  <g inkscape:groupmode="layer" id="layer252" inkscape:label="use_dst_github.1" style="display:inline" />
   <g
      inkscape:groupmode="layer"
      id="layer251"
@@ -1294,7 +1312,7 @@
          style="font-weight:bold;-inkscape-font-specification:DejaVu Sans Mono Bold">git@github.com:bartman/test.git</tspan></text>
     <text
        xml:space="preserve"
-       style="display:inline;font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="210"
        y="278"
        id="text41049"
