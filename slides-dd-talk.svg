@@ -794,7 +794,7 @@
      inkscape:cx="498.29745"
      inkscape:cy="349.93223"
      inkscape:document-units="px"
-     inkscape:current-layer="layer79"
+     inkscape:current-layer="layer82"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -7781,6 +7781,73 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer82"
+     inkscape:label="conc_comp.what123"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="210.18748"
+       y="438"
+       id="text4004"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4010"
+         x="210.18748"
+         y="438">- repository</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer80"
+     inkscape:label="conc_comp.what12">
+    <text
+       xml:space="preserve"
+       style="display:inline;font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="210.18748"
+       y="328"
+       id="text3977"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3987"
+         x="210.18748"
+         y="328">- track changes to files</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer81"
+     inkscape:label="conc_comp.what1">
+    <text
+       xml:space="preserve"
+       style="display:inline;font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="206.47517"
+       y="228"
+       id="text3405"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3417"
+         x="206.47517"
+         y="228">- working directory</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer24"
+     inkscape:label="conc_comp.what"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text73169"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan73171"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">The pieces</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="#conc_comp"
      style="display:none">
@@ -8896,50 +8963,12 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer24"
-     inkscape:label="conc.what"
+     id="layer79"
+     inkscape:label="conc.why1234"
      style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="206.47517"
-       y="228"
-       id="text3405"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3417"
-         x="206.47517"
-         y="228">- working directory</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="210.18748"
-       y="328"
-       id="text3977"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3987"
-         x="210.18748"
-         y="328">- track changes to files</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="210.18748"
-       y="438"
-       id="text4004"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4010"
-         x="210.18748"
-         y="438">- repository</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer79"
-     inkscape:label="conc.why1234">
-    <text
-       xml:space="preserve"
-       style="display:inline;font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="210.18748"
        y="548"
        id="text71438"
@@ -8952,10 +8981,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer26"
-     inkscape:label="conc.why123">
+     inkscape:label="conc.why123"
+     style="display:none">
     <text
        xml:space="preserve"
-       style="display:inline;font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="210.18748"
        y="445.2103"
        id="text71450"
@@ -8968,10 +8998,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer25"
-     inkscape:label="conc.why12">
+     inkscape:label="conc.why12"
+     style="display:none">
     <text
        xml:space="preserve"
-       style="display:inline;font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="210.18748"
        y="334.66669"
        id="text71446"
@@ -8984,10 +9015,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer23"
-     inkscape:label="conc.why1">
+     inkscape:label="conc.why1"
+     style="display:none">
     <text
        xml:space="preserve"
-       style="display:inline;font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="210.18748"
        y="228"
        id="text71442"
@@ -9001,7 +9033,7 @@
      inkscape:groupmode="layer"
      id="layer19"
      inkscape:label="conc.why"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -9049,13 +9081,13 @@
      inkscape:label="conc.toc.2"
      style="display:none">
     <rect
-       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:0.79769146;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3359"
-       width="410"
-       height="50"
-       x="230"
-       y="290"
-       ry="4.3631425" />
+       width="259.83646"
+       height="50.202309"
+       x="229.89885"
+       y="289.89883"
+       ry="4.3807964" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -9093,7 +9125,7 @@
          sodipodi:role="line"
          x="206.47517"
          y="328"
-         id="tspan4824">- What is an SCM tool</tspan><tspan
+         id="tspan4824">- Brief history</tspan><tspan
          sodipodi:role="line"
          x="206.47517"
          y="378"
