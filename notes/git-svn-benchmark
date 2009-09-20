@@ -1,0 +1,41 @@
+SVN:
+
+        time svn co http://.../trunk/proj proj
+        4.33s user 2.78s system 14% cpu 48.322 total
+        4.67s user 3.49s system 24% cpu 33.270 total
+        avg 40
+
+        time svn co svn+ssh://.../trunk/proj proj
+        3.49s user 4.39s system 24% cpu 32.532 total
+        3.51s user 4.29s system 20% cpu 37.543 total
+        avg 35
+
+        55218 revisions
+
+        du proj
+        91724
+
+GIT:
+
+
+        time git clone git://.../proj proj
+        8.86s user 2.23s system 79% cpu 14.022 total
+        8.73s user 2.48s system 80% cpu 13.962 total
+        avg 14
+
+        time git clone ssh://.../proj proj
+        12.25s user 2.90s system 88% cpu 17.204 total
+        12.39s user 2.57s system 85% cpu 17.598 total
+        avg 17
+
+        114693 objects
+
+        du proj
+        93920
+
+
+        
+
+
+
+
