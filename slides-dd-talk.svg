@@ -12669,8 +12669,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer155"
-     inkscape:label="dcnt_ben.fail.12"
-     style="display:none">
+     inkscape:label="dcnt_ben.back.1"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -12687,7 +12687,7 @@
      inkscape:groupmode="layer"
      id="g163230"
      inkscape:label="dcnt_ben.back"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
