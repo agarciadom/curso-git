@@ -2495,13 +2495,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="359.49547"
-     inkscape:cy="355.99901"
+     inkscape:cx="666.71223"
+     inkscape:cy="395.99901"
      inkscape:document-units="px"
-     inkscape:current-layer="layer36"
+     inkscape:current-layer="layer167"
      showgrid="true"
      width="1024px"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1918"
      inkscape:window-height="1115"
@@ -3047,21 +3047,137 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="g7469"
-     inkscape:label="intro_op.ref.svn+git"
-     style="display:none">
+     id="layer166"
+     inkscape:label="intro_op.bart1.svn+git_2.svn+git"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299"
-       y="328"
-       id="text7471"
+       x="299.99005"
+       y="488"
+       id="text8994"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="299"
+         x="299.99005"
+         y="488"
+         id="tspan8996"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git merge &lt;name&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer167"
+     inkscape:label="intro_op.bar1.svn+git_2.svn"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:32.59120178px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="369.90158"
+       y="356.87366"
+       id="text8990"
+       sodipodi:linespacing="125%"
+       transform="scale(0.81478,1.2273251)"><tspan
+         sodipodi:role="line"
+         x="369.90158"
+         y="356.87366"
+         id="tspan8992"
+         style="font-size:32.59120178px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn merge -r&lt;rev&gt;:&lt;rev&gt; &lt;URL&gt;/branches/&lt;name&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer168"
+     inkscape:label="intro_op.bar1.svn+git_2"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="210.18748"
+       y="388"
+       id="text8982"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="210.18748"
+         y="388"
+         id="tspan8984"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- merging</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer172"
+     inkscape:label="intro_op.bra1.svn+git"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299.99005"
+       y="328"
+       id="text177578"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299.99005"
          y="328"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-         id="tspan7473">git tag &lt;name&gt;</tspan></text>
+         id="tspan177580"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git checkout &lt;name&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer171"
+     inkscape:label="intro_op.bra1.svn"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:38.72331238px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="310.15051"
+       y="269.12701"
+       id="text177568"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9680828,1.0329695)"><tspan
+         sodipodi:role="line"
+         x="310.15051"
+         y="269.12701"
+         id="tspan177570"
+         style="font-size:38.72331238px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn switch &lt;URL&gt;/branches/&lt;name&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer170"
+     inkscape:label="intro_op.bra1"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="228"
+       id="text177564"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="228"
+         id="tspan177566"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- switching</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer169"
+     inkscape:label="intro_op.bra"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text177557"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan177559"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Branches</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g7469"
+     inkscape:label="intro_op.ref1.svn+git_2.svn+git"
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3074,90 +3190,31 @@
          y="488"
          id="tspan7477"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git branch &lt;name&gt;</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299"
-       y="648"
-       id="text8994"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299"
-         y="648"
-         id="tspan8996"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git merge &lt;name&gt;</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="g7479"
-     inkscape:label="intro_op.ref.svn"
+     inkscape:label="intro_op.ref1.svn+git_2.svn"
      style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299"
-       y="278"
-       id="text7481"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299"
-         y="278"
-         id="tspan7483"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn tag &lt;name&gt;</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299"
-       y="438"
+       style="font-size:37.56193924px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="318.931"
+       y="411.30322"
        id="text7485"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       transform="scale(0.9390485,1.0649077)"><tspan
          sodipodi:role="line"
-         x="299"
-         y="438"
+         x="318.931"
+         y="411.30322"
          id="tspan7487"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn branch &lt;name&gt;</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299"
-       y="598"
-       id="text8990"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299"
-         y="598"
-         id="tspan8992"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn merge &lt;URL&gt;</tspan></text>
+         style="font-size:37.56193924px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn copy ... &lt;URL&gt;/branches/&lt;name&gt;</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="g7489"
-     inkscape:label="intro_op.ref"
+     inkscape:label="intro_op.ref1.svn+git_2"
      style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="128"
-       id="text7491"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan7493"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         x="206.47517"
-         y="128">References</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="228"
-       id="text7495"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="228"
-         id="tspan7497"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- tagging</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3170,48 +3227,84 @@
          y="388"
          id="tspan7501"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- branching</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="548"
-       id="text8982"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="548"
-         id="tspan8984"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- merging</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer44"
-     inkscape:label="intro_op.info.svn+git"
+     id="g170092"
+     inkscape:label="intro_op.ref1.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="299"
        y="328"
-       id="text6584"
+       id="text170094"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="299"
          y="328"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-         id="tspan7018">git status</tspan></text>
+         id="tspan170096">git tag &lt;name&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170106"
+     inkscape:label="intro_op.ref1.svn"
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="299"
-       y="488"
-       id="text6999"
+       y="278"
+       id="text170108"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="299"
-         y="488"
-         id="tspan7007"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git diff</tspan></text>
+         y="278"
+         id="tspan170110"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn copy ... &lt;URL&gt;/tags/&lt;name&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170120"
+     inkscape:label="intro_op.ref1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="228"
+       id="text170126"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="228"
+         id="tspan170128"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- tagging</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer162"
+     inkscape:label="intro_op.ref"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text170122"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan170124"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">References</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer163"
+     inkscape:label="intro_op.info1.svn+git_2.svn+git_3.svn+git"
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3227,33 +3320,9 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="g6698"
-     inkscape:label="intro_op.info.svn"
+     id="layer164"
+     inkscape:label="intro_op.info1.svn+git_2.svn+git_3.svn"
      style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299"
-       y="278"
-       id="text6700"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299"
-         y="278"
-         id="tspan6708"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn status</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299"
-       y="438"
-       id="text6967"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299"
-         y="438"
-         id="tspan6975"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn diff</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3269,45 +3338,9 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer14"
-     inkscape:label="intro_op.info"
+     id="layer165"
+     inkscape:label="intro_op.info1.svn+git_2.svn+git_3"
      style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="128"
-       id="text6533"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan6535"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         x="206.47517"
-         y="128">Information</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="228"
-       id="text6537"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="228"
-         id="tspan6569"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- working copy status</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="388"
-       id="text6953"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="388"
-         id="tspan6955"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- changes in working copy</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3323,21 +3356,135 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="g7861"
-     inkscape:label="intro_op.modify.svn+git"
+     id="layer44"
+     inkscape:label="intro_op.info1.svn+git_2.svn+git"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="488"
+       id="text6999"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="488"
+         id="tspan7007"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git diff</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g6698"
+     inkscape:label="intro_op.info1.svn+git_2.svn"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="438"
+       id="text6967"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="438"
+         id="tspan6975"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn diff</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer14"
+     inkscape:label="intro_op.info1.svn+git_2"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="388"
+       id="text6953"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="388"
+         id="tspan6955"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- changes in working copy</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170161"
+     inkscape:label="intro_op.info1.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="299"
        y="328"
-       id="text7863"
+       id="text170163"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="299"
          y="328"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-         id="tspan7865">git [ add | rm | mv ] &lt;files&gt;</tspan></text>
+         id="tspan170165">git status</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170175"
+     inkscape:label="intro_op.info1.svn"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="278"
+       id="text170177"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="278"
+         id="tspan170179"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn status</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170189"
+     inkscape:label="intro_op.info1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="228"
+       id="text170195"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="228"
+         id="tspan170197"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- working copy status</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer161"
+     inkscape:label="intro_op.info"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text170191"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan170193"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Information</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g7861"
+     inkscape:label="intro_op.modify1.svn+git_2.svn+git"
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3354,20 +3501,8 @@
   <g
      inkscape:groupmode="layer"
      id="g7871"
-     inkscape:label="intro_op.modify.svn"
+     inkscape:label="intro_op.modify1.svn+git_2.svn"
      style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299"
-       y="278"
-       id="text7873"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299"
-         y="278"
-         id="tspan7875"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn [ add | rm ] &lt;files&gt;</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3384,32 +3519,8 @@
   <g
      inkscape:groupmode="layer"
      id="g7881"
-     inkscape:label="intro_op.modify"
+     inkscape:label="intro_op.modify1.svn+git_2"
      style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="128"
-       id="text7883"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan7885"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         x="206.47517"
-         y="128">Modify</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="228"
-       id="text7887"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="228"
-         id="tspan7889"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- add / delete / rename</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3425,21 +3536,81 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="g7115"
-     inkscape:label="intro_op.new.svn+git"
+     id="g170224"
+     inkscape:label="intro_op.modify1.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="299"
        y="328"
-       id="text7117"
+       id="text170226"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="299"
          y="328"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-         id="tspan7119">git init</tspan></text>
+         id="tspan170228">git [ add | rm | mv ] &lt;files&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170234"
+     inkscape:label="intro_op.modify1.svn"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="278"
+       id="text170236"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="278"
+         id="tspan170238"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn [ add | rm ] &lt;files&gt;</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170244"
+     inkscape:label="intro_op.modify1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="228"
+       id="text170250"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="228"
+         id="tspan170252"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- add / delete / rename</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer160"
+     inkscape:label="intro_op.modify"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text170246"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan170248"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Modify</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g7115"
+     inkscape:label="intro_op.new1.svn+git_2.svn+git"
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3456,20 +3627,8 @@
   <g
      inkscape:groupmode="layer"
      id="g7125"
-     inkscape:label="intro_op.new.svn"
+     inkscape:label="intro_op.new1.svn+git_2.svn"
      style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299"
-       y="278"
-       id="text7127"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299"
-         y="278"
-         id="tspan7129"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">email the administrator</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3486,32 +3645,8 @@
   <g
      inkscape:groupmode="layer"
      id="g7135"
-     inkscape:label="intro_op.new"
+     inkscape:label="intro_op.new1.svn+git_2"
      style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="128"
-       id="text7137"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan7139"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         x="206.47517"
-         y="128">Bootstrap</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="228"
-       id="text7141"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="206.47517"
-         y="228"
-         id="tspan7143"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- initialize</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -3524,6 +3659,78 @@
          y="388"
          id="tspan7147"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- use existing repo</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170275"
+     inkscape:label="intro_op.new1.svn+git"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="328"
+       id="text170277"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="328"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         id="tspan170279">git init</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170285"
+     inkscape:label="intro_op.new1.svn"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299"
+       y="278"
+       id="text170287"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="299"
+         y="278"
+         id="tspan170289"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">email the administrator</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g170295"
+     inkscape:label="intro_op.new1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="228"
+       id="text170301"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="228"
+         id="tspan170303"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- initialize</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer159"
+     inkscape:label="intro_op.new"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text170297"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan170299"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Bootstrap</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
