@@ -2607,18 +2607,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="511.0262"
+     inkscape:cx="382.5262"
      inkscape:cy="402.31644"
      inkscape:document-units="px"
-     inkscape:current-layer="g8523"
+     inkscape:current-layer="layer81"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1466"
-     inkscape:window-height="1115"
+     inkscape:window-height="1103"
      inkscape:window-x="1400"
-     inkscape:window-y="36"
+     inkscape:window-y="48"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -14468,7 +14468,7 @@
      inkscape:groupmode="layer"
      id="layer65"
      inkscape:label="conc_decent.1^d^xxx"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="M 815,200 L 795,215 L 815,230 L 815,220 L 910,220 L 910,210 L 815,210 L 815,200 z"
@@ -14484,7 +14484,7 @@
      inkscape:groupmode="layer"
      id="layer135"
      inkscape:label="conc_decent.1^d^data"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="M 716.19378,318.56793 L 708.66619,294.72814 L 687.88772,308.62978 L 697.32307,311.94249 L 672.47768,382.70764 L 681.91303,386.02036 L 706.75842,315.25521 L 716.19378,318.56793 z"
@@ -14495,7 +14495,7 @@
      inkscape:groupmode="layer"
      id="layer62"
      inkscape:label="#conc_decent.1^d"
-     style="display:inline">
+     style="display:none">
     <g
        style="opacity:1;display:inline"
        id="g4173"
@@ -15291,7 +15291,7 @@
      inkscape:groupmode="layer"
      id="g8523"
      inkscape:label="conc_decent."
-     style="display:inline">
+     style="display:none">
     <rect
        style="opacity:1;fill:#ff63d2;fill-opacity:1;stroke:#000000;stroke-width:1.59999919;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4439"
@@ -20122,7 +20122,7 @@
          sodipodi:role="line"
          id="tspan3417"
          x="206.47517"
-         y="228">- working directory</tspan></text>
+         y="228">- working tree</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -20879,7 +20879,7 @@
      inkscape:label="conc.hist.sccs.rcs.cvs.svn.arch.darcs.git.hg.bzr.hl-dist"
      style="display:none">
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:4.90301228;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000088;stroke-width:4.90301228;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect28397"
        width="710.09698"
        height="249.97697"
@@ -20893,7 +20893,7 @@
      inkscape:label="conc.hist.sccs.rcs.cvs.svn.arch.darcs.git.hg.bzr.hl-cent"
      style="display:none">
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:4.76689434;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#008800;stroke-width:4.76689434;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect68075"
        width="710.23309"
        height="99.949631"
@@ -20907,7 +20907,7 @@
      inkscape:label="conc.hist.sccs.rcs.cvs.svn.arch.darcs.git.hg.bzr.hl-lcl"
      style="display:none">
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:4.76689434;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#880000;stroke-width:4.76689434;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect68078"
        width="710.23309"
        height="99.949631"
@@ -21307,7 +21307,7 @@
          sodipodi:role="line"
          id="tspan71452"
          x="210.18748"
-         y="445.2103">- colaboration</tspan></text>
+         y="445.2103">- collaboration</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
