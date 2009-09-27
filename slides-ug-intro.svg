@@ -23,54 +23,54 @@
     <marker
        inkscape:stockid="Arrow2Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow2Mend"
-       style="overflow:visible;">
+       style="overflow:visible">
       <path
          id="path5206"
-         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(0.6) rotate(180) translate(0,0)" />
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" />
     </marker>
     <marker
        inkscape:stockid="Arrow2Lend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow2Lend"
-       style="overflow:visible;">
+       style="overflow:visible">
       <path
          id="path5200"
-         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Send"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Send"
-       style="overflow:visible;">
+       style="overflow:visible">
       <path
          id="path5194"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
-         transform="scale(0.2) rotate(180) translate(6,0)" />
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Lend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Lend"
-       style="overflow:visible;">
+       style="overflow:visible">
       <path
          id="path5182"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
-         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
     </marker>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
@@ -105,9 +105,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="506.63241"
-     inkscape:cy="354.51973"
+     inkscape:cy="274.51973"
      inkscape:document-units="px"
-     inkscape:current-layer="layer22"
+     inkscape:current-layer="layer17"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -442,6 +442,21 @@
         </g>
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="238.25195"
+       y="901.51758"
+       id="text4929"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4935"
+         x="238.25195"
+         y="901.51758">NOTE: this file needs to be post processed by negative.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4937"
+         x="238.25195"
+         y="921.51758">             http://github.com/bartman/negative</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1369,48 +1384,6 @@
      style="display:none" />
   <g
      inkscape:groupmode="layer"
-     id="layer97"
-     inkscape:label="intro_obj.tree"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="431"
-       y="371"
-       id="text6908"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan6910"
-         x="431"
-         y="371">TODO:</tspan><tspan
-         sodipodi:role="line"
-         x="431"
-         y="411"
-         id="tspan6912">dump of .git/objects</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer99"
-     inkscape:label="intro_obj.hashes"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="431"
-       y="371"
-       id="text6932"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         x="431"
-         y="371"
-         id="tspan6942">TODO:</tspan><tspan
-         sodipodi:role="line"
-         x="431"
-         y="411"
-         id="tspan6966">hashes</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer291"
      inkscape:label="#intro_obj.types.c"
      style="display:inline">
@@ -1469,7 +1442,7 @@
        id="text9134"
        y="240.1468"
        x="228.26132"
-       style="display:inline;font-size:18.95505332999999837px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       style="font-size:18.95505333px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        xml:space="preserve"
        transform="scale(0.9638857,1.0374674)"><tspan
          sodipodi:role="line"
@@ -1750,11 +1723,13 @@
        id="text4897"
        y="492.49048"
        x="70.67672"
-       style="font-size:18.95505341px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       style="font-size:18.95505333px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        xml:space="preserve"
        transform="scale(0.9638857,1.0374674)"><tspan
          sodipodi:role="line"
-         id="tspan4911">tree      58ac16ec2be548d...</tspan></text>
+         id="tspan4911"
+         x="70.67672"
+         y="492.49048">tree      58ac16ec2be548d...</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1766,12 +1741,12 @@
        d="M 720,563 L 760,573 L 755,578 L 715,568 L 720,563 z"
        id="path4894" />
     <path
-       style="display:inline;fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#000000;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1;display:inline"
        d="M 565,528 L 810,588"
        id="path3963"
        sodipodi:nodetypes="cc" />
     <path
-       style="display:inline;fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#000000;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1;display:inline"
        d="M 525,533 L 510,578"
        id="path3959"
        sodipodi:nodetypes="cc" />
@@ -1805,7 +1780,7 @@
      id="layer25"
      inkscape:label="intro_obj.types.c^ttpct12">
     <path
-       style="display:inline;fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#000000;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1;display:inline"
        d="M 500,618 L 484,668"
        id="path3903"
        sodipodi:nodetypes="cc" />
@@ -1839,7 +1814,7 @@
      id="layer28"
      inkscape:label="intro_obj.types.c^ttpct1^c">
     <path
-       style="fill:none;fill-opacity:0.75000000000000000;fill-rule:evenodd;stroke:#3333c0;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1;display:inline"
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#3333c0;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1;display:inline"
        d="M 600,678 C 600,678 585,658 565,658 C 550,658 545,658 520,678"
        id="path4088"
        sodipodi:nodetypes="ccc" />
@@ -2821,6 +2796,39 @@
          style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
          x="206.47517"
          y="128">Types</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer99"
+     inkscape:label="intro_obj.immutable"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="431"
+       y="371"
+       id="text6932"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="431"
+         y="371"
+         id="tspan6942">TODO:</tspan><tspan
+         sodipodi:role="line"
+         x="431"
+         y="411"
+         id="tspan6966">immutable</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text4925"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4927"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Immutable</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
