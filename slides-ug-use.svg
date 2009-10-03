@@ -64,12 +64,12 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="536.77125"
-     inkscape:cy="386.31145"
+     inkscape:zoom="8"
+     inkscape:cx="346.79015"
+     inkscape:cy="229.59553"
      inkscape:document-units="px"
-     inkscape:current-layer="layer32"
-     showgrid="true"
+     inkscape:current-layer="layer35"
+     showgrid="false"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -715,7 +715,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer32"
-     inkscape:label="use_dst_github.i^e-again"
+     inkscape:label="use_dst_github.i^e2-again"
      style="display:none" />
   <g
      inkscape:groupmode="layer"
@@ -1010,9 +1010,43 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer35"
+     inkscape:label="use_dst_github.i^e2^hl"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:17.50948143px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="358.54187"
+       y="472.96082"
+       id="text8444"
+       sodipodi:linespacing="100%"
+       transform="scale(0.9499613,1.0526745)"><tspan
+         sodipodi:role="line"
+         id="tspan8446"
+         x="358.54187"
+         y="472.96082"
+         style="font-size:17.50948143px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold">git remote</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer33"
+     inkscape:label="#use_dst_github.i^e2"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:5.00000048;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect8440"
+       width="549.20447"
+       height="24.89131"
+       x="330.5647"
+       y="480.50003"
+       ry="13.08943"
+       rx="13.089427" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="g31120"
-     inkscape:label="use_dst_github.i^e"
-     style="display:none">
+     inkscape:label="use_dst_github.i^e1"
+     style="display:inline">
     <rect
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect35945"
@@ -1021,6 +1055,21 @@
        x="260"
        y="418"
        ry="13.089428" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer34"
+     inkscape:label="use_dst_github.i^ns"
+     style="display:inline">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect8438"
+       width="650"
+       height="234.58333"
+       x="260"
+       y="183.41667"
+       ry="13.089428"
+       rx="13.089428" />
   </g>
   <g
      inkscape:groupmode="layer"
