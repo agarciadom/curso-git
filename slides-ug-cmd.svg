@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="slides-ug-talk.svg"
+   sodipodi:docname="slides-ug-cmd.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
@@ -65,16 +65,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="488.77125"
+     inkscape:cx="543.77125"
      inkscape:cy="346.31145"
      inkscape:document-units="px"
-     inkscape:current-layer="layer89"
+     inkscape:current-layer="layer130"
      showgrid="true"
      width="1024px"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1466"
-     inkscape:window-height="1115"
+     inkscape:window-width="1476"
+     inkscape:window-height="1127"
      inkscape:window-x="1400"
      inkscape:window-y="36"
      inkscape:snap-global="true"
@@ -763,11 +763,39 @@
          id="tspan67896"
          x="20"
          y="388"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config --global <tspan
-   style="font-weight:bold;fill:#4d4d4d"
-   id="tspan67898">alias.st <tspan
-   style="fill:#999999"
-   id="tspan67903">&quot;diff --stat&quot;</tspan></tspan></tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config --global</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:38.58887482px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="520.28265"
+       y="374.3121"
+       id="text6196"
+       sodipodi:linespacing="100%"
+       transform="scale(0.9647219,1.0365682)"><tspan
+         sodipodi:role="line"
+         id="tspan6198"
+         x="520.28265"
+         y="374.3121"
+         style="font-size:38.58887482px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><tspan
+           style="font-weight:bold;fill:#4d4d4d"
+           id="tspan6200">alias.st</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:39.06731415px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="721.02008"
+       y="378.95297"
+       id="text6204"
+       sodipodi:linespacing="100%"
+       transform="scale(0.9766829,1.0238738)"><tspan
+         sodipodi:role="line"
+         id="tspan6206"
+         x="721.02008"
+         y="378.95297"
+         style="font-size:39.06731415px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><tspan
+           style="font-weight:bold;fill:#4d4d4d"
+           id="tspan6208"><tspan
+             style="fill:#999999"
+             id="tspan6210">&quot;diff --stat&quot;</tspan></tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
