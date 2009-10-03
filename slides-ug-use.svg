@@ -65,18 +65,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="573.27125"
-     inkscape:cy="346.31145"
+     inkscape:cx="536.77125"
+     inkscape:cy="386.31145"
      inkscape:document-units="px"
-     inkscape:current-layer="layer137"
+     inkscape:current-layer="layer32"
      showgrid="true"
      width="1024px"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1466"
-     inkscape:window-height="1103"
+     inkscape:window-width="1476"
+     inkscape:window-height="1139"
      inkscape:window-x="1400"
-     inkscape:window-y="60"
+     inkscape:window-y="24"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -674,7 +674,7 @@
      inkscape:groupmode="layer"
      id="layer251"
      inkscape:label="use_dst_github.add"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -712,6 +712,11 @@
          y="278"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git remote</tspan></text>
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer32"
+     inkscape:label="use_dst_github.i^e-again"
+     style="display:none" />
   <g
      inkscape:groupmode="layer"
      id="g36280"
@@ -1001,7 +1006,7 @@
          style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
          x="210.5"
          y="128"
-         id="tspan35955">Remotes?</tspan></text>
+         id="tspan35955">Remotes</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1190,7 +1195,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer248"
-     inkscape:label="use_Distributed.123"
+     inkscape:label="use_Distributed.12"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1204,12 +1209,6 @@
          x="511.76562"
          y="407.85938"
          id="tspan25931">Distributed</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer247"
-     inkscape:label="use_Distributed.12"
-     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -2638,7 +2637,33 @@
          x="299"
          y="328"
          id="tspan27307"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- like show, but many commits</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">- like</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="410"
+       y="328"
+       id="text8421"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="410"
+         y="328"
+         id="tspan8423"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+           style="fill:#008000"
+           id="tspan8425">show</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="510"
+       y="328"
+       id="text8427"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="510"
+         y="328"
+         id="tspan8429"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">, but many commits</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3367,9 +3392,11 @@
          sodipodi:role="line"
          id="tspan13716"
          x="210"
-         y="378">db35c00<tspan
-   style="font-weight:bold"
-   id="tspan13718">^</tspan></tspan></text>
+         y="378"><tspan
+           style="font-weight:bold"
+           id="tspan13718"><tspan
+   style="font-weight:normal;-inkscape-font-specification:DejaVu Sans Mono"
+   id="tspan8407">895740c</tspan>^</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4263,38 +4290,38 @@
      id="layer192"
      inkscape:label="#use_cmt.ids.ex0r1c"
      style="display:none">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1"
+       d="M 770,478 L 770,633 L 880,633"
+       id="path6684"
+       sodipodi:nodetypes="ccc" />
     <g
        style="display:inline"
-       id="g47772"
+       id="g8409"
        transform="matrix(6.4571523,0,0,6.3277351,-3848.2463,-2683.0162)">
       <g
          transform="matrix(1.94833,0,0,1.578809,226.42322,350.59567)"
-         id="g47774"
+         id="g8411"
          style="opacity:1">
         <path
            style="fill:#ffa200;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.11775848;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="M 267.56808,107.35844 L 267.56808,112.36592 L 259.62322,112.36592 L 259.62322,107.35844 L 267.56808,107.35844 z"
-           id="path47776"
+           id="path8413"
            sodipodi:nodetypes="ccccc" />
         <text
            xml:space="preserve"
            style="font-size:3.59770966px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
            x="263.59683"
            y="111.36218"
-           id="text47778"
+           id="text8415"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
-             id="tspan47780"
+             id="tspan8417"
              x="263.59683"
              y="111.36218"
-             style="font-size:1.89999998px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">3fb8a8e</tspan></text>
+             style="font-size:1.79999995px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">3fb8a8e</tspan></text>
       </g>
     </g>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1"
-       d="M 770,478 L 770,633 L 880,633"
-       id="path6684"
-       sodipodi:nodetypes="ccc" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -6073,7 +6100,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer124"
-     inkscape:label="use_boot"
+     inkscape:label="#use_boot"
      style="display:none">
     <g
        style="display:inline"
@@ -6097,6 +6124,24 @@
            id="tspan76408"
            sodipodi:role="line">Bootstrap</tspan></text>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer31"
+     inkscape:label="use_Bootstrap"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
+       x="511.10938"
+       y="407.85938"
+       id="text8403"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="511.10938"
+         y="407.85938"
+         id="tspan8405">Bootstrap</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
