@@ -107,7 +107,7 @@
      inkscape:cx="529.86202"
      inkscape:cy="396.55756"
      inkscape:document-units="px"
-     inkscape:current-layer="layer282"
+     inkscape:current-layer="layer284"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -2804,7 +2804,7 @@
      inkscape:groupmode="layer"
      id="layer99"
      inkscape:label="intro_obj.immutable"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -2957,12 +2957,23 @@
        sodipodi:ry="145"
        d="M 790,323 A 255,145 0 1 1 280,323 A 255,145 0 1 1 790,323 z"
        transform="translate(0,6)" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#c69090;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="536.55762"
+       y="698.41992"
+       id="text64204"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="536.55762"
+         y="698.41992"
+         id="tspan64206">( 20 bytes )</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer283"
      inkscape:label="intro_obj.what"
-     style="display:inline">
+     style="display:none">
     <g
        id="g47456"
        transform="translate(0,75)">
