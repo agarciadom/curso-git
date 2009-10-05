@@ -194,7 +194,7 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
+     inkscape:zoom="1"
      inkscape:cx="458.89975"
      inkscape:cy="387.32879"
      inkscape:document-units="px"
@@ -204,9 +204,9 @@
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1476"
-     inkscape:window-height="1139"
+     inkscape:window-height="1127"
      inkscape:window-x="1400"
-     inkscape:window-y="24"
+     inkscape:window-y="36"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -718,7 +718,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer88"
-     inkscape:label="dex^4-again" />
+     inkscape:label="dex^4-again"
+     style="display:none" />
   <g
      inkscape:groupmode="layer"
      id="layer87"
@@ -767,7 +768,7 @@
      inkscape:groupmode="layer"
      id="layer86"
      inkscape:label="#dex^4"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#ffa200;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.32017946;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
        d="M 159.85498,288 L 159.85498,317.99993 L 80,317.99993 L 80,288 L 159.85498,288 z"
@@ -5542,7 +5543,7 @@
      inkscape:groupmode="layer"
      id="layer47"
      inkscape:label="#dex"
-     style="display:inline">
+     style="display:none">
     <rect
        style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#0600ff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect8836"
