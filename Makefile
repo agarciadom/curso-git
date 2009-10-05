@@ -6,7 +6,8 @@ SVGS =  \
 	slides-ug-title.svg  \
 	slides-ug-intro.svg  \
 	slides-ug-cmd.svg    \
-	slides-ug-use.svg
+	slides-ug-use.svg    \
+	slides-ug-use-dex.svg
 
 PDFS = $(SVGS:%.svg=%.pdf)
 
@@ -20,7 +21,7 @@ ${PDFS}: %.pdf: %.svg
 slides-dd.pdf: slides-dd-title.pdf slides-me.pdf slides-dd-talk.pdf
 	pdftk $^ cat output $@
 	
-slides-ug.pdf: slides-ug-title.pdf slides-me.pdf slides-ug-intro.pdf slides-ug-cmd.pdf slides-ug-use.pdf
+slides-ug.pdf: slides-ug-title.pdf slides-me.pdf slides-ug-intro.pdf slides-ug-cmd.pdf slides-ug-use.pdf slides-ug-use-dex.pdf
 	pdftk $^ cat output $@
 
 clean:
