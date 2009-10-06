@@ -388,11 +388,11 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="638.70195"
+     inkscape:zoom="1"
+     inkscape:cx="518.70195"
      inkscape:cy="331.70349"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer9"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -913,7 +913,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="sce123456"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -1021,7 +1021,7 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="sce12345-hl"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
        d="M 560,168 L 560,198"
@@ -1099,7 +1099,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="#sce12345"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -1265,7 +1265,7 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="sce1234-hl"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
        d="M 560,168 L 560,198"
@@ -1330,7 +1330,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="#sce1234"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#ff6600;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="M 510,198 L 510,238 L 610,238 L 610,198 L 510,198 z"
@@ -1373,7 +1373,7 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="sce123-hl"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#004d80;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
        d="M 750,98 L 610,268"
@@ -1434,7 +1434,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="#sce123"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#afe9c6;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="M 510,268 L 510,308 L 610,308 L 610,268 L 510,268 z"
@@ -1511,7 +1511,7 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="sce12-hl"
-     style="display:inline">
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect6862"
@@ -1576,7 +1576,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="#sce12"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -1604,7 +1604,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="sce1-hl"
-     style="display:inline">
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect6852"
@@ -1669,7 +1669,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="#sce1"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -1694,7 +1694,7 @@
          id="tspan6850">.git</tspan></text>
     <text
        xml:space="preserve"
-       style="display:inline;font-size:22px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:22px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="955.64453"
        y="468"
        id="text3834"
@@ -1708,7 +1708,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="sce"
-     style="display:inline">
+     style="display:none">
     <path
        style="opacity:1;fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:8, 4;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 482,24 L 482,704"
@@ -1732,7 +1732,7 @@
          y="508">working tree</tspan></text>
     <text
        xml:space="preserve"
-       style="display:inline;font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="110"
        y="158"
        id="text6828"
@@ -1743,7 +1743,7 @@
          id="tspan6832"># mkdir project</tspan></text>
     <text
        xml:space="preserve"
-       style="display:inline;font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="110"
        y="188"
        id="text6836"
