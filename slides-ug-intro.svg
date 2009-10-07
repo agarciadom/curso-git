@@ -104,18 +104,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="504.31122"
-     inkscape:cy="408.24268"
+     inkscape:cx="522.31122"
+     inkscape:cy="368.24268"
      inkscape:document-units="px"
-     inkscape:current-layer="layer26"
+     inkscape:current-layer="layer84"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1476"
-     inkscape:window-height="1139"
+     inkscape:window-width="1486"
+     inkscape:window-height="1115"
      inkscape:window-x="1400"
-     inkscape:window-y="24"
+     inkscape:window-y="48"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -1386,7 +1386,7 @@
      inkscape:groupmode="layer"
      id="layer291"
      inkscape:label="#intro_obj.types.c"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g4384"
@@ -1436,7 +1436,7 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="#intro_obj.types.c^t"
-     style="display:inline">
+     style="display:none">
     <text
        sodipodi:linespacing="100%"
        id="text9134"
@@ -1474,7 +1474,7 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="#intro_obj.types.c^tt"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1;display:inline"
        d="M 560,243 L 740,243 C 760,243 775,258 775,278 L 775,488"
@@ -1682,7 +1682,7 @@
      inkscape:groupmode="layer"
      id="layer21"
      inkscape:label="#intro_obj.types.c^ttp"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g3733"
@@ -1717,7 +1717,7 @@
      inkscape:groupmode="layer"
      id="layer29"
      inkscape:label="intro_obj.types.c^ttpct12^3^cid"
-     style="display:inline">
+     style="display:none">
     <text
        sodipodi:linespacing="100%"
        id="text4897"
@@ -1735,7 +1735,7 @@
      inkscape:groupmode="layer"
      id="layer26"
      inkscape:label="intro_obj.types.c^ttpct12^3"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 720,563 L 760,573 L 755,578 L 715,568 L 720,563 z"
@@ -1779,7 +1779,7 @@
      inkscape:groupmode="layer"
      id="layer25"
      inkscape:label="intro_obj.types.c^ttpct12"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1;display:inline"
        d="M 500,618 L 484,668"
@@ -1814,7 +1814,7 @@
      inkscape:groupmode="layer"
      id="layer28"
      inkscape:label="intro_obj.types.c^ttpct1^c"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#3333c0;stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Mend);stroke-opacity:1;display:inline"
        d="M 600,678 C 600,678 585,658 565,658 C 550,658 545,658 520,678"
@@ -1825,7 +1825,7 @@
      inkscape:groupmode="layer"
      id="layer24"
      inkscape:label="#intro_obj.types.c^ttpct1"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g3895"
@@ -2606,7 +2606,7 @@
          y="290.58212"
          x="385.47754"
          id="tspan47704"
-         sodipodi:role="line">blob references</tspan></text>
+         sodipodi:role="line">blob/tree references</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5755,7 +5755,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer84"
-     inkscape:label="intro_hist.better"
+     inkscape:label="#intro_hist.better"
      style="display:none">
     <text
        xml:space="preserve"
@@ -6203,7 +6203,7 @@
      inkscape:groupmode="layer"
      id="layer79"
      inkscape:label="#intro"
-     style="display:none">
+     style="display:inline">
     <g
        style="display:inline"
        id="g6600">
