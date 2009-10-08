@@ -4099,18 +4099,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="533.63522"
+     inkscape:cx="524.375"
      inkscape:cy="404.46454"
      inkscape:document-units="px"
-     inkscape:current-layer="layer46"
+     inkscape:current-layer="layer177"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1486"
-     inkscape:window-height="1127"
+     inkscape:window-height="1115"
      inkscape:window-x="1400"
-     inkscape:window-y="36"
+     inkscape:window-y="48"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -4610,8 +4610,43 @@
   <g
      inkscape:groupmode="layer"
      id="layer69"
-     inkscape:label="blank"
+     inkscape:label="#blank"
      style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer176"
+     inkscape:label="questions"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:300px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:LMTypewriter8;-inkscape-font-specification:LMTypewriter8"
+       x="506.1875"
+       y="477"
+       id="text42293"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan42299"
+         x="506.1875"
+         y="477">?</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer177"
+     inkscape:label="thanks"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:300px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:LMTypewriter8;-inkscape-font-specification:LMTypewriter8"
+       x="506.1875"
+       y="477"
+       id="text42302"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan42304"
+         x="506.1875"
+         y="477"
+         style="font-size:144px">thank you</tspan></text>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer46"
