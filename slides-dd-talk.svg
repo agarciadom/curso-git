@@ -4073,6 +4073,20 @@
        y1="287.50143"
        x2="33.312534"
        y2="99.812561" />
+    <inkscape:perspective
+       id="perspective42218"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective42286"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -4085,18 +4099,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="506.63522"
+     inkscape:cx="533.63522"
      inkscape:cy="404.46454"
      inkscape:document-units="px"
-     inkscape:current-layer="layer134"
+     inkscape:current-layer="layer46"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1486"
-     inkscape:window-height="1115"
+     inkscape:window-height="1127"
      inkscape:window-x="1400"
-     inkscape:window-y="24"
+     inkscape:window-y="36"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -4604,13 +4618,13 @@
      inkscape:label="intro_know_pub"
      style="display:none">
     <image
-       y="99.5"
-       x="372.5"
-       id="image8978"
-       height="569"
-       width="279"
-       sodipodi:absref="/home/oxygen/bart/proj/reflections/git-talk/external/guiness-big.gif"
-       xlink:href="external/guiness-big.gif" />
+       y="316"
+       x="299.5"
+       id="image42288"
+       height="282"
+       width="425"
+       sodipodi:absref="/home/jukie/bart/proj/reflections/git-talk/external/istock_stout_line.jpg"
+       xlink:href="external/istock_stout_line.jpg" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -19155,7 +19169,7 @@
      inkscape:groupmode="layer"
      id="g35032"
      inkscape:label="#conc_tb^1^2^3^4^5^6^7^8^9"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g15791"
@@ -19470,7 +19484,7 @@
      inkscape:groupmode="layer"
      id="g35035"
      inkscape:label="#conc_tb^1^2^3^4^5^6^7^8"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g15775"
@@ -19780,7 +19794,7 @@
      inkscape:groupmode="layer"
      id="g35038"
      inkscape:label="#conc_tb^1^2^3^4^5^6^7"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g15759"
@@ -19962,7 +19976,7 @@
      inkscape:groupmode="layer"
      id="g35041"
      inkscape:label="#conc_tb^1^2^3^4^5^6"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g15767"
@@ -20150,7 +20164,7 @@
      inkscape:groupmode="layer"
      id="g35044"
      inkscape:label="#conc_tb^1^2^3^4^5"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
        d="M 925,538 L 925,578 C 925,597.85817 925,597.85817 909.75792,606.74934 L 865,633"
@@ -20212,7 +20226,7 @@
      inkscape:groupmode="layer"
      id="layer134"
      inkscape:label="conc_tb^1^2^3^4-c"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
        d="M 845,418 L 845,453"
@@ -20500,7 +20514,7 @@
      inkscape:groupmode="layer"
      id="g35047"
      inkscape:label="#conc_tb^1^2^3^4"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
        d="M 765,417.99962 L 765,512.99982"
@@ -20827,7 +20841,7 @@
      inkscape:groupmode="layer"
      id="g35050"
      inkscape:label="#conc_tb^1^2^3"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g31760"
@@ -21130,7 +21144,7 @@
      inkscape:groupmode="layer"
      id="g35053"
      inkscape:label="#conc_tb^1^2"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g15743"
@@ -21366,7 +21380,7 @@
      inkscape:groupmode="layer"
      id="g35056"
      inkscape:label="#conc_tb^1"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g15738"
@@ -21423,7 +21437,7 @@
      inkscape:groupmode="layer"
      id="layer68"
      inkscape:label="#conc_tb"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g31752">
