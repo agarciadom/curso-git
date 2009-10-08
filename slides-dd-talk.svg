@@ -4099,10 +4099,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="524.375"
-     inkscape:cy="404.46454"
+     inkscape:cx="549.1875"
+     inkscape:cy="444.4624"
      inkscape:document-units="px"
-     inkscape:current-layer="layer177"
+     inkscape:current-layer="layer180"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -4616,7 +4616,7 @@
      inkscape:groupmode="layer"
      id="layer176"
      inkscape:label="questions"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:300px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:LMTypewriter8;-inkscape-font-specification:LMTypewriter8"
@@ -4631,6 +4631,36 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer180"
+     inkscape:label="tutorial"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:300px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:LMTypewriter8;-inkscape-font-specification:LMTypewriter8"
+       x="506.1875"
+       y="424.17599"
+       id="text48799"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan48801"
+         x="506.1875"
+         y="424.17599"
+         style="font-size:144px">GIT Workshop</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:300px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:LMTypewriter8;-inkscape-font-specification:LMTypewriter8"
+       x="509.957"
+       y="548"
+       id="text48803"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan48805"
+         x="509.957"
+         y="548"
+         style="font-size:72px">1:30 PM</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer177"
      inkscape:label="thanks"
      style="display:none">
@@ -4638,13 +4668,13 @@
        xml:space="preserve"
        style="font-size:300px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:LMTypewriter8;-inkscape-font-specification:LMTypewriter8"
        x="506.1875"
-       y="477"
+       y="412.29599"
        id="text42302"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan42304"
          x="506.1875"
-         y="477"
+         y="412.29599"
          style="font-size:144px">thank you</tspan></text>
   </g>
   <g
