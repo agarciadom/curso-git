@@ -195,7 +195,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="632.875"
+     inkscape:cx="512.875"
      inkscape:cy="446.4084"
      inkscape:document-units="px"
      inkscape:current-layer="layer178"
@@ -204,9 +204,9 @@
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1486"
-     inkscape:window-height="1115"
+     inkscape:window-height="1139"
      inkscape:window-x="1400"
-     inkscape:window-y="48"
+     inkscape:window-y="24"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -719,7 +719,7 @@
      inkscape:groupmode="layer"
      id="layer179"
      inkscape:label="questions"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:300px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:LMTypewriter8;-inkscape-font-specification:LMTypewriter8"
@@ -740,15 +740,15 @@
     <text
        xml:space="preserve"
        style="font-size:300px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:LMTypewriter8;-inkscape-font-specification:LMTypewriter8"
-       x="506.1875"
-       y="477"
+       x="510.866"
+       y="412.29599"
        id="text44370"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan44372"
-         x="506.1875"
-         y="477"
-         style="font-size:144">thank you</tspan></text>
+         x="510.866"
+         y="412.29599"
+         style="font-size:144px">thank you</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
