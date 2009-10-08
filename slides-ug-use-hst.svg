@@ -195,15 +195,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="474.39975"
-     inkscape:cy="427.32879"
+     inkscape:cx="503.04325"
+     inkscape:cy="393.07161"
      inkscape:document-units="px"
-     inkscape:current-layer="layer234"
+     inkscape:current-layer="layer244"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1476"
+     inkscape:window-width="1486"
      inkscape:window-height="1139"
      inkscape:window-x="1400"
      inkscape:window-y="24"
@@ -715,24 +715,6 @@
      id="layer69"
      inkscape:label="#blank"
      style="display:none" />
-  <g
-     inkscape:groupmode="layer"
-     id="layer236"
-     inkscape:label="use_ref.ex"
-     style="display:inline">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="299.99005"
-       y="388"
-       id="text25817"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299.99005"
-         y="388"
-         id="tspan25819"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">TODO: branch/tag example?</tspan></text>
-  </g>
   <g
      inkscape:groupmode="layer"
      id="layer244"
