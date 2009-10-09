@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="slides-ug-use.svg"
+   sodipodi:docname="slides-ug-use-dst.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
@@ -195,18 +195,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="513.39975"
+     inkscape:cx="397.89975"
      inkscape:cy="387.32879"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2"
+     inkscape:current-layer="layer17"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1476"
-     inkscape:window-height="1139"
+     inkscape:window-width="1486"
+     inkscape:window-height="1067"
      inkscape:window-x="1400"
-     inkscape:window-y="24"
+     inkscape:window-y="72"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -356,21 +356,21 @@
          y="758">ACM Reflections / 2009</tspan></text>
     <g
        style="display:inline"
-       id="g52259"
-       transform="translate(-0.7040376,-6.418e-3)">
+       id="g9073"
+       transform="translate(-24.19132,0)">
       <text
          sodipodi:linespacing="125%"
          id="text52291"
-         y="758"
-         x="376.70084"
+         y="757.99359"
+         x="443.9968"
          style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
          xml:space="preserve"><tspan
-           y="758"
-           x="376.70084"
+           y="757.99359"
+           x="443.9968"
            id="tspan52293"
-           sodipodi:role="line">Tracking code changes in</tspan></text>
+           sodipodi:role="line">revision control, perfected.</tspan></text>
       <g
-         transform="translate(55.095065,-0.7948726)"
+         transform="translate(-201.60897,1.1987094)"
          id="g52295">
         <g
            style="fill:#008000"
@@ -388,6 +388,7 @@
         </g>
       </g>
       <g
+         transform="translate(-0.7040376,1.993582)"
          id="g52236">
         <g
            id="g52306"
@@ -534,6 +535,21 @@
         </g>
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="238.25195"
+       y="901.51758"
+       id="text4929"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4935"
+         x="238.25195"
+         y="901.51758">NOTE: this file needs to be post processed by negative.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4937"
+         x="238.25195"
+         y="921.51758">             http://github.com/bartman/negative</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

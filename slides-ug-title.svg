@@ -847,7 +847,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="545.7807"
+     inkscape:cx="430.2807"
      inkscape:cy="397.54732"
      inkscape:document-units="px"
      inkscape:current-layer="layer136"
@@ -855,10 +855,10 @@
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1433"
-     inkscape:window-height="1019"
+     inkscape:window-width="1486"
+     inkscape:window-height="1115"
      inkscape:window-x="1400"
-     inkscape:window-y="96"
+     inkscape:window-y="36"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -970,24 +970,45 @@
   <g
      inkscape:groupmode="layer"
      id="layer136"
-     inkscape:label="%Title.git.scm"
+     inkscape:label="Title.git.scm"
      style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="513.17188"
-       y="468"
+       y="508"
        id="text72314"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan72316"
          x="513.17188"
-         y="468">source control perfected</tspan></text>
+         y="508">revision control</tspan><tspan
+         sodipodi:role="line"
+         x="513.17188"
+         y="588"
+         id="tspan21571">perfected</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Title.git.workshop"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="513.17188"
+       y="582"
+       id="text5264"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5266"
+         x="513.17188"
+         y="582">Workshop</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="%Title.git"
+     inkscape:label="#Title.git"
      style="display:inline">
     <g
        style="display:inline"
