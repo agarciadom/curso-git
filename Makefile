@@ -19,17 +19,20 @@ ug_PDFS = $(ug_SVGS:%.svg=%.pdf)
 SVGS = $(sort ${dd_SVGS} ${ug_SVGS})
 PDFS = $(SVGS:%.svg=%.pdf)
 
-FINAL = slides-dd.pdf slides-ug.pdf
+dd_FINAL = slides-tracking-code-changes-in-git.pdf
+ug_FINAL = slides-git-revision-control-perfected.pdf
+
+FINAL = ${dd_FINAL} ${ug_FINAL}
 
 all: ${FINAL}
 
 ${PDFS}: %.pdf: %.svg
 	negative -t pdf -o $@ $<
 
-slides-dd.pdf: ${dd_PDFS}
+${dd_FINAL}: ${dd_PDFS}
 	pdftk $^ cat output $@
 	
-slides-ug.pdf: ${ug_PDFS}
+${ug_FINAL}: ${ug_PDFS}
 	pdftk $^ cat output $@
 
 clean:
