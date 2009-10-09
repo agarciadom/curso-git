@@ -3979,18 +3979,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="509.22516"
-     inkscape:cy="444.24844"
+     inkscape:cx="526.67022"
+     inkscape:cy="462.7771"
      inkscape:document-units="px"
-     inkscape:current-layer="layer181"
+     inkscape:current-layer="layer174"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1486"
-     inkscape:window-height="1103"
+     inkscape:window-height="1139"
      inkscape:window-x="1400"
-     inkscape:window-y="60"
+     inkscape:window-y="24"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -4889,7 +4889,7 @@
      inkscape:groupmode="layer"
      id="layer174"
      inkscape:label="intro_op.ref1.svn+git_2.email-svn"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -4901,7 +4901,7 @@
          x="300"
          y="438"
          id="tspan15620"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">email the administrator</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">email the build guy</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4961,7 +4961,7 @@
      inkscape:groupmode="layer"
      id="layer144"
      inkscape:label="intro_op.ref1.email-svn"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -4973,7 +4973,7 @@
          x="299"
          y="278"
          id="tspan15615"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">email the administrator</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#6f0000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">email the build guy</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -18361,6 +18361,28 @@
          id="tspan3820"
          x="607.61853"
          y="200.73122">commit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.15922356px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="610.42114"
+       y="229.68925"
+       id="text8008"
+       transform="scale(1.013794,0.9863937)"><tspan
+         sodipodi:role="line"
+         id="tspan8010"
+         x="610.42114"
+         y="229.68925">branch</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.15922356px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="626.797"
+       y="256.48987"
+       id="text8012"
+       transform="scale(1.013794,0.9863937)"><tspan
+         sodipodi:role="line"
+         id="tspan8014"
+         x="626.797"
+         y="256.48987">tag</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -18381,35 +18403,35 @@
     <text
        xml:space="preserve"
        style="font-size:17.15922356px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="623.40082"
+       x="623.55994"
        y="241.28297"
        id="text3794"
        transform="scale(1.013794,0.9863937)"><tspan
          sodipodi:role="line"
          id="tspan3796"
-         x="623.40082"
+         x="623.55994"
          y="241.28297">diff </tspan></text>
     <text
        xml:space="preserve"
        style="font-size:17.15922356px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="624.79999"
+       x="624.8335"
        y="268.75507"
        id="text3800"
        transform="scale(1.013794,0.9863937)"><tspan
          sodipodi:role="line"
          id="tspan3802"
-         x="624.79999"
+         x="624.8335"
          y="268.75507">log</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:17.15922356px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
-       x="607.36432"
+       x="607.41455"
        y="212.14778"
        id="text3806"
        transform="scale(1.013794,0.9863937)"><tspan
          sodipodi:role="line"
          id="tspan3808"
-         x="607.36432"
+         x="607.41455"
          y="212.14778">update</tspan></text>
     <text
        xml:space="preserve"
@@ -18441,7 +18463,7 @@
      style="display:none">
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3.14975119px;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow1Mend);stroke-opacity:1;display:inline"
-       d="M 716.35315,138 L 560,138"
+       d="M 720,138 L 563.64685,138"
        id="path3816"
        sodipodi:nodetypes="cc" />
     <g
@@ -25397,8 +25419,9 @@
        width="310"
        height="50"
        x="230"
-       y="492"
-       ry="4.3631425" />
+       y="490"
+       ry="4.3631425"
+       rx="4.3631425" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -25411,8 +25434,9 @@
        width="270"
        height="50"
        x="230"
-       y="392"
-       ry="4.3631425" />
+       y="390"
+       ry="4.3631425"
+       rx="4.3631425" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -25480,7 +25504,7 @@
          sodipodi:role="line"
          x="206.47517"
          y="528"
-         id="tspan73135">- SCM Operation</tspan></text>
+         id="tspan73135">- Topic branches</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -25573,8 +25597,9 @@
        width="500.30942"
        height="79.829346"
        x="239.69058"
-       y="448.17065"
-       ry="4.3631425" />
+       y="450.17065"
+       ry="4.3631425"
+       rx="4.3631425" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -25584,11 +25609,12 @@
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4848"
-       width="360"
+       width="620.72223"
        height="80"
        x="240"
-       y="328"
-       ry="4.3631425" />
+       y="324"
+       ry="4.3631425"
+       rx="4.3631425" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -25601,7 +25627,7 @@
        width="540.38995"
        height="79.829346"
        x="239.68997"
-       y="198.17065"
+       y="194.17065"
        ry="4.3631425"
        rx="4.3631425" />
   </g>
@@ -25616,8 +25642,9 @@
        width="470.31"
        height="79.829346"
        x="239.69058"
-       y="67.69059"
-       ry="4.3631425" />
+       y="65.69059"
+       ry="4.3631425"
+       rx="4.3631425" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -25642,7 +25669,7 @@
          sodipodi:role="line"
          x="206.47517"
          y="256"
-         id="tspan4830">- Decentralization</tspan><tspan
+         id="tspan4830">- Centralized SCM</tspan><tspan
          sodipodi:role="line"
          x="206.47517"
          y="320"
@@ -25650,7 +25677,7 @@
          sodipodi:role="line"
          x="206.47517"
          y="384"
-         id="tspan4828">- Repository</tspan><tspan
+         id="tspan4828">- Decentralized SCM</tspan><tspan
          sodipodi:role="line"
          x="206.47517"
          y="448"
@@ -25658,7 +25685,7 @@
          sodipodi:role="line"
          x="206.47517"
          y="512"
-         id="tspan4832">- Quick GIT intro</tspan></text>
+         id="tspan4832">- Quick Git intro</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
