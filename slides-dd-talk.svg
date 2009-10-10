@@ -3979,16 +3979,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="411.17022"
+     inkscape:cx="575.67022"
      inkscape:cy="382.7771"
      inkscape:document-units="px"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer186"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1541"
-     inkscape:window-height="1127"
+     inkscape:window-width="1540"
+     inkscape:window-height="1103"
      inkscape:window-x="1400"
      inkscape:window-y="36"
      inkscape:snap-global="true"
@@ -4508,6 +4508,103 @@
      id="layer69"
      inkscape:label="#blank"
      style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer186"
+     inkscape:label="further-reading"
+     style="display:none">
+    <g
+       style="display:inline"
+       id="g31033">
+      <text
+         id="text30989"
+         y="157.875"
+         x="510.32031"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000080"
+           y="157.875"
+           x="510.32031"
+           id="tspan30991"
+           sodipodi:role="line">http://www.jukie.net/~bart/</tspan></text>
+      <text
+         id="text31021"
+         y="88"
+         x="510.91602"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;fill:#008000"
+           y="88"
+           x="510.91602"
+           id="tspan31023"
+           sodipodi:role="line">contact the speaker</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       id="g31045"
+       transform="translate(0,209.875)">
+      <text
+         id="text31005"
+         y="438"
+         x="511.92188"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000080"
+           y="438"
+           x="511.92188"
+           id="tspan31007"
+           sodipodi:role="line">http://git-scm.com</tspan></text>
+      <text
+         id="text31029"
+         y="368.125"
+         x="511.96094"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;fill:#008000"
+           y="368.125"
+           x="511.96094"
+           id="tspan31031"
+           sodipodi:role="line">official git website</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       id="g31096"
+       transform="translate(0,22.5625)">
+      <text
+         id="text31025"
+         y="283.0625"
+         x="510.97461"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;fill:#008000"
+           y="283.0625"
+           x="510.97461"
+           id="tspan31027"
+           sodipodi:role="line">get the slides for this talk</tspan></text>
+      <text
+         id="text30999"
+         y="408"
+         x="511.22852"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000080"
+           y="408"
+           x="511.22852"
+           id="tspan31001"
+           sodipodi:role="line">http://2tu.us/wm4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+         x="511.42188"
+         y="343.19922"
+         id="text31088"><tspan
+           sodipodi:role="line"
+           id="tspan31090"
+           x="511.42188"
+           y="343.19922"
+           style="font-size:32px;font-weight:bold;text-align:center;text-anchor:middle;fill:#000080">http://www.jukie.net/~bart/slides/git-reflections</tspan></text>
+    </g>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer176"
@@ -25606,7 +25703,7 @@
      inkscape:groupmode="layer"
      id="layer30"
      inkscape:label="toc.4"
-     style="opacity:1;display:inline">
+     style="opacity:1;display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4850"
@@ -25621,7 +25718,7 @@
      inkscape:groupmode="layer"
      id="layer29"
      inkscape:label="toc.3"
-     style="opacity:1;display:inline">
+     style="opacity:1;display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4848"
@@ -25636,7 +25733,7 @@
      inkscape:groupmode="layer"
      id="layer28"
      inkscape:label="toc.2"
-     style="opacity:1;display:inline">
+     style="opacity:1;display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4846"
@@ -25651,7 +25748,7 @@
      inkscape:groupmode="layer"
      id="layer27"
      inkscape:label="toc.1"
-     style="opacity:1;display:inline">
+     style="opacity:1;display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4841"
