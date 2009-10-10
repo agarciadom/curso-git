@@ -68,13 +68,13 @@
      inkscape:cx="564.42548"
      inkscape:cy="404.5619"
      inkscape:document-units="px"
-     inkscape:current-layer="layer109"
+     inkscape:current-layer="g55384"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1541"
-     inkscape:window-height="1127"
+     inkscape:window-height="1139"
      inkscape:window-x="1400"
      inkscape:window-y="24"
      inkscape:snap-global="true"
@@ -1107,17 +1107,17 @@
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
            id="tspan72058"><tspan
              style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-             id="tspan72060">&lt;cmd&gt;</tspan></tspan></tspan></text>
+             id="tspan72060">&lt;command&gt;</tspan></tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="440"
+       x="544"
        y="428"
        id="text72062"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan72064"
-         x="440"
+         x="544"
          y="428"><tspan
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
            id="tspan72066">--help</tspan></tspan></text>
@@ -1140,7 +1140,7 @@
          y="328.05371"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git help <tspan
    style="font-weight:bold;fill:#4d4d4d"
-   id="tspan67810">&lt;cmd&gt;</tspan></tspan></text>
+   id="tspan67810">&lt;command&gt;</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1160,7 +1160,7 @@
          y="228"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">man git-<tspan
    style="font-weight:bold;fill:#4d4d4d"
-   id="tspan67807">&lt;cmd&gt;</tspan></tspan></text>
+   id="tspan67807">&lt;command&gt;</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3549,7 +3549,7 @@
      inkscape:groupmode="layer"
      id="layer109"
      inkscape:label="cmd.plumbing"
-     style="display:inline">
+     style="display:none">
     <g
        id="g46083"
        transform="translate(29,-19.310356)">
