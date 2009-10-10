@@ -104,16 +104,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="460.77876"
-     inkscape:cy="267.38657"
+     inkscape:cx="585.27876"
+     inkscape:cy="387.38657"
      inkscape:document-units="px"
      inkscape:current-layer="layer17"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1486"
-     inkscape:window-height="1103"
+     inkscape:window-width="1541"
+     inkscape:window-height="1127"
      inkscape:window-x="1400"
      inkscape:window-y="24"
      inkscape:snap-global="true"
@@ -6226,6 +6226,112 @@
            x="1.0967605"
            id="tspan6606"
            sodipodi:role="line">Intro</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer45"
+     inkscape:label="toc.3"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4848"
+       width="320.03394"
+       height="80"
+       x="239.99998"
+       y="324"
+       ry="4.3631425"
+       rx="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer44"
+     inkscape:label="toc.2"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4846"
+       width="390.33716"
+       height="79.829346"
+       x="239.68999"
+       y="194.17065"
+       ry="4.3631425"
+       rx="4.363143" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer43"
+     inkscape:label="toc.1"
+     style="display:none">
+    <rect
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4841"
+       width="410.18179"
+       height="79.829346"
+       x="239.69058"
+       y="65.69059"
+       ry="4.3631425"
+       rx="4.3631425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer42"
+     inkscape:label="toc."
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="206.47517"
+       y="128"
+       id="text2995"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="128"
+         id="tspan2999">- Introduction</tspan><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="192"
+         id="tspan8019" /><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="256"
+         id="tspan4830">- Commands</tspan><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="320"
+         id="tspan4836" /><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="384"
+         id="tspan4832">- Using Git</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer38"
+     inkscape:label="#toc"
+     style="display:none">
+    <g
+       style="display:inline"
+       id="g2987">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path2989"
+         d="M 129.286,-0.571 L 206.429,-0.571 L 0,205.857 L 0,128.714 L 129.286,-0.571 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
+         sodipodi:linespacing="125%"
+         id="text2991"
+         y="130.93117"
+         x="1.0967605"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+           y="130.93117"
+           x="1.0967605"
+           id="tspan2993"
+           sodipodi:role="line">TOC</tspan></text>
     </g>
   </g>
 </svg>
