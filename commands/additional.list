@@ -5,7 +5,6 @@ clean
 difftool
 gui
 help
-instaweb
 mergetool
 rebase
 reset

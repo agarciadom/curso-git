@@ -12,5 +12,6 @@ pull
 push
 rm
 show
+stage
 status
 tag

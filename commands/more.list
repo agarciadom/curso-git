@@ -3,6 +3,7 @@ apply
 archive
 cherry-pick
 describe
+filter-branch
 format-patch
 gc
 reflog

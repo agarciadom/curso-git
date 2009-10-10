@@ -4,6 +4,7 @@ cvsexportcommit
 cvsimport
 cvsserver
 daemon
+instaweb
 quiltimport
 request-pull
 send-email

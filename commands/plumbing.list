@@ -16,7 +16,6 @@ fast-export
 fast-import
 fetch-pack
 fetch--tool
-filter-branch
 fmt-merge-msg
 for-each-ref
 fsck
@@ -71,7 +70,6 @@ show-branch
 show-index
 show-ref
 sh-setup
-stage
 stripspace
 symbolic-ref
 tar-tree
