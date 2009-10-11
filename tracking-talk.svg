@@ -3980,9 +3980,9 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="472.35083"
-     inkscape:cy="283.84997"
+     inkscape:cy="443.84997"
      inkscape:document-units="px"
-     inkscape:current-layer="layer128"
+     inkscape:current-layer="layer185"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -4719,8 +4719,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer185"
-     inkscape:label="intro_op.dst1.git_2.git_3.git"
-     style="display:none">
+     inkscape:label="gint.dst1.git_2.git_3.git"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -4732,13 +4732,13 @@
          x="299"
          y="578"
          id="tspan15657"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn push</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git push</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer184"
-     inkscape:label="intro_op.dst1.git_2.git_3"
-     style="display:none">
+     inkscape:label="gint.dst1.git_2.git_3"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -4755,8 +4755,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer183"
-     inkscape:label="intro_op.dst1.git_2.git"
-     style="display:none">
+     inkscape:label="gint.dst1.git_2.git"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -4768,13 +4768,13 @@
          x="299"
          y="428"
          id="tspan15648"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn pull</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git pull</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer182"
-     inkscape:label="intro_op.dst1.git_2"
-     style="display:none">
+     inkscape:label="gint.dst1.git_2"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -4791,8 +4791,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer181"
-     inkscape:label="intro_op.dst1.git"
-     style="display:none">
+     inkscape:label="gint.dst1.git"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -4804,13 +4804,13 @@
          x="299"
          y="278"
          id="tspan15634"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">svn clone &lt;url&gt;</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#007a00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git clone &lt;url&gt;</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer179"
-     inkscape:label="intro_op.dst1"
-     style="display:none">
+     inkscape:label="gint.dst1"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -4827,7 +4827,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer178"
-     inkscape:label="intro_op.dst"
+     inkscape:label="#gint.dst"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4845,7 +4845,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer166"
-     inkscape:label="intro_op.bra1.svn+git_2.svn+git"
+     inkscape:label="gint.bra1.svn+git_2.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4863,7 +4863,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer167"
-     inkscape:label="intro_op.bra1.svn+git_2.svn"
+     inkscape:label="gint.bra1.svn+git_2.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4882,7 +4882,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer168"
-     inkscape:label="intro_op.bra1.svn+git_2"
+     inkscape:label="gint.bra1.svn+git_2"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4900,7 +4900,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer172"
-     inkscape:label="intro_op.bra1.svn+git"
+     inkscape:label="gint.bra1.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4918,7 +4918,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer171"
-     inkscape:label="intro_op.bra1.svn"
+     inkscape:label="gint.bra1.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4937,7 +4937,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer170"
-     inkscape:label="intro_op.bra1"
+     inkscape:label="gint.bra1"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4955,7 +4955,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer169"
-     inkscape:label="intro_op.bra"
+     inkscape:label="#gint.bra"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4973,7 +4973,7 @@
   <g
      inkscape:groupmode="layer"
      id="g7469"
-     inkscape:label="intro_op.ref1.svn+git_2.svn+git"
+     inkscape:label="gint.ref1.svn+git_2.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4991,7 +4991,7 @@
   <g
      inkscape:groupmode="layer"
      id="g7479"
-     inkscape:label="intro_op.ref1.svn+git_2.svn"
+     inkscape:label="gint.ref1.svn+git_2.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5010,7 +5010,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer174"
-     inkscape:label="intro_op.ref1.svn+git_2.email-svn"
+     inkscape:label="gint.ref1.svn+git_2.email-svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5028,7 +5028,7 @@
   <g
      inkscape:groupmode="layer"
      id="g7489"
-     inkscape:label="intro_op.ref1.svn+git_2"
+     inkscape:label="gint.ref1.svn+git_2"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5046,7 +5046,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170092"
-     inkscape:label="intro_op.ref1.svn+git"
+     inkscape:label="gint.ref1.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5064,7 +5064,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170106"
-     inkscape:label="intro_op.ref1.svn"
+     inkscape:label="gint.ref1.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5082,7 +5082,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer144"
-     inkscape:label="intro_op.ref1.email-svn"
+     inkscape:label="gint.ref1.email-svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5100,7 +5100,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170120"
-     inkscape:label="intro_op.ref1"
+     inkscape:label="gint.ref1"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5118,7 +5118,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer162"
-     inkscape:label="intro_op.ref"
+     inkscape:label="#gint.ref"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5136,7 +5136,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer163"
-     inkscape:label="intro_op.info1.svn+git_2.svn+git_3.svn+git"
+     inkscape:label="gint.info1.svn+git_2.svn+git_3.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5154,7 +5154,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer164"
-     inkscape:label="intro_op.info1.svn+git_2.svn+git_3.svn"
+     inkscape:label="gint.info1.svn+git_2.svn+git_3.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5172,7 +5172,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer165"
-     inkscape:label="intro_op.info1.svn+git_2.svn+git_3"
+     inkscape:label="gint.info1.svn+git_2.svn+git_3"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5190,7 +5190,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer44"
-     inkscape:label="intro_op.info1.svn+git_2.svn+git"
+     inkscape:label="gint.info1.svn+git_2.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5208,7 +5208,7 @@
   <g
      inkscape:groupmode="layer"
      id="g6698"
-     inkscape:label="intro_op.info1.svn+git_2.svn"
+     inkscape:label="gint.info1.svn+git_2.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5226,7 +5226,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer14"
-     inkscape:label="intro_op.info1.svn+git_2"
+     inkscape:label="gint.info1.svn+git_2"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5244,7 +5244,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170161"
-     inkscape:label="intro_op.info1.svn+git"
+     inkscape:label="gint.info1.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5262,7 +5262,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170175"
-     inkscape:label="intro_op.info1.svn"
+     inkscape:label="gint.info1.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5280,7 +5280,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170189"
-     inkscape:label="intro_op.info1"
+     inkscape:label="gint.info1"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5298,7 +5298,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer161"
-     inkscape:label="intro_op.info"
+     inkscape:label="#gint.info"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5316,7 +5316,7 @@
   <g
      inkscape:groupmode="layer"
      id="g7861"
-     inkscape:label="intro_op.modify1.svn+git_2.svn+git"
+     inkscape:label="gint.modify1.svn+git_2.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5346,7 +5346,7 @@
   <g
      inkscape:groupmode="layer"
      id="g7871"
-     inkscape:label="intro_op.modify1.svn+git_2.svn"
+     inkscape:label="gint.modify1.svn+git_2.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5376,7 +5376,7 @@
   <g
      inkscape:groupmode="layer"
      id="g7881"
-     inkscape:label="intro_op.modify1.svn+git_2"
+     inkscape:label="gint.modify1.svn+git_2"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5394,7 +5394,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170224"
-     inkscape:label="intro_op.modify1.svn+git"
+     inkscape:label="gint.modify1.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5424,7 +5424,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170234"
-     inkscape:label="intro_op.modify1.svn"
+     inkscape:label="gint.modify1.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5454,7 +5454,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170244"
-     inkscape:label="intro_op.modify1"
+     inkscape:label="gint.modify1"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5472,7 +5472,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer160"
-     inkscape:label="intro_op.modify"
+     inkscape:label="#gint.modify"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5490,7 +5490,7 @@
   <g
      inkscape:groupmode="layer"
      id="g7115"
-     inkscape:label="intro_op.new1.svn+git_2.svn+git"
+     inkscape:label="gint.new1.svn+git_2.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5508,7 +5508,7 @@
   <g
      inkscape:groupmode="layer"
      id="g7125"
-     inkscape:label="intro_op.new1.svn+git_2.svn"
+     inkscape:label="gint.new1.svn+git_2.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5526,7 +5526,7 @@
   <g
      inkscape:groupmode="layer"
      id="g7135"
-     inkscape:label="intro_op.new1.svn+git_2"
+     inkscape:label="gint.new1.svn+git_2"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5544,7 +5544,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170275"
-     inkscape:label="intro_op.new1.svn+git"
+     inkscape:label="gint.new1.svn+git"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5562,7 +5562,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170285"
-     inkscape:label="intro_op.new1.svn"
+     inkscape:label="gint.new1.svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5580,7 +5580,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer173"
-     inkscape:label="intro_op.new1.cmd-svn"
+     inkscape:label="gint.new1.cmd-svn"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5598,7 +5598,7 @@
   <g
      inkscape:groupmode="layer"
      id="g170295"
-     inkscape:label="intro_op.new1"
+     inkscape:label="gint.new1"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5616,7 +5616,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer159"
-     inkscape:label="intro_op.new"
+     inkscape:label="#gint.new"
      style="display:none">
     <text
        xml:space="preserve"
@@ -5633,37 +5633,9 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer8"
-     inkscape:label="#intro_op"
-     style="display:none">
-    <g
-       style="display:inline"
-       id="g3432">
-      <path
-         sodipodi:nodetypes="ccccc"
-         id="path3434"
-         d="M 206.429,-0.571 L 283.572,-0.571 L 0,283 L 0,205.857 L 206.429,-0.571 z"
-         style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <text
-         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3436"
-         y="182.43355"
-         x="-1.3322449"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"
-         xml:space="preserve"><tspan
-           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
-           y="182.43355"
-           x="-1.3322449"
-           id="tspan3438"
-           sodipodi:role="line">to Git</tspan></text>
-    </g>
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer91"
-     inkscape:label="#intro"
-     style="display:none">
+     inkscape:label="#gint"
+     style="display:inline">
     <g
        style="display:inline"
        id="g14907">
@@ -5684,7 +5656,7 @@
            y="130.93117"
            x="1.0967605"
            id="tspan14913"
-           sodipodi:role="line">Intro</tspan></text>
+           sodipodi:role="line">Git Intro</tspan></text>
     </g>
   </g>
   <g
