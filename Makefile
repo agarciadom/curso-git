@@ -36,14 +36,20 @@ all: pdfs pngs
 
 pdfs: ${FINALS}
 
-${dd_FINAL}: ${dd_PDFS}
-	pdftk $^ cat output $@
-	
-${ug_FINAL}: ${ug_PDFS}
-	pdftk $^ cat output $@
+${dd_FINAL}: ${dd_SVGS}
+	negative -t pdf -o $@ $^
 
-${PDFS}: %.pdf: %.svg
-	negative -t pdf -o $@ $<
+${ug_FINAL}: ${ug_SVGS}
+	negative -t pdf -o $@ $^
+
+ # ${dd_FINAL}: ${dd_PDFS}
+ # 	pdftk $^ cat output $@
+ # 	
+ # ${ug_FINAL}: ${ug_PDFS}
+ # 	pdftk $^ cat output $@
+ # 
+ # ${PDFS}: %.pdf: %.svg
+ # 	negative -t pdf -o $@ $<
 
 # png building...
 
