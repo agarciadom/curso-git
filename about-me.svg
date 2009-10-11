@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="slides-me.svg"
+   sodipodi:docname="about-me.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
@@ -126,18 +126,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="522.7807"
-     inkscape:cy="397.54732"
+     inkscape:cx="493.02633"
+     inkscape:cy="293.52489"
      inkscape:document-units="px"
-     inkscape:current-layer="layer26"
-     showgrid="true"
+     inkscape:current-layer="layer1"
+     showgrid="false"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1486"
-     inkscape:window-height="1127"
+     inkscape:window-width="1461"
+     inkscape:window-height="1151"
      inkscape:window-x="1400"
-     inkscape:window-y="36"
+     inkscape:window-y="12"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -246,6 +246,22 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="#_white"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect17643"
+       width="1023.7929"
+       height="767.77209"
+       x="0.20710677"
+       y="0.22792208"
+       rx="6.0865836"
+       ry="6.0865831" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer18"
@@ -679,7 +695,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="#me"
-     style="display:none">
+     style="display:inline">
     <g
        id="g3279">
       <path

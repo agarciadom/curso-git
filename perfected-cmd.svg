@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="slides-ug-cmd.svg"
+   sodipodi:docname="perfected-cmd.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
@@ -65,7 +65,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="500.92548"
+     inkscape:cx="385.42548"
      inkscape:cy="404.5619"
      inkscape:document-units="px"
      inkscape:current-layer="layer131"
@@ -73,8 +73,8 @@
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1540"
-     inkscape:window-height="1139"
+     inkscape:window-width="1461"
+     inkscape:window-height="1055"
      inkscape:window-x="1400"
      inkscape:window-y="12"
      inkscape:snap-global="true"
@@ -191,6 +191,15 @@
      inkscape:label="#_bottom"
      style="display:inline"
      sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect17643"
+       width="1023.7929"
+       height="767.77209"
+       x="0.20710677"
+       y="0.22792208"
+       rx="6.0865836"
+       ry="6.0865831" />
     <rect
        style="fill:#ffccaa"
        id="rect2965"
@@ -601,7 +610,7 @@
      inkscape:groupmode="layer"
      id="layer131"
      inkscape:label="cmd_conf.mine"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -16082,7 +16091,7 @@
      inkscape:groupmode="layer"
      id="layer100"
      inkscape:label="#cmd"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g6969">
@@ -16110,7 +16119,7 @@
      inkscape:groupmode="layer"
      id="layer102"
      inkscape:label="Commands"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"

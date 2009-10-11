@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="slides-dd-title.svg"
+   sodipodi:docname="tracking-title.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
@@ -847,7 +847,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="465.7807"
+     inkscape:cx="434.7807"
      inkscape:cy="397.54732"
      inkscape:document-units="px"
      inkscape:current-layer="layer135"
@@ -855,10 +855,10 @@
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1433"
-     inkscape:window-height="1031"
+     inkscape:window-width="1461"
+     inkscape:window-height="1127"
      inkscape:window-x="1400"
-     inkscape:window-y="84"
+     inkscape:window-y="24"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -969,8 +969,23 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="#_white"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect17643"
+       width="1023.7929"
+       height="767.77209"
+       x="0.20710677"
+       y="0.22792208"
+       rx="6.0865836"
+       ry="6.0865831" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer135"
-     inkscape:label="%Title.git"
+     inkscape:label="Title.git"
      style="display:inline">
     <g
        style="display:inline"
@@ -1054,7 +1069,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer136"
-     inkscape:label="%Title.dist"
+     inkscape:label="Title.dist"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1071,7 +1086,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="#%Title"
+     inkscape:label="#Title"
      style="display:inline">
     <text
        xml:space="preserve"

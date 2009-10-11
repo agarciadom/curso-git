@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="slides-ug-use-hst.svg"
+   sodipodi:docname="perfected-use-hst.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
@@ -208,18 +208,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="576.16055"
+     inkscape:cx="460.66055"
      inkscape:cy="389.4591"
      inkscape:document-units="px"
-     inkscape:current-layer="layer90"
+     inkscape:current-layer="layer17"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1541"
-     inkscape:window-height="1103"
+     inkscape:window-width="1461"
+     inkscape:window-height="1127"
      inkscape:window-x="1400"
-     inkscape:window-y="24"
+     inkscape:window-y="12"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -338,6 +338,15 @@
      inkscape:label="#_bottom"
      style="display:inline"
      sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect17643"
+       width="1023.7929"
+       height="767.77209"
+       x="0.20710677"
+       y="0.22792208"
+       rx="6.0865836"
+       ry="6.0865831" />
     <rect
        style="fill:#ffccaa"
        id="rect2965"
