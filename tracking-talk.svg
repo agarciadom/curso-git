@@ -3982,7 +3982,7 @@
      inkscape:cx="472.35083"
      inkscape:cy="283.84997"
      inkscape:document-units="px"
-     inkscape:current-layer="g12938"
+     inkscape:current-layer="layer128"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -6729,7 +6729,7 @@
        id="path141594"
        sodipodi:nodetypes="cccccccc" />
     <path
-       style="fill:#808000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       style="opacity:1;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="M 513,551 L 533,536 L 513,521 L 513,531 L 482,531 L 482,541 L 513,541 L 513,551 z"
        id="path141596"
        sodipodi:nodetypes="cccccccc" />
@@ -10406,7 +10406,7 @@
      inkscape:groupmode="layer"
      id="g12938"
      inkscape:label="#dcnt_top.sh"
-     style="display:inline">
+     style="display:none">
     <g
        id="g17252"
        transform="translate(0,-20)">
@@ -11325,7 +11325,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer188"
-     inkscape:label="dcnt_top.sh.^push^23^4^5^s^p^p^txt">
+     inkscape:label="dcnt_top.sh.^push^23^4^5^s^p^p^txt"
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:48px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -11343,7 +11344,7 @@
      inkscape:groupmode="layer"
      id="layer141"
      inkscape:label="#dcnt_top.sh.^push^23^4^5^s^p^p"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="M 663.79811,348.53828 L 633.63765,322.26382 L 485.63288,491.20506 L 455.47244,464.93059 L 467.87003,542.04284 L 545.95378,543.75398 L 515.79334,517.47951 L 663.79811,348.53828 z"
@@ -11365,7 +11366,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer187"
-     inkscape:label="dcnt_top.sh.^push^23^4^5^s^p^txt">
+     inkscape:label="dcnt_top.sh.^push^23^4^5^s^p^txt"
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:48px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -11383,7 +11385,7 @@
      inkscape:groupmode="layer"
      id="layer140"
      inkscape:label="#dcnt_top.sh.^push^23^4^5^s^p"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#800000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="M 806.54746,498 L 766.54746,498 L 766.54746,388 L 726.54746,388 L 786.54746,338 L 846.54746,388 L 806.54746,388 L 806.54746,498 z"
@@ -11826,7 +11828,7 @@
      inkscape:groupmode="layer"
      id="layer139"
      inkscape:label="dcnt_top.sh.^push^23^4^5^s"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g149192"
@@ -11957,7 +11959,7 @@
      inkscape:groupmode="layer"
      id="layer111"
      inkscape:label="dcnt_top.sh.^push^23^4^5^m"
-     style="display:inline">
+     style="display:none">
     <g
        id="g149180"
        transform="matrix(0.7967748,0.6042764,-0.6042764,0.7967748,425.02876,-197.12109)">
@@ -12010,7 +12012,7 @@
      inkscape:groupmode="layer"
      id="layer109"
      inkscape:label="dcnt_top.sh.^push^23^4^5"
-     style="display:inline">
+     style="display:none">
     <g
        id="g149059"
        transform="translate(0,140.00003)">
@@ -12682,7 +12684,7 @@
      inkscape:groupmode="layer"
      id="layer137"
      inkscape:label="dcnt_top.sh.^push^23^4^txt"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:48px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -12700,7 +12702,7 @@
      inkscape:groupmode="layer"
      id="layer108"
      inkscape:label="#dcnt_top.sh.^push^23^4"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="M 455.47244,348.53828 L 485.6329,322.26382 L 633.63767,491.20506 L 663.79811,464.93059 L 651.40052,542.04284 L 573.31677,543.75398 L 603.47721,517.47951 L 455.47244,348.53828 z"
@@ -12723,7 +12725,7 @@
      inkscape:groupmode="layer"
      id="g12934"
      inkscape:label="dcnt_top.sh.^push^23"
-     style="display:inline">
+     style="display:none">
     <g
        id="g149020"
        transform="translate(0,140.00003)">
@@ -12835,7 +12837,7 @@
      inkscape:groupmode="layer"
      id="layer107"
      inkscape:label="dcnt_top.sh.^push^2"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g16608"
@@ -13261,7 +13263,7 @@
      inkscape:groupmode="layer"
      id="layer138"
      inkscape:label="dcnt_top.sh.^push^txt"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:48px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -13279,7 +13281,7 @@
      inkscape:groupmode="layer"
      id="g12936"
      inkscape:label="#dcnt_top.sh.^push"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#800000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="M 366,498 L 326,498 L 326,388 L 286,388 L 346,338 L 406,388 L 366,388 L 366,498 z"
