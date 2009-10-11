@@ -1,19 +1,19 @@
 
 dd_SVGS =  \
-	slides-dd-title.svg  \
-	slides-me.svg        \
-	slides-dd-talk.svg
+	tracking-title.svg      \
+	about-me.svg            \
+	tracking-talk.svg
 dd_PDFS = $(dd_SVGS:%.svg=%.pdf)
 
 ug_SVGS =  \
-	slides-ug-title.svg      \
-	slides-me.svg            \
-	slides-ug-intro.svg      \
-	slides-ug-cmd.svg        \
-	slides-ug-use-cmt.svg    \
-	slides-ug-use-hst.svg    \
-	slides-ug-use-dst.svg    \
-	slides-ug-use-dex.svg
+	perfected-title.svg     \
+	about-me.svg            \
+	perfected-intro.svg     \
+	perfected-cmd.svg       \
+	perfected-use-cmt.svg   \
+	perfected-use-hst.svg   \
+	perfected-use-dst.svg   \
+	perfected-use-dex.svg
 ug_PDFS = $(ug_SVGS:%.svg=%.pdf)
 
 SVGS = $(sort ${dd_SVGS} ${ug_SVGS})
