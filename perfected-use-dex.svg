@@ -195,16 +195,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="447.875"
-     inkscape:cy="406.4084"
+     inkscape:cx="573.6157"
+     inkscape:cy="324.43899"
      inkscape:document-units="px"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer86"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1461"
-     inkscape:window-height="1103"
+     inkscape:window-height="1139"
      inkscape:window-x="1400"
      inkscape:window-y="12"
      inkscape:snap-global="true"
@@ -860,13 +860,13 @@
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
-       d="M 65.000075,302.99993 L 80,303"
+       d="M 65.000076,252.99991 L 130,253"
        id="path3394"
        sodipodi:nodetypes="cc" />
     <g
        style="display:inline"
        id="g3396"
-       transform="matrix(0,-4.2666444,3.8003387,0,-1696.8313,3921.381)">
+       transform="matrix(0,-4.2666444,3.8003387,0,-1696.8313,3871.381)">
       <g
          transform="matrix(1.562508,0,0,1.578809,334.46609,357.24649)"
          id="g3398"
@@ -937,21 +937,21 @@
          sodipodi:role="line">git push</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
-       d="M 65.000075,302.99993 L 80,303"
-       id="path3382"
+       d="M 65.000076,252.99991 L 130,253"
+       id="path11699"
        sodipodi:nodetypes="cc" />
     <g
        style="display:inline"
-       id="g3384"
-       transform="matrix(0,-4.2666444,3.8003387,0,-1696.8313,3921.381)">
+       id="g11701"
+       transform="matrix(0,-4.2666444,3.8003387,0,-1696.8313,3871.381)">
       <g
          transform="matrix(1.562508,0,0,1.578809,334.46609,357.24649)"
-         id="g3386"
+         id="g11703"
          style="opacity:1">
         <path
            style="fill:#ff7070;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="M 320.45,62.362173 L 320.45,65.362173 L 322.45,67.362173 L 334.95,67.36218 L 336.95,65.36218 L 336.95,62.36218 L 320.45,62.362173 z"
-           id="path3388"
+           id="path11705"
            sodipodi:nodetypes="ccccccc" />
         <text
            transform="scale(1.0443549,0.9575289)"
@@ -959,10 +959,10 @@
            style="font-size:2.21359277px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
            x="314.70538"
            y="68.43618"
-           id="text3390"
+           id="text11707"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
-             id="tspan3392"
+             id="tspan11709"
              x="314.70538"
              y="68.43618"
              style="font-size:2.21359277px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">origin/master</tspan></text>
@@ -1202,7 +1202,7 @@
          id="tspan59731"
          x="850.96875"
          y="48"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Buddy</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Fred</tspan></text>
     <g
        style="display:inline"
        id="g59733"
@@ -1470,34 +1470,7 @@
          id="tspan59837"
          x="286.93369"
          y="-304.30795"
-         style="font-size:13.53181076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">buddy/master</tspan></text>
-    <g
-       style="display:inline"
-       id="g59839"
-       transform="matrix(4.2666444,0,0,3.8003387,-3388.7143,-1593.8314)">
-      <g
-         transform="matrix(1.562508,0,0,1.578809,334.46609,357.24649)"
-         id="g59841"
-         style="opacity:1">
-        <path
-           style="fill:#ff7070;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="M 325,62.362183 L 325,65.362183 L 327,67.362183 L 338,67.362183 L 340,65.362183 L 340,62.362183 L 325,62.362183 z"
-           id="path59843" />
-        <text
-           transform="scale(1.0443549,0.9575289)"
-           xml:space="preserve"
-           style="font-size:1.84539533px;font-style:normal;font-weight:normal;line-height:125%;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-           x="314.45148"
-           y="68.585548"
-           id="text59845"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan59847"
-             x="314.45148"
-             y="68.585548"
-             style="font-size:2.4605267px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">buddy</tspan></text>
-      </g>
-    </g>
+         style="font-size:13.53181076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">fred/master</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -1705,6 +1678,33 @@
        d="M 534.85498,268 L 544.85498,288"
        id="path59939"
        sodipodi:nodetypes="cc" />
+    <g
+       style="display:inline"
+       id="g3444"
+       transform="matrix(4.2666444,0,0,3.8003387,-3388.7143,-1593.8314)">
+      <g
+         transform="matrix(1.562508,0,0,1.578809,334.46609,357.24649)"
+         id="g3446"
+         style="opacity:1">
+        <path
+           style="fill:#ff7070;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 325,62.362183 L 325,65.362183 L 327,67.362183 L 338,67.362183 L 340,65.362183 L 340,62.362183 L 325,62.362183 z"
+           id="path3448" />
+        <text
+           transform="scale(1.0443549,0.9575289)"
+           xml:space="preserve"
+           style="font-size:1.84539533px;font-style:normal;font-weight:normal;line-height:125%;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           x="315.72369"
+           y="68.585548"
+           id="text3450"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3452"
+             x="315.72369"
+             y="68.585548"
+             style="font-size:2.4605267px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">fred</tspan></text>
+      </g>
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1817,7 +1817,7 @@
          x="260"
          style="font-weight:bold;fill:#800080"
          id="tspan59204"
-         sodipodi:role="line">buddy</tspan></text>
+         sodipodi:role="line">fred</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
        d="M 85,168 L 85,193 C 85,203 85,203 94.398755,203 L 160,203 C 170.25,203 170.25,203 170.25,213 L 170.25,238"
@@ -1885,7 +1885,7 @@
          x="260"
          style="font-weight:bold;fill:#800080"
          id="tspan59191"
-         sodipodi:role="line">buddy</tspan></text>
+         sodipodi:role="line">fred</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
        d="M 85,168 L 85,243 C 85,253 85,253 94.398755,253 L 109.75,253 C 120,253 120,253 120,263 L 120,288"
@@ -2110,30 +2110,6 @@
          sodipodi:role="line">git checkout -b</tspan></text>
     <text
        sodipodi:linespacing="100%"
-       id="text58747"
-       y="628"
-       x="413.8125"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       xml:space="preserve"><tspan
-         y="628"
-         x="413.8125"
-         style="font-weight:bold;fill:#800080"
-         id="tspan58749"
-         sodipodi:role="line">buddy</tspan></text>
-    <text
-       sodipodi:linespacing="100%"
-       id="text58751"
-       y="628"
-       x="563.8125"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       xml:space="preserve"><tspan
-         y="628"
-         x="563.8125"
-         style="font-weight:bold;fill:#800000"
-         id="tspan58753"
-         sodipodi:role="line">buddy/master</tspan></text>
-    <text
-       sodipodi:linespacing="100%"
        id="text58783"
        y="628"
        x="20"
@@ -2146,7 +2122,7 @@
          sodipodi:role="line">git checkout -b</tspan></text>
     <text
        sodipodi:linespacing="100%"
-       id="text58787"
+       id="text3425"
        y="628"
        x="413.8125"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -2154,20 +2130,20 @@
          y="628"
          x="413.8125"
          style="font-weight:bold;fill:#800080"
-         id="tspan58789"
-         sodipodi:role="line">buddy</tspan></text>
+         id="tspan3427"
+         sodipodi:role="line">fred</tspan></text>
     <text
        sodipodi:linespacing="100%"
-       id="text58791"
+       id="text3429"
        y="628"
-       x="563.8125"
+       x="537.8125"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        xml:space="preserve"><tspan
          y="628"
-         x="563.8125"
+         x="537.8125"
          style="font-weight:bold;fill:#800000"
-         id="tspan58793"
-         sodipodi:role="line">buddy/master</tspan></text>
+         id="tspan3431"
+         sodipodi:role="line">fred/master</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2489,7 +2465,7 @@
          id="tspan58873"
          x="850.96875"
          y="48"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Buddy</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Fred</tspan></text>
     <g
        style="display:inline"
        id="g58875"
@@ -2785,7 +2761,7 @@
          id="tspan59060"
          x="286.93369"
          y="-304.30795"
-         style="font-size:13.53181076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">buddy/master</tspan></text>
+         style="font-size:13.53181076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">fred/master</tspan></text>
     <g
        style="display:inline"
        id="g58995"
@@ -2802,15 +2778,15 @@
            transform="scale(1.0443549,0.9575289)"
            xml:space="preserve"
            style="font-size:1.84539533px;font-style:normal;font-weight:normal;line-height:125%;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-           x="314.45148"
+           x="315.72369"
            y="68.585548"
            id="text59001"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
              id="tspan59003"
-             x="314.45148"
+             x="315.72369"
              y="68.585548"
-             style="font-size:2.4605267px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">buddy</tspan></text>
+             style="font-size:2.4605267px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">fred</tspan></text>
       </g>
     </g>
     <text
@@ -2852,29 +2828,29 @@
        sodipodi:nodetypes="cccccc" />
     <g
        style="display:inline"
-       id="g58522"
+       id="g3433"
        transform="matrix(4.2666444,0,0,3.8003387,-3388.7143,-1593.8314)">
       <g
          transform="matrix(1.562508,0,0,1.578809,334.46609,357.24649)"
-         id="g58524"
+         id="g3435"
          style="opacity:1">
         <path
            style="fill:#ff7070;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="M 325,62.362183 L 325,65.362183 L 327,67.362183 L 338,67.362183 L 340,65.362183 L 340,62.362183 L 325,62.362183 z"
-           id="path58526" />
+           id="path3438" />
         <text
            transform="scale(1.0443549,0.9575289)"
            xml:space="preserve"
            style="font-size:1.84539533px;font-style:normal;font-weight:normal;line-height:125%;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-           x="314.45148"
+           x="315.72369"
            y="68.585548"
-           id="text58528"
+           id="text3440"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
-             id="tspan58530"
-             x="314.45148"
+             id="tspan3442"
+             x="315.72369"
              y="68.585548"
-             style="font-size:2.4605267px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">buddy</tspan></text>
+             style="font-size:2.4605267px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">fred</tspan></text>
       </g>
     </g>
   </g>
@@ -2911,19 +2887,19 @@
          x="413.8125"
          style="font-weight:bold;fill:#800080"
          id="tspan58513"
-         sodipodi:role="line">buddy</tspan></text>
+         sodipodi:role="line">fred</tspan></text>
     <text
        sodipodi:linespacing="100%"
        id="text58516"
        y="628"
-       x="563.8125"
+       x="537.8125"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        xml:space="preserve"><tspan
          y="628"
-         x="563.8125"
+         x="537.8125"
          style="font-weight:bold;fill:#800000"
          id="tspan58518"
-         sodipodi:role="line">buddy/master</tspan></text>
+         sodipodi:role="line">fred/master</tspan></text>
     <g
        style="display:inline"
        id="g58675"
@@ -3005,7 +2981,7 @@
          y="698"
          x="20"
          id="tspan58586"
-         sodipodi:role="line">gitk</tspan></text>
+         sodipodi:role="line">gitk --all</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3026,7 +3002,7 @@
          sodipodi:role="line">git checkout -b</tspan></text>
     <text
        sodipodi:linespacing="100%"
-       id="text58576"
+       id="text3417"
        y="628"
        x="413.8125"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -3034,20 +3010,20 @@
          y="628"
          x="413.8125"
          style="font-weight:bold;fill:#800080"
-         id="tspan58578"
-         sodipodi:role="line">buddy</tspan></text>
+         id="tspan3419"
+         sodipodi:role="line">fred</tspan></text>
     <text
        sodipodi:linespacing="100%"
-       id="text58580"
+       id="text3421"
        y="628"
-       x="563.8125"
+       x="537.8125"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        xml:space="preserve"><tspan
          y="628"
-         x="563.8125"
+         x="537.8125"
          style="font-weight:bold;fill:#800000"
-         id="tspan58582"
-         sodipodi:role="line">buddy/master</tspan></text>
+         id="tspan3423"
+         sodipodi:role="line">fred/master</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3077,7 +3053,7 @@
          x="290"
          style="font-weight:bold;fill:#800000"
          sodipodi:role="line"
-         id="tspan59026">buddy/master</tspan></text>
+         id="tspan59026">fred/master</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3217,7 +3193,7 @@
          x="260"
          style="font-weight:bold;fill:#800000"
          id="tspan58257"
-         sodipodi:role="line">buddy</tspan></text>
+         sodipodi:role="line">fred</tspan></text>
     <g
        style="display:inline"
        id="g58627"
@@ -3449,7 +3425,7 @@
          id="tspan58315"
          x="850.96875"
          y="48"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Buddy</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Fred</tspan></text>
     <g
        style="display:inline"
        id="g58317"
@@ -3640,7 +3616,7 @@
          id="tspan58483"
          x="286.93369"
          y="-304.30795"
-         style="font-size:13.53181076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">buddy/master</tspan></text>
+         style="font-size:13.53181076px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">fred/master</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -3841,7 +3817,7 @@
          x="260"
          style="font-weight:bold;fill:#800000"
          id="tspan58131"
-         sodipodi:role="line">buddy</tspan></text>
+         sodipodi:role="line">fred</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3871,16 +3847,16 @@
          x="380"
          style="font-weight:bold;fill:#800000"
          id="tspan58083"
-         sodipodi:role="line">buddy</tspan></text>
+         sodipodi:role="line">fred</tspan></text>
     <text
        sodipodi:linespacing="100%"
        id="text58103"
        y="598"
-       x="520"
+       x="488"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        xml:space="preserve"><tspan
          y="598"
-         x="520"
+         x="488"
          style="fill:#800000"
          id="tspan58105"
          sodipodi:role="line">\</tspan></text>
@@ -4272,7 +4248,7 @@
          id="tspan23755"
          x="850.96875"
          y="48"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Buddy</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Fred</tspan></text>
     <g
        style="display:inline"
        id="g23757"
@@ -4931,7 +4907,7 @@
          id="tspan21952"
          x="850.96875"
          y="48"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Buddy</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">Fred</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
