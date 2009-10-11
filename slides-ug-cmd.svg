@@ -65,18 +65,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="564.42548"
+     inkscape:cx="500.92548"
      inkscape:cy="404.5619"
      inkscape:document-units="px"
-     inkscape:current-layer="g55384"
+     inkscape:current-layer="layer131"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1541"
+     inkscape:window-width="1540"
      inkscape:window-height="1139"
      inkscape:window-x="1400"
-     inkscape:window-y="24"
+     inkscape:window-y="12"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -601,7 +601,7 @@
      inkscape:groupmode="layer"
      id="layer131"
      inkscape:label="cmd_conf.mine"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -616,7 +616,7 @@
          sodipodi:role="line"
          id="tspan72138"
          x="200"
-         y="204">    name = &quot;Bart Trojanowski&quot;</tspan><tspan
+         y="204">    name  = &quot;Bart Trojanowski&quot;</tspan><tspan
          sodipodi:role="line"
          id="tspan72140"
          x="200"
@@ -640,7 +640,7 @@
          sodipodi:role="line"
          id="tspan72150"
          x="200"
-         y="420">    pager = less -FRSX</tspan><tspan
+         y="420">    pager  = less -FRSX</tspan><tspan
          sodipodi:role="line"
          id="tspan72152"
          x="200"
@@ -662,13 +662,9 @@
          x="200"
          y="600">[merge]</tspan><tspan
          sodipodi:role="line"
-         id="tspan72162"
-         x="200"
-         y="636">    tool = vimdiff</tspan><tspan
-         sodipodi:role="line"
          id="tspan72164"
          x="200"
-         y="672" /></text>
+         y="636">    tool = vimdiff</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
