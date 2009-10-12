@@ -389,18 +389,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="524.70346"
+     inkscape:cx="569.20346"
      inkscape:cy="380.28448"
      inkscape:document-units="px"
-     inkscape:current-layer="layer56"
+     inkscape:current-layer="layer11"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1478"
-     inkscape:window-height="1139"
+     inkscape:window-width="1416"
+     inkscape:window-height="1127"
      inkscape:window-x="1400"
-     inkscape:window-y="12"
+     inkscape:window-y="36"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -1104,7 +1104,7 @@
          sodipodi:role="line"
          id="tspan7197"
          x="749.32324"
-         y="86.20166">index</tspan></text>
+         y="86.20166">staged</tspan></text>
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#004d80;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
        d="M 750,98 L 750,268"
@@ -1345,7 +1345,7 @@
          sodipodi:role="line"
          id="tspan7189"
          x="749.32324"
-         y="86.20166">index</tspan></text>
+         y="86.20166">staged</tspan></text>
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#008000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
        d="M 560,98 L 560,128"
@@ -1449,7 +1449,7 @@
          sodipodi:role="line"
          id="tspan7169"
          x="749.32324"
-         y="86.20166">index</tspan></text>
+         y="86.20166">staged</tspan></text>
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#008000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
        d="M 560,98 L 560,128"
@@ -4174,7 +4174,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer145"
-     inkscape:label="use_staging.what"
+     inkscape:label="#use_staging.what"
      style="display:none">
     <text
        xml:space="preserve"
@@ -4370,7 +4370,7 @@
      inkscape:groupmode="layer"
      id="layer157"
      inkscape:label="use_staging.1.ops23_hl1"
-     style="display:inline">
+     style="display:none">
     <rect
        style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect11207"
@@ -4383,10 +4383,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer57"
-     inkscape:label="use_staging.1.ops23">
+     inkscape:label="use_staging.1.ops23"
+     style="display:none">
     <text
        xml:space="preserve"
-       style="display:inline;font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="299"
        y="598"
        id="text76480"
@@ -4398,7 +4399,7 @@
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git mv</tspan></text>
     <text
        xml:space="preserve"
-       style="display:inline;font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="206.47519"
        y="548"
        id="text76484"
@@ -4424,10 +4425,11 @@
   <g
      inkscape:groupmode="layer"
      id="layer56"
-     inkscape:label="use_staging.1.ops2">
+     inkscape:label="use_staging.1.ops2"
+     style="display:none">
     <text
        xml:space="preserve"
-       style="display:inline;font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
        x="299"
        y="438"
        id="text76472"
@@ -4439,7 +4441,7 @@
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git rm</tspan></text>
     <text
        xml:space="preserve"
-       style="display:inline;font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
        x="206.47519"
        y="388"
        id="text76476"
@@ -4466,7 +4468,7 @@
      inkscape:groupmode="layer"
      id="layer141"
      inkscape:label="use_staging.1.ops"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -4520,7 +4522,7 @@
      inkscape:groupmode="layer"
      id="layer140"
      inkscape:label="use_staging.1"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -4792,7 +4794,7 @@
      inkscape:groupmode="layer"
      id="layer137"
      inkscape:label="Using"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"

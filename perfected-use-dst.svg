@@ -195,18 +195,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="457.39975"
-     inkscape:cy="387.32879"
+     inkscape:cx="454.21227"
+     inkscape:cy="306.83847"
      inkscape:document-units="px"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer57"
      showgrid="true"
      width="1024px"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1461"
-     inkscape:window-height="1115"
+     inkscape:window-width="1416"
+     inkscape:window-height="1139"
      inkscape:window-x="1400"
-     inkscape:window-y="12"
+     inkscape:window-y="24"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -1019,8 +1019,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer57"
-     inkscape:label="#use_dst_pull."
-     style="display:none">
+     inkscape:label="use_dst_pull."
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -1037,8 +1037,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer49"
-     inkscape:label="use_dst_pull"
-     style="display:none">
+     inkscape:label="#use_dst_pull"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -1256,7 +1256,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer50"
-     inkscape:label="#use_dst_fetch."
+     inkscape:label="use_dst_fetch."
      style="display:none">
     <text
        xml:space="preserve"
@@ -1274,7 +1274,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer47"
-     inkscape:label="use_dst_fetch"
+     inkscape:label="#use_dst_fetch"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1411,7 +1411,7 @@
   <g
      inkscape:groupmode="layer"
      id="g48418"
-     inkscape:label="#use_dst_push."
+     inkscape:label="use_dst_push."
      style="display:none">
     <text
        xml:space="preserve"
@@ -1429,7 +1429,7 @@
   <g
      inkscape:groupmode="layer"
      id="g48420"
-     inkscape:label="use_dst_push"
+     inkscape:label="#use_dst_push"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1877,8 +1877,26 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="use_dst_rmt.0"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="210.18748"
+       y="278"
+       id="text8992"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="210.18748"
+         y="278"
+         id="tspan8994"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">other repositories we track</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="g31116"
-     inkscape:label="use_dst_rmt"
+     inkscape:label="#use_dst_rmt"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1900,17 +1918,17 @@
      style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:17.50948143px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="358.54187"
-       y="472.96082"
+       style="font-size:18.20073509px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="372.69669"
+       y="455.85696"
        id="text8444"
        sodipodi:linespacing="100%"
-       transform="scale(0.9499613,1.0526745)"><tspan
+       transform="scale(0.9138823,1.0942328)"><tspan
          sodipodi:role="line"
          id="tspan8446"
-         x="358.54187"
-         y="472.96082"
-         style="font-size:17.50948143px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold">git remote</tspan></text>
+         x="372.69669"
+         y="455.85696"
+         style="font-size:18.20073509px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Courier New;-inkscape-font-specification:Courier New Bold">git remote</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2130,7 +2148,8 @@
      inkscape:groupmode="layer"
      id="layer248"
      inkscape:label="use_Distributed.12"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
@@ -2160,7 +2179,8 @@
      inkscape:groupmode="layer"
      id="layer245"
      inkscape:label="use_Distributed.1"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
@@ -2178,7 +2198,8 @@
      inkscape:groupmode="layer"
      id="layer138"
      inkscape:label="#use"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        style="display:inline"
        id="g76416">
