@@ -65,16 +65,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="385.42548"
+     inkscape:cx="502.92548"
      inkscape:cy="404.5619"
      inkscape:document-units="px"
-     inkscape:current-layer="layer131"
+     inkscape:current-layer="layer126"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1461"
-     inkscape:window-height="1055"
+     inkscape:window-height="1139"
      inkscape:window-x="1400"
      inkscape:window-y="12"
      inkscape:snap-global="true"
@@ -882,7 +882,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer126"
-     inkscape:label="cmd_conf.glob"
+     inkscape:label="#cmd_conf.glob"
      style="display:none">
     <text
        xml:space="preserve"
@@ -1019,7 +1019,7 @@
   <g
      inkscape:groupmode="layer"
      id="g68331"
-     inkscape:label="cmd_conf.repo"
+     inkscape:label="#cmd_conf.repo"
      style="display:none">
     <text
        xml:space="preserve"
@@ -16119,7 +16119,8 @@
      inkscape:groupmode="layer"
      id="layer102"
      inkscape:label="Commands"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
