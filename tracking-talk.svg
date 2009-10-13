@@ -3979,16 +3979,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="480.35083"
+     inkscape:cx="524.85083"
      inkscape:cy="443.84997"
      inkscape:document-units="px"
-     inkscape:current-layer="layer42"
+     inkscape:current-layer="layer109"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1461"
-     inkscape:window-height="1127"
+     inkscape:window-width="1414"
+     inkscape:window-height="1139"
      inkscape:window-x="1400"
      inkscape:window-y="24"
      inkscape:snap-global="true"
@@ -4336,181 +4336,6 @@
          id="tspan4937"
          x="238.25195"
          y="921.51758">             http://github.com/bartman/negative</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer193"
-     inkscape:label="#templates"
-     style="display:none">
-    <g
-       style="opacity:1"
-       id="g47559"
-       transform="matrix(3.7498702,0,0,3.4999934,-391.20859,1.6221918)">
-      <path
-         id="path47561"
-         d="M 315,107.36218 L 340,107.36218 L 340,117.36218 L 315,117.36218 L 312,114.36218 L 312,110.36218 L 315,107.36218 z"
-         style="fill:#a2a6ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.31299999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         transform="matrix(0.444444,0,0,0.444444,175,62.42343)"
-         d="M 317,112.36218 A 2,2 0 1 1 313,112.36218 A 2,2 0 1 1 317,112.36218 z"
-         sodipodi:ry="2"
-         sodipodi:rx="2"
-         sodipodi:cy="112.36218"
-         sodipodi:cx="315"
-         id="path47563"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.70425069;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         sodipodi:type="arc" />
-      <text
-         xml:space="preserve"
-         style="font-size:3.59770966px;font-style:normal;font-weight:normal;line-height:125%;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-         x="318"
-         y="113.92168"
-         id="text47565"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan47567"
-           x="318"
-           y="113.92168"
-           style="font-size:4.79694605px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">v1.5.0</tspan></text>
-    </g>
-    <g
-       style="display:inline"
-       id="g47604"
-       transform="matrix(4.2324365,0,0,3.8003387,-2664.1057,-1244.8445)">
-      <g
-         transform="matrix(1.562508,0,0,1.578809,334.46609,357.24649)"
-         id="g47606"
-         style="opacity:1">
-        <path
-           style="fill:#ff7070;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="M 325,62.362183 L 325,65.362183 L 327,67.362183 L 338,67.362183 L 340,65.362183 L 340,62.362183 L 325,62.362183 z"
-           id="path47608" />
-        <text
-           transform="scale(1.044355,0.957529)"
-           xml:space="preserve"
-           style="font-size:1.84539509px;font-style:normal;font-weight:normal;line-height:125%;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-           x="313.84357"
-           y="68.436172"
-           id="text47610"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan47612"
-             x="313.84357"
-             y="68.436172"
-             style="font-size:2.46052647px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">topicA</tspan></text>
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       id="g47614"
-       transform="matrix(4.4799766,0,0,3.7954,-2873.3789,-1225.8116)">
-      <g
-         transform="matrix(1.562508,0,0,1.578809,334.46609,342.29613)"
-         id="g47616"
-         style="opacity:1">
-        <path
-           style="fill:#20ff20;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.15715921;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="M 324.99808,62.360263 L 324.99808,65.362567 L 326.90233,67.364103 L 337.37571,67.364103 L 339.27997,65.362567 L 339.27997,62.360263 L 324.99808,62.360263 z"
-           id="path47618" />
-        <text
-           transform="scale(1.0443549,0.9575289)"
-           xml:space="preserve"
-           style="font-size:1.84539533px;font-style:normal;font-weight:normal;line-height:125%;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-           x="314.83835"
-           y="68.43618"
-           id="text47620"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan47622"
-             x="314.83835"
-             y="68.43618"
-             style="font-size:2.4605267px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">HEAD</tspan></text>
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       id="g47665"
-       transform="matrix(6.5987961,0,0,6.3100912,-3939.073,-2741.7848)">
-      <g
-         transform="matrix(1.94833,0,0,1.578809,226.42322,350.59567)"
-         id="g47667"
-         style="opacity:1">
-        <path
-           style="fill:#ffa200;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.11775848;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="M 267.56808,107.35844 L 267.56808,112.36592 L 259.62322,112.36592 L 259.62322,107.35844 L 267.56808,107.35844 z"
-           id="path47669"
-           sodipodi:nodetypes="ccccc" />
-        <text
-           xml:space="preserve"
-           style="font-size:3.59770966px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-           x="263.59683"
-           y="111.36218"
-           id="text47671"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan47673"
-             x="263.59683"
-             y="111.36218"
-             style="font-size:4.79694605px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">A</tspan></text>
-      </g>
-    </g>
-    <g
-       style="display:inline"
-       id="g8666"
-       transform="matrix(6.4571523,0,0,6.3277351,-3952.2574,-2772.031)">
-      <g
-         transform="matrix(1.94833,0,0,1.578809,226.42322,350.59567)"
-         id="g8668"
-         style="opacity:1">
-        <path
-           style="fill:#ffa200;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.11775848;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="M 267.56808,107.35844 L 267.56808,112.36592 L 259.62322,112.36592 L 259.62322,107.35844 L 267.56808,107.35844 z"
-           id="path8670"
-           sodipodi:nodetypes="ccccc" />
-        <text
-           xml:space="preserve"
-           style="font-size:3.59770966px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
-           x="263.59683"
-           y="111.36218"
-           id="text8672"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan8674"
-             x="263.59683"
-             y="111.36218"
-             style="font-size:1.89999998px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">3fb8a8e</tspan></text>
-      </g>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="299"
-       y="598"
-       id="text76582"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan76584"
-         x="299"
-         y="598"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"><tspan
-           style="fill:#999999"
-           id="tspan76586"><tspan
-             style="font-weight:bold"
-             id="tspan76588">&lt;value&gt;</tspan></tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="55.714718"
-       y="420.53775"
-       id="text76596"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan76598"
-         x="55.714718"
-         y="420.53775"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git commit <tspan
-   style="font-weight:bold;fill:#4d4d4d"
-   id="tspan76600">&lt;variable&gt;</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -11092,7 +10917,7 @@
            sodipodi:linespacing="105.99999%"
            id="text15503"><tspan
              id="tspan15505"
-             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">MindRay</tspan></text>
+             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">FreezeRay</tspan></text>
         <path
            style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.03060913pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            sodipodi:nodetypes="cc"
@@ -12450,7 +12275,7 @@
            sodipodi:linespacing="105.99999%"
            id="text17614"><tspan
              id="tspan17616"
-             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">MindRay</tspan></text>
+             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">FreezeRay</tspan></text>
         <path
            style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.03060913pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            sodipodi:nodetypes="cc"
@@ -13872,7 +13697,7 @@
            sodipodi:linespacing="105.99999%"
            id="text14772"><tspan
              id="tspan14774"
-             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">MindRay</tspan></text>
+             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">FreezeRay</tspan></text>
         <path
            style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.03060913pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            sodipodi:nodetypes="cc"
@@ -15893,7 +15718,7 @@
          xml:space="preserve"
          y="294.18387"><tspan
            style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-           id="tspan95497">MindRay</tspan></text>
+           id="tspan95497">FreezeRay</tspan></text>
       <path
          d="M 1118.0162,331.32631 L 1132.4169,331.32631"
          id="path95499"
@@ -16664,7 +16489,7 @@
          xml:space="preserve"
          y="294.18387"><tspan
            style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-           id="tspan95401">MindRay</tspan></text>
+           id="tspan95401">FreezeRay</tspan></text>
       <path
          d="M 1118.0162,331.32631 L 1132.4169,331.32631"
          id="path95403"
@@ -17943,7 +17768,7 @@
            sodipodi:linespacing="105.99999%"
            id="text94863"><tspan
              id="tspan94865"
-             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">MindRay</tspan></text>
+             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">FreezeRay</tspan></text>
         <path
            style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.03060913pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            sodipodi:nodetypes="cc"
@@ -18291,7 +18116,7 @@
            sodipodi:linespacing="105.99999%"
            id="text94959"><tspan
              id="tspan94961"
-             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">MindRay</tspan></text>
+             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">FreezeRay</tspan></text>
         <path
            style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.03060913pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            sodipodi:nodetypes="cc"
@@ -18770,7 +18595,7 @@
            sodipodi:linespacing="105.99999%"
            id="text94457"><tspan
              id="tspan94459"
-             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">MindRay</tspan></text>
+             style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">FreezeRay</tspan></text>
         <path
            style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.03060913pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            sodipodi:nodetypes="cc"
@@ -23921,7 +23746,7 @@
          xml:space="preserve"
          y="442.74854"><tspan
            style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:105.99999428%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-           id="tspan21445">MindRay</tspan></text>
+           id="tspan21445">FreezeRay</tspan></text>
       <path
          d="M 716.57476,479.89098 L 730.97538,479.89098"
          id="path21447"
@@ -25606,13 +25431,14 @@
      inkscape:label="conc.toc.1"
      style="display:none">
     <rect
-       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3357"
-       width="440.31003"
+       width="249.87849"
        height="50"
-       x="229.68997"
+       x="229.68996"
        y="192"
-       ry="4.3631425" />
+       ry="4.3631425"
+       rx="4.363142" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -25628,7 +25454,7 @@
          sodipodi:role="line"
          id="tspan4822"
          x="206.47517"
-         y="228">- Why use an SCM tool</tspan><tspan
+         y="228">- Why use it?</tspan><tspan
          sodipodi:role="line"
          x="206.47517"
          y="278"
@@ -25653,6 +25479,18 @@
          x="206.47517"
          y="528"
          id="tspan73135">- Topic branches</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text6830"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan6832"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Source Code Management</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
