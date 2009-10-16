@@ -20,6 +20,13 @@
    style="display:inline">
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective6744" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4794"
@@ -1481,18 +1488,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="524.85083"
-     inkscape:cy="443.84997"
+     inkscape:cx="597.10198"
+     inkscape:cy="416.36207"
      inkscape:document-units="px"
-     inkscape:current-layer="layer14"
+     inkscape:current-layer="svg2"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1414"
-     inkscape:window-height="1043"
-     inkscape:window-x="1400"
-     inkscape:window-y="108"
+     inkscape:window-width="1364"
+     inkscape:window-height="743"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -15685,7 +15692,7 @@
          xml:space="preserve"><tspan
            style="font-size:31.40213203px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
            y="127.77729"
-           x="1.2468445"
+           x="1.246845"
            id="tspan149711"
            sodipodi:role="line">Decentralized</tspan></text>
     </g>
@@ -17549,7 +17556,7 @@
          xml:space="preserve"><tspan
            style="font-size:31.40213203px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
            y="127.77729"
-           x="1.2468454"
+           x="1.2468457"
            id="tspan6768"
            sodipodi:role="line">Centralized</tspan></text>
     </g>
@@ -17580,7 +17587,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer79"
-     inkscape:label="conc_tb^1^2^3^4^5^6^7^8^9-b"
+     inkscape:label="conc_wf_tb^1^2^3^4^5^6^7^8^9-b"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -17718,7 +17725,7 @@
   <g
      inkscape:groupmode="layer"
      id="g35032"
-     inkscape:label="#conc_tb^1^2^3^4^5^6^7^8^9"
+     inkscape:label="#conc_wf_tb^1^2^3^4^5^6^7^8^9"
      style="display:none">
     <g
        style="display:inline"
@@ -17757,7 +17764,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer175"
-     inkscape:label="conc_tb^1^2^3^4^5^6^7^8-c"
+     inkscape:label="conc_wf_tb^1^2^3^4^5^6^7^8-c"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -17895,7 +17902,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer78"
-     inkscape:label="conc_tb^1^2^3^4^5^6^7^8-b"
+     inkscape:label="conc_wf_tb^1^2^3^4^5^6^7^8-b"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -18033,7 +18040,7 @@
   <g
      inkscape:groupmode="layer"
      id="g35035"
-     inkscape:label="#conc_tb^1^2^3^4^5^6^7^8"
+     inkscape:label="#conc_wf_tb^1^2^3^4^5^6^7^8"
      style="display:none">
     <g
        style="display:inline"
@@ -18067,7 +18074,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer77"
-     inkscape:label="conc_tb^1^2^3^4^5^6^7-c"
+     inkscape:label="conc_wf_tb^1^2^3^4^5^6^7-c"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -18215,7 +18222,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer146"
-     inkscape:label="conc_tb^1^2^3^4^5^6^7-b"
+     inkscape:label="conc_wf_tb^1^2^3^4^5^6^7-b"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -18343,7 +18350,7 @@
   <g
      inkscape:groupmode="layer"
      id="g35038"
-     inkscape:label="#conc_tb^1^2^3^4^5^6^7"
+     inkscape:label="#conc_wf_tb^1^2^3^4^5^6^7"
      style="display:none">
     <g
        style="display:inline"
@@ -18377,7 +18384,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer76"
-     inkscape:label="conc_tb^1^2^3^4^5^6-b"
+     inkscape:label="conc_wf_tb^1^2^3^4^5^6-b"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -18525,7 +18532,7 @@
   <g
      inkscape:groupmode="layer"
      id="g35041"
-     inkscape:label="#conc_tb^1^2^3^4^5^6"
+     inkscape:label="#conc_wf_tb^1^2^3^4^5^6"
      style="display:none">
     <g
        style="display:inline"
@@ -18564,7 +18571,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer75"
-     inkscape:label="conc_tb^1^2^3^4^5-b"
+     inkscape:label="conc_wf_tb^1^2^3^4^5-b"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -18713,7 +18720,7 @@
   <g
      inkscape:groupmode="layer"
      id="g35044"
-     inkscape:label="#conc_tb^1^2^3^4^5"
+     inkscape:label="#conc_wf_tb^1^2^3^4^5"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -18775,7 +18782,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer134"
-     inkscape:label="conc_tb^1^2^3^4-c"
+     inkscape:label="conc_wf_tb^1^2^3^4-c"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -18914,7 +18921,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer74"
-     inkscape:label="conc_tb^1^2^3^4-b"
+     inkscape:label="conc_wf_tb^1^2^3^4-b"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -19063,7 +19070,7 @@
   <g
      inkscape:groupmode="layer"
      id="g35047"
-     inkscape:label="#conc_tb^1^2^3^4"
+     inkscape:label="#conc_wf_tb^1^2^3^4"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -19102,7 +19109,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer117"
-     inkscape:label="conc_tb^1^2^3-c"
+     inkscape:label="conc_wf_tb^1^2^3-c"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -19251,7 +19258,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer73"
-     inkscape:label="conc_tb^1^2^3-b"
+     inkscape:label="conc_wf_tb^1^2^3-b"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -19390,7 +19397,7 @@
   <g
      inkscape:groupmode="layer"
      id="g35050"
-     inkscape:label="#conc_tb^1^2^3"
+     inkscape:label="#conc_wf_tb^1^2^3"
      style="display:none">
     <g
        style="display:inline"
@@ -19424,7 +19431,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer110"
-     inkscape:label="conc_tb^1^2-c"
+     inkscape:label="conc_wf_tb^1^2-c"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -19591,7 +19598,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer72"
-     inkscape:label="conc_tb^1^2-b"
+     inkscape:label="conc_wf_tb^1^2-b"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -19693,7 +19700,7 @@
   <g
      inkscape:groupmode="layer"
      id="g35053"
-     inkscape:label="#conc_tb^1^2"
+     inkscape:label="#conc_wf_tb^1^2"
      style="display:none">
     <g
        style="display:inline"
@@ -19755,7 +19762,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer106"
-     inkscape:label="conc_tb^1-c"
+     inkscape:label="conc_wf_tb^1-c"
      style="display:none">
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#marker4954);stroke-opacity:1;display:inline"
@@ -19857,7 +19864,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer71"
-     inkscape:label="conc_tb^1-b"
+     inkscape:label="conc_wf_tb^1-b"
      style="display:none">
     <text
        xml:space="preserve"
@@ -19929,7 +19936,7 @@
   <g
      inkscape:groupmode="layer"
      id="g35056"
-     inkscape:label="#conc_tb^1"
+     inkscape:label="#conc_wf_tb^1"
      style="display:none">
     <g
        style="display:inline"
@@ -19985,8 +19992,106 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer195"
+     inkscape:label="conc_wf_tb^0abc"
+     style="display:none">
+    <g
+       style="display:inline"
+       id="g6790"
+       transform="translate(-5.0099487,0)">
+      <text
+         id="text6747"
+         y="548"
+         x="305"
+         style="font-size:30px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           id="tspan6749"
+           y="548"
+           x="305"
+           sodipodi:role="line">- merge finished work into</tspan></text>
+      <text
+         id="text6786"
+         y="548"
+         x="710"
+         style="font-size:30px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="fill:#800000"
+           id="tspan6788"
+           y="548"
+           x="710"
+           sodipodi:role="line">master</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer194"
+     inkscape:label="conc_wf_tb^0ab"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299.99005"
+       y="477.57437"
+       id="text6755"><tspan
+         sodipodi:role="line"
+         x="299.99005"
+         y="477.57437"
+         id="tspan6757">- commit often</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer193"
+     inkscape:label="conc_wf_tb^0a"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299.99005"
+       y="401.33331"
+       id="text6751"><tspan
+         sodipodi:role="line"
+         x="299.99005"
+         y="401.33331"
+         id="tspan6753">- isolate by relevance</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer190"
+     inkscape:label="conc_wf_tb^0"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:30px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="299.99005"
+       y="328"
+       id="text6759"><tspan
+         sodipodi:role="line"
+         x="299.99005"
+         y="328"
+         id="tspan6761">- one branch per topic</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer68"
-     inkscape:label="#conc_tb"
+     inkscape:label="#conc_wf_tb"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="128"
+       id="text6782"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan6784"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="128">Topic branches</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer192"
+     inkscape:label="#conc_wf"
      style="display:none">
     <g
        style="display:inline"
@@ -20008,26 +20113,26 @@
            y="182.43355"
            x="-1.3322449"
            id="tspan31758"
-           sodipodi:role="line">Topic Branches</tspan></text>
+           sodipodi:role="line">Workflows</tspan></text>
     </g>
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer67"
-     inkscape:label="conc_TopicBranches"
+     id="layer191"
+     inkscape:label="conc_Workflows"
      style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;text-anchor:middle;opacity:1;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans"
        x="511.76562"
        y="407.85938"
-       id="text23371"
+       id="text6768"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
          x="511.76562"
          y="407.85938"
-         id="tspan15677">Topic branches</tspan></text>
+         id="tspan6771">Workflows</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -23934,7 +24039,7 @@
      inkscape:groupmode="layer"
      id="layer21"
      inkscape:label="toc."
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
