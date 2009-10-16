@@ -19,7 +19,15 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
-     id="defs4" />
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective7853" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -31,18 +39,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="502.92548"
+     inkscape:cx="378.42548"
      inkscape:cy="404.5619"
      inkscape:document-units="px"
-     inkscape:current-layer="layer126"
+     inkscape:current-layer="layer1"
      showgrid="true"
      width="1024px"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1414"
-     inkscape:window-height="1127"
-     inkscape:window-x="1400"
-     inkscape:window-y="24"
+     inkscape:window-width="1278"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
+     inkscape:window-y="768"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true">
@@ -397,6 +405,34 @@
      id="layer69"
      inkscape:label="#blank"
      style="display:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="cmd_conf.help"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="210.18748"
+       y="228"
+       id="text7856"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan7858"
+         x="210.18748"
+         y="228"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git help config</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="299.99005"
+       y="328"
+       id="text7862"><tspan
+         sodipodi:role="line"
+         id="tspan7864"
+         x="299.99005"
+         y="328">~200 options</tspan></text>
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer131"
