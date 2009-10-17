@@ -67,14 +67,19 @@ ${ug_STAMP}: ${ug_SVGS}
 
 # publish
 
-DEST = ~/public_html/slides/git-reflections/
+DEST_DIR = public_html/slides/git-reflections/
+DEST     = ~/${DEST_DIR}
+
 publish: pdfs pngs
 	mkdir -p ${DEST}/${dd_NAME} ${DEST}/${ug_NAME}
-	cp ${dd_FINAL} ${ug_FINAL} ${DEST}
-	cp ${dd_NAME}/*.png ${DEST}/${dd_NAME}/
-	( cd ${DEST}/${dd_NAME}/ && ls -1 *.png | sed 's,.*,<a href=&><img src=&></a><br>,' ) > ${DEST}/${dd_NAME}/index.html
-	cp ${ug_NAME}/*.png ${DEST}/${ug_NAME}/
-	( cd ${DEST}/${ug_NAME}/ && ls -1 *.png | sed 's,.*,<a href=&><img src=&></a><br>,' ) > ${DEST}/${ug_NAME}/index.html
+	rsync -avzP ${dd_FINAL} ${ug_FINAL} ${DEST}/
+	( cd ${DEST}/${dd_NAME}/ && ls -1 *.png | sed 's,.*,<a href=&><img src=&></a><br>,' ) > ${dd_NAME}/index.html
+	rsync -avzP ${dd_NAME}/ ${DEST}/${dd_NAME}/
+	( cd ${DEST}/${ug_NAME}/ && ls -1 *.png | sed 's,.*,<a href=&><img src=&></a><br>,' ) > ${ug_NAME}/index.html
+	rsync -avzP ${ug_NAME}/ ${DEST}/${ug_NAME}/
+
+publish-remote:
+	${MAKE} publish DEST=jukie.net:${DEST_DIR}
 
 # cleanup...
 
