@@ -8,5 +8,5 @@ tracking-*.pdf
 about-me.pdf
 slides-tracking-code-changes-in-git.pdf
 slides-git-revision-control-perfected.pdf
-slides-tracking-code-changes-in-git/*.png
-slides-git-revision-control-perfected/*.png
+slides-tracking-code-changes-in-git/
+slides-git-revision-control-perfected/
