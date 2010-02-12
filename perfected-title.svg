@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,13 +14,21 @@
    height="768"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.47pre4 r22446"
    version="1.0"
    sodipodi:docname="perfected-title.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
-     id="defs4" />
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective46" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -30,22 +39,23 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="314.7807"
-     inkscape:cy="397.54732"
+     inkscape:zoom="0.54036458"
+     inkscape:cx="421.29024"
+     inkscape:cy="384"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer136"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1414"
-     inkscape:window-height="1103"
-     inkscape:window-x="1400"
-     inkscape:window-y="48"
+     inkscape:window-width="1024"
+     inkscape:window-height="575"
+     inkscape:window-x="-3"
+     inkscape:window-y="2"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
-     inkscape:object-nodes="true">
+     inkscape:object-nodes="true"
+     inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
        id="grid2383"
@@ -158,7 +168,7 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect17643"
        width="1023.7929"
        height="767.77209"
@@ -171,10 +181,10 @@
      inkscape:groupmode="layer"
      id="layer136"
      inkscape:label="Title.git.scm"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
-       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="513.17188"
        y="508"
        id="text72314"
@@ -195,15 +205,15 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="513.17188"
-       y="582"
+       y="256"
        id="text5264"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5266"
          x="513.17188"
-         y="582">Workshop</tspan></text>
+         y="256">Taller de</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -213,7 +223,7 @@
     <g
        style="display:inline"
        id="g4737"
-       transform="translate(0.2500076,-128)">
+       transform="translate(0.2500076,126)">
       <rect
          y="284.30768"
          x="225.38461"
@@ -254,7 +264,7 @@
          width="1024"
          height="768" />
       <path
-         d="M 291.84615,384 L 291.84615,400.61538 L 275.23077,400.61538 L 275.23077,417.23077 L 291.84615,417.23077 L 291.84615,433.84615 L 308.46154,433.84615 L 308.46154,417.23077 L 325.07692,417.23077 L 325.07692,400.61538 L 308.46154,400.61538 L 308.46154,384 L 291.84615,384 z"
+         d="m 291.84615,384 0,16.61538 -16.61538,0 0,16.61539 16.61538,0 0,16.61538 16.61539,0 0,-16.61538 16.61538,0 0,-16.61539 -16.61538,0 0,-16.61538 -16.61539,0 z"
          id="plus"
          style="fill:#008000" />
       <use
@@ -278,13 +288,13 @@
          id="git"
          style="fill:#008000">
         <path
-           d="M 38,11 L 38,12 L 37,12 L 37,16 L 38,16 L 38,17 L 41,17 L 41,18 L 38,18 L 38,19 L 43,19 L 43,18 L 44,18 L 44,17 L 44,16 L 44,15 L 44,12 L 44,11 L 38,11 z M 40,12 L 41,12 L 41,16 L 40,16 L 40,12 z"
+           d="m 38,11 0,1 -1,0 0,4 1,0 0,1 3,0 0,1 -3,0 0,1 5,0 0,-1 1,0 0,-1 0,-1 0,-1 0,-3 0,-1 -6,0 z m 2,1 1,0 0,4 -1,0 0,-4 z"
            id="g" />
         <path
-           d="M 47,8 L 47,10 L 50,10 L 50,8 L 47,8 z M 45,11 L 45,12 L 47,12 L 47,16 L 45,16 L 45,17 L 52,17 L 52,16 L 50,16 L 50,12 L 50,11 L 45,11 z"
+           d="m 47,8 0,2 3,0 0,-2 -3,0 z m -2,3 0,1 2,0 0,4 -2,0 0,1 7,0 0,-1 -2,0 0,-4 0,-1 -5,0 z"
            id="i" />
         <path
-           d="M 54,9 L 54,11 L 52,11 L 52,12 L 54,12 L 54,16 L 54,17 L 59,17 L 59,16 L 57,16 L 57,12 L 59,12 L 59,11 L 57,11 L 57,9 L 54,9 z"
+           d="m 54,9 0,2 -2,0 0,1 2,0 0,4 0,1 5,0 0,-1 -2,0 0,-4 2,0 0,-1 -2,0 0,-2 -3,0 z"
            id="t" />
       </g>
     </g>
