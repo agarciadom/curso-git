@@ -249,7 +249,7 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-        <dc:title>Tracking code changes in a distributed environment</dc:title>
+        <dc:title>Gestión de cambios en un entorno distribuido</dc:title>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
