@@ -179,46 +179,8 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer136"
-     inkscape:label="Title.git.scm"
-     style="display:inline">
-    <text
-       xml:space="preserve"
-       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="513.17188"
-       y="508"
-       id="text72314"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan72316"
-         x="513.17188"
-         y="508">revision control</tspan><tspan
-         sodipodi:role="line"
-         x="513.17188"
-         y="588"
-         id="tspan21571">perfected</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Title.git.workshop"
-     style="display:inline">
-    <text
-       xml:space="preserve"
-       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="513.17188"
-       y="256"
-       id="text5264"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5266"
-         x="513.17188"
-         y="256">Taller de</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer1"
-     inkscape:label="#Title.git"
+     inkscape:label="Title.workshop.logo"
      style="display:inline">
     <g
        style="display:inline"
@@ -298,5 +260,22 @@
            id="t" />
       </g>
     </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="#Title.workshop"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:center;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="513.17188"
+       y="256"
+       id="text5264"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5266"
+         x="513.17188"
+         y="256">Taller de</tspan></text>
   </g>
 </svg>
