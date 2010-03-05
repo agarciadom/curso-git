@@ -8,6 +8,7 @@ dd_PDFS = $(dd_SVGS:%.svg=%.pdf)
 ug_SVGS =  \
 	perfected-title.svg     \
 	about-me.svg            \
+	scm-concepts.svg \
 	perfected-intro.svg     \
 	perfected-cmd.svg       \
 	perfected-use-cmt.svg   \
