@@ -65,19 +65,19 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51953125"
+     inkscape:zoom="1.0052083"
      inkscape:cx="512"
      inkscape:cy="384"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer90"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1024"
-     inkscape:window-height="575"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
      inkscape:window-x="0"
-     inkscape:window-y="2"
+     inkscape:window-y="26"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true"
@@ -195,10 +195,9 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="#_bottom"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect17643"
        width="1023.7929"
        height="767.77209"
@@ -215,7 +214,7 @@
        y="728" />
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="10"
        y="758"
        id="text2967"
@@ -223,34 +222,35 @@
          sodipodi:role="line"
          id="tspan2969"
          x="10"
-         y="758">&lt;bart@jukie.net&gt;</tspan></text>
+         y="758">&lt;antonio.garciadominguez@uca.es&gt;</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="790"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="862"
        y="758"
        id="text2979"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2981"
-         x="790"
-         y="758">ACM Reflections / 2009</tspan></text>
+         x="862"
+         y="758">OSLUCA / 2010</tspan></text>
     <g
+       style="display:inline"
        id="g9073"
-       transform="translate(-24.19132,0)">
+       transform="translate(75.80868,0)">
       <text
          sodipodi:linespacing="125%"
          id="text52291"
          y="757.99359"
          x="443.9968"
-         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
          xml:space="preserve"><tspan
            y="757.99359"
            x="443.9968"
            id="tspan52293"
-           sodipodi:role="line">control de cambios, perfeccionado.</tspan></text>
+           sodipodi:role="line">Taller de</tspan></text>
       <g
-         transform="translate(-201.60897,1.1987094)"
+         transform="translate(28.39103,1.1987094)"
          id="g52295">
         <g
            style="fill:#008000"
@@ -258,17 +258,17 @@
            transform="matrix(2.4006414,0,0,2.4006414,491.97113,717.1891)">
           <path
              id="path52299"
-             d="M 38,11 L 38,12 L 37,12 L 37,16 L 38,16 L 38,17 L 41,17 L 41,18 L 38,18 L 38,19 L 43,19 L 43,18 L 44,18 L 44,17 L 44,16 L 44,15 L 44,12 L 44,11 L 38,11 z M 40,12 L 41,12 L 41,16 L 40,16 L 40,12 z" />
+             d="m 38,11 0,1 -1,0 0,4 1,0 0,1 3,0 0,1 -3,0 0,1 5,0 0,-1 1,0 0,-1 0,-1 0,-1 0,-3 0,-1 -6,0 z m 2,1 1,0 0,4 -1,0 0,-4 z" />
           <path
              id="path52301"
-             d="M 47,8 L 47,10 L 50,10 L 50,8 L 47,8 z M 45,11 L 45,12 L 47,12 L 47,16 L 45,16 L 45,17 L 52,17 L 52,16 L 50,16 L 50,12 L 50,11 L 45,11 z" />
+             d="m 47,8 0,2 3,0 0,-2 -3,0 z m -2,3 0,1 2,0 0,4 -2,0 0,1 7,0 0,-1 -2,0 0,-4 0,-1 -5,0 z" />
           <path
              id="path52303"
-             d="M 54,9 L 54,11 L 52,11 L 52,12 L 54,12 L 54,16 L 54,17 L 59,17 L 59,16 L 57,16 L 57,12 L 59,12 L 59,11 L 57,11 L 57,9 L 54,9 z" />
+             d="m 54,9 0,2 -2,0 0,1 2,0 0,4 0,1 5,0 0,-1 -2,0 0,-4 2,0 0,-1 -2,0 0,-2 -3,0 z" />
         </g>
       </g>
       <g
-         transform="translate(-0.7040376,1.993582)"
+         transform="translate(229.29596,1.993582)"
          id="g52236">
         <g
            id="g52306"
@@ -297,7 +297,7 @@
              width="1024"
              height="768" />
           <path
-             d="M 513.57691,748.39744 L 513.57691,753.19872 L 508.77563,753.19872 L 508.77563,758 L 513.57691,758 L 513.57691,762.80129 L 518.37819,762.80129 L 518.37819,758 L 523.17947,758 L 523.17947,753.19872 L 518.37819,753.19872 L 518.37819,748.39744 L 513.57691,748.39744 z"
+             d="m 513.57691,748.39744 0,4.80128 -4.80128,0 0,4.80128 4.80128,0 0,4.80129 4.80128,0 0,-4.80129 4.80128,0 0,-4.80128 -4.80128,0 0,-4.80128 -4.80128,0 z"
              id="path52314"
              style="fill:#008000" />
           <use
@@ -345,7 +345,7 @@
              width="1024"
              height="768" />
           <path
-             d="M 513.57691,748.39744 L 513.57691,753.19872 L 508.77563,753.19872 L 508.77563,758 L 513.57691,758 L 513.57691,762.80129 L 518.37819,762.80129 L 518.37819,758 L 523.17947,758 L 523.17947,753.19872 L 518.37819,753.19872 L 518.37819,748.39744 L 513.57691,748.39744 z"
+             d="m 513.57691,748.39744 0,4.80128 -4.80128,0 0,4.80128 4.80128,0 0,4.80129 4.80128,0 0,-4.80129 4.80128,0 0,-4.80128 -4.80128,0 0,-4.80128 -4.80128,0 z"
              id="path52216"
              style="fill:#008000" />
           <use
@@ -393,7 +393,7 @@
              width="1024"
              height="768" />
           <path
-             d="M 513.57691,748.39744 L 513.57691,753.19872 L 508.77563,753.19872 L 508.77563,758 L 513.57691,758 L 513.57691,762.80129 L 518.37819,762.80129 L 518.37819,758 L 523.17947,758 L 523.17947,753.19872 L 518.37819,753.19872 L 518.37819,748.39744 L 513.57691,748.39744 z"
+             d="m 513.57691,748.39744 0,4.80128 -4.80128,0 0,4.80128 4.80128,0 0,4.80129 4.80128,0 0,-4.80129 4.80128,0 0,-4.80128 -4.80128,0 0,-4.80128 -4.80128,0 z"
              id="path52230"
              style="fill:#008000" />
           <use
@@ -417,7 +417,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="238.25195"
        y="901.51758"
        id="text4929"
@@ -440,7 +440,7 @@
      inkscape:groupmode="layer"
      id="layer47"
      inkscape:label="#intro_obj.types.r"
-     style="display:inline">
+     style="display:none">
     <rect
        style="fill:#d7d7f4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect10181"
@@ -521,7 +521,7 @@
      inkscape:groupmode="layer"
      id="layer54"
      inkscape:label="#intro_obj.types.r^dag"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g10277"
@@ -692,7 +692,7 @@
      inkscape:groupmode="layer"
      id="layer55"
      inkscape:label="intro_obj.types.r^dag^type"
-     style="display:inline">
+     style="display:none">
     <rect
        style="fill:none;stroke:#ff0000;stroke-width:4pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect11088"
@@ -816,11 +816,11 @@
          sodipodi:role="line"
          id="tspan9278"
          x="228.26132"
-         y="278.05692">author    Bart &lt;bart@...&gt; date</tspan><tspan
+         y="278.05692">author    Bart &lt;bart@..&gt; fecha</tspan><tspan
          sodipodi:role="line"
          x="228.26132"
          y="297.01196"
-         id="tspan9296">committer Bart &lt;bart@...&gt; date</tspan><tspan
+         id="tspan9296">committer Bart &lt;bart@..&gt; fecha</tspan><tspan
          sodipodi:role="line"
          x="228.26132"
          y="315.96701"
@@ -828,7 +828,7 @@
          sodipodi:role="line"
          x="228.26132"
          y="334.92206"
-         id="tspan3394">commit message</tspan></text>
+         id="tspan3394">mensaje de la revisión</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2203,7 +2203,7 @@
          sodipodi:role="line"
          x="210.18748"
          y="421.35287"
-         id="tspan10172">- revisión (&quot;revisión&quot;)</tspan></text>
+         id="tspan10172">- revisión (&quot;revision&quot;)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -2220,7 +2220,7 @@
      inkscape:groupmode="layer"
      id="layer98"
      inkscape:label="#intro_obj.types"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
@@ -2384,7 +2384,7 @@
        transform="matrix(0.5,0,0,0.5,242.25,114)">
       <path
          transform="translate(-20,-30)"
-         d="m 560,358 a 180,180 0 1 1 -360,0 180,180 0 1 1 360,0 z"
+         d="m 560,358 c 0,99.41125 -80.58875,180 -180,180 -99.41125,0 -180,-80.58875 -180,-180 0,-99.41125 80.58875,-180 180,-180 99.41125,0 180,80.58875 180,180 z"
          sodipodi:ry="180"
          sodipodi:rx="180"
          sodipodi:cy="358"
@@ -4324,7 +4324,7 @@
          id="tspan41211"
          x="595.00977"
          y="648"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git checkout &lt;revision&gt;</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git checkout &lt;revisión&gt;</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4375,7 +4375,7 @@
          x="596.14258"
          y="688"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-         id="tspan41193">git commit &lt;file&gt;</tspan></text>
+         id="tspan41193">git commit &lt;fichero&gt;</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4421,7 +4421,7 @@
          id="tspan41177"
          x="595.00977"
          y="648"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git checkout -- &lt;file&gt;</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git checkout -- &lt;fichero&gt;</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4472,7 +4472,12 @@
          id="tspan41173"
          x="595.00977"
          y="648"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git read-tree</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git read-tree</tspan><tspan
+         sodipodi:role="line"
+         x="595.00977"
+         y="688"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         id="tspan6865">git reset</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4597,7 +4602,7 @@
          id="tspan31685"
          x="595.0293"
          y="588"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:116.99999571%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">qué enviar</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:116.99999571%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">contiene la próxima revisión</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4645,7 +4650,7 @@
          id="tspan31608"
          x="595.05859"
          y="588"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:116.99999571%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">el historial</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:116.99999571%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">contiene el historial</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4707,7 +4712,7 @@
          id="tspan40473"
          x="595.0293"
          y="588"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:116.99999571%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">ficheros de git</tspan></text>
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:116.99999571%;writing-mode:lr-tb;text-anchor:middle;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">ficheros de Git</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -4827,7 +4832,7 @@
          sodipodi:role="line"
          x="299.99005"
          y="491.33334"
-         id="tspan24582">- bisección de fallos (&quot;bisect&quot;)</tspan></text>
+         id="tspan24582">- bisección de defectos (&quot;bisect&quot;)</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5017,68 +5022,6 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer75"
-     inkscape:label="intro_hist.better.2-ex"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="299.99005"
-       y="438"
-       id="text24492"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan24494"
-         x="299.99005"
-         y="438"><tspan
-           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-           id="tspan24496">--cached</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="299.99005"
-       y="488"
-       id="text24498"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan24500"
-         x="299.99005"
-         y="488"><tspan
-           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-           id="tspan24502">--staged</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="299.99005"
-       y="388"
-       id="text24504"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan24506"
-         x="299.99005"
-         y="388"><tspan
-           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-           id="tspan24508">--index</tspan></tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer71"
-     inkscape:label="intro_hist.better.2"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="210.18748"
-       y="228"
-       id="text6805"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="210.18748"
-         y="228"
-         id="tspan24416">- consistencia</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer135"
      inkscape:label="intro_hist.better.1-ex..web"
      style="display:none">
@@ -5222,7 +5165,7 @@
      inkscape:groupmode="layer"
      id="layer90"
      inkscape:label="intro_hist.tl123456"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -5233,7 +5176,7 @@
          sodipodi:role="line"
          x="210.18748"
          y="598"
-         id="tspan62053">- GIT 1.6.4.4</tspan></text>
+         id="tspan62053">- GIT 1.7.0.2</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c69090;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -5244,7 +5187,7 @@
          sodipodi:role="line"
          x="300"
          y="618"
-         id="tspan62057">Sept 16, 2009</tspan></text>
+         id="tspan62057">7 marzo, 2010</tspan></text>
     <path
        sodipodi:type="arc"
        style="opacity:0.66000001;fill:#a85757;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -5292,7 +5235,7 @@
          sodipodi:role="line"
          x="300.00995"
          y="522.18335"
-         id="tspan19430">Feb 14, 2007</tspan></text>
+         id="tspan19430">14 febrero, 2007</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5330,7 +5273,7 @@
          sodipodi:role="line"
          x="300"
          y="428.4126"
-         id="tspan19424">June 16, 2005</tspan></text>
+         id="tspan19424">16 junio, 2005</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5347,7 +5290,7 @@
          sodipodi:role="line"
          x="300"
          y="335.75513"
-         id="tspan19418">April 18, 2005</tspan></text>
+         id="tspan19418">18 abril, 2005</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -5406,7 +5349,7 @@
          sodipodi:role="line"
          x="300"
          y="243"
-         id="tspan19414">April 6, 2005</tspan></text>
+         id="tspan19414">6 abril, 2005</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5444,7 +5387,7 @@
          sodipodi:role="line"
          x="300.00995"
          y="152.18335"
-         id="tspan19410">Feb 2002</tspan></text>
+         id="tspan19410">Febrero 2002</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5516,18 +5459,18 @@
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="888.37891"
-       y="646"
+       x="920.37891"
+       y="638"
        id="text6724"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         x="888.37891"
-         y="646"
+         x="920.37891"
+         y="638"
          id="tspan6730"
          style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">estás</tspan><tspan
          sodipodi:role="line"
-         x="888.37891"
-         y="666"
+         x="920.37891"
+         y="658"
          style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ff0000;fill-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
          id="tspan3848">aquí</tspan></text>
     <path
@@ -5646,7 +5589,7 @@
      inkscape:groupmode="layer"
      id="layer79"
      inkscape:label="#intro"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g6600">
@@ -5678,7 +5621,7 @@
     <rect
        style="fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4848"
-       width="360"
+       width="415"
        height="84"
        x="239.99998"
        y="454"

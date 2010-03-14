@@ -274,8 +274,7 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="#_bottom"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect17643"
@@ -302,22 +301,22 @@
          sodipodi:role="line"
          id="tspan2969"
          x="10"
-         y="758">&lt;bart@jukie.net&gt;</tspan></text>
+         y="758">&lt;antonio.garciadominguez@uca.es&gt;</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="790"
+       x="862"
        y="758"
        id="text2979"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2981"
-         x="790"
-         y="758">ACM Reflections / 2009</tspan></text>
+         x="862"
+         y="758">OSLUCA / 2010</tspan></text>
     <g
        style="display:inline"
        id="g9073"
-       transform="translate(-50.000003,-1.1955062)">
+       transform="translate(75.80868,0)">
       <text
          sodipodi:linespacing="125%"
          id="text52291"
@@ -328,9 +327,9 @@
            y="757.99359"
            x="443.9968"
            id="tspan52293"
-           sodipodi:role="line">control de cambios, perfeccionado.</tspan></text>
+           sodipodi:role="line">Taller de</tspan></text>
       <g
-         transform="translate(-201.60897,1.1987094)"
+         transform="translate(28.39103,1.1987094)"
          id="g52295">
         <g
            style="fill:#008000"
@@ -348,7 +347,7 @@
         </g>
       </g>
       <g
-         transform="translate(-0.7040376,1.993582)"
+         transform="translate(229.29596,1.993582)"
          id="g52236">
         <g
            id="g52306"
@@ -495,6 +494,21 @@
         </g>
       </g>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="238.25195"
+       y="901.51758"
+       id="text4929"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4935"
+         x="238.25195"
+         y="901.51758">NOTA: este fichero ha de ser post-procesado por negative.</tspan><tspan
+         sodipodi:role="line"
+         id="tspan4937"
+         x="238.25195"
+         y="921.51758">             http://github.com/bartman/negative</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

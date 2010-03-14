@@ -65,19 +65,19 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51953125"
-     inkscape:cx="500.45113"
-     inkscape:cy="-77.954887"
+     inkscape:zoom="1.0052083"
+     inkscape:cx="512"
+     inkscape:cy="384"
      inkscape:document-units="px"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer156"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1024"
-     inkscape:window-height="575"
-     inkscape:window-x="-3"
-     inkscape:window-y="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true"
@@ -195,8 +195,7 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="#_bottom"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect17643"
@@ -223,22 +222,22 @@
          sodipodi:role="line"
          id="tspan2969"
          x="10"
-         y="758">&lt;bart@jukie.net&gt;</tspan></text>
+         y="758">&lt;antonio.garciadominguez@uca.es&gt;</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="790"
+       x="862"
        y="758"
        id="text2979"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2981"
-         x="790"
-         y="758">ACM Reflections / 2009</tspan></text>
+         x="862"
+         y="758">OSLUCA / 2010</tspan></text>
     <g
        style="display:inline"
        id="g9073"
-       transform="translate(-24.19132,0)">
+       transform="translate(75.80868,0)">
       <text
          sodipodi:linespacing="125%"
          id="text52291"
@@ -249,9 +248,9 @@
            y="757.99359"
            x="443.9968"
            id="tspan52293"
-           sodipodi:role="line">control de cambios, perfeccionado.</tspan></text>
+           sodipodi:role="line">Taller de</tspan></text>
       <g
-         transform="translate(-201.60897,1.1987094)"
+         transform="translate(28.39103,1.1987094)"
          id="g52295">
         <g
            style="fill:#008000"
@@ -269,7 +268,7 @@
         </g>
       </g>
       <g
-         transform="translate(-0.7040376,1.993582)"
+         transform="translate(229.29596,1.993582)"
          id="g52236">
         <g
            id="g52306"
@@ -441,7 +440,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="sce123456"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
@@ -629,7 +628,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="#sce12345"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
@@ -861,7 +860,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="#sce1234"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#ff6600;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="m 510,198 0,40 100,0 0,-40 -100,0 z"
@@ -966,7 +965,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="#sce123"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:#afe9c6;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="m 510,268 0,40 100,0 0,-40 -100,0 z"
@@ -1109,7 +1108,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="#sce12"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
@@ -1203,7 +1202,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="#sce1"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:22px;font-style:normal;font-weight:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
@@ -1242,7 +1241,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="sce"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 4;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 482,24 0,680"

@@ -28,6 +28,13 @@
        inkscape:vp_z="1024 : 384 : 1"
        inkscape:persp3d-origin="512 : 256 : 1"
        id="perspective7853" />
+    <inkscape:perspective
+       id="perspective13927"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -39,19 +46,19 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51953125"
-     inkscape:cx="512"
+     inkscape:zoom="1.0052083"
+     inkscape:cx="364.76684"
      inkscape:cy="384"
      inkscape:document-units="px"
-     inkscape:current-layer="layer161"
+     inkscape:current-layer="layer125"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1024"
-     inkscape:window-height="575"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
      inkscape:window-x="0"
-     inkscape:window-y="2"
+     inkscape:window-y="26"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true"
@@ -192,22 +199,22 @@
          sodipodi:role="line"
          id="tspan2969"
          x="10"
-         y="758">&lt;bart@jukie.net&gt;</tspan></text>
+         y="758">&lt;antonio.garciadominguez@uca.es&gt;</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="790"
+       x="862"
        y="758"
        id="text2979"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2981"
-         x="790"
-         y="758">ACM Reflections / 2009</tspan></text>
+         x="862"
+         y="758">OSLUCA / 2010</tspan></text>
     <g
        style="display:inline"
        id="g9073"
-       transform="translate(-24.19132,0)">
+       transform="translate(75.80868,0)">
       <text
          sodipodi:linespacing="125%"
          id="text52291"
@@ -218,9 +225,9 @@
            y="757.99359"
            x="443.9968"
            id="tspan52293"
-           sodipodi:role="line">control de cambios, perfeccionado.</tspan></text>
+           sodipodi:role="line">Taller de</tspan></text>
       <g
-         transform="translate(-201.60897,1.1987094)"
+         transform="translate(28.39103,1.1987094)"
          id="g52295">
         <g
            style="fill:#008000"
@@ -238,7 +245,7 @@
         </g>
       </g>
       <g
-         transform="translate(-0.7040376,1.993582)"
+         transform="translate(229.29596,1.993582)"
          id="g52236">
         <g
            id="g52306"
@@ -436,75 +443,6 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer131"
-     inkscape:label="cmd_conf.mine"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="200"
-       y="168"
-       id="text72070"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan72136"
-         x="200"
-         y="168">[user]</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72138"
-         x="200"
-         y="204">    name  = &quot;Bart Trojanowski&quot;</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72140"
-         x="200"
-         y="240">    email = &quot;bart@jukie.net&quot;</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72142"
-         x="200"
-         y="276">    signingkey = 2289688F</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72144"
-         x="200"
-         y="312" /><tspan
-         sodipodi:role="line"
-         id="tspan72146"
-         x="200"
-         y="348">[core]</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72148"
-         x="200"
-         y="384">    editor = vim</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72150"
-         x="200"
-         y="420">    pager  = less -FRSX</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72152"
-         x="200"
-         y="456" /><tspan
-         sodipodi:role="line"
-         id="tspan72154"
-         x="200"
-         y="492">[color]</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72156"
-         x="200"
-         y="528">    ui = auto</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72158"
-         x="200"
-         y="564" /><tspan
-         sodipodi:role="line"
-         id="tspan72160"
-         x="200"
-         y="600">[merge]</tspan><tspan
-         sodipodi:role="line"
-         id="tspan72164"
-         x="200"
-         y="636">    tool = vimdiff</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer125"
      inkscape:label="cmd_conf.usr.name.ui"
      style="display:none">
@@ -540,6 +478,20 @@
    id="tspan71993">color.ui</tspan><tspan
    style="font-weight:bold;fill:#4d4d4d"
    id="tspan72015"> auto</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="48"
+       y="630"
+       id="text71987-4"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan71989-6"
+         x="48"
+         y="630"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">git config --global <tspan
+   style="font-weight:bold;fill:#4d4d4d"
+   id="tspan71993-8">core.editor ????</tspan></tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
