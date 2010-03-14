@@ -13,8 +13,11 @@ ug_SVGS =  \
 	perfected-cmd.svg       \
 	perfected-use-cmt.svg   \
 	perfected-use-hst.svg   \
+	workflows.svg \
 	perfected-use-dst.svg   \
-	perfected-use-dex.svg
+	perfected-use-dex.svg \
+	topologies.svg \
+	perfected-bye.svg
 ug_PDFS = $(ug_SVGS:%.svg=%.pdf)
 
 SVGS = $(sort ${dd_SVGS} ${ug_SVGS})
