@@ -69,7 +69,7 @@
      inkscape:cx="512"
      inkscape:cy="384"
      inkscape:document-units="px"
-     inkscape:current-layer="layer90"
+     inkscape:current-layer="layer17"
      showgrid="true"
      width="1024px"
      showguides="false"
@@ -2238,7 +2238,7 @@
      inkscape:groupmode="layer"
      id="layer41"
      inkscape:label="intro_obj.im-gone"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008080;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -2297,14 +2297,14 @@
       <text
          sodipodi:linespacing="100%"
          id="text5254"
-         y="193.43555"
+         y="196.20166"
          x="447.79004"
          style="font-size:22px;font-style:normal;font-weight:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
-           y="193.43555"
+           y="196.20166"
            x="447.79004"
            id="tspan5256"
-           sodipodi:role="line">type</tspan></text>
+           sodipodi:role="line">tipo</tspan></text>
       <text
          sodipodi:linespacing="100%"
          id="text5258"
@@ -2315,7 +2315,7 @@
            y="196.20166"
            x="622.48926"
            id="tspan5260"
-           sodipodi:role="line">size</tspan></text>
+           sodipodi:role="line">tamaño</tspan></text>
       <text
          sodipodi:linespacing="100%"
          id="text5262"
@@ -2327,12 +2327,12 @@
            x="535.29004"
            sodipodi:role="line"
            style="font-size:40px;fill:#000000"
-           id="tspan5264">modified</tspan><tspan
+           id="tspan5264">datos</tspan><tspan
            y="320.58212"
            x="535.29004"
            sodipodi:role="line"
            style="font-size:40px;fill:#000000"
-           id="tspan5266">data</tspan></text>
+           id="tspan5266">modificados</tspan></text>
     </g>
     <g
        style="fill:#9bffff;fill-opacity:1;display:inline"
@@ -5197,7 +5197,7 @@
        sodipodi:rx="95"
        sodipodi:ry="90"
        d="m 890,248 a 95,90 0 1 1 -190,0 95,90 0 1 1 190,0 z"
-       transform="matrix(0.1578948,0,0,0.1666667,755.47363,646.66666)" />
+       transform="matrix(0.1578948,0,0,0.1666667,799.47363,646.66666)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5393,7 +5393,7 @@
      inkscape:groupmode="layer"
      id="layer82"
      inkscape:label="#intro_hist.tl"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
