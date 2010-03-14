@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47pre4 r22446"
+   version="1.0"
+   sodipodi:docname="about-me.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   style="display:inline">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective116" />
+    <inkscape:perspective
+       id="perspective2880"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10"
+     guidetolerance="10000"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.51953125"
+     inkscape:cx="270.43609"
+     inkscape:cy="384"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     width="1024px"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1024"
+     inkscape:window-height="575"
+     inkscape:window-x="0"
+     inkscape:window-y="2"
+     inkscape:snap-global="true"
+     inkscape:snap-guide="false"
+     inkscape:object-nodes="true"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2383"
+       visible="true"
+       enabled="true"
+       color="#a1a1ff"
+       opacity="0.1254902"
+       empcolor="#d3d7ff"
+       empopacity="0.31764706" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-651.42857,640"
+       id="guide2385" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="110,660"
+       id="guide2387" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="210.18749,585.13086"
+       id="guide3161" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="170,540"
+       id="guide3168" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="393,490"
+       id="guide6961" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="659,440"
+       id="guide6963" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="299.99005,583.18632"
+       id="guide6965" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="863,380"
+       id="guide6993" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="695,330"
+       id="guide6995" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="691,280"
+       id="guide6997" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="696,220"
+       id="guide7372" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="555,170"
+       id="guide7374" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="610,120"
+       id="guide7376" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="581,70"
+       id="guide10662" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="80.079843,554.54849"
+       id="guide31746" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="161,671"
+       id="guide47272" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+        <dc:title>Gestión de cambios en un entorno distribuido</dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="#_white"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect17643"
+       width="1023.7929"
+       height="767.77209"
+       x="0.20710677"
+       y="0.22792208"
+       rx="6.0865836"
+       ry="6.0865831" />
+  </g>
+  <g
+     style="display:none"
+     inkscape:groupmode="layer"
+     id="g2934"
+     inkscape:label="yo texto">
+    <text
+       id="text2938"
+       y="638"
+       x="511.89258"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;fill:#000080"
+         y="638"
+         x="511.89258"
+         id="tspan2940"
+         sodipodi:role="line">http://xmleye.wordpress.com</tspan></text>
+    <text
+       id="text2942"
+       y="119.03516"
+       x="511.90234"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         id="tspan2946"
+         style="text-align:center;text-anchor:middle"
+         y="119.03516"
+         x="511.90234"
+         sodipodi:role="line">Traducción y modificaciones:</tspan><tspan
+         style="text-align:center;text-anchor:middle"
+         y="169.03516"
+         x="511.90234"
+         sodipodi:role="line"
+         id="tspan2954">Antonio García Domínguez</tspan></text>
+    <text
+       id="text2948"
+       y="694.03516"
+       x="511.78516"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;fill:#008000"
+         y="694.03516"
+         x="511.78516"
+         id="tspan2950"
+         sodipodi:role="line">antonio.garciadominguez@uca.es</tspan></text>
+    <text
+       id="text2942-2"
+       y="395.83594"
+       x="512.52734"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle"
+         y="395.83594"
+         x="512.52734"
+         sodipodi:role="line"
+         id="tspan2954-3">aquí estoy :-)</tspan></text>
+  </g>
+  <g
+     style="display:none"
+     inkscape:groupmode="layer"
+     id="g2924"
+     inkscape:label="#yo">
+    <g
+       id="g2926">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         d="m 129.286,-0.571 77.143,0 L 0,205.857 0,128.714 129.286,-0.571 z"
+         id="path2928"
+         sodipodi:nodetypes="ccccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="1.0967605"
+         y="130.93117"
+         id="text2930"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan2932"
+           x="1.0967605"
+           y="130.93117"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS">sobre mí</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer26"
+     inkscape:label="bart rostro"
+     style="display:none">
+    <image
+       sodipodi:absref="/home/antonio/Documentos/git-reflections/external/bart-trojanowski-2b.png"
+       xlink:href="external/bart-trojanowski-2b.png"
+       width="291"
+       height="367.5"
+       id="image3754"
+       x="366.5"
+       y="200.25" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="510.20312"
+       y="638"
+       id="text4852"><tspan
+         sodipodi:role="line"
+         id="tspan4854"
+         x="510.20312"
+         y="638"
+         style="text-align:center;text-anchor:middle;fill:#000080">http://www.jukie.net/~bart/</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
+       x="511.90234"
+       y="119.03516"
+       id="text3758"><tspan
+         sodipodi:role="line"
+         id="tspan3760"
+         x="511.90234"
+         y="119.03516"
+         style="text-align:center;text-anchor:middle">Autor original de las transparencias:</tspan><tspan
+         sodipodi:role="line"
+         x="511.90234"
+         y="169.03516"
+         style="text-align:center;text-anchor:middle"
+         id="tspan2922">Bart Trojanowski</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
+       x="492"
+       y="694.03516"
+       id="text3762"><tspan
+         sodipodi:role="line"
+         id="tspan3764"
+         x="492"
+         y="694.03516"
+         style="text-align:center;text-anchor:middle;fill:#008000">bart@jukie.net</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="#bart"
+     style="display:inline">
+    <g
+       id="g3279">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path3223"
+         d="m 129.286,-0.571 77.143,0 L 0,205.857 0,128.714 129.286,-0.571 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <text
+         transform="matrix(0.7071068,-0.7071068,0.7071068,0.7071068,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3225"
+         y="130.93117"
+         x="1.0967605"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+           y="130.93117"
+           x="1.0967605"
+           id="tspan3227"
+           sodipodi:role="line">sobre Bart</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+*~
+.*.swp
+.*.stamp
+commands/commands-*.svg
+slides.pdf
+perfected-*.pdf
+tracking-*.pdf
+about-me.pdf
+slides-tracking-code-changes-in-git.pdf
+slides-git-revision-control-perfected.pdf
+slides-tracking-code-changes-in-git/
+slides-git-revision-control-perfected/
