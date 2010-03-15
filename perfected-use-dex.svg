@@ -145,7 +145,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.51953125"
-     inkscape:cx="512"
+     inkscape:cx="256"
      inkscape:cy="384"
      inkscape:document-units="px"
      inkscape:current-layer="layer47"
@@ -155,7 +155,7 @@
      inkscape:guide-bbox="true"
      inkscape:window-width="1024"
      inkscape:window-height="575"
-     inkscape:window-x="-3"
+     inkscape:window-x="0"
      inkscape:window-y="2"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
@@ -797,12 +797,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/github-logo-v3.png"
        xlink:href="external/github-logo-v3.png"
-       style="display:inline"
-       y="6"
-       x="552"
-       id="image59713"
+       width="123"
        height="60"
-       width="123" />
+       id="image59713"
+       x="552"
+       y="6"
+       style="display:inline" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -2046,12 +2046,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/github-logo-v3.png"
        xlink:href="external/github-logo-v3.png"
-       style="display:inline"
-       y="6"
-       x="552"
-       id="image58855"
+       width="123"
        height="60"
-       width="123" />
+       id="image58855"
+       x="552"
+       y="6"
+       style="display:inline" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -2992,12 +2992,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/github-logo-v3.png"
        xlink:href="external/github-logo-v3.png"
-       style="display:inline"
-       y="6"
-       x="552"
-       id="image58297"
+       width="123"
        height="60"
-       width="123" />
+       id="image58297"
+       x="552"
+       y="6"
+       style="display:inline" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -3833,12 +3833,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/github-logo-v3.png"
        xlink:href="external/github-logo-v3.png"
-       style="display:inline"
-       y="6"
-       x="552"
-       id="image23737"
+       width="123"
        height="60"
-       width="123" />
+       id="image23737"
+       x="552"
+       y="6"
+       style="display:inline" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -4632,12 +4632,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/github-logo-v3.png"
        xlink:href="external/github-logo-v3.png"
-       style="display:inline"
-       y="6"
-       x="552"
-       id="image23454"
+       width="123"
        height="60"
-       width="123" />
+       id="image23454"
+       x="552"
+       y="6"
+       style="display:inline" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -5054,12 +5054,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/github-logo-v3.png"
        xlink:href="external/github-logo-v3.png"
-       style="display:inline"
-       y="6"
-       x="552"
-       id="image8860"
+       width="123"
        height="60"
-       width="123" />
+       id="image8860"
+       x="552"
+       y="6"
+       style="display:inline" />
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"

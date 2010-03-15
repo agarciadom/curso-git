@@ -43,7 +43,7 @@
      inkscape:cx="512"
      inkscape:cy="384"
      inkscape:document-units="px"
-     inkscape:current-layer="layer49"
+     inkscape:current-layer="layer36"
      showgrid="true"
      width="1024px"
      showguides="true"
@@ -684,7 +684,7 @@
      inkscape:groupmode="layer"
      id="layer49"
      inkscape:label="#use_dst_pull"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
@@ -1137,17 +1137,17 @@
          id="tspan8458"
          x="348.27347"
          y="410.11078"
-         style="font-weight:bold;fill:#800000;-inkscape-font-specification:DejaVu Sans Mono Bold">git@github.com:bartman/prueba.git</tspan></text>
+         style="font-weight:bold;fill:#800000;-inkscape-font-specification:DejaVu Sans Mono Bold">git@github.com:bartman/test.git</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800080;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="871.4682"
+       x="845.4682"
        y="488.00003"
        id="text8490"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan8492"
-         x="871.4682"
+         x="845.4682"
          y="488.00003"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#800080;fill-opacity:1;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">master</tspan></text>
   </g>
@@ -1229,7 +1229,7 @@
          id="tspan41047"
          x="214.07983"
          y="377.99997"
-         style="font-weight:bold;fill:#800000;-inkscape-font-specification:DejaVu Sans Mono Bold">git@github.com:bartman/prueba.git</tspan></text>
+         style="font-weight:bold;fill:#800000;-inkscape-font-specification:DejaVu Sans Mono Bold">git@github.com:bartman/test.git</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -1435,23 +1435,23 @@
          sodipodi:role="line"
          id="tspan40997"
          x="92"
-         y="328">github     git@github.com:bartman/prueba.git</tspan><tspan
+         y="328">github     git@github.com:bartman/test.git</tspan><tspan
          sodipodi:role="line"
          id="tspan40999"
          x="92"
-         y="354">gitorious  git://gitorious.org/bartman/prueba.git</tspan><tspan
+         y="354">gitorious  git://gitorious.org/bartman/test.git</tspan><tspan
          sodipodi:role="line"
          id="tspan41001"
          x="92"
-         y="380">origin     http://www.kernel.org/pub/scm/bartman/prueba.git</tspan><tspan
+         y="380">origin     http://www.kernel.org/pub/scm/bartman/test.git</tspan><tspan
          sodipodi:role="line"
          id="tspan41003"
          x="92"
-         y="406">publish    /var/www/bartman/prueba.git</tspan><tspan
+         y="406">publish    /var/www/bartman/test.git</tspan><tspan
          sodipodi:role="line"
          id="tspan41005"
          x="92"
-         y="432">repo       ssh://repo.or.cz/srv/git/bartman-prueba.git</tspan></text>
+         y="432">repo       ssh://repo.or.cz/srv/git/bartman-test.git</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1628,12 +1628,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/screenshots/github-create-2.png"
        xlink:href="screenshots/github-create-2.png"
-       style="display:inline"
-       y="18"
-       x="270"
-       id="image35940"
+       width="627.16321"
        height="700"
-       width="627.16321" />
+       id="image35940"
+       x="270"
+       y="18"
+       style="display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1643,12 +1643,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/screenshots/github-create-1.png"
        xlink:href="screenshots/github-create-1.png"
-       style="display:inline"
-       y="138.05168"
-       x="150"
-       id="image35866"
+       width="859"
        height="579.9483"
-       width="859" />
+       id="image35866"
+       x="150"
+       y="138.05168"
+       style="display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1658,12 +1658,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/github-logo-v3.png"
        xlink:href="external/github-logo-v3.png"
-       style="display:inline"
-       y="78"
-       x="897"
-       id="image35871"
+       width="123"
        height="60"
-       width="123" />
+       id="image35871"
+       x="897"
+       y="78"
+       style="display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1673,12 +1673,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/github-logo-v3.png"
        xlink:href="external/github-logo-v3.png"
-       style="display:inline"
-       y="262.36719"
-       x="450.5"
-       id="image30923"
+       width="123"
        height="60"
-       width="123" />
+       id="image30923"
+       x="450.5"
+       y="262.36719"
+       style="display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1705,12 +1705,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/gitorious-logo-cube.png"
        xlink:href="external/gitorious-logo-cube.png"
-       style="display:inline"
-       y="244.86719"
-       x="686"
-       id="image30907"
+       width="294"
        height="95"
-       width="294" />
+       id="image30907"
+       x="686"
+       y="244.86719"
+       style="display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1720,12 +1720,12 @@
     <image
        sodipodi:absref="/home/antonio/Documentos/git-reflections/external/github-logo-v3.png"
        xlink:href="external/github-logo-v3.png"
-       style="display:inline"
-       y="262.36719"
-       x="450.5"
-       id="image30840"
+       width="123"
        height="60"
-       width="123" />
+       id="image30840"
+       x="450.5"
+       y="262.36719"
+       style="display:inline" />
   </g>
   <g
      inkscape:groupmode="layer"

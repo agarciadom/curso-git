@@ -38,7 +38,7 @@
       <path
          id="path5206"
          style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="scale(-0.6,-0.6)" />
     </marker>
     <marker
@@ -51,7 +51,7 @@
       <path
          transform="matrix(-0.4,0,0,-0.4,-4,0)"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
-         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
          id="path4956" />
     </marker>
   </defs>
@@ -65,19 +65,19 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0052083"
+     inkscape:zoom="0.51953125"
      inkscape:cx="512"
      inkscape:cy="384"
      inkscape:document-units="px"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer295"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1031"
+     inkscape:window-width="1024"
+     inkscape:window-height="575"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="2"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true"
@@ -195,7 +195,8 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="#_bottom"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect17643"
@@ -435,7 +436,8 @@
      inkscape:groupmode="layer"
      id="layer69"
      inkscape:label="#blank"
-     style="display:inline" />
+     style="display:inline"
+     sodipodi:insensitive="true" />
   <g
      inkscape:groupmode="layer"
      id="layer47"
@@ -1986,7 +1988,7 @@
          y="290.58212"
          x="385.47754"
          id="tspan47704"
-         sodipodi:role="line">referencias de tree a blob</tspan></text>
+         sodipodi:role="line">referencias a tree y/o blob</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2238,7 +2240,7 @@
      inkscape:groupmode="layer"
      id="layer41"
      inkscape:label="intro_obj.im-gone"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#008080;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
@@ -2384,7 +2386,7 @@
        transform="matrix(0.5,0,0,0.5,242.25,114)">
       <path
          transform="translate(-20,-30)"
-         d="m 560,358 c 0,99.41125 -80.58875,180 -180,180 -99.41125,0 -180,-80.58875 -180,-180 0,-99.41125 80.58875,-180 180,-180 99.41125,0 180,80.58875 180,180 z"
+         d="m 560,358 a 180,180 0 1 1 -360,0 180,180 0 1 1 360,0 z"
          sodipodi:ry="180"
          sodipodi:rx="180"
          sodipodi:cy="358"
@@ -4785,387 +4787,9 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer30"
-     inkscape:label="intro_hist.better.4-ex......"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="598"
-       id="text24598"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan24600"
-         x="299.99005"
-         y="598">- revisiones parciales</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g28410"
-     inkscape:label="intro_hist.better.4-ex....."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="544.66669"
-       id="text24602"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan24604"
-         x="299.99005"
-         y="544.66669">- registro de referencias (&quot;reflog&quot;)</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer77"
-     inkscape:label="intro_hist.better.4-ex...."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="491.33334"
-       id="text24580"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299.99005"
-         y="491.33334"
-         id="tspan24582">- bisección de defectos (&quot;bisect&quot;)</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g28407"
-     inkscape:label="intro_hist.better.4-ex..."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="438"
-       id="text24588"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan24592"
-         x="299.99005"
-         y="438">- criptográficamente seguro</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g28412"
-     inkscape:label="intro_hist.better.4-ex.."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="384.66669"
-       id="text24584"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299.99005"
-         y="384.66669"
-         id="tspan24586">- reescritura del historial</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g28414"
-     inkscape:label="intro_hist.better.4-ex."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="331.33334"
-       id="text24594"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan24596"
-         x="299.99005"
-         y="331.33334">- visualización</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="g28416"
-     inkscape:label="intro_hist.better.4-ex"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="300"
-       y="278"
-       id="text24576"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="300"
-         y="278"
-         id="tspan24578">- ramificación flexible</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer73"
-     inkscape:label="intro_hist.better.4"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="210.18748"
-       y="228"
-       id="text24427"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="210.18748"
-         y="228"
-         id="tspan24429">- características</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer136"
-     inkscape:label="intro_hist.better.3-ex..hg"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="170"
-       y="688"
-       id="text24537"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="170"
-         y="688"
-         id="tspan24539">*</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="200"
-       y="688"
-       id="text24553"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="200"
-         y="688"
-         id="tspan24555">hg está muy cerca.</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="620"
-       y="318"
-       id="text24533"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="620"
-         y="318"
-         id="tspan24535">*</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#800000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="552"
-       y="268"
-       id="text24529"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="552"
-         y="268"
-         id="tspan24531">*</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer191"
-     inkscape:label="intro_hist.better.3-ex.."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="328"
-       id="text24525"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299.99005"
-         y="328"
-         id="tspan24527">- más compacto</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer253"
-     inkscape:label="intro_hist.better.3-ex."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="278"
-       id="text24519"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299.99005"
-         y="278"
-         id="tspan24521">- más rápido</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer72"
-     inkscape:label="intro_hist.better.3"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="210.18748"
-       y="228"
-       id="text24423"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="210.18748"
-         y="228"
-         id="tspan24425">- escalabilidad</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer135"
-     inkscape:label="intro_hist.better.1-ex..web"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="598"
-       id="text24478"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299.99005"
-         y="598"
-         id="tspan24480">... y muy hablado en la web</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer134"
-     inkscape:label="intro_hist.better.1-ex.."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="388"
-       id="text24459"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299.99005"
-         y="388"
-         id="tspan24461">- tutoriales y COMO-s</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer78"
-     inkscape:label="intro_hist.better.1-ex."
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="329.12305"
-       id="text24455"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299.99005"
-         y="329.12305"
-         id="tspan24457">- muchos ejemplos</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer74"
-     inkscape:label="intro_hist.better.1-ex"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#666666;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="299.99005"
-       y="278"
-       id="text24451"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="299.99005"
-         y="278"
-         id="tspan24453">- 50.000+ líneas</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer86"
-     inkscape:label="#intro_hist.better.1"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="210.18748"
-       y="228"
-       id="text24396"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="210.18748"
-         y="228"
-         id="tspan24402">- documentación</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer85"
-     inkscape:label="intro_hist.better.quote"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Sans Italic"
-       x="72.791016"
-       y="318.91211"
-       id="text6768"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan6770"
-         x="72.791016"
-         y="318.91211"
-         style="font-size:40px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">And then realize that nothing is perfect.</tspan><tspan
-         sodipodi:role="line"
-         x="72.791016"
-         y="358.91211"
-         id="tspan6774"
-         style="font-size:40px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">Git is just *closer* to perfect than any other</tspan><tspan
-         sodipodi:role="line"
-         x="72.791016"
-         y="398.91211"
-         style="font-size:40px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         id="tspan6800">SCM out there.</tspan><tspan
-         sodipodi:role="line"
-         x="72.791016"
-         y="438.91211"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         id="tspan6802" /><tspan
-         sodipodi:role="line"
-         x="72.791016"
-         y="478.91211"
-         id="tspan6776"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">-Linus</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer84"
-     inkscape:label="#intro_hist.better"
-     style="display:none">
-    <text
-       xml:space="preserve"
-       style="font-size:30px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
-       x="206.47517"
-       y="128"
-       id="text6763"
-       sodipodi:linespacing="100%"><tspan
-         sodipodi:role="line"
-         id="tspan6765"
-         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         x="206.47517"
-         y="128">Git mejora</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer90"
      inkscape:label="intro_hist.tl123456"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -5393,7 +5017,7 @@
      inkscape:groupmode="layer"
      id="layer82"
      inkscape:label="#intro_hist.tl"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -5614,6 +5238,21 @@
     </g>
   </g>
   <g
+     style="display:none"
+     inkscape:label="toc.4"
+     id="g8154"
+     inkscape:groupmode="layer">
+    <rect
+       rx="4.3631425"
+       ry="4.3631425"
+       y="540"
+       x="239.99998"
+       height="84"
+       width="470"
+       id="rect8156"
+       style="fill:#ffccaa;fill-opacity:1;fill-rule:nonzero;stroke:#30587c;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+  </g>
+  <g
      inkscape:groupmode="layer"
      id="layer45"
      inkscape:label="toc.3"
@@ -5624,7 +5263,7 @@
        width="415"
        height="84"
        x="239.99998"
-       y="454"
+       y="418"
        ry="4.3631425"
        rx="4.3631425" />
   </g>
@@ -5639,7 +5278,7 @@
        width="300.31"
        height="83.829346"
        x="239.68999"
-       y="324.17065"
+       y="288.17065"
        ry="4.3631425"
        rx="4.363143" />
   </g>
@@ -5654,7 +5293,7 @@
        width="410.18179"
        height="79.829346"
        x="239.69058"
-       y="195.69058"
+       y="159.69058"
        ry="4.3631425"
        rx="4.3631425" />
   </g>
@@ -5667,29 +5306,37 @@
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="206.47517"
-       y="258"
+       y="222"
        id="text2995"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          x="206.47517"
-         y="258"
+         y="222"
          id="tspan2999">- Introducción</tspan><tspan
          sodipodi:role="line"
          x="206.47517"
-         y="322"
+         y="286"
          id="tspan8019" /><tspan
          sodipodi:role="line"
          x="206.47517"
-         y="386"
+         y="350"
          id="tspan4830">- Órdenes</tspan><tspan
          sodipodi:role="line"
          x="206.47517"
-         y="450"
+         y="414"
          id="tspan4836" /><tspan
          sodipodi:role="line"
          x="206.47517"
-         y="514"
-         id="tspan4832">- Uso general</tspan></text>
+         y="478"
+         id="tspan4832">- Uso general</tspan><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="542"
+         id="tspan8150" /><tspan
+         sodipodi:role="line"
+         x="206.47517"
+         y="606"
+         id="tspan8152">- Uso avanzado</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
