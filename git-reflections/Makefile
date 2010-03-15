@@ -17,6 +17,7 @@ ug_SVGS =  \
 	perfected-use-dst.svg   \
 	perfected-use-dex.svg \
 	topologies.svg \
+        perfected-use-other.svg \
 	perfected-bye.svg
 ug_PDFS = $(ug_SVGS:%.svg=%.pdf)
 
