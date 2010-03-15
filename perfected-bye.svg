@@ -16,7 +16,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.47pre4 r22446"
    version="1.0"
-   sodipodi:docname="perfected-use-dex.svg"
+   sodipodi:docname="perfected-bye.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="display:inline">
   <defs
@@ -133,6 +133,20 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2924"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2964"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -144,19 +158,19 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51953125"
-     inkscape:cx="512"
-     inkscape:cy="384"
+     inkscape:zoom="0.73472814"
+     inkscape:cx="701.92803"
+     inkscape:cy="294.33588"
      inkscape:document-units="px"
-     inkscape:current-layer="layer47"
+     inkscape:current-layer="layer91"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1024"
-     inkscape:window-height="575"
-     inkscape:window-x="-3"
-     inkscape:window-y="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true"
@@ -274,7 +288,8 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="#_bottom"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect17643"
@@ -514,14 +529,16 @@
      inkscape:groupmode="layer"
      id="layer69"
      inkscape:label="#blank"
-     style="display:none" />
+     style="display:none"
+     sodipodi:insensitive="true" />
   <g
      inkscape:groupmode="layer"
      id="layer91"
      inkscape:label="further-reading"
      style="display:inline">
     <g
-       id="g31033">
+       id="g31033"
+       transform="translate(0,-20)">
       <text
          id="text30989"
          y="157.875"
@@ -547,7 +564,7 @@
     </g>
     <g
        id="g31045"
-       transform="translate(0,209.875)">
+       transform="translate(0,249.875)">
       <text
          id="text31005"
          y="438"
@@ -573,7 +590,7 @@
     </g>
     <g
        id="g31096"
-       transform="translate(0,96.5625)">
+       transform="translate(0,-78.150391)">
       <text
          id="text31025"
          y="283.0625"
@@ -584,32 +601,21 @@
            y="283.0625"
            x="510.97461"
            id="tspan31027"
-           sodipodi:role="line">obtener las transparencias de este taller</tspan></text>
+           sodipodi:role="line">obtener las transparencias del taller original</tspan></text>
       <text
          id="text30999"
-         y="408"
+         y="354"
          x="511.22852"
          style="font-size:40px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
            style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000080"
-           y="408"
+           y="354"
            x="511.22852"
            id="tspan31001"
            sodipodi:role="line">http://2tu.us/wm4</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
-         x="511.42188"
-         y="343.19922"
-         id="text31088"><tspan
-           sodipodi:role="line"
-           id="tspan31090"
-           x="511.42188"
-           y="343.19922"
-           style="font-size:32px;font-weight:bold;text-align:center;text-anchor:middle;fill:#000080">http://www.jukie.net/~bart/slides/git-reflections</tspan></text>
     </g>
     <g
-       transform="translate(0,148)"
+       transform="translate(0,256.17578)"
        style="display:inline"
        id="g31033-4">
       <text
@@ -634,6 +640,33 @@
            x="510.91602"
            id="tspan31023-9"
            sodipodi:role="line">contactar con el autor de la versión en castellano</tspan></text>
+    </g>
+    <g
+       transform="translate(-9.421875,393.08789)"
+       style="display:inline"
+       id="g31033-4-5">
+      <text
+         id="text30989-2-4"
+         y="157.875"
+         x="510.32031"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;text-align:center;text-anchor:middle;fill:#000080"
+           y="157.875"
+           x="510.32031"
+           id="tspan30991-4-7"
+           sodipodi:role="line">http://gitorious.org/spanish-git-reflections</tspan></text>
+      <text
+         id="text31021-9-4"
+         y="88"
+         x="510.91602"
+         style="font-size:40px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="text-align:center;text-anchor:middle;fill:#008000"
+           y="88"
+           x="510.91602"
+           id="tspan31023-9-4"
+           sodipodi:role="line">obtener las transparencias en castellano</tspan></text>
     </g>
   </g>
   <g
