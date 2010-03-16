@@ -1498,6 +1498,27 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3807"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3821"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3857"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1509,19 +1530,19 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4694563"
-     inkscape:cx="695.06091"
-     inkscape:cy="553.45043"
+     inkscape:zoom="1.0052083"
+     inkscape:cx="346.36269"
+     inkscape:cy="384"
      inkscape:document-units="px"
-     inkscape:current-layer="g35035"
+     inkscape:current-layer="layer1"
      showgrid="true"
      width="1024px"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1024"
-     inkscape:window-height="575"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
      inkscape:window-x="0"
-     inkscape:window-y="2"
+     inkscape:window-y="26"
      inkscape:snap-global="false"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true"
@@ -1549,7 +1570,7 @@
        id="guide3161" />
     <sodipodi:guide
        orientation="0,1"
-       position="170,540"
+       position="490.4456,374.05181"
        id="guide3168" />
     <sodipodi:guide
        orientation="0,1"
@@ -1875,6 +1896,55 @@
          id="tspan4937"
          x="238.25195"
          y="921.51758">             http://github.com/bartman/negative</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="conc_wf_hy"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
+       x="206.47517"
+       y="127.99999"
+       id="text7368-0"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan7370-4"
+         style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+         x="206.47517"
+         y="127.99999">Híbrido</tspan></text>
+    <image
+       y="1.3704596"
+       x="446.76944"
+       id="image3859"
+       height="764.57526"
+       width="573.1969"
+       xlink:href="file:///home/antonio/Documentos/master/presentacion/inkscape_pasted_image_20100316_170828.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="142.54939"
+       y="336.24869"
+       id="text3863"><tspan
+         sodipodi:role="line"
+         id="tspan3865"
+         x="142.54939"
+         y="336.24869">Visitad:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="212.89119"
+       y="452.64249"
+       id="text3867"><tspan
+         sodipodi:role="line"
+         id="tspan3869"
+         x="212.89119"
+         y="452.64249">http://nvie.com/</tspan><tspan
+         sodipodi:role="line"
+         x="212.89119"
+         y="502.64249"
+         id="tspan3871">git-model</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2925,7 +2995,7 @@
      inkscape:groupmode="layer"
      id="g35035"
      inkscape:label="#conc_wf_tb^1^2^3^4^5^6^7^8"
-     style="display:inline">layerg35035#conc_wf_tb^1^2^3^4^5^6^7^8display:none
+     style="display:none">layerg35035#conc_wf_tb^1^2^3^4^5^6^7^8display:none
     <g
    style="display:inline"
    id="g15775"
@@ -5997,7 +6067,7 @@
      inkscape:groupmode="layer"
      id="layer202"
      inkscape:label="#conc_wf_tr"
-     style="display:inline">layerlayer202#conc_wf_trdisplay:inline
+     style="display:none">layerlayer202#conc_wf_trdisplay:inline
     <text
    xml:space="preserve"
    style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"

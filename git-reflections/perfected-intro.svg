@@ -54,6 +54,20 @@
          d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
          id="path4956" />
     </marker>
+    <inkscape:perspective
+       id="perspective7533"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective7567"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -65,19 +79,19 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51953125"
-     inkscape:cx="512"
-     inkscape:cy="384"
+     inkscape:zoom="1.0052083"
+     inkscape:cx="512.00002"
+     inkscape:cy="384.00001"
      inkscape:document-units="px"
-     inkscape:current-layer="layer295"
+     inkscape:current-layer="layer90"
      showgrid="true"
      width="1024px"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1024"
-     inkscape:window-height="575"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
      inkscape:window-x="0"
-     inkscape:window-y="2"
+     inkscape:window-y="26"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true"
@@ -2205,7 +2219,7 @@
          sodipodi:role="line"
          x="210.18748"
          y="421.35287"
-         id="tspan10172">- revisión (&quot;revision&quot;)</tspan></text>
+         id="tspan10172">- revisión (&quot;commit&quot;)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
@@ -2386,7 +2400,7 @@
        transform="matrix(0.5,0,0,0.5,242.25,114)">
       <path
          transform="translate(-20,-30)"
-         d="m 560,358 a 180,180 0 1 1 -360,0 180,180 0 1 1 360,0 z"
+         d="m 560,358 c 0,99.41125 -80.58875,180 -180,180 -99.41125,0 -180,-80.58875 -180,-180 0,-99.41125 80.58875,-180 180,-180 99.41125,0 180,80.58875 180,180 z"
          sodipodi:ry="180"
          sodipodi:rx="180"
          sodipodi:cy="358"
@@ -2863,7 +2877,7 @@
        transform="translate(0,6)" />
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#c69090;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="536.55762"
        y="700.41992"
        id="text64204"
@@ -2873,31 +2887,31 @@
          y="700.41992"
          id="tspan64206">20 bytes</tspan></text>
     <path
-       style="fill:#ffaaaa;fill-opacity:0.75;fill-rule:evenodd;stroke:#c69090;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ffaaaa;fill-opacity:0.75;fill-rule:evenodd;stroke:#008000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 80,678 c 0,10 0,20 0,30"
        id="path3473"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:#ffaaaa;fill-opacity:0.75;fill-rule:evenodd;stroke:#c69090;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       style="fill:#ffaaaa;fill-opacity:0.75;fill-rule:evenodd;stroke:#008000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        d="m 990,678 c 0,10 0,20 0,30"
        id="path4277"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:#ffaaaa;fill-opacity:0.75;fill-rule:evenodd;stroke:#c69090;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;display:inline"
+       style="fill:#ffaaaa;fill-opacity:0.75;fill-rule:evenodd;stroke:#008000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;display:inline"
        d="m 980,693 c 0,0 -380,0 -380,0"
        id="path4279"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:#ffaaaa;fill-opacity:0.75;fill-rule:evenodd;stroke:#c69090;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       style="fill:#ffaaaa;fill-opacity:0.75;fill-rule:evenodd;stroke:#008000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
        d="m 470,693 c 0,0 -380,0 -380,0"
        id="path4281"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:#c69090;fill-opacity:1;fill-rule:evenodd;stroke:#c69090;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 990,693 -20,-10 0,20 20,-10 z"
        id="path4822" />
     <path
-       style="fill:#c69090;fill-opacity:1;fill-rule:evenodd;stroke:#c69090;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m 80,693 20,-10 0,20 -20,-10 z"
        id="path4826" />
   </g>
@@ -2963,6 +2977,60 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer56"
+     inkscape:label="intro_obj.git.objects2-fsck"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:bold;text-align:center;text-anchor:middle;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans;-inkscape-font-specification:AlArabiya Bold"
+       x="510.74023"
+       y="638"
+       id="text7539-9"><tspan
+         sodipodi:role="line"
+         id="tspan7541-4"
+         x="510.74023"
+         y="638">git fsck</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="512.00977"
+       y="570.03516"
+       id="text47419-2"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan47421-9"
+         x="512.00977"
+         y="570.03516">para comprobar su consistencia</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer30"
+     inkscape:label="intro_obj.git.objects2-gc"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:bold;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans;-inkscape-font-specification:AlArabiya Bold"
+       x="448.51367"
+       y="638"
+       id="text7539"><tspan
+         sodipodi:role="line"
+         id="tspan7541"
+         x="448.51367"
+         y="638">git gc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="511.26758"
+       y="570.03516"
+       id="text47419"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan47421"
+         x="511.26758"
+         y="570.03516">hay que empaquetar y limpiar de vez en cuando</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer282"
      inkscape:label="intro_obj.git.objects2-pack"
      style="display:none">
@@ -2979,10 +3047,10 @@
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr-tb;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="511.10156"
        y="570.03516"
-       id="text47419"
+       id="text47419-8"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         id="tspan47421"
+         id="tspan47421-4"
          x="511.10156"
          y="570.03516">ficheros pack</tspan></text>
   </g>
@@ -3228,7 +3296,7 @@
      inkscape:groupmode="layer"
      id="layer95"
      inkscape:label="#intro_obj"
-     style="display:inline">
+     style="display:none">
     <g
        style="display:inline"
        id="g6899">
@@ -4688,7 +4756,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c69090;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="469.44824"
        y="618"
        id="text62065"
@@ -4800,21 +4868,21 @@
          sodipodi:role="line"
          x="210.18748"
          y="598"
-         id="tspan62053">- GIT 1.7.0.2</tspan></text>
+         id="tspan62053">- Git 1.7.0.2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c69090;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="300"
-       y="618"
+       y="622"
        id="text62055"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="300"
-         y="618"
+         y="622"
          id="tspan62057">7 marzo, 2010</tspan></text>
     <path
        sodipodi:type="arc"
-       style="opacity:0.66000001;fill:#a85757;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.66000001;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path62063"
        sodipodi:cx="795"
        sodipodi:cy="248"
@@ -4838,10 +4906,10 @@
          sodipodi:role="line"
          x="210.19743"
          y="502.18335"
-         id="tspan19344">- GIT 1.5.0</tspan></text>
+         id="tspan19344">- Git 1.5.0</tspan></text>
     <path
        sodipodi:type="arc"
-       style="opacity:0.66000001;fill:#a85757;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.66000001;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path19405"
        sodipodi:cx="795"
        sodipodi:cy="248"
@@ -4851,14 +4919,14 @@
        transform="matrix(0.1578948,0,0,0.1666667,497.47363,646.66666)" />
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c69090;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="300.00995"
-       y="522.18335"
+       y="524.18335"
        id="text19428"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="300.00995"
-         y="522.18335"
+         y="524.18335"
          id="tspan19430">14 febrero, 2007</tspan></text>
   </g>
   <g
@@ -4876,10 +4944,10 @@
          sodipodi:role="line"
          x="210.19743"
          y="410.91626"
-         id="tspan19340">- GIT se usa para desarrollar Linux</tspan></text>
+         id="tspan19340">- Git se usa para desarrollar Linux</tspan></text>
     <path
        sodipodi:type="arc"
-       style="opacity:0.66000001;fill:#a85757;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.66000001;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path19402"
        sodipodi:cx="795"
        sodipodi:cy="248"
@@ -4889,14 +4957,14 @@
        transform="matrix(0.1578948,0,0,0.1666667,333.47363,646.66666)" />
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c69090;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="300"
-       y="428.4126"
+       y="432.4126"
        id="text19422"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="300"
-         y="428.4126"
+         y="432.4126"
          id="tspan19424">16 junio, 2005</tspan></text>
   </g>
   <g
@@ -4906,7 +4974,7 @@
      style="display:none">
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c69090;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="300"
        y="335.75513"
        id="text19416"
@@ -4925,10 +4993,10 @@
          sodipodi:role="line"
          x="210.19743"
          y="315.06909"
-         id="tspan19336">- GIT reúne ramas</tspan></text>
+         id="tspan19336">- Git reúne ramas</tspan></text>
     <path
        sodipodi:type="arc"
-       style="opacity:0.66000001;fill:#a85757;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.66000001;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path19400"
        sodipodi:cx="795"
        sodipodi:cy="248"
@@ -4955,7 +5023,7 @@
          id="tspan6760">- se deja de usar BK</tspan></text>
     <path
        sodipodi:type="arc"
-       style="opacity:0.66000001;fill:#a85757;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.66000001;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path19382"
        sodipodi:cx="795"
        sodipodi:cy="248"
@@ -4965,14 +5033,14 @@
        transform="matrix(0.1578948,0,0,0.1666667,319.47364,646.66666)" />
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c69090;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="300"
-       y="243"
+       y="249"
        id="text19412"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="300"
-         y="243"
+         y="249"
          id="tspan19414">6 abril, 2005</tspan></text>
   </g>
   <g
@@ -4993,7 +5061,7 @@
          id="tspan19328">- BitKeeper</tspan></text>
     <path
        sodipodi:type="arc"
-       style="opacity:0.66000001;fill:#a85757;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.66000001;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path19376"
        sodipodi:cx="795"
        sodipodi:cy="248"
@@ -5003,7 +5071,7 @@
        transform="matrix(0.1578948,0,0,0.1666667,-20.52636,646.66666)" />
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#c69090;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#008000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="300.00995"
        y="152.18335"
        id="text19408"
@@ -5046,7 +5114,7 @@
        d="m 660.36663,683 0,10"
        id="path6696" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.60849333px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       style="fill:#008000;stroke:#000000;stroke-width:1.60849333px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="m 919.31112,666.80425 0,25.8915"
        id="path6698" />
     <path
@@ -5066,7 +5134,7 @@
        d="m 142.47776,683 0,10"
        id="path6714" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       style="fill:#008000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="m 453.21113,683 0,10"
        id="path6716" />
     <text
@@ -5114,7 +5182,7 @@
        d="m 867.5222,683 0,10"
        id="path6738" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.60849333px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       style="fill:#008000;stroke:#000000;stroke-width:1.60849333px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="m 608.57777,666.80425 0,25.8915"
        id="path6740" />
     <path
