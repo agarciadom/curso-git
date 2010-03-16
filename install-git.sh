@@ -17,10 +17,23 @@ sudo aptitude install lighttpd tkdiff
 # Download and compile source
 mkdir -p ~/src
 pushd ~/src
-wget "$GIT_LATEST_URL"
+wget -N "$GIT_LATEST_URL"
 tar xzf "$GIT_LATEST_BASENAME"
-pushd `find -type d -name 'git-*'`
+NEWEST_SOURCE=$(ls -dt1 $(find -maxdepth 1 -name "git-*" -type d) | head -1)
+pushd "$NEWEST_SOURCE"
 make prefix=/usr all doc info
 
 # Install Git
 sudo make prefix=/usr install install-doc install-info install-html
+
+# Install autocompletion
+if ! grep -q git-completion ~/.bashrc; then
+  COMPLETION_DST=~/.git-completion.bash
+  cp contrib/completion/git-completion.bash "$COMPLETION_DST"
+  echo "source $COMPLETION_DST" >> ~/.bashrc
+  echo 'export PS1='"'"'\u@\h \w$(__git_ps1 " (%s)")\$ '"'" >> ~/.bashrc
+  echo 'export GIT_PS1_SHOWDIRTYSTATE=1' >> ~/.bashrc
+  echo 'export GIT_PS1_SHOWSTASHSTATE=1' >> ~/.bashrc
+  # GIT_PS1_SHOWUNTRACKEDFILES can slow down the prompt too much
+  # with large repositories: better not enable it by default.
+fi
