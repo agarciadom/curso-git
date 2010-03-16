@@ -150,18 +150,18 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0195312"
-     inkscape:cx="522.74246"
+     inkscape:cx="371.69264"
      inkscape:cy="393.56537"
      inkscape:document-units="px"
-     inkscape:current-layer="layer19"
+     inkscape:current-layer="layer10"
      showgrid="true"
      width="1024px"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1030"
+     inkscape:window-height="1031"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="26"
      inkscape:snap-global="true"
      inkscape:snap-guide="false"
      inkscape:object-nodes="true"
@@ -529,7 +529,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer19"
-     inkscape:label="adv_misc">
+     inkscape:label="adv_misc"
+     style="display:none">
     <text
        sodipodi:linespacing="100%"
        id="text2970-4"
@@ -878,7 +879,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="adv_ri.tl.expl"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
@@ -939,8 +940,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="adv_ri.tl"
-     style="display:none">
+     inkscape:label="#adv_ri.tl"
+     style="display:inline">
     <text
        sodipodi:linespacing="100%"
        id="text2970"
@@ -955,7 +956,7 @@
          sodipodi:role="line">Rebase interactivo</tspan></text>
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="#adv_ri"
      id="g2960"
      inkscape:groupmode="layer">
