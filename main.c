@@ -1,16 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int fib(int n) {
-  int a = 0, b = 1;
-  while (n > 0) {
-    int c = a + b;
-    a = b;
-    b = c;
-    --n;
-  }
-  return a;
-}
+#include "fib.h"
 
 int main() {
   int n;
