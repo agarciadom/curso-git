@@ -1,6 +1,6 @@
-EXE=hola
+EXE=main
 CFLAGS=-Wall -ansi -pedantic -ggdb
-OBJS=hola_mundo.o
+OBJS=main.o
 .PHONY: all clean
 
 all: ${EXE}
