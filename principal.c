@@ -4,8 +4,6 @@
 
 int main() {
   int n;
-  printf("¡Hola mundo!\n");
-
   printf("Introduce un número: ");
   scanf("%d", &n);
   printf("fib(%d) = %d\n", n, fib(n));
