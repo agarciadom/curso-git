@@ -1,0 +1,16 @@
+boxFormats = ['tar.bz2']
+archiveDestination = "~/archive/"
+
+include("*") 
+include(".easiboxrc") 
+include("src/*", SUBDIRS) 
+exclude("src/*.o", SUBDIRS)
+include("man/*") 
+
+exclude("*.kdevelop*", SUBDIRS)
+exclude("*.kdevses", SUBDIRS)
+exclude("src/ansifilter")
+exclude("src/qt-gui/ansifilter-gui")
+exclude("*.css")
+exclude("*.html")
+exclude("*~", SUBDIRS)

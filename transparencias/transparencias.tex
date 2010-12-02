@@ -1,0 +1,554 @@
+\documentclass[compress,xcolor=svgnames]{beamer}
+
+\mode<presentation>
+{
+  \useoutertheme[subsection=false,footline=authorinstitutetitle]{miniframes}
+  \usecolortheme{whale}
+  \usecolortheme{orchid}
+  \useinnertheme{rounded}
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamercovered{dynamic}
+}
+
+\usepackage[spanish,es-noshorthands]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{tikz}
+\usepackage{fancyvrb}
+\usepackage[htt]{hyphenat}
+
+\PrerenderUnicode{áéíóúÁÉÍÓÚçÇ}
+
+\title{Introducción al Sistema de Control de Versiones Distribuido Git}
+\author{Antonio García Domínguez}
+\date{\today}
+\institute{Universidad de Cádiz}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Contenidos}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+\usetikzlibrary{positioning,shapes}
+
+% Semantic formatting
+\newcommand*{\paquete}[1]{\texttt{#1}}
+\newcommand*{\fichero}[1]{\textit{#1}}
+\newcommand*{\rama}[1]{\structure{#1}}
+\newcommand*{\tipo}[1]{\textit{#1}}
+
+% For formatting commands
+\newcommand*{\orden}[1]{
+  {\small\ttfamily\$~\nohyphens{#1}\\}}
+
+% For running Git commands and converting the ANSI escape sequences to LaTeX
+\newcommand{\runcommand}[1]{\immediate\write18{#1}}
+\newcommand{\showcommand}[1]{
+  \runcommand{(#1) | ./filtrar.sh}
+  {\small\ttfamily\input{cmd}}}
+\newcommand{\runandshowcommand}[1]{
+  \orden{#1}
+  \showcommand{#1}}
+
+% For the diagrams talking about the existing types of VCS
+\newenvironment{vcstypes}{
+   \begin{tikzpicture}[
+      node distance=6em,
+      every path/.style={very thick},
+      repo/.style={draw,rounded corners,fill=gray!50},
+      wcopy/.style={draw,rounded corners,fill=green!20}]
+}{\end{tikzpicture}}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Contenidos}
+  \tableofcontents
+\end{frame}
+
+\section{Introducción}
+
+\begin{frame}{¿Por qué usar un SCV?}
+
+  \begin{block}{Copiar ficheros y mandar correos no escala}
+    \begin{itemize}
+    \item ¿Cuál era la última versión?
+    \item ¿Cómo vuelvo a la anterior?
+    \item ¿Cómo reúno mis cambios con los de otro?
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{SCV: todo ventajas a cambio de alguna disciplina}
+    \begin{itemize}
+    \item Llevamos un historial de los cambios
+    \item Podemos ir trabajando en varias cosas a la vez
+    \item Podemos colaborar con otros
+    \item Hacemos copia de seguridad de todo el historial
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Historia de los SCV}
+
+  \begin{block}{Sin red, un desarrollador}
+    \begin{description}
+    \item[1972] Source Code Control System
+    \item[1980] Revision Control System
+    \end{description}
+  \end{block}
+
+  \begin{block}{Centralizados}
+    \begin{description}
+    \item[1986] Concurrent Version System
+    \item[1999] Subversion (\enquote{CVS done right})
+    \end{description}
+  \end{block}
+
+  \begin{block}{Distribuidos}
+    \begin{description}
+    \item[2001] Arch, monotone
+    \item[2002] Darcs
+    \item[2005] Git, Mercurial (hg), Bazaar (bzr)
+    \end{description}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}{Historia de Git}
+
+  \begin{block}{Antes de BitKeeper}
+    Para desarrollar Linux, se usaban parches y \texttt{tar.gz}.
+  \end{block}
+
+  \begin{block}{BitKeeper}
+    \begin{description}
+    \item[02/2002] BitMover regala licencia BitKeeper (privativo)
+    \item[04/2005] BitMover retira la licencia tras roces
+    \end{description}
+  \end{block}
+
+  \begin{block}{Git}
+    \begin{description}
+    \item[04/2005] Linus Torvalds presenta Git, que ya reúne ramas
+    \item[06/2005] Git se usa para gestionar Linux
+    \item[02/2007] Git 1.5.0 es utilizable por mortales
+    \item[12/2010] Última versión: Git 1.7.3.2
+    \end{description}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}{SCV centralizados}
+
+  \begin{center}
+    \begin{vcstypes}
+      \draw[white] (3,3) rectangle (-3, -3);
+      \node[repo]  (r)  {Repositorio central};
+
+      \node<2->[wcopy,above right of=r] (w1) {Desarrollador A};
+      \draw<2>[->,color=DarkGreen] (r) edge node[midway,right] {checkout} (w1);
+      \draw<3>[<-,red] (r) edge node[midway,right] {commit} (w1);
+      \draw<4->[-] (r) edge (w1);
+
+      \node<2->[wcopy,below right of=r] (w2) {Desarrollador B};
+      \draw<2>[->,color=DarkGreen] (r) edge node[midway,right] {checkout} (w2);
+      \draw<3,5>[-] (r) edge (w2);
+      \draw<4>[->,blue] (r) edge node[midway,right] {update} (w2);
+    \end{vcstypes}
+  \end{center}
+
+  \begin{overprint}
+    \onslide<1>
+    \centering
+    Tenemos nuestro repositorio central con todo dentro.
+
+    \onslide<2>
+    \centering
+    Los desarrolladores crean \alert{copias de trabajo}.
+
+    \onslide<3>
+    \centering
+    El desarrollador A manda sus cambios al servidor.
+
+    \onslide<4>
+    \centering
+    El desarrollador B los recibe.
+
+    \onslide<5>
+    \centering ¿Y si se cae el servidor, o la red?
+  \end{overprint}
+
+\end{frame}
+
+\begin{frame}{SCV distribuidos}
+
+  \begin{center}
+    \begin{vcstypes}
+      \draw[white] (5,2) rectangle (-5, -2);
+
+      \node[repo] (ra) at ( 0,-1) {Repositorio A};
+
+      \node<2->[repo] (rb) at ( 3, 1) {Repositorio B};
+      \draw<2>[->,color=DarkGreen] (ra) edge node[midway,right] {clone} (rb);
+      \draw<3>[->,color=blue] (ra) edge node[midway,right] {pull} (rb);
+      \draw<4>[<-,color=red] (ra) edge node[midway,right] {push} (rb);
+
+      \node<5->[repo] (rc) at (-3, 1) {Repositorio C};
+      \draw<5>[->,color=DarkGreen] (ra) edge node[midway,left] {clone} (rc);
+      \draw<6>[<-,color=red] (ra) edge node[midway,left] {push} (rc);
+      \draw<7>[<-,color=red] (ra) edge node[draw,fill=white,midway] {X} (rc);
+
+      \draw<8>[->,color=red] (rc) edge node[midway,above] {push} (rb);
+
+    \end{vcstypes}
+  \end{center}
+
+  \begin{overprint}
+    \onslide<1> \centering Tenemos nuestro repositorio.
+
+    \onslide<2> \centering Alguien \alert{clona} el repositorio.
+
+    \onslide<3> \centering De vez en cuando se trae nuestros cambios recientes.
+
+    \onslide<4> \centering De vez en cuando nos manda sus cambios.
+
+    \onslide<5> \centering Viene otro desarrollador.
+
+    \onslide<6> \centering Intenta hacer sus cambios locales...
+
+    \onslide<7> \centering Pero no le funciona, o no tiene permisos para ello.
+
+    \onslide<8> \centering Se los pasa al otro desarrollador sin más.
+
+    \onslide<9> \centering La diferencia entre los repositorios es
+    \emph{social}, no técnica.
+  \end{overprint}
+
+\end{frame}
+
+\begin{frame}{Ventajas de un SCV distribuido (I)}
+
+  \begin{block}{Rapidez}
+    \begin{itemize}
+    \item Todo se hace en local: el disco duro es más rápido que la
+      red, y cuando esté todo en caché será más rápido aún
+    \item Clonar un repositorio Git suele tardar \emph{menos} que
+      crear una copia de trabajo de SVN, y ocupa menos
+    \end{itemize}
+  \end{block}
+
+  \pause
+
+  \begin{block}{Revisiones pequeñas y sin molestar}
+    \begin{itemize}
+    \item Nadie ve nada nuestro hasta que lo mandamos
+    \item Podemos ir haciendo revisiones pequeñas intermedias
+    \item Sólo mandamos cuando compila y supera las pruebas
+    \item Podemos hacer experimentos de usar y tirar
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}{Ventajas de un SCV distribuido (II)}
+  \begin{block}{Trabajo sin conexión}
+    \begin{itemize}
+    \item En el tren, avión, autobús, etc.
+    \item Aunque no tengamos permisos de escritura
+    \item Aunque se caiga la red, se puede colaborar
+    \end{itemize}
+  \end{block}
+
+  \pause
+
+  \begin{block}{Robustez}
+    Falla el disco duro del repositorio bendito. ¿Qué hacer?
+    \begin{itemize}
+    \item Centralizado: copias de seguridad
+    \item Distribuido: copias de seguridad y/o colaborar por otros medios
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\section[Local]{Trabajando en local}
+
+\subsection{Preparaciones}
+
+\begin{frame}{Instalación de Git}
+  \begin{block}{Ubuntu Linux}
+    \begin{itemize}
+    \item 9.10: descargar paquete de Squeeze (Debian)
+    \item 10.04: instalar \paquete{git-*}
+    \item 10.10: instalar \paquete{git-all}
+    \item Instalad \paquete{tkdiff} (para conflictos) y un buen editor
+    \item Fuentes: guión \fichero{install-git.sh} en materiales del curso
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Windows}
+    \begin{itemize}
+    \item Usuarios: msysGit (\url{https://code.google.com/p/msysgit/})
+    \item Desarrolladores: Cygwin (\url{http://www.cygwin.com/})
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Configuración inicial}
+  \framesubtitle{Cambiamos la configuración global en \fichero{\$HOME/.gitconfig}}
+
+  \begin{block}{Identificación}
+    \orden{git config {-}-global user.name "Mi Nombre"}
+    \orden{git config {-}-global user.email mi@correo}
+  \end{block}
+
+  \begin{block}{Editor: por defecto Vi/Vim}
+    \orden{git config {-}-global core.editor emacs}
+  \end{block}
+
+  \begin{block}{Herramienta para resolver conflictos}
+    \orden{git config {-}-global merge.tool tkdiff}
+  \end{block}
+
+\end{frame}
+
+\subsection{Uso básico}
+
+% Limpiamos el área de trabajo
+\runcommand{rm -rf ejemplo}
+
+\begin{frame}{Creación de un repositorio}
+  Sólo tenemos que ir a un directorio y decirle a Git que cree un
+  repositorio ahí.
+
+  \vfill
+
+  \runandshowcommand{mkdir ejemplo}
+  \orden{cd ejemplo}
+  \orden{git init}
+  \showcommand{cd ejemplo; git init}
+\end{frame}
+
+\begin{frame}{Estructura de un repositorio}
+  Un repositorio Git no es más que un directorio con un par de
+  ficheros. La mayoría están en texto plano.
+
+  \vfill
+
+  \orden{ls .git}
+  \showcommand{cd ejemplo; ls --color=always .git}
+\end{frame}
+
+\begin{frame}[t]{Algunos de los ficheros en \fichero{.git}}
+
+  \begin{overlayarea}{\textwidth}{2.5cm}
+    \only<1>{
+      \begin{block}{config}
+        Contiene la configuración local.
+      \end{block}
+    }
+    \only<2>{
+      \begin{block}{description}
+        Descripción corta textual para \paquete{gitweb}.
+      \end{block}
+    }
+    \only<3>{
+      \begin{block}{HEAD}
+        Referencia simbólica a la revisión sobre la que estamos
+        trabajando.
+      \end{block}
+    }
+    \only<4>{
+      \begin{block}{hooks}
+        Manejadores de eventos. Ahora sólo tenemos ejemplos.
+      \end{block}
+    }
+    \only<5>{
+      \begin{block}{info/exclude}
+        Patrones de ficheros a ignorar.
+      \end{block}
+    }
+    \only<6>{
+      \begin{block}{objects}
+        Objetos del repositorio, en formato suelto justo dentro de
+        \fichero{objects} o empaquetado en \fichero{pack}. Ahora mismo
+        no hay.
+      \end{block}
+    }
+    \only<7>{
+      \begin{block}{refs}
+        Referencias simbólicas a las puntas de cada rama y a las
+        etiquetas privadas. Ahora mismo no hay.
+      \end{block}
+    }
+  \end{overlayarea}
+
+  \begin{overlayarea}{\textwidth}{6cm}
+    \only<1>{
+      \orden{cat config}
+      \showcommand{cat ejemplo/.git/config}
+    }
+    \only<2>{
+      \orden{cat description}
+      \showcommand{cat ejemplo/.git/description}
+    }
+    \only<3>{
+      \orden{cat HEAD}
+      \showcommand{cat ejemplo/.git/HEAD}
+    }
+    \only<4>{
+      \orden{ls hooks | head -5}
+      \showcommand{ls --color=always ejemplo/.git/hooks | head -5}
+    }
+    \only<5>{
+      \orden{cat info/exclude}
+      \showcommand{cat ejemplo/.git/info/exclude}
+    }
+    \only<6>{
+      \orden{ls -r objects}
+      \showcommand{ls -r --color=always ejemplo/.git/objects}
+    }
+    \only<7>{
+      \orden{ls -r refs}
+      \showcommand{ls -r --color=always ejemplo/.git/refs}
+    }
+  \end{overlayarea}
+
+\end{frame}
+
+\begin{frame}{Nuestras primeras revisiones}
+  Vamos a crear las 2 primeras revisiones de la rama \rama{master}:
+
+  \vfill
+
+  \orden{echo "hola" > f.txt}
+  \runcommand{echo "hola" | tee ejemplo/f.txt}
+  \orden{git add f.txt}
+  \showcommand{cd ejemplo; git add f.txt}
+  \orden{git commit -m "primer commit"}
+  \showcommand{cd ejemplo; git config user.name Antonio; git config user.email a@b.com; git commit -m "primer commit"}
+  \orden{echo "adios" {>}> f.txt}
+  \runcommand{echo "adios" | tee -a ejemplo/f.txt}
+  \orden{git add f.txt}
+  \showcommand{cd ejemplo; git add f.txt}
+  \orden{git commit -m "segundo commit"}
+  \showcommand{cd ejemplo; git commit -m "segundo commit"}
+
+  \vfill
+
+  \begin{itemize}
+  \item ¿Qué es ese número extraño después de \enquote{root-commit}?
+  \item ¿Por qué hemos hecho \texttt{git add} dos veces?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Modelo de datos de Git}
+
+  \begin{block}{Idea central}
+    4 tipos de objetos direccionables por contenido (resumen SHA1)
+  \end{block}
+
+  \vspace{-1em}
+
+  \begin{overprint}
+    \onslide<1>
+    \begin{block}{Revisiones (\tipo{commits})}
+      \begin{itemize}
+      \item Fecha, hora, autoría, fuente y un mensaje
+      \item Referencia a revisión padre y a un \tipo{tree}
+      \end{itemize}
+    \end{block}
+
+    \orden{git cat-file -p HEAD}
+    \showcommand{cd ejemplo; git cat-file -p HEAD}
+
+    \onslide<2>
+    \begin{block}{Árboles (\tipo{trees})}
+      Lista \tipo{blobs} y \tipo{trees}, dándoles nombres
+    \end{block}
+
+    \orden{git cat-file -p HEAD:}
+    \showcommand{cd ejemplo; git cat-file -p HEAD:}
+
+    \onslide<3>
+    \begin{block}{Ficheros normales (\tipo{blobs})}
+      Secuencias de bytes sin ningún significado particular
+    \end{block}
+
+    \orden{git cat-file -p HEAD:f.txt}
+    \showcommand{cd ejemplo; git cat-file -p HEAD:f.txt}
+
+    \onslide<4>
+    \begin{block}{Etiquetas (\tipo{tags})}
+      Referencias simbólicas inmutables a objetos (p.ej. \tipo{commits})
+    \end{block}
+
+    \orden{git tag -a v1.0 -m "version 1.0" HEAD}
+    \runcommand{cd ejemplo; git tag -a v1.0 -m "version 1.0" HEAD}
+    \orden{git cat-file -p v1.0}
+    \showcommand{cd ejemplo; git cat-file -p v1.0}
+  \end{overprint}
+
+\end{frame}
+
+\begin{frame}{Área de preparación}
+
+\end{frame}
+
+\begin{frame}{Conseguir ayuda}
+
+\end{frame}
+
+\section[Centralizado]{Flujo de trabajo centralizado}
+
+\subsection{De Git a Git}
+
+\begin{frame}{Trabajar con Git}
+
+\end{frame}
+
+\subsection{De Git a SVN}
+
+\begin{frame}{Interoperar con SVN}
+
+\end{frame}
+
+\section[Distribuido]{Flujo de trabajo distribuido}
+
+\begin{frame}{Colaborando entre varios repositorios}
+
+\end{frame}
+
+\section[Avanzado]{Aspectos avanzados}
+
+\begin{frame}{Esculpir revisiones con add -i}
+
+\end{frame}
+
+\begin{frame}{Replantear ramas con rebase}
+
+\end{frame}
+
+\begin{frame}{Reorganizar ramas con rebase -i}
+
+\end{frame}
+
+\appendix
+
+\begin{frame}{Fin de la presentación}
+  \begin{center}
+    {\Huge ¡Gracias por su atención!}
+
+    \vspace{3em}
+
+    {\Large
+      \href{mailto:antonio.garciadominguez@uca.es}{antonio.garciadominguez@uca.es}}
+  \end{center}
+\end{frame}
+
+\end{document}
