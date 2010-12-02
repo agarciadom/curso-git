@@ -1,4 +1,4 @@
-\documentclass[compress,xcolor=svgnames]{beamer}
+\documentclass[xcolor=svgnames]{beamer}
 
 \mode<presentation>
 {
@@ -25,10 +25,17 @@
 \date{\today}
 \institute{Universidad de Cádiz}
 
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Contenidos}
+    \tableofcontents[currentsection,hideothersubsections]
+  \end{frame}
+}
+
 \AtBeginSubsection[]
 {
   \begin{frame}<beamer>{Contenidos}
-    \tableofcontents[currentsection,currentsubsection]
+    \tableofcontents[currentsection,subsectionstyle=show/shaded/hide]
   \end{frame}
 }
 
@@ -41,18 +48,16 @@
 \newcommand*{\tipo}[1]{\textit{#1}}
 
 % For formatting commands
-\newcommand*{\orden}[1]{
-  {\small\ttfamily\$~\nohyphens{#1}\\}}
+\newcommand*{\inlinecmd}[1]{{\small\ttfamily\nohyphens{#1}}}
+\newcommand*{\orden}[1]{{\scriptsize\ttfamily\$~\nohyphens{#1}\\}}
 
 % For running Git commands and converting the ANSI escape sequences to LaTeX
 \newcommand{\runcommand}[1]{\immediate\write18{#1}}
-\newcommand{\showcommand}[2][cat]{
-  \runcommand{(#2) | ansifilter -Lf | #1 | tee cmd.tmp}
-  {\small\ttfamily\input{cmd.tmp}}
-  \runcommand{rm -f cmd.tmp}}
+\newcommand{\showcommand}[2][cat]{%
+  \runcommand{(#2) | ansifilter -Lf | #1 | tee cmd.tmp}%
+  {\scriptsize\ttfamily\input{cmd.tmp}}\runcommand{rm -f cmd.tmp}}
 \newcommand{\runandshowcommand}[1]{
-  \orden{#1}
-  \showcommand{#1}}
+  \orden{#1}\showcommand{#1}}
 
 % For the diagrams talking about the existing types of VCS
 \newenvironment{vcstypes}{
@@ -70,10 +75,12 @@
 \end{frame}
 
 \begin{frame}{Contenidos}
-  \tableofcontents
+  \tableofcontents[hideallsubsections]
 \end{frame}
 
 \section{Introducción}
+
+\subsection{Antecedentes}
 
 \begin{frame}{¿Por qué usar un SCV?}
 
@@ -145,11 +152,13 @@
 
 \end{frame}
 
+\subsection{Tipos de SCV}
+
 \begin{frame}{SCV centralizados}
 
   \begin{center}
     \begin{vcstypes}
-      \draw[white] (3,3) rectangle (-3, -3);
+      \draw[white] (3,2) rectangle (-3, -2);
       \node[repo]  (r)  {Repositorio central};
 
       \node<2->[wcopy,above right of=r] (w1) {Desarrollador A};
@@ -277,9 +286,9 @@
   \end{block}
 \end{frame}
 
-\section[Local]{Trabajando en local}
+\section[Local]{Flujo de trabajo local}
 
-\subsection{Preparaciones}
+\subsection{Preparación}
 
 \begin{frame}{Instalación de Git}
   \begin{block}{Ubuntu Linux}
@@ -316,9 +325,13 @@
     \orden{git config {-}-global merge.tool tkdiff}
   \end{block}
 
-\end{frame}
+  \begin{block}{Algunos alias útiles}
+    \orden{git config {-}-global alias.ci commit}
+    \orden{git config {-}-global alias.st status}
+    \orden{git config {-}-global alias.ai "add -i"}
+  \end{block}
 
-\subsection{Uso básico}
+\end{frame}
 
 % Limpiamos el área de trabajo
 \runcommand{rm -rf ejemplo}
@@ -332,7 +345,7 @@
   \runandshowcommand{mkdir ejemplo}
   \orden{cd ejemplo}
   \orden{git init}
-  \showcommand{cd ejemplo; git init | fold -sw 60; git config user.name Antonio; git config user.email a@b.com; git config color.ui always}
+  \showcommand{cd ejemplo; git init | fold -sw 70; git config user.name Antonio; git config user.email a@b.com; git config color.ui always}
 \end{frame}
 
 \begin{frame}{Nuestras dos primeras revisiones en la rama master}
@@ -353,83 +366,116 @@
   \vfill
 
   \begin{itemize}
-  \item ¿Qué es ese número extraño después de \enquote{root-commit}?
-  \item ¿Dónde están mis revisiones?
-  \item ¿Por qué hemos hecho \texttt{git add} dos veces?
+  \item ¿Qué es ese identificador después de \enquote{root-commit}?
+  \item ¿Dónde se guardan mis cosas?
+  \item Usuario de SVN: \enquote{¿\texttt{git add} dos veces?}
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Modelo de datos de Git}
+\subsection{Conceptos}
 
-  \begin{block}{Idea central}
-    4 tipos de objetos direccionables por contenido (resumen SHA1)
+%% MODELO DE DATOS
+
+\begin{frame}{Modelo de datos de Git}
+  \begin{block}{Características}
+    \begin{itemize}
+    \item Un repositorio es un grafo orientado acíclico de objetos
+    \item Hay 4 tipos de objetos: \tipo{commit}, \tipo{tree},
+      \tipo{blob} y \tipo{tag}
+    \item Los objetos son direccionables por contenido (resumen SHA1)
+    \end{itemize}
   \end{block}
 
-  \vspace{-1em}
-
-  \begin{overprint}
-    \onslide<1>
-    \begin{block}{Revisiones (\tipo{commits})}
-      \begin{itemize}
-      \item Fecha, hora, autoría, fuente y un mensaje
-      \item Referencia a revisión padre y a un \tipo{tree}
-      \end{itemize}
-    \end{block}
-
-    \orden{git cat-file -p HEAD}
-    \showcommand{cd ejemplo; git cat-file -p HEAD}
-
-    \onslide<2>
-    \begin{block}{Árboles (\tipo{trees})}
-      Lista \tipo{blobs} y \tipo{trees}, dándoles nombres
-    \end{block}
-
-    \orden{git cat-file -p HEAD:}
-    \showcommand{cd ejemplo; git cat-file -p HEAD:}
-
-    \onslide<3>
-    \begin{block}{Ficheros normales (\tipo{blobs})}
-      Secuencias de bytes sin ningún significado particular
-    \end{block}
-
-    \orden{git cat-file -p HEAD:f.txt}
-    \showcommand{cd ejemplo; git cat-file -p HEAD:f.txt}
-
-    \onslide<4>
-    \begin{block}{Etiquetas (\tipo{tags})}
-      Referencias simbólicas inmutables a objetos (p.ej. \tipo{commits})
-    \end{block}
-
-    \orden{git tag -a v1.0 -m "version 1.0" HEAD}
-    \runcommand{cd ejemplo; git tag -a v1.0 -m "version 1.0" HEAD}
-    \orden{git cat-file -p v1.0}
-    \showcommand{cd ejemplo; git cat-file -p v1.0}
-  \end{overprint}
-
+  \begin{block}{Consecuencias del diseño}
+    \begin{itemize}
+    \item Los objetos son inmutables: al cambiar su contenido, cambia
+      su SHA1
+    \item Git \emph{no} gestiona información de ficheros movidos y demás
+    \item Git \emph{nunca} guarda más de un objeto una vez en el DAG,
+      aunque aparezca en muchos sitios
+    \end{itemize}
+  \end{block}
 \end{frame}
 
-\begin{frame}{Estructura de un repositorio Git}
+\begin{frame}{Modelo de datos de Git: revisiones (\tipo{commits})}
+  \begin{block}{Contenido}
+    \begin{itemize}
+    \item Fecha, hora, autoría, fuente y un mensaje
+    \item Referencia a revisión padre y a un \tipo{tree}
+    \end{itemize}
+  \end{block}
 
-  \begin{itemize}
-  Todos va a \fichero{.git} bajo la raíz del repositorio
+  \vfill
 
+  \orden{git cat-file -p HEAD}
+  \showcommand{cd ejemplo; git cat-file -p HEAD}
+\end{frame}
 
-  que no es
+\begin{frame}{Modelo de datos de Git: árboles (\tipo{trees})}
+  \begin{block}{Contenido}
+    \begin{itemize}
+    \item Lista de \tipo{blobs} y \tipo{trees}
+    \item Separa el nombre de un fichero/directorio de su contenido
+    \item Sólo gestiona los bits de ejecución de los ficheros
+    \item No se guardan directorios vacíos
+    \end{itemize}
+  \end{block}
 
-el \emph{repositorio},
+  \vfill
 
-  Un repositorio Git no es más que un directorio con un par de
-  ficheros. La mayoría están en texto plano.
+  \orden{git cat-file -p HEAD:}
+  \showcommand{cd ejemplo; git cat-file -p HEAD:}
+\end{frame}
+
+\begin{frame}{Modelo de datos de Git: ficheros (\tipo{blobs})}
+  \begin{block}{Contenido}
+    Secuencias de bytes sin ningún significado particular.
+  \end{block}
+
+  \vfill
+
+  \orden{git cat-file -p HEAD:f.txt}
+  \showcommand{cd ejemplo; git cat-file -p HEAD:f.txt}
+\end{frame}
+
+\begin{frame}{Modelo de datos de Git: etiquetas (\tipo{tags})}
+  \begin{block}{Contenido}
+    \begin{itemize}
+    \item Referencias simbólicas inmutables a otros objetos
+    \item Normalmente apuntan a \tipo{commits}
+    \item Pueden firmarse mediante GnuPG, protegiendo la integridad de
+      todo el historial hasta entonces
+    \end{itemize}
+  \end{block}
+
+  \vfill
+
+  \orden{git tag -a v1.0 -m "version 1.0" HEAD}
+  \runcommand{cd ejemplo; git tag -a v1.0 -m "version 1.0" HEAD}
+  \orden{git cat-file -p v1.0}
+  \showcommand{cd ejemplo; git cat-file -p v1.0}
+\end{frame}
+
+%%% MODELO DE DATOS
+
+\begin{frame}{Estructura física de un repositorio Git}
+  \begin{block}{Partes de un repositorio Git}
+    \begin{itemize}
+    \item Directorio de trabajo
+    \item Grafo de objetos: \fichero{.git}
+    \item Área de preparación: \fichero{.git/index}
+    \end{itemize}
+  \end{block}
 
   \vfill
 
   \orden{ls .git}
-  \showcommand{cd ejemplo; ls --color=always .git}
+  \showcommand{cd ejemplo; ls -C --color=always .git}
 \end{frame}
 
 \begin{frame}[t]{Algunos de los ficheros en \fichero{.git}}
 
-  \begin{overlayarea}{\textwidth}{2.5cm}
+  \begin{overlayarea}{\textwidth}{2cm}
     \only<1>{
       \begin{block}{config}
         Contiene la configuración local.
@@ -452,21 +498,28 @@ el \emph{repositorio},
       \end{block}
     }
     \only<5>{
-      \begin{block}{info/exclude}
-        Patrones de ficheros a ignorar.
+      \begin{block}{index}
+        Contiene el área de preparación (la veremos después).
       \end{block}
     }
     \only<6>{
-      \begin{block}{objects}
-        Objetos del repositorio, en formato suelto justo dentro de
-        \fichero{objects} o empaquetado en \fichero{pack}. Ahora mismo
-        no hay.
+      \begin{block}{info/exclude (también .gitignore y/o global)}
+        Patrones de ficheros a ignorar.
       \end{block}
     }
     \only<7>{
+      \begin{block}{logs}
+        Historial de las referencias: medida de seguridad.
+      \end{block}
+    }
+    \only<8>{
       \begin{block}{refs}
-        Referencias simbólicas a las puntas de cada rama y a las
-        etiquetas privadas. Ahora mismo no hay.
+        Referencias simbólicas a puntas de cada rama y etiquetas.
+      \end{block}
+    }
+    \only<9>{
+      \begin{block}{objects}
+        Objetos, sueltos (gzip) o empaquetados (delta + gzip).
       \end{block}
     }
   \end{overlayarea}
@@ -478,7 +531,7 @@ el \emph{repositorio},
     }
     \only<2>{
       \orden{cat description}
-      \showcommand{cat ejemplo/.git/description | fold -sw 60}
+      \showcommand{cat ejemplo/.git/description}
     }
     \only<3>{
       \orden{cat HEAD}
@@ -489,27 +542,199 @@ el \emph{repositorio},
       \showcommand{ls --color=always ejemplo/.git/hooks | head -5}
     }
     \only<5>{
-      \orden{cat info/exclude}
-      \showcommand{cat ejemplo/.git/info/exclude | ./shorten.sh}
+      \orden{git ls-files -s}
+      \showcommand{cd ejemplo; git ls-files -s}
     }
     \only<6>{
-      \orden{ls -r objects}
-      \showcommand{ls -r --color=always ejemplo/.git/objects}
+      \orden{cat info/exclude}
+      \showcommand{cat ejemplo/.git/info/exclude}
     }
     \only<7>{
-      \orden{ls -r refs}
-      \showcommand{ls -r --color=always ejemplo/.git/refs}
+      \orden{git reflog}
+      \showcommand{cd ejemplo; git reflog}
+    }
+    \only<8>{
+      \orden{ls -R refs}
+      \showcommand{ls -CR --color=always ejemplo/.git/refs}
+    }
+    \only<9>{
+      \orden{ls objects}
+      \showcommand{ls -C --color=always ejemplo/.git/objects | ./chomp-last-newline.pl}
+      \orden{ls objects/pack}
+      \runcommand{ls -C ejemplo/.git/objects/pack}
+      \orden{git gc}
+      \runcommand{cd ejemplo; git gc}
+      \orden{ls objects}
+      \showcommand{ls -C --color=always ejemplo/.git/objects | ./chomp-last-newline.pl}
+      \orden{ls objects/pack}
+      \showcommand{ls -C --color=always ejemplo/.git/objects/pack | ./chomp-last-newline.pl}
     }
   \end{overlayarea}
 
 \end{frame}
 
-\begin{frame}{Área de preparación}
+\begin{frame}{Área de preparación, caché o índice}
+  \begin{block}{Concepto}
+    Instantánea que vamos construyendo de la siguiente revisión.
+  \end{block}
+
+  \begin{block}{Diferencia entre Git y otros SCV}
+    \begin{itemize}
+    \item \inlinecmd{svn add} = añadir fichero a control de versiones
+    \item \inlinecmd{git add} = añadir contenido a área de preparación
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Consecuencias}
+    \begin{itemize}
+    \item Controlamos exactamente qué va en cada revisión
+    \item Algo raro hasta acostumbrarse, pero es \emph{muy} potente
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Preparando revisiones (I)}
+  \orden{echo "bueno" {>}> f.txt}
+  \runcommand{cd ejemplo; echo "bueno" | tee -a f.txt}
+  \orden{git add f.txt}
+  \showcommand{cd ejemplo; git add f.txt}
+  \orden{echo "malo" {>}> f.txt}
+  \runcommand{cd ejemplo; echo "malo" | tee -a f.txt}
+  \orden{echo "nuevo" > g.txt}
+  \runcommand{cd ejemplo; echo "nuevo" | tee g.txt}
+\end{frame}
+
+\begin{frame}{Preparando revisiones (II)}
+  \orden{git status}
+  \showcommand{cd ejemplo; git status}
+\end{frame}
+
+\begin{frame}{Preparando revisiones (III)}
+  \begin{columns}
+    \column{.5\textwidth}
+    \orden{git diff {-}-staged}\showcommand{cd ejemplo; git diff --staged}
+
+    \column{.5\textwidth}
+    \orden{git diff} \showcommand{cd ejemplo; git diff}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Preparando revisiones (IV)}
+  \orden{git commit -m "tercer commit"}
+  \showcommand{cd ejemplo; git commit -m "tercer commit"}
+  \orden{git status}
+  \showcommand{cd ejemplo; git status}
+\end{frame}
+
+\begin{frame}{Preparando revisiones (V)}
+  \begin{block}{Otras órdenes}
+    \begin{itemize}
+    \item \inlinecmd{git rm f}: retira del área de preparación y directorio de trabajo
+    \item \inlinecmd{git rm {-}-cached f}: retira sólo del área de preparación
+    \item \inlinecmd{git mv f g} = \inlinecmd{mv} + \inlinecmd{git rm} + \inlinecmd{git add}
+    \item \inlinecmd{git add -p f}: seleccionamos trozos a preparar
+    \item \inlinecmd{git add -i}: interfaz interactiva para preparar revisiones
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Corregir la última revisión}
+    \begin{itemize}
+    \item \inlinecmd{git commit {-}-amend} corrige la última revisión
+    \item No usar si se ha publicado la revisión ya a algún sitio
+    \item Aun así, no se perdería información, pero es molesto de arreglar
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\subsection{Operaciones comunes}
+
+\begin{frame}{Limpiar y deshacer}
+
+  \begin{block}{Deshacer cambios}
+    \begin{itemize}
+    \item Del área de preparación:
+      \inlinecmd{git reset f}, \inlinecmd{git reset}
+    \item Del directorio de trabajo:
+      \inlinecmd{git checkout f}, \inlinecmd{git checkout .}
+    \item De revisiones anteriores ya publicadas: \inlinecmd{git
+        revert commit} crea un \tipo{commit} inverso al especificado
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Limpiar cosas fuera de control de versiones: \inlinecmd{git clean}}
+    \begin{itemize}
+    \item Simular qué haría: \inlinecmd{-n}
+    \item Borrar directorios: \inlinecmd{-d}
+    \item Borrar ignorados: \inlinecmd{-x}
+    \item Realizar el borrado: \inlinecmd{-f} (\inlinecmd{-n} tiene mayor prioridad)
+    \end{itemize}
+  \end{block}
 
 \end{frame}
 
-\begin{frame}{Conseguir ayuda}
+\begin{frame}{Buscar cosas}
+  \inlinecmd{git grep} es como \inlinecmd{grep -R *}, pero sólo busca
+  entre los ficheros bajo control de versiones.
 
+  \vfill
+
+  \orden{git grep hola}
+  \showcommand{cd ejemplo; git grep hola}
+\end{frame}
+
+\begin{frame}{Historial: por línea de órdenes (I)}
+  \orden{git log}
+  \showcommand{cd ejemplo; git log}
+\end{frame}
+
+\begin{frame}{Historial: por línea de órdenes (II)}
+  \orden{git log {-}-pretty=oneline}
+  \showcommand{cd ejemplo; git log --pretty=oneline}
+\end{frame}
+
+\begin{frame}{Historial: por línea de órdenes (III)}
+  \orden{git log {-}-graph {-}-pretty=oneline {-}-decorate=short {-}-abbrev-commit}
+  \showcommand{git log --graph --pretty=oneline --decorate=short --abbrev-commit 5f3c2bf..7eec99d}
+\end{frame}
+
+\begin{frame}{Historial: más cosas}
+  \begin{block}{Opciones útiles}
+    \begin{itemize}
+    \item Por autor: \inlinecmd{{-}-author, {-}-committer}
+    \item Por fecha: \inlinecmd{{-}-since, {-}-until}
+    \item Por cambio: \inlinecmd{-S}
+    \item Por mensaje: \inlinecmd{{-}-grep}
+    \item Con parches: \inlinecmd{-p} (resumidos: \inlinecmd{--stat})
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Otras órdenes}
+    \begin{itemize}
+    \item \inlinecmd{git show}: una revisión determinada
+    \item \inlinecmd{git whatchanged}: estilo SVN
+    \item \inlinecmd{gitk}: interfaz gráfica
+    \item \inlinecmd{git instaweb}: interfaz Web
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Ayuda}
+  \begin{block}{Listado de órdenes}
+    \begin{itemize}
+    \item \inlinecmd{git help} da un listado breve
+    \item \inlinecmd{git help {-}-all} las lista todas (144+)
+    \item Muchas son \enquote{fontanería}: sólo usamos la \enquote{porcelana}
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Sobre una orden concreta}
+    \begin{itemize}
+    \item \inlinecmd{man git-orden}
+    \item \inlinecmd{git help orden}
+    \item \inlinecmd{git help -w orden} (en navegador)
+    \item \inlinecmd{git orden -h}
+    \end{itemize}
+  \end{block}
 \end{frame}
 
 \section[Centralizado]{Flujo de trabajo centralizado}
