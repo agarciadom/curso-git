@@ -332,7 +332,7 @@
   \runandshowcommand{mkdir ejemplo}
   \orden{cd ejemplo}
   \orden{git init}
-  \showcommand{cd ejemplo; git init}
+  \showcommand{cd ejemplo; git init; git config user.name Antonio; git config user.email a@b.com; git config color.ui always}
 \end{frame}
 
 \begin{frame}{Estructura de un repositorio}
@@ -432,7 +432,7 @@
   \orden{git add f.txt}
   \showcommand{cd ejemplo; git add f.txt}
   \orden{git commit -m "primer commit"}
-  \showcommand{cd ejemplo; git config user.name Antonio; git config user.email a@b.com; git commit -m "primer commit"}
+  \showcommand{cd ejemplo; git commit -m "primer commit"}
   \orden{echo "adios" {>}> f.txt}
   \runcommand{echo "adios" | tee -a ejemplo/f.txt}
   \orden{git add f.txt}
