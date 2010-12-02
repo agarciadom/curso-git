@@ -46,9 +46,10 @@
 
 % For running Git commands and converting the ANSI escape sequences to LaTeX
 \newcommand{\runcommand}[1]{\immediate\write18{#1}}
-\newcommand{\showcommand}[1]{
-  \runcommand{(#1) | ./filtrar.sh}
-  {\small\ttfamily\input{cmd}}}
+\newcommand{\showcommand}[2][cat]{
+  \runcommand{(#2) | ansifilter -Lf | #1 | tee cmd.tmp}
+  {\small\ttfamily\input{cmd.tmp}}
+  \runcommand{rm -f cmd.tmp}}
 \newcommand{\runandshowcommand}[1]{
   \orden{#1}
   \showcommand{#1}}
