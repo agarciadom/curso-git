@@ -332,10 +332,92 @@
   \runandshowcommand{mkdir ejemplo}
   \orden{cd ejemplo}
   \orden{git init}
-  \showcommand{cd ejemplo; git init; git config user.name Antonio; git config user.email a@b.com; git config color.ui always}
+  \showcommand{cd ejemplo; git init | fold -sw 60; git config user.name Antonio; git config user.email a@b.com; git config color.ui always}
 \end{frame}
 
-\begin{frame}{Estructura de un repositorio}
+\begin{frame}{Nuestras dos primeras revisiones en la rama master}
+
+  \orden{echo "hola" > f.txt}
+  \runcommand{echo "hola" | tee ejemplo/f.txt}
+  \orden{git add f.txt}
+  \showcommand{cd ejemplo; git add f.txt}
+  \orden{git commit -m "primer commit"}
+  \showcommand{cd ejemplo; git commit -m "primer commit"}
+  \orden{echo "adios" {>}> f.txt}
+  \runcommand{echo "adios" | tee -a ejemplo/f.txt}
+  \orden{git add f.txt}
+  \showcommand{cd ejemplo; git add f.txt}
+  \orden{git commit -m "segundo commit"}
+  \showcommand{cd ejemplo; git commit -m "segundo commit"}
+
+  \vfill
+
+  \begin{itemize}
+  \item ¿Qué es ese número extraño después de \enquote{root-commit}?
+  \item ¿Dónde están mis revisiones?
+  \item ¿Por qué hemos hecho \texttt{git add} dos veces?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Modelo de datos de Git}
+
+  \begin{block}{Idea central}
+    4 tipos de objetos direccionables por contenido (resumen SHA1)
+  \end{block}
+
+  \vspace{-1em}
+
+  \begin{overprint}
+    \onslide<1>
+    \begin{block}{Revisiones (\tipo{commits})}
+      \begin{itemize}
+      \item Fecha, hora, autoría, fuente y un mensaje
+      \item Referencia a revisión padre y a un \tipo{tree}
+      \end{itemize}
+    \end{block}
+
+    \orden{git cat-file -p HEAD}
+    \showcommand{cd ejemplo; git cat-file -p HEAD}
+
+    \onslide<2>
+    \begin{block}{Árboles (\tipo{trees})}
+      Lista \tipo{blobs} y \tipo{trees}, dándoles nombres
+    \end{block}
+
+    \orden{git cat-file -p HEAD:}
+    \showcommand{cd ejemplo; git cat-file -p HEAD:}
+
+    \onslide<3>
+    \begin{block}{Ficheros normales (\tipo{blobs})}
+      Secuencias de bytes sin ningún significado particular
+    \end{block}
+
+    \orden{git cat-file -p HEAD:f.txt}
+    \showcommand{cd ejemplo; git cat-file -p HEAD:f.txt}
+
+    \onslide<4>
+    \begin{block}{Etiquetas (\tipo{tags})}
+      Referencias simbólicas inmutables a objetos (p.ej. \tipo{commits})
+    \end{block}
+
+    \orden{git tag -a v1.0 -m "version 1.0" HEAD}
+    \runcommand{cd ejemplo; git tag -a v1.0 -m "version 1.0" HEAD}
+    \orden{git cat-file -p v1.0}
+    \showcommand{cd ejemplo; git cat-file -p v1.0}
+  \end{overprint}
+
+\end{frame}
+
+\begin{frame}{Estructura de un repositorio Git}
+
+  \begin{itemize}
+  Todos va a \fichero{.git} bajo la raíz del repositorio
+
+
+  que no es
+
+el \emph{repositorio},
+
   Un repositorio Git no es más que un directorio con un par de
   ficheros. La mayoría están en texto plano.
 
@@ -392,11 +474,11 @@
   \begin{overlayarea}{\textwidth}{6cm}
     \only<1>{
       \orden{cat config}
-      \showcommand{cat ejemplo/.git/config}
+      \showcommand{cat ejemplo/.git/config | sed -n '1,/logallrefupdates/p'}
     }
     \only<2>{
       \orden{cat description}
-      \showcommand{cat ejemplo/.git/description}
+      \showcommand{cat ejemplo/.git/description | fold -sw 60}
     }
     \only<3>{
       \orden{cat HEAD}
@@ -408,7 +490,7 @@
     }
     \only<5>{
       \orden{cat info/exclude}
-      \showcommand{cat ejemplo/.git/info/exclude}
+      \showcommand{cat ejemplo/.git/info/exclude | ./shorten.sh}
     }
     \only<6>{
       \orden{ls -r objects}
@@ -419,81 +501,6 @@
       \showcommand{ls -r --color=always ejemplo/.git/refs}
     }
   \end{overlayarea}
-
-\end{frame}
-
-\begin{frame}{Nuestras primeras revisiones}
-  Vamos a crear las 2 primeras revisiones de la rama \rama{master}:
-
-  \vfill
-
-  \orden{echo "hola" > f.txt}
-  \runcommand{echo "hola" | tee ejemplo/f.txt}
-  \orden{git add f.txt}
-  \showcommand{cd ejemplo; git add f.txt}
-  \orden{git commit -m "primer commit"}
-  \showcommand{cd ejemplo; git commit -m "primer commit"}
-  \orden{echo "adios" {>}> f.txt}
-  \runcommand{echo "adios" | tee -a ejemplo/f.txt}
-  \orden{git add f.txt}
-  \showcommand{cd ejemplo; git add f.txt}
-  \orden{git commit -m "segundo commit"}
-  \showcommand{cd ejemplo; git commit -m "segundo commit"}
-
-  \vfill
-
-  \begin{itemize}
-  \item ¿Qué es ese número extraño después de \enquote{root-commit}?
-  \item ¿Por qué hemos hecho \texttt{git add} dos veces?
-  \end{itemize}
-\end{frame}
-
-\begin{frame}{Modelo de datos de Git}
-
-  \begin{block}{Idea central}
-    4 tipos de objetos direccionables por contenido (resumen SHA1)
-  \end{block}
-
-  \vspace{-1em}
-
-  \begin{overprint}
-    \onslide<1>
-    \begin{block}{Revisiones (\tipo{commits})}
-      \begin{itemize}
-      \item Fecha, hora, autoría, fuente y un mensaje
-      \item Referencia a revisión padre y a un \tipo{tree}
-      \end{itemize}
-    \end{block}
-
-    \orden{git cat-file -p HEAD}
-    \showcommand{cd ejemplo; git cat-file -p HEAD}
-
-    \onslide<2>
-    \begin{block}{Árboles (\tipo{trees})}
-      Lista \tipo{blobs} y \tipo{trees}, dándoles nombres
-    \end{block}
-
-    \orden{git cat-file -p HEAD:}
-    \showcommand{cd ejemplo; git cat-file -p HEAD:}
-
-    \onslide<3>
-    \begin{block}{Ficheros normales (\tipo{blobs})}
-      Secuencias de bytes sin ningún significado particular
-    \end{block}
-
-    \orden{git cat-file -p HEAD:f.txt}
-    \showcommand{cd ejemplo; git cat-file -p HEAD:f.txt}
-
-    \onslide<4>
-    \begin{block}{Etiquetas (\tipo{tags})}
-      Referencias simbólicas inmutables a objetos (p.ej. \tipo{commits})
-    \end{block}
-
-    \orden{git tag -a v1.0 -m "version 1.0" HEAD}
-    \runcommand{cd ejemplo; git tag -a v1.0 -m "version 1.0" HEAD}
-    \orden{git cat-file -p v1.0}
-    \showcommand{cd ejemplo; git cat-file -p v1.0}
-  \end{overprint}
 
 \end{frame}
 
