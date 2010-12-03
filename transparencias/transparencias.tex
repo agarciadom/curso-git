@@ -890,7 +890,7 @@ password micontraseña
 
 \subsection{Interacción con repositorios remotos}
 
-\begin{frame}{Envío de objetos: \texttt{git push URL origen:destion}}
+\begin{frame}{Envío de objetos: \texttt{git push URL origen:destino}}
 
   \begin{block}{Sintaxis general}
     \begin{itemize}
@@ -906,8 +906,6 @@ password micontraseña
   \begin{block}{Observaciones}
     \begin{itemize}
     \item \inlinecmd{git push URL x} = \inlinecmd{git push URL x:x}
-    \item \inlinecmd{git push URL :x} \alert{borra} la rama/etiqueta
-      remota \rama{x}
     \item \inlinecmd{git push URL} actualiza todas las ramas remotas
       que se llamen igual que alguna de las locales
     \item \inlinecmd{git push} es \inlinecmd{git push origin}
@@ -919,7 +917,7 @@ password micontraseña
 
   \begin{block}{Efecto}
     Esta orden recibe todos los objetos nuevos de todos los
-    repositorios remotos que nuestro repositorio conozca.
+    repositorios remotos que conozcamos.
   \end{block}
 
   \begin{block}{Nota}
