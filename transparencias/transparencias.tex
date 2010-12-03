@@ -36,7 +36,7 @@
   \end{frame}
 }
 
-\usetikzlibrary{positioning,shapes,shapes.geometric}
+\usetikzlibrary{calc,positioning,shapes,shapes.geometric}
 
 % Semantic formatting
 \newcommand*{\paquete}[1]{\texttt{#1}}
@@ -642,24 +642,18 @@
   \showcommand{cd ejemplo; git status}
 \end{frame}
 
-\begin{frame}{Preparando revisiones (V)}
-  \begin{block}{Otras órdenes}
-    \begin{itemize}
-    \item \inlinecmd{git rm f}: retira del área de preparación y directorio de trabajo
-    \item \inlinecmd{git rm {-}-cached f}: retira sólo del área de preparación
-    \item \inlinecmd{git mv f g} = \inlinecmd{mv} + \inlinecmd{git rm} + \inlinecmd{git add}
-    \item \inlinecmd{git add -p f}: seleccionamos trozos a preparar
-    \item \inlinecmd{git add -i}: interfaz interactiva para preparar revisiones
-    \end{itemize}
-  \end{block}
+\begin{frame}{Esquemas de órdenes para añadir y eliminar}
+  \begin{center}
+    \input{stage-general.tikz}
+    \vfill
+    \input{stage-rm.tikz}
+  \end{center}
+\end{frame}
 
-  \begin{block}{Corregir la última revisión}
-    \begin{itemize}
-    \item \inlinecmd{git commit {-}-amend} corrige la última revisión
-    \item No usar si se ha publicado la revisión ya a algún sitio
-    \item Aun así, no se perdería información, pero es molesto de arreglar
-    \end{itemize}
-  \end{block}
+\begin{frame}{Esquema de órdenes para comparar}
+  \begin{center}
+    \input{stage-diff.tikz}
+  \end{center}
 \end{frame}
 
 \subsection{Operaciones comunes}
