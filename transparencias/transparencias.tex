@@ -730,9 +730,18 @@
 \runcommand{rm -rf sandbox-git}
 
 \begin{frame}[fragile]{Clonar un repositorio}
+
+  \begin{block}{Métodos de acceso}
+    \begin{itemize}
+    \item \url{git://}, SSH, HTTP(S) y \fichero{rsync}
+    \item Neptuno: \foreignquote{english}{smart HTTP} + SSL (nuevo en Git 1.6.6.2)
+    \item Integrado con autenticación Redmine:
+      \url{http://www.redmine.org/issues/4905}
+    \end{itemize}
+  \end{block}
+
   \begin{block}{Autenticación}
     \begin{itemize}
-    \item En Neptuno se accede por \foreignquote{english}{smart HTTP} (+ SSL)
     \item Proyecto público, pero requiere autenticación para escritura
     \item Hay que crear \fichero{\$HOME/.netrc}, legible sólo por nosotros, con:
 \begin{verbatim}
@@ -742,6 +751,8 @@ password micontraseña
 \end{verbatim}
     \end{itemize}
   \end{block}
+
+  \vfill
 
   \orden{git clone https://neptuno.uca.es/git/sandbox-git}
   \showcommand{git clone https://neptuno.uca.es/git/sandbox-git}
@@ -760,8 +771,8 @@ password micontraseña
   \begin{block}{Diferencias con otros SCV}
     \begin{itemize}
     \item No son apaños con directorios, sino parte del modelo de datos
-    \item Rama en Git: referencia mutable por nombre a una revisión
-    \item Etiqueta: referencia \emph{inmutable} a una revisión
+    \item Rama en Git: referencia mutable y compartible a una revisión
+    \item Etiqueta en Git: referencia \emph{inmutable} a un objeto
     \end{itemize}
   \end{block}
 \end{frame}
@@ -778,7 +789,7 @@ password micontraseña
   \end{block}
 \end{frame}
 
-\begin{frame}{Creando ramas}
+\begin{frame}{Gestionando ramas}
   \begin{block}{Crear ramas}
     \orden{git branch mirama HEAD}
     \showcommand{cd sandbox-git; git branch mirama HEAD}
@@ -797,18 +808,23 @@ password micontraseña
 \end{frame}
 
 \begin{frame}{Cambiando entre ramas}
-  \begin{block}{Entre ramas existentes (locales y remotas)}
-    \orden{git checkout ejemplo-merge-ff}
-    \showcommand{cd sandbox-git; git checkout ejemplo-merge-ff | fold -sw 70}
+  \begin{block}{A una rama local}
+    No confundir con \inlinecmd{git checkout {-}- master}, que copia el
+    fichero \fichero{master} del índice al directorio de trabajo.
+
+    \vspace{1em}
+
     \orden{git checkout master}
     \showcommand{cd sandbox-git; git checkout master}
   \end{block}
 
-  \begin{block}{A una rama nueva: \inlinecmd{branch} + \inlinecmd{checkout}}
-    \orden{git checkout -b nueva-idea master}
-    \showcommand{cd sandbox-git; git checkout -b nueva-idea master}
-    \orden{git branch}
-    \showcommand{cd sandbox-git; git branch}
+  \begin{block}{A una rama remota}
+    Es de sólo lectura: creamos una rama local que la siga.
+
+    \vspace{1em}
+
+    \orden{git checkout -b ejemplo-merge-ff origin/ejemplo-merge-ff}
+    \showcommand{cd sandbox-git; git checkout -b ejemplo-merge-ff origin/ejemplo-merge-ff | fold -sw 70}
   \end{block}
 \end{frame}
 
@@ -842,7 +858,12 @@ password micontraseña
 \end{frame}
 
 \begin{frame}{Reuniendo ramas: conflicto (II)}
-  \begin{block}{Resolución por línea de órdenes}
+
+  \begin{block}{Si es texto: \inlinecmd{git mergetool}}
+    Lanza herramienta gráfica para resolver todos los conflictos.
+  \end{block}
+
+  \begin{block}{Si es binario o no nos gusta \inlinecmd{git mergetool} (!)}
     \begin{itemize}
     \item \inlinecmd{git checkout {-}-ours}: nos quedamos con lo que teníamos
     \item \inlinecmd{git checkout {-}-theirs}: nos quedamos con lo que reunimos
@@ -852,23 +873,18 @@ password micontraseña
       información acerca del conflicto resuelto en el mensaje
     \end{itemize}
   \end{block}
-
-  \begin{block}{Mucho más cómodo si es texto: \inlinecmd{git mergetool}}
-    Lanza herramienta gráfica para resolver todos los conflictos.
-  \end{block}
 \end{frame}
 
 \subsection{Interacción con repositorios remotos}
 
-\begin{frame}{Envío de objetos: \texttt{git push URL origen:destino}}
+\begin{frame}{Envío de objetos}
 
-  \begin{block}{Sintaxis general}
+  \begin{block}{En general: \texttt{git push URL origen:destino}}
     \begin{itemize}
     \item \inlinecmd{URL} se puede reemplazar por apodo (\remoto{origin})
     \item \inlinecmd{origen} es rama o etiqueta local
     \item \inlinecmd{destino} es rama o etiqueta remota
-    \item Actualiza/crea \inlinecmd{destino} en el repositorio
-      remoto a partir de \inlinecmd{origen}
+    \item Actualiza \inlinecmd{destino} en rep. remoto a \inlinecmd{origen}
     \item Sólo tiene éxito si es un \foreignquote{english}{fast-forward}
     \end{itemize}
   \end{block}
@@ -877,13 +893,18 @@ password micontraseña
     \begin{itemize}
     \item \inlinecmd{git push URL x} = \inlinecmd{git push URL x:x}
     \item \inlinecmd{git push URL} actualiza todas las ramas remotas
-      que se llamen igual que alguna de las locales
+      que se llamen igual que las locales
     \item \inlinecmd{git push} es \inlinecmd{git push origin}
     \end{itemize}
   \end{block}
 \end{frame}
 
-\begin{frame}{Recepción de objetos: \texttt{git fetch {-}-all}}
+\begin{frame}{Recepción de objetos}
+
+  \orden{git fetch {-}-all}
+  \showcommand{cd sandbox-git; git fetch --all}
+
+  \vfill
 
   \begin{block}{Efecto}
     Esta orden recibe todos los objetos nuevos de todos los
@@ -985,7 +1006,7 @@ password micontraseña
       nuestros \tipo{commits} locales en base a los nuevos
     \item \inlinecmd{git svn dcommit} = \inlinecmd{svn commit} en
       bloque de todo lo que tengamos pendiente (con
-      \inlinecmd{--rmdir} borra directorios vacíos)
+      \inlinecmd{{-}-rmdir} borra directorios vacíos)
     \end{itemize}
   \end{block}
 
