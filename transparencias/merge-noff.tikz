@@ -1,0 +1,34 @@
+% -*- latex -*-
+
+% \usetikzlibrary{positioning,shapes}
+
+\begin{tikzpicture}[
+  ref/.style={draw,trapezium,trapezium angle=120},
+  branch/.style={ref,fill=red!20},
+  head/.style={ref,fill=green!20},
+  commit/.style={draw,rounded corners,fill=blue!20},
+  link/.style={->,very thick}]
+
+  \draw[white] (4.5,3) rectangle (-6.5,-1.5);
+
+  \node[commit] (r1) {584c66b};
+  \node[commit,above of=r1]
+    (r2) {1a96d58} edge[link] (r1);
+  \node[commit,right=2em of r2]
+    (r3) {97cfaf5} edge[link] (r1);
+  \node[branch,left=2em of r2]
+    (master) {origin/e-m-master} edge[link] node[midway,anchor=south] (r2m) {} (r2);
+  \node[branch,below=3em of r3]
+    (noff) {origin/e-m-noff} edge[link] (r3);
+
+  \only<1>{
+    \node[branch,below of=master] (ej2) {ej2};
+    \draw[link] (ej2) -| (r2m.south) -- (r2);
+    \node[head,left=2em of ej2] (h1) {HEAD} edge[link] (ej2);
+  }
+  \only<2>{
+    \node[commit,above of=r2] (r4) {nuevo} edge[link] (r2) edge[link] (r3);
+    \node[branch,draw=red,very thick,above of=master] (ej2b) {ej2} edge[link] (r4);
+    \node[head,draw=red,very thick,left=2em of ej2b] (h2b) {HEAD} edge[link] (ej2b);
+  }
+\end{tikzpicture}

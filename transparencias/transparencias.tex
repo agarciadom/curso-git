@@ -2,10 +2,7 @@
 
 \mode<presentation>
 {
-  \useoutertheme[subsection=false,footline=authorinstitutetitle]{miniframes}
-  \usecolortheme{whale}
-  \usecolortheme{orchid}
-  \useinnertheme{rounded}
+  \usetheme{Warsaw}
   \setbeamertemplate{navigation symbols}{}
   \setbeamercovered{dynamic}
 }
@@ -20,10 +17,10 @@
 
 \PrerenderUnicode{áéíóúÁÉÍÓÚçÇ}
 
-\title{Introducción al Sistema de Control de Versiones Distribuido Git}
+\title[Intro a Git]{Introducción al Sistema de Control de Versiones Distribuido Git}
 \author{Antonio García Domínguez}
 \date{\today}
-\institute{Universidad de Cádiz}
+\institute{Universidad de Cádiz \\\vspace{2em} \includegraphics{../cc-by-sa}}
 
 \AtBeginSection[]
 {
@@ -39,13 +36,14 @@
   \end{frame}
 }
 
-\usetikzlibrary{positioning,shapes}
+\usetikzlibrary{positioning,shapes,shapes.geometric}
 
 % Semantic formatting
 \newcommand*{\paquete}[1]{\texttt{#1}}
 \newcommand*{\fichero}[1]{\textit{#1}}
 \newcommand*{\rama}[1]{\structure{#1}}
 \newcommand*{\tipo}[1]{\textit{#1}}
+\newcommand*{\remoto}[1]{\structure{#1}}
 
 % For formatting commands
 \newcommand*{\inlinecmd}[1]{{\small\ttfamily\nohyphens{#1}}}
@@ -54,7 +52,7 @@
 % For running Git commands and converting the ANSI escape sequences to LaTeX
 \newcommand{\runcommand}[1]{\immediate\write18{#1}}
 \newcommand{\showcommand}[2][cat]{%
-  \runcommand{(#2) | ansifilter -Lf | #1 | tee cmd.tmp}%
+  \runcommand{./err2out.sh '(#2)' | ansifilter -Lf | #1 | tee cmd.tmp}%
   {\scriptsize\ttfamily\input{cmd.tmp}}\runcommand{rm -f cmd.tmp}}
 \newcommand{\runandshowcommand}[1]{
   \orden{#1}\showcommand{#1}}
@@ -76,6 +74,9 @@
 
 \begin{frame}{Contenidos}
   \tableofcontents[hideallsubsections]
+
+  Materiales en \url{http://osl2.uca.es/wikiformacion/index.php/Git} y
+  \url{http://gitorious.org/curso-git-osluca}.
 \end{frame}
 
 \section{Introducción}
@@ -286,7 +287,22 @@
   \end{block}
 \end{frame}
 
-\section[Local]{Flujo de trabajo local}
+\begin{frame}{Cuándo NO usar Git}
+
+  \begin{block}{Git no escala ante muchos ficheros binarios}
+    \begin{itemize}
+    \item No sirve para llevar las fotos
+    \item Ni para almacenar vídeos
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Git no guarda metadatos}
+    No sirve como sistema de copias de seguridad
+  \end{block}
+
+\end{frame}
+
+\section[Local]{Trabajo local}
 
 \subsection{Preparación}
 
@@ -345,7 +361,7 @@
   \runandshowcommand{mkdir ejemplo}
   \orden{cd ejemplo}
   \orden{git init}
-  \showcommand{cd ejemplo; git init | fold -sw 70; git config user.name Antonio; git config user.email a@b.com; git config color.ui always}
+  \showcommand{cd ejemplo; git init | fold -sw 70; git config user.name Antonio; git config user.email a@b.com; git config color.ui always; git config rerere.enabled false}
 \end{frame}
 
 \begin{frame}{Nuestras dos primeras revisiones en la rama master}
@@ -694,7 +710,7 @@
 
 \begin{frame}{Historial: por línea de órdenes (III)}
   \orden{git log {-}-graph {-}-pretty=oneline {-}-decorate=short {-}-abbrev-commit}
-  \showcommand{git log --graph --pretty=oneline --decorate=short --abbrev-commit 5f3c2bf..7eec99d}
+  \showcommand{git log --graph --pretty=oneline --decorate=short --abbrev-commit 5f3c2bf..7eec99d | ./shorten.sh}
 \end{frame}
 
 \begin{frame}{Historial: más cosas}
@@ -737,41 +753,294 @@
   \end{block}
 \end{frame}
 
-\section[Centralizado]{Flujo de trabajo centralizado}
+\section[Distribuido]{Trabajo distribuido}
 
-\subsection{De Git a Git}
+\subsection{Manejo de ramas}
 
-\begin{frame}{Trabajar con Git}
+\runcommand{rm -rf sandbox-git}
+
+\begin{frame}[fragile]{Clonar un repositorio}
+  \begin{block}{Autenticación}
+    \begin{itemize}
+    \item En Neptuno se accede por \foreignquote{english}{smart HTTP} (+ SSL)
+    \item Proyecto público, pero requiere autenticación para escritura
+    \item Hay que crear \fichero{\$HOME/.netrc}, legible sólo por nosotros, con:
+\begin{verbatim}
+machine neptuno.uca.es
+login miusuario
+password micontraseña
+\end{verbatim}
+    \end{itemize}
+  \end{block}
+
+  \orden{git clone https://neptuno.uca.es/git/sandbox-git}
+  \showcommand{git clone https://neptuno.uca.es/git/sandbox-git}
+\end{frame}
+
+\begin{frame}{Ramas en Git}
+  \begin{block}{Concepto: líneas de desarrollo}
+    \begin{description}
+    \item[master]      Rama principal, equivalente a \rama{trunk}
+    \item[develop]    Rama de desarrollo
+    \item[nueva-cosa] Rama para añadir algo concreto
+      (\foreignquote{english}{feature branch})
+    \end{description}
+  \end{block}
+
+  \begin{block}{Diferencias con otros SCV}
+    \begin{itemize}
+    \item No son apaños con directorios, sino parte del modelo de datos
+    \item Rama en Git: referencia mutable por nombre a una revisión
+    \item Etiqueta: referencia \emph{inmutable} a una revisión
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Listando las ramas}
+  \begin{block}{Ramas locales}
+    \orden{git branch}
+    \showcommand{cd sandbox-git; git branch}
+  \end{block}
+
+  \begin{block}{Ramas remotas}
+    \orden{git branch -r}
+    \showcommand{cd sandbox-git; git branch -r}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Creando ramas}
+  \begin{block}{Crear ramas}
+    \orden{git branch mirama HEAD}
+    \showcommand{cd sandbox-git; git branch mirama HEAD}
+    \orden{git branch}
+    \showcommand{cd sandbox-git; git branch}
+  \end{block}
+
+  \begin{block}{Borrar ramas}
+    \orden{git branch -d mirama}
+    \showcommand{cd sandbox-git; git branch -d mirama}
+    \orden{git branch -d master}
+    \showcommand{cd sandbox-git; git branch -d master}
+    \orden{git branch}
+    \showcommand{cd sandbox-git; git branch}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Cambiando entre ramas}
+  \begin{block}{Entre ramas existentes (locales y remotas)}
+    \orden{git checkout ejemplo-merge-ff}
+    \showcommand{cd sandbox-git; git checkout ejemplo-merge-ff | fold -sw 70}
+    \orden{git checkout master}
+    \showcommand{cd sandbox-git; git checkout master}
+  \end{block}
+
+  \begin{block}{A una rama nueva: \inlinecmd{branch} + \inlinecmd{checkout}}
+    \orden{git checkout -b nueva-idea master}
+    \showcommand{cd sandbox-git; git checkout -b nueva-idea master}
+    \orden{git branch}
+    \showcommand{cd sandbox-git; git branch}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Reuniendo ramas: \foreignquote{english}{fast-forward} (I)}
+  \input{merge-ff.tikz}
+\end{frame}
+
+\begin{frame}{Reuniendo ramas: \foreignquote{english}{fast-forward} (II)}
+  \orden{git checkout -b ej1 origin/ejemplo-merge-master}
+  \showcommand{cd sandbox-git; git checkout -b ej1 origin/ejemplo-merge-master | fold -sw 70}
+  \orden{git merge origin/ejemplo-merge-ff}
+  \showcommand{cd sandbox-git; git merge origin/ejemplo-merge-ff}
+\end{frame}
+
+\begin{frame}{Reuniendo ramas: normal (I)}
+  \input{merge-noff.tikz}
+\end{frame}
+
+\begin{frame}{Reuniendo ramas: normal (II)}
+  \orden{git checkout -b ej2 origin/ejemplo-merge-master}
+  \showcommand{cd sandbox-git; git checkout -b ej2 origin/ejemplo-merge-master | fold -sw 70}
+  \orden{git merge origin/ejemplo-merge-noff}
+  \showcommand{cd sandbox-git; git merge origin/ejemplo-merge-noff}
+\end{frame}
+
+\begin{frame}{Reuniendo ramas: conflicto (I)}
+  \orden{git checkout -b ej3 origin/ejemplo-merge-master}
+  \showcommand{cd sandbox-git; git checkout -b ej3 origin/ejemplo-merge-master | fold -sw 70}
+  \orden{git merge origin/ejemplo-conflicto}
+  \showcommand{cd sandbox-git; git merge origin/ejemplo-conflicto}
+\end{frame}
+
+\begin{frame}{Reuniendo ramas: conflicto (II)}
+  \begin{block}{Resolución por línea de órdenes}
+    \begin{itemize}
+    \item \inlinecmd{git checkout {-}-ours}: nos quedamos con lo que teníamos
+    \item \inlinecmd{git checkout {-}-theirs}: nos quedamos con lo que reunimos
+    \item Editamos los marcadores a mano (como en SVN)
+    \item Después preparamos con \inlinecmd{git add} y
+      creamos la revisión con \inlinecmd{git commit}, dejando la
+      información acerca del conflicto resuelto en el mensaje
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Mucho más cómodo si es texto: \inlinecmd{git mergetool}}
+    Lanza herramienta gráfica para resolver todos los conflictos.
+  \end{block}
+\end{frame}
+
+\subsection{Interacción con repositorios remotos}
+
+\begin{frame}{Envío de objetos: \texttt{git push URL origen:destion}}
+
+  \begin{block}{Sintaxis general}
+    \begin{itemize}
+    \item \inlinecmd{URL} se puede reemplazar por apodo (\remoto{origin})
+    \item \inlinecmd{origen} es rama o etiqueta local
+    \item \inlinecmd{destino} es rama o etiqueta remota
+    \item Actualiza/crea \inlinecmd{destino} en el repositorio
+      remoto a partir de \inlinecmd{origen}
+    \item Sólo tiene éxito si es un \foreignquote{english}{fast-forward}
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Observaciones}
+    \begin{itemize}
+    \item \inlinecmd{git push URL x} = \inlinecmd{git push URL x:x}
+    \item \inlinecmd{git push URL :x} \alert{borra} la rama/etiqueta
+      remota \rama{x}
+    \item \inlinecmd{git push URL} actualiza todas las ramas remotas
+      que se llamen igual que alguna de las locales
+    \item \inlinecmd{git push} es \inlinecmd{git push origin}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Recepción de objetos: \texttt{git fetch {-}-all}}
+
+  \begin{block}{Efecto}
+    Esta orden recibe todos los objetos nuevos de todos los
+    repositorios remotos que nuestro repositorio conozca.
+  \end{block}
+
+  \begin{block}{Nota}
+    \begin{itemize}
+    \item Actualiza las ramas remotas
+    \item Seguramente nos interesará traernos sus cambios con
+      \inlinecmd{git merge} después
+    \item Como es muy típico, \inlinecmd{git pull} combina las dos
+      órdenes: \inlinecmd{git fetch} seguido de \inlinecmd{git merge}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Flujo de trabajo centralizado}
+
+  \begin{block}{Secuencia típica: muy similar a SVN}
+    \begin{itemize}
+    \item Nos actualizamos con \inlinecmd{git pull}
+    \item Si hay conflictos, los resolvemos
+    \item Hacemos nuestros cambios sin preocuparnos mucho de Git
+    \item Los convertimos en revisiones cohesivas y pequeñas
+    \item Los enviamos con \inlinecmd{git push}
+    \end{itemize}
+  \end{block}
 
 \end{frame}
 
-\subsection{De Git a SVN}
+\begin{frame}{Flujos de trabajo distribuidos: 2+ repositorios remotos}
+
+  \orden{git remote add gitorious git://gitorious.org/curso-git-osluca/mainline.git}
+  \showcommand{cd sandbox-git; git remote add gitorious git://gitorious.org/curso-git-osluca/mainline.git}
+  \orden{git remote show gitorious}
+  \showcommand{cd sandbox-git; git remote show gitorious}
+  \orden{git remote rm gitorious}
+  \showcommand{cd sandbox-git; git remote rm gitorious}
+
+\end{frame}
+
+\begin{frame}{Flujos de trabajo distribuidos: variantes}
+
+  \begin{block}{Un integrador}
+    \begin{itemize}
+    \item Cada desarrollador tiene rep. privado y rep. público
+    \item Los desarrolladores colaboran entre sí
+    \item El integrador accede a sus rep. públicos y actualiza el
+      repositorio oficial
+    \item Del repositorio oficial salen los binarios
+    \item Los desarrolladores se actualizan periódicamente al oficial
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Director y tenientes}
+    \begin{itemize}
+    \item El integrador (dictador) es un cuello de botella
+    \item Se ponen intermediarios dedicados a un subsistema (teniente)
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}{Forjas con alojamiento Git}
+
+  \begin{block}{Sencillas y libres}
+    \begin{itemize}
+    \item Gitorious: \url{http://gitorious.org}
+    \item \url{http://repo.or.cz}
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{La más popular: Github (\url{http://github.com})}
+    \begin{itemize}
+    \item Gratis para proyectos libres
+    \item De pago para proyectos cerrados
+    \item Integra aspectos sociales y nuevas funcionalidades
+    \item Basada en JGit, una reimplementación de Git en Java
+    \end{itemize}
+  \end{block}
+
+\end{frame}
 
 \begin{frame}{Interoperar con SVN}
 
-\end{frame}
+  \begin{block}{Limitaciones}
+    \begin{itemize}
+    \item No funciona con repositorios vacíos (al menos una revisión)
+    \item Hay que llamar a \inlinecmd{git svn} para ciertas cosas
+    \end{itemize}
+  \end{block}
 
-\section[Distribuido]{Flujo de trabajo distribuido}
+  \begin{block}{Órdenes básicas}
+    \begin{itemize}
+    \item \inlinecmd{git svn clone URL} clona (usar \inlinecmd{-s} si
+      se sigue el esquema branches/tags/trunk usual)
+    \item \inlinecmd{git svn rebase} = \inlinecmd{svn up} + replantea
+      nuestros \tipo{commits} locales en base a los nuevos
+    \item \inlinecmd{git svn dcommit} = \inlinecmd{svn commit} en
+      bloque de todo lo que tengamos pendiente (con
+      \inlinecmd{--rmdir} borra directorios vacíos)
+    \end{itemize}
+  \end{block}
 
-\begin{frame}{Colaborando entre varios repositorios}
-
-\end{frame}
-
-\section[Avanzado]{Aspectos avanzados}
-
-\begin{frame}{Esculpir revisiones con add -i}
-
-\end{frame}
-
-\begin{frame}{Replantear ramas con rebase}
-
-\end{frame}
-
-\begin{frame}{Reorganizar ramas con rebase -i}
+  Usemos \url{https://neptuno.uca.es/svn/sandbox-svn-git}.
 
 \end{frame}
 
 \appendix
+
+\begin{frame}{Aspectos avanzados}
+  \begin{itemize}
+  \item \inlinecmd{bisect}: búsqueda binaria de defectos
+  \item \inlinecmd{blame}: autoría por líneas
+  \item \inlinecmd{bundle}: colaborar sin red
+  \item \inlinecmd{daemon}: acceso eficiente sólo lectura
+  \item \inlinecmd{format-patch}: preparar parches para enviar por correo
+  \item \inlinecmd{rebase -i}: navaja suiza para reorganizar ramas
+  \item \inlinecmd{rebase}: replantear ramas en base a otras
+  \item \inlinecmd{reflog}: historial de referencias para recuperación
+  \item \inlinecmd{stash}: aparcar cambios en zona temporal
+  \item \inlinecmd{submodule}: incluir repositorios externos
+  \end{itemize}
+\end{frame}
 
 \begin{frame}{Fin de la presentación}
   \begin{center}
