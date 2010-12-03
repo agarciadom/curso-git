@@ -658,30 +658,6 @@
 
 \subsection{Operaciones comunes}
 
-\begin{frame}{Limpiar y deshacer}
-
-  \begin{block}{Deshacer cambios}
-    \begin{itemize}
-    \item Del área de preparación:
-      \inlinecmd{git reset f}, \inlinecmd{git reset}
-    \item Del directorio de trabajo:
-      \inlinecmd{git checkout f}, \inlinecmd{git checkout .}
-    \item De revisiones anteriores ya publicadas: \inlinecmd{git
-        revert commit} crea un \tipo{commit} inverso al especificado
-    \end{itemize}
-  \end{block}
-
-  \begin{block}{Limpiar cosas fuera de control de versiones: \inlinecmd{git clean}}
-    \begin{itemize}
-    \item Simular qué haría: \inlinecmd{-n}
-    \item Borrar directorios: \inlinecmd{-d}
-    \item Borrar ignorados: \inlinecmd{-x}
-    \item Realizar el borrado: \inlinecmd{-f} (\inlinecmd{-n} tiene mayor prioridad)
-    \end{itemize}
-  \end{block}
-
-\end{frame}
-
 \begin{frame}{Buscar cosas}
   \inlinecmd{git grep} es como \inlinecmd{grep -R *}, pero sólo busca
   entre los ficheros bajo control de versiones.
@@ -1024,7 +1000,8 @@ password micontraseña
   \item \inlinecmd{bisect}: búsqueda binaria de defectos
   \item \inlinecmd{blame}: autoría por líneas
   \item \inlinecmd{bundle}: colaborar sin red
-  \item \inlinecmd{daemon}: acceso eficiente sólo lectura
+  \item \inlinecmd{clean}: retirar ficheros fuera de control de versiones
+  \item \inlinecmd{daemon}: acceso eficiente sin autenticación
   \item \inlinecmd{format-patch}: preparar parches para enviar por correo
   \item \inlinecmd{rebase -i}: navaja suiza para reorganizar ramas
   \item \inlinecmd{rebase}: replantear ramas en base a otras
