@@ -21,12 +21,12 @@
   \node[branch,below=3em of r3]
     (noff) {origin/e-m-noff} edge[link] (r3);
 
-  \only<1>{
+  \only<2>{
     \node[branch,below of=master] (ej2) {ej2};
     \draw[link] (ej2) -| (r2m.south) -- (r2);
     \node[head,left=2em of ej2] (h1) {HEAD} edge[link] (ej2);
   }
-  \only<2>{
+  \only<3>{
     \node[commit,above of=r2] (r4) {nuevo} edge[link] (r2) edge[link] (r3);
     \node[branch,draw=red,very thick,above of=master] (ej2b) {ej2} edge[link] (r4);
     \node[head,draw=red,very thick,left=2em of ej2b] (h2b) {HEAD} edge[link] (ej2b);

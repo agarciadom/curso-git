@@ -828,29 +828,57 @@ password micontraseña
   \end{block}
 \end{frame}
 
-\begin{frame}{Reuniendo ramas: \foreignquote{english}{fast-forward} (I)}
+\begin{frame}[t]{Reuniendo ramas: \foreignquote{english}{fast-forward}}
   \input{merge-ff.tikz}
+  \alt<1>{
+    Podemos comprobar cómo están las ramas con:
+
+    \orden{gitk origin/ejemplo-merge-master origin/ejemplo-merge-ff}
+  }{}
+  \alt<2>{
+    Vamos a crear la rama desde la que haremos la reunión:
+
+    \orden{git checkout -b ej1 origin/ejemplo-merge-master}
+    \showcommand{cd sandbox-git; git checkout -b ej1 origin/ejemplo-merge-master | fold -sw 70}}{}
+  \alt<3>{
+    La reunión consiste en adelantar la referencia sin más:
+
+    \orden{git merge origin/ejemplo-merge-ff}
+    \showcommand{cd sandbox-git; git merge origin/ejemplo-merge-ff}
+  }{}
 \end{frame}
 
-\begin{frame}{Reuniendo ramas: \foreignquote{english}{fast-forward} (II)}
-  \orden{git checkout -b ej1 origin/ejemplo-merge-master}
-  \showcommand{cd sandbox-git; git checkout -b ej1 origin/ejemplo-merge-master | fold -sw 70}
-  \orden{git merge origin/ejemplo-merge-ff}
-  \showcommand{cd sandbox-git; git merge origin/ejemplo-merge-ff}
-\end{frame}
-
-\begin{frame}{Reuniendo ramas: normal (I)}
+\begin{frame}[t]{Reuniendo ramas: normal}
   \input{merge-noff.tikz}
-\end{frame}
+  \alt<1>{
+    Otra forma de ver las ramas es con:
 
-\begin{frame}{Reuniendo ramas: normal (II)}
-  \orden{git checkout -b ej2 origin/ejemplo-merge-master}
-  \showcommand{cd sandbox-git; git checkout -b ej2 origin/ejemplo-merge-master | fold -sw 70}
-  \orden{git merge origin/ejemplo-merge-noff}
-  \showcommand{cd sandbox-git; git merge origin/ejemplo-merge-noff}
+    \orden{git log {-}-graph {-}-decorate \textbackslash{} \\
+      origin/ejemplo-merge-master origin/ejemplo-merge-noff}
+  }{}
+  \alt<2>{
+    Creamos otra vez una rama nueva para el punto de partida:
+
+    \orden{git checkout -b ej2 origin/ejemplo-merge-master}
+    \showcommand{cd sandbox-git; git checkout -b ej2 origin/ejemplo-merge-master | fold -sw 70}
+  }{}
+  \alt<3>{
+    La reunión tiene que crear una nueva revisión con dos padres:
+
+    \orden{git merge origin/ejemplo-merge-noff}
+    \showcommand{cd sandbox-git; git merge origin/ejemplo-merge-noff}
+  }{}
 \end{frame}
 
 \begin{frame}{Reuniendo ramas: conflicto (I)}
+  Miremos el historial de dos ramas, a ver qué cambian:
+
+  \orden{gitk origin/ejemplo-merge-master origin/ejemplo-conflicto}
+
+  \vfill
+
+  Vamos a intentar reunirlas:
+
   \orden{git checkout -b ej3 origin/ejemplo-merge-master}
   \showcommand{cd sandbox-git; git checkout -b ej3 origin/ejemplo-merge-master | fold -sw 70}
   \orden{git merge origin/ejemplo-conflicto}
@@ -926,6 +954,7 @@ password micontraseña
 
   \begin{block}{Secuencia típica: muy similar a SVN}
     \begin{itemize}
+    \item Creamos un clon del repositorio \emph{dorado}
     \item Nos actualizamos con \inlinecmd{git pull}
     \item Si hay conflictos, los resolvemos
     \item Hacemos nuestros cambios sin preocuparnos mucho de Git
@@ -938,7 +967,7 @@ password micontraseña
 
 \begin{frame}{Flujos de trabajo distribuidos: 2+ repositorios remotos}
 
-  \orden{git remote add gitorious git://gitorious.org/curso-git-osluca/mainline.git}
+  \orden{git remote add gitorious \textbackslash{} \\ git://gitorious.org/curso-git-osluca/mainline.git}
   \showcommand{cd sandbox-git; git remote add gitorious git://gitorious.org/curso-git-osluca/mainline.git}
   \orden{git remote show gitorious}
   \showcommand{cd sandbox-git; git remote show gitorious}

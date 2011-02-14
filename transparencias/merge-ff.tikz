@@ -21,12 +21,12 @@
   \node[branch,right=2em of r3]
     (ff) {origin/e-m-ff} edge[link] (r3);
 
-  \only<1>{
+  \only<2>{
     \node[branch,below of=master] (ej1) {ej1};
     \draw[link] (ej1) -| (r2m.south) -- (r2);
     \node[head,left=2em of ej1] (h1) {HEAD} edge[link] (ej1);
   }
-  \only<2>{
+  \only<3>{
     \node[branch,draw=red,very thick,above of=master] (ej1b) {ej1} edge[link] (r3);
     \node[head,draw=red,very thick,left=2em of ej1b] (h1b) {HEAD} edge[link] (ej1b);
   }
