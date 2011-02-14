@@ -4,7 +4,7 @@ GIT_LATEST_URL="http://www.codemonkey.org.uk/projects/git-snapshots/git/git-late
 GIT_LATEST_BASENAME=`basename "$GIT_LATEST_URL"`
 
 # Install compile deps
-sudo aptitude install --without-recommends \
+sudo apt-get install --no-install-recommends \
     libssl-dev libz-dev libcurl4-gnutls-dev \
     asciidoc xmlto docbook2x docbook-xsl \
     libexpat1-dev subversion libsvn-perl \
@@ -12,7 +12,7 @@ sudo aptitude install --without-recommends \
     gcc make
 
 # Install useful extras
-sudo aptitude install lighttpd tkdiff
+sudo apt-get install lighttpd tkdiff
 
 # Download and compile source
 mkdir -p ~/src
