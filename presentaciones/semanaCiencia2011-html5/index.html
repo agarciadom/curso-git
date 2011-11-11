@@ -114,27 +114,19 @@
 
     <section class='slides layout-default template-default'>
       
-      <article class="nobackground">
-	
+    <article class="nobackground">
 	<p style="margin: 0 auto;text-align:center;"> Desarrollo distribuido con GIT </p>
 	<p style="margin: 0 auto;text-align:center;font-style:italic;font-size:24px;"> Semana de la Ciencia 2011 </p>
-
 	<p style="margin: 1.25em auto;text-align:center;"><img src="logo.png" style="height:350px;" /></p>
-
 	<p style="margin: 0 auto;text-align:center;">Fabi&aacute;n Sell&eacute;s Rosa</p>
 	<p style="margin: 0 auto;text-align:center;font-size:0.75em;font-style:italic;"><a href="mailto://fabian.sellesrosa@alum.uca.es">&lt;fabian.sellesrosa@alum.uca.es&gt;</a></p>
 	<p style="margin: 1em auto;text-align:center;font-size:0.5em;">Organizan: <img src="img/logo-uca.gif" style="height:50px;margin:0 0.5em;"> <img src="img/logo-osluca.png"  style="height:25px;margin:0 0.5em;"> Licenciado bajo: <img src="img/cc-by-sa.svg" style="height:25px;margin:0 0.5em;"></p>
-
-
+    </article>
 	
-	
-      </article>
-      <article>
+    <article>
         <h3>
           Disclaimer y agradecimientos.
         </h3>
-	
-
 	<ul style="font-size:0.75em;">
           <li>
             Las transparencias se han realizado en HTML 5 con el modelo p&uacute;blicado por Google en <a href="http://code.google.com/p/html5slides/">http://code.google.com/p/html5slides/</a>.
@@ -151,13 +143,11 @@
           </li>
           <li> Gracias al software libre y al conocimiento abierto lo &uacute;nico que he tenido que hacer yo es estar aqui :-)</li>
         </ul>
-
-
-
       </article>
+	  
       <article>
         <p style="font-size:48px;margin: 6em auto;text-align:center;">
-	  Capitulo 1: Motivaci&oacute;n
+			Capitulo 1: Motivaci&oacute;n
         </p>
 
       </article>
@@ -228,7 +218,7 @@
 	<ul class="build">
 	  <li>Git surge en el entorno del desarrollo de Linux.</li>
 	  <li><strong>antes de 02/2002</strong>. Para desarrollar Linux, se usaban parches y tar.gz (<em>y sin UML ni tonterias de esas.</em>)</li>
-	  <li><strong>02/2002</strong>.Bitmover regala la licencia de BitKeeper un SCM distribuido privativo.</li>
+	  <li><strong>02/2002</strong>. Bitmover regala la licencia de BitKeeper un SCM distribuido privativo.</li>
 	  <li><strong>04/2005</strong>. BitMover retira la licencia tras roces.</li>
 	  <li><strong>04/2005</strong>. Linus Torvalds presenta Git, que ya re&uacute;ne ramas.</li>
 	  <li><strong>06/2005</strong>. Git se usa para gestionar Linux</li>
@@ -395,7 +385,6 @@
 	    $ git config --global alias.ci commit
 	    $ git config --global alias.st status
 	    $ git config --global alias.ai "add -i"
-	    $ git config --global alias.unstage "reset HEAD "
 	  </pre>
         </section>
       </article>
@@ -904,28 +893,168 @@ hola_mundo.c |
 	<h3>
 	  Reuniendo ramas con <strong>git merge</strong>: <em>conflicto</em>
 	</h3>	
-	<ul>
-	  <li>Si dureante la reuni&oacute;n es imposible fusionar las ramas ocurre un conflicto.</li>
-	  <li>Un conflicto ocurre cuando dos revisiones afectan a la misma zona de un fichero.</li>
-	  <li><code>git mergetool</code> lanza herramienta gr&aacute;fica para resolver todos los conflictos.</li>
-	  <li>Si el archivo es binario o si lo preferimos podemos utilizar: 
+	<p>
+          <img class="centered" src='img/merge2.png' height="230px">
+    </p> 
+	<section>
+          <pre>
+# Creamos otra vez una rama nueva para el punto de partida:
+$ git checkout -b ej2 origin/ejemplo-merge-master
+Switched to a new branch ’ej2’
+Branch ej2 set up to track remote branch ejemplo-merge-master from
+origin.
 
-	    <ul>
-	      <li><code>git checkout --ours: </code> nos quedamos con lo nuestro</li>
-	      <li><code>git checkout --theirs: </code> desechamos lo nuestro</li>
-	      <li>Editamos el fichero. Dentro aparecen unos marcadores en la zona de conflicto indicando que contenia cada revisi&oacute;n</li>
-	    </ul>
-	  <li>Preparamos con <code>git add</code> y subimos los cambios con <code>git commit</code></li> 
+	  </pre>
+        </section>
+      </article>
 
-	  </li>
+ </article>
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong> </em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase1.png' style="margin-top: 3em;" height="400px">
+    </p> 
+	
+      </article>
 	  
 
 	  
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong> </em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase2.png' style="margin-top:3em;" height="300px">
+    </p> 
+	<section>
+	<pre>
+$ git checkout experiment
+$ git merge master
+	</pre>
+	</section>
+      </article> 
+	  
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong> </em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase3.png' style="margin-top:4em;" height="230px">
+    </p> 
+	
+	<section>
+	<pre>
+$ git checkout experiment
+$ git rebase master
+First, rewinding head to replay your work on top of it...
+Applying: added staged command
+	</pre>
+	</section>
+      </article>
+	  
 
-	</ul>
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase4.png' style="margin-top:4em;" height="230px">
+    </p>
+	<section>
+	<pre>
+$ git checkout master
+$ git merge experiment
+Fast Forward
+	</pre>
+	</section>
+	
+      </article>
+	  
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase5.png' style="margin-top: 3em;" height="350px">
+    </p> 
+	
       </article>
 
 
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase6.png' style="margin-top: 3em;" height="350px">
+    </p> 
+		<section>
+	<pre>
+$ git rebase --onto master server client
+	</pre>
+	</section>
+      </article>
+	  
+	  <article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase7.png' style="margin-top: 3em;" height="350px">
+    </p> 
+	<section>
+	<pre>
+$ git checkout master
+$ git merge client
+	</pre>
+	</section>
+      </article>
+
+
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase8.png' style="margin-top: 6em;" height="175px">
+    </p> 
+	<section style="margin-top:5em;">
+	<pre>
+$ git rebase master server
+	</pre>
+	</section>
+      </article>
+	  
+
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase9.png' style="margin-top: 6em;" height="100px">
+    </p> 
+	<section style="margin-top: 6em;">
+	<pre>
+$ git checkout master
+$ git merge server
+# ya podemos eliminar las ramas
+$ git branch -d client
+$ git branch -d server
+	</pre>
+	</section>
+      </article>
+
+<article class="smaller">
+	<h3>
+		Juramento solemene
+	</h3>	
+		<q class="red">Yo, usuario de git prometo nunca hacer un <code>git rebase</code> en una rama publicada.</q>
+		<div class='author' style="margin-top:3em;">
+          Mantra milenario del desarrollador que usa Git.
+        </div>
+      </article>	  
 
 <article>
 	<h3>
@@ -936,6 +1065,9 @@ hola_mundo.c |
         </p> 
 
       </article>
+
+
+
 
 
 <article>
