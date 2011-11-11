@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="600"
+   height="600"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Sstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         id="path3783"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         id="path3774"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Sstart"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(0.3,0,0,0.3,-0.69,0)"
+         id="path3801"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Send"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         id="path3804"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Send"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         id="path3786"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         id="path3777"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         id="path3780"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         id="path3771"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-132.92857,74.280747)"
+     id="layer1">
+    <g
+       transform="matrix(0.63923337,0,0,0.63923337,222.03446,-40.391477)"
+       id="g3051"
+       style="fill:#cccccc;stroke:#999999" />
+    <rect
+       width="196.95924"
+       height="54.849415"
+       rx="6.5445323"
+       ry="6.5445323"
+       x="207.89548"
+       y="9.9882374"
+       id="rect2987-0"
+       style="fill:#aaccff;stroke:#000000;stroke-width:0.43630216" />
+    <text
+       x="222.9342"
+       y="42.227623"
+       id="text2989-3"
+       xml:space="preserve"
+       style="font-size:17.45208549px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="222.9342"
+         y="42.227623"
+         id="tspan2991-4">Repositorio de Alice</tspan></text>
+    <rect
+       width="196.95924"
+       height="54.849415"
+       rx="6.5445323"
+       ry="6.5445323"
+       x="508.21048"
+       y="78.071091"
+       id="rect2987-0-7"
+       style="fill:#87de87;stroke:#000000;stroke-width:0.43630216" />
+    <text
+       x="523.24921"
+       y="110.31047"
+       id="text2989-3-4"
+       xml:space="preserve"
+       style="font-size:17.45208549px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="523.24921"
+         y="110.31047"
+         id="tspan2991-4-3">Repositorio de Bob</tspan></text>
+    <rect
+       width="196.95924"
+       height="54.849415"
+       rx="6.5445323"
+       ry="6.5445323"
+       x="436.48965"
+       y="217.47214"
+       id="rect2987-0-7-7"
+       style="fill:#ffb380;stroke:#000000;stroke-width:0.43630216" />
+    <text
+       x="451.52838"
+       y="249.71152"
+       id="text2989-3-4-7"
+       xml:space="preserve"
+       style="font-size:17.45208549px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="451.52838"
+         y="249.71152"
+         id="tspan2991-4-3-6">Repositorio de Linus</tspan></text>
+    <path
+       d="m 402.04071,291.90347 c 58.35338,-45.86621 49.06548,-60.51337 58.58885,-83.84266"
+       transform="translate(132.92857,-74.280747)"
+       id="path10325"
+       style="fill:none;stroke:#0000ff;stroke-width:3.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow1Send)" />
+    <path
+       d="M 374.26152,178.76639 C 353.86943,147.5622 313.35483,130.0977 273.75134,117.14708"
+       transform="translate(132.92857,-74.280747)"
+       id="path10327"
+       style="fill:none;stroke:#d40000;stroke-width:3.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Send)" />
+    <path
+       d="m 220.21325,139.37044 c 27.10628,55.5575 66.35963,90.21419 81.31728,166.67517"
+       transform="translate(132.92857,-74.280747)"
+       id="path10329"
+       style="fill:none;stroke:#d40000;stroke-width:3.0999999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3.1, 12.4;stroke-dashoffset:0;marker-end:url(#Arrow2Send)" />
+    <path
+       d="m 405.678,169.12715 c -44.83484,20.45854 -110.11416,31.64569 -146.99369,13.65356"
+       id="path10331"
+       style="fill:none;stroke:#000000;stroke-width:6.18300009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Send)" />
+    <rect
+       width="243.50055"
+       height="54.849415"
+       rx="8.0909996"
+       ry="6.5445323"
+       x="168.79924"
+       y="272.02039"
+       id="rect2987-0-1"
+       style="fill:#999999;stroke:#000000;stroke-width:0.48511997" />
+    <text
+       x="170.57999"
+       y="315.6925"
+       transform="scale(1.0375756,0.9637852)"
+       id="text2989-3-8"
+       xml:space="preserve"
+       style="font-size:18.10785866px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="170.57999"
+         y="315.6925"
+         id="tspan2991-4-8">Repositorio de Jon Stark</tspan></text>
+    <path
+       d="M 158.59395,141.39074 C 108.46992,206.95041 101.88732,279.72399 127.7843,343.92633"
+       transform="translate(132.92857,-74.280747)"
+       id="path10360"
+       style="fill:none;stroke:#ff0000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send)" />
+    <path
+       d="m 414.89146,298.94 c 32.38867,-9.76341 67.42746,21.99624 98.86462,-28.78934"
+       id="path10362"
+       style="fill:none;stroke:#d40000;stroke-width:2.46046233;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Send)" />
+    <text
+       x="276.37024"
+       y="158.02373"
+       id="text16208"
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="276.37024"
+         y="158.02373"
+         id="tspan16210"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono">No tiene permisos</tspan><tspan
+         x="276.37024"
+         y="173.02373"
+         id="tspan16212"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu Mono;-inkscape-font-specification:Ubuntu Mono">o la red falla</tspan></text>
+    <text
+       x="473.25647"
+       y="240.89078"
+       transform="translate(132.92857,-74.280747)"
+       id="text16226"
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="473.25647"
+         y="240.89078"
+         id="tspan16228">pull</tspan></text>
+    <text
+       x="471.69171"
+       y="54.033115"
+       id="text16226-4"
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d40000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="471.69171"
+         y="54.033115"
+         id="tspan16228-4">push</tspan></text>
+    <text
+       x="415.2662"
+       y="147.9222"
+       id="text16251"
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d40000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="415.2662"
+         y="147.9222"
+         id="tspan16253">push</tspan></text>
+    <text
+       x="180.02711"
+       y="166.16005"
+       id="text16251-1"
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d40000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="180.02711"
+         y="166.16005"
+         id="tspan16253-9">push</tspan></text>
+  </g>
+  <g
+     id="layer2" />
+  <g
+     id="layer3">
+    <text
+       x="213.1422"
+       y="160.58363"
+       id="text7220"
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="213.1422"
+         y="160.58363"
+         id="tspan7222" /></text>
+  </g>
+  <g
+     id="layer4">
+    <text
+       x="275.52887"
+       y="344.28729"
+       id="text7224-0"
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="275.52887"
+         y="344.28729"
+         id="tspan7226-1"
+         style="font-size:24px;fill:#800000;stroke:none" /></text>
+  </g>
+</svg>
