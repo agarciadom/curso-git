@@ -19,8 +19,8 @@
 
 \title[Introducción a Git]{Introducción al Sistema de Control de Versiones Distribuido Git}
 \author{Antonio García Domínguez}
-\date{\today}
-\institute{Universidad de Cádiz \\\vspace{2em} \includegraphics{../cc-by-sa}}
+\date{6 de julio de 2012}
+\institute{Universidad de Cádiz \\\vspace{2em} \includegraphics{../../cc-by-sa}}
 
 \AtBeginSection[]
 {
@@ -309,9 +309,8 @@
 \begin{frame}{Instalación de Git}
   \begin{block}{Ubuntu Linux}
     \begin{itemize}
-    \item 9.10: descargar paquete de Squeeze (Debian)
     \item 10.04: instalar \paquete{git-*}
-    \item 10.10: instalar \paquete{git-all}
+    \item 10.10+: instalar \paquete{git-all}
     \item Instalad \paquete{tkdiff} (para conflictos) y un buen editor
     \item Fuentes: guión \fichero{install-git.sh} en materiales del curso
     \end{itemize}
@@ -489,106 +488,6 @@
   \showcommand{cd ejemplo; ls -C --color=always .git}
 \end{frame}
 
-\begin{frame}[t]{Algunos de los ficheros en \fichero{.git}}
-
-  \begin{overlayarea}{\textwidth}{2cm}
-    \only<1>{
-      \begin{block}{config}
-        Contiene la configuración local.
-      \end{block}
-    }
-    \only<2>{
-      \begin{block}{description}
-        Descripción corta textual para \paquete{gitweb}.
-      \end{block}
-    }
-    \only<3>{
-      \begin{block}{HEAD}
-        Referencia simbólica a la revisión sobre la que estamos
-        trabajando.
-      \end{block}
-    }
-    \only<4>{
-      \begin{block}{hooks}
-        Manejadores de eventos. Ahora sólo tenemos ejemplos.
-      \end{block}
-    }
-    \only<5>{
-      \begin{block}{index}
-        Contiene el área de preparación (la veremos después).
-      \end{block}
-    }
-    \only<6>{
-      \begin{block}{info/exclude (también .gitignore y/o global)}
-        Patrones de ficheros a ignorar.
-      \end{block}
-    }
-    \only<7>{
-      \begin{block}{logs}
-        Historial de las referencias: medida de seguridad.
-      \end{block}
-    }
-    \only<8>{
-      \begin{block}{refs}
-        Referencias simbólicas a puntas de cada rama y etiquetas.
-      \end{block}
-    }
-    \only<9>{
-      \begin{block}{objects}
-        Objetos, sueltos (gzip) o empaquetados (delta + gzip).
-      \end{block}
-    }
-  \end{overlayarea}
-
-  \begin{overlayarea}{\textwidth}{6cm}
-    \only<1>{
-      \orden{cat config}
-      \showcommand{cat ejemplo/.git/config | sed -n '1,/logallrefupdates/p'}
-    }
-    \only<2>{
-      \orden{cat description}
-      \showcommand{cat ejemplo/.git/description}
-    }
-    \only<3>{
-      \orden{cat HEAD}
-      \showcommand{cat ejemplo/.git/HEAD}
-    }
-    \only<4>{
-      \orden{ls hooks | head -5}
-      \showcommand{ls --color=always ejemplo/.git/hooks | head -5}
-    }
-    \only<5>{
-      \orden{git ls-files -s}
-      \showcommand{cd ejemplo; git ls-files -s}
-    }
-    \only<6>{
-      \orden{cat info/exclude}
-      \showcommand{cat ejemplo/.git/info/exclude}
-    }
-    \only<7>{
-      \orden{git reflog}
-      \showcommand{cd ejemplo; git reflog}
-    }
-    \only<8>{
-      \orden{ls -R refs}
-      \showcommand{ls -CR --color=always ejemplo/.git/refs}
-    }
-    \only<9>{
-      \orden{ls objects}
-      \showcommand{ls -C --color=always ejemplo/.git/objects | ./chomp-last-newline.pl}
-      \orden{ls objects/pack}
-      \runcommand{ls -C ejemplo/.git/objects/pack}
-      \orden{git gc}
-      \runcommand{cd ejemplo; git gc}
-      \orden{ls objects}
-      \showcommand{ls -C --color=always ejemplo/.git/objects | ./chomp-last-newline.pl}
-      \orden{ls objects/pack}
-      \showcommand{ls -C --color=always ejemplo/.git/objects/pack | ./chomp-last-newline.pl}
-    }
-  \end{overlayarea}
-
-\end{frame}
-
 \begin{frame}{Área de preparación, caché o índice}
   \begin{block}{Concepto}
     Instantánea que vamos construyendo de la siguiente revisión.
@@ -658,16 +557,6 @@
 
 \subsection{Operaciones comunes}
 
-\begin{frame}{Buscar cosas}
-  \inlinecmd{git grep} es como \inlinecmd{grep -R *}, pero sólo busca
-  entre los ficheros bajo control de versiones.
-
-  \vfill
-
-  \orden{git grep hola}
-  \showcommand{cd ejemplo; git grep hola}
-\end{frame}
-
 \begin{frame}{Historial: por línea de órdenes (I)}
   \orden{git log}
   \showcommand{cd ejemplo; git log}
@@ -699,7 +588,6 @@
     \item \inlinecmd{git show}: una revisión determinada
     \item \inlinecmd{git whatchanged}: estilo SVN
     \item \inlinecmd{gitk}: interfaz gráfica
-    \item \inlinecmd{git instaweb}: interfaz Web (instalad desde fuentes)
     \end{itemize}
   \end{block}
 \end{frame}
@@ -733,22 +621,12 @@
 
   \begin{block}{Métodos de acceso}
     \begin{itemize}
-    \item \url{git://}, SSH, HTTP(S) y \fichero{rsync}
-    \item Neptuno: \foreignquote{english}{smart HTTP} + SSL (nuevo en Git 1.6.6.2)
-    \item Integrado con autenticación Redmine:
-      \url{http://www.redmine.org/issues/4905}
-    \end{itemize}
-  \end{block}
-
-  \begin{block}{Autenticación}
-    \begin{itemize}
-    \item Proyecto público, pero requiere autenticación para escritura
-    \item Hay que crear \fichero{\$HOME/.netrc}, legible sólo por nosotros, con:
-\begin{verbatim}
-machine neptuno.uca.es
-login miusuario
-password micontraseña
-\end{verbatim}
+    \item \url{git://}: anónimo, de sólo lectura, eficiente
+    \item \fichero{rsync}: en desuso
+    \item SSH: siempre cifrado y con autenticación
+    \item HTTP(S) hasta v1.6.6.2: incómodo e ineficiente
+    \item HTTP(S) desde v1.6.6.2: \foreignquote{english}{smart
+        HTTP(S)} corrige estos problemas
     \end{itemize}
   \end{block}
 
@@ -848,7 +726,7 @@ password micontraseña
   }{}
 \end{frame}
 
-\begin{frame}[t]{Reuniendo ramas: normal}
+\begin{frame}[t]{Reuniendo ramas: \foreignquote{english}{recursive}}
   \input{merge-noff.tikz}
   \alt<1>{
     Otra forma de ver las ramas es con:
@@ -1009,10 +887,15 @@ password micontraseña
 
   \begin{block}{La más popular: Github (\url{http://github.com})}
     \begin{itemize}
-    \item Gratis para proyectos libres
-    \item De pago para proyectos cerrados
+    \item Gratis para proyectos libres, de pago para proyectos cerrados
     \item Integra aspectos sociales y nuevas funcionalidades
-    \item Basada en JGit, una reimplementación de Git en Java
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Otra opción: Bitbucket (\url{http://bitbucket.org})}
+    \begin{itemize}
+    \item Gratis para proyectos libres o cerrados con $<$ 5 miembros
+    \item De pago para el resto
     \end{itemize}
   \end{block}
 
@@ -1039,8 +922,6 @@ password micontraseña
     \end{itemize}
   \end{block}
 
-  Usemos \url{https://neptuno.uca.es/svn/sandbox-svn-git}.
-
 \end{frame}
 
 \appendix
@@ -1051,11 +932,11 @@ password micontraseña
   \item \inlinecmd{blame}: autoría por líneas
   \item \inlinecmd{bundle}: colaborar sin red
   \item \inlinecmd{clean}: retirar ficheros fuera de control de versiones
-  \item \inlinecmd{daemon}: acceso eficiente sin autenticación
   \item \inlinecmd{format-patch}: preparar parches para enviar por correo
+  \item \inlinecmd{grep}: buscar subcadenas por el repositorio
+  \item \inlinecmd{instaweb}: visor Web (instalad desde fuentes)
   \item \inlinecmd{rebase -i}: navaja suiza para reorganizar ramas
   \item \inlinecmd{rebase}: replantear ramas en base a otras
-  \item \inlinecmd{reflog}: historial de referencias para recuperación
   \item \inlinecmd{stash}: aparcar cambios en zona temporal
   \item \inlinecmd{submodule}: incluir repositorios externos
   \end{itemize}
