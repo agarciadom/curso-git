@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+
+<!--
+    Google HTML5 slide template
+
+    Authors: Luke Mahé (code)
+    Marcin Wichary (code and design)
+    
+    Dominic Mazzoni (browser compatibility)
+    Charles Chen (ChromeVox support)
+
+    URL: http://code.google.com/p/html5slides/
+  -->
+
+<html>
+  <head>
+    <title>Desarrollo distribuido con GIT</title>
+
+    <meta charset='utf-8'>
+    <script src='slides.js'></script>
+  </head>
+  
+  <style>
+    
+    @font-face {
+    font-family: 'DroidSansMonoRegular';
+    src: url('fonts/droidsansmono-webfont.eot');
+    src: url('fonts/droidsansmono-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/droidsansmono-webfont.woff') format('woff'),
+    url('fonts/droidsansmono-webfont.ttf') format('truetype'),
+    url('fonts/droidsansmono-webfont.svg#DroidSansMonoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+    @font-face {
+    font-family: 'OpenSansBold';
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/opensans-bold-webfont.woff') format('woff'),
+    url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+    url('fonts/opensans-bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+    @font-face {
+    font-family: 'OpenSansExtrabold';
+    src: url('fonts/opensans-extrabold-webfont.eot');
+    src: url('fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/opensans-extrabold-webfont.woff') format('woff'),
+    url('fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+    url('fonts/opensans-extrabold-webfont.svg#OpenSansExtrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+    @font-face {
+    font-family: 'OpenSansItalic';
+    src: url('fonts/opensans-italic-webfont.eot');
+    src: url('fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/opensans-italic-webfont.woff') format('woff'),
+    url('fonts/opensans-italic-webfont.ttf') format('truetype'),
+    url('fonts/opensans-italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+    @font-face {
+    font-family: 'OpenSansRegular';
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/opensans-regular-webfont.woff') format('woff'),
+    url('fonts/opensans-regular-webfont.ttf') format('truetype'),
+    url('fonts/opensans-regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+    @font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('fonts/opensans-semibold-webfont.eot');
+    src: url('fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/opensans-semibold-webfont.woff') format('woff'),
+    url('fonts/opensans-semibold-webfont.ttf') format('truetype'),
+    url('fonts/opensans-semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+    @font-face {
+    font-family: 'OpenSansSemiboldItalic';
+    src: url('fonts/opensans-semibolditalic-webfont.eot');
+    src: url('fonts/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/opensans-semibolditalic-webfont.woff') format('woff'),
+    url('fonts/opensans-semibolditalic-webfont.ttf') format('truetype'),
+    url('fonts/opensans-semibolditalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+
+    
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-default template-default'>
+      
+    <article class="nobackground">
+	<p style="margin: 0 auto;text-align:center;"> Desarrollo distribuido con GIT </p>
+	<p style="margin: 0 auto;text-align:center;font-style:italic;font-size:24px;"> Semana de la Ciencia 2011 </p>
+	<p style="margin: 1.25em auto;text-align:center;"><img src="logo.png" style="height:350px;" /></p>
+	<p style="margin: 0 auto;text-align:center;">Fabi&aacute;n Sell&eacute;s Rosa</p>
+	<p style="margin: 0 auto;text-align:center;font-size:0.75em;font-style:italic;"><a href="mailto://fabian.sellesrosa@alum.uca.es">&lt;fabian.sellesrosa@alum.uca.es&gt;</a></p>
+	<p style="margin: 1em auto;text-align:center;font-size:0.5em;">Organizan: <img src="img/logo-uca.gif" style="height:50px;margin:0 0.5em;"> <img src="img/logo-osluca.png"  style="height:25px;margin:0 0.5em;"> Licenciado bajo: <img src="img/cc-by-sa.svg" style="height:25px;margin:0 0.5em;"></p>
+    </article>
+	
+    <article>
+        <h3>
+          Disclaimer y agradecimientos.
+        </h3>
+	<ul style="font-size:0.75em;">
+          <li>
+            Las transparencias se han realizado en HTML 5 con el modelo p&uacute;blicado por Google en <a href="http://code.google.com/p/html5slides/">http://code.google.com/p/html5slides/</a>.
+          </li>
+	  
+          <li>
+            Adaptadas para su visualizaci&oacute;n offline por Ignacio Palomo Duarte (@3oheme) en <a href="http://www.3oheme.com/blog/google-html5-slides-offline">http://www.3oheme.com/blog/google-html5-slides-offline</a>. 
+          </li>
+	  <li>
+	    Parte del estilo se ha sacado de la presentaci&oacute;n de oFlute de Jos&eacute; Tomas Tocino (@theom3ga) en <a href="http://code.google.com/p/oflute/">http://code.google.com/p/oflute/</a>. 
+	  </li>
+          <li>
+	    Mucho del contenido se ha obtenido de los magn&iacute;ficos materiales creados por Antonio Garc&iacute;a Dominguez y alojados en un <a href="https://gitorious.org/curso-git-osluca">repositorio git p&uacute;blico en Gitorious</a> 
+          </li>
+          <li> Gracias al software libre y al conocimiento abierto lo &uacute;nico que he tenido que hacer yo es estar aqui :-)</li>
+        </ul>
+      </article>
+	  
+      <article>
+        <p style="font-size:48px;margin: 6em auto;text-align:center;">
+			Capitulo 1: Motivaci&oacute;n
+        </p>
+
+      </article>
+
+      <article>
+        <h3>
+          Control de versiones. Definici&oacute;n y objetivos.
+        </h3>
+	<h4>
+          Sin control de versiones.
+        </h4>
+	
+
+	<ul class="build">
+          <li>
+            Copiar ficheros y mandar correos no escala.
+          </li>
+          <li>
+            S&oacute;lo tenemos la versi&oacute;n actual.
+          </li>
+          <li>
+	    Colaborar es dif&iacute;cil. ¿Qui&eacute;n tiene la &uacute;ltima versi&oacute;n?
+          </li>
+        </ul>
+	<p style="margin: 1em auto;text-align:center;font-size:0.5em;" class="build"><img src="img/dropbox.png" style="height:250px;"></p>
+
+
+
+      </article>
+      <article>
+	<h3>
+          Control de versiones. Definici&oacute;n y objetivos.
+        </h3>
+	<h4>
+          Con control de versiones
+        </h4>
+	<ul class="build">
+          <li>
+	    Se mantiene un historial de cambios y colaboraciones.
+          </li>
+          <li>
+	    Se puede colaborar de manera ordenada con otros. Manteniendo un registro de cambios.
+          </li>
+          <li>
+	    Permite realizar m&eacute;tricas acerca de como crece un proyecto y colabora un equipo.
+          </li>
+	  <li>
+	    Ayuda a mejorar la gesti&oacute;n de cambios y los aspectos de configuraci&oacute;n del software.
+	  </li>
+	  <li>
+	    Ayuda a mejorar la calidad del software.
+	  </li>
+        </ul>
+      </article>
+      <section class="slides template-default layout-widescreen">  
+	<article class='fill'>
+	  
+          <p>
+            <img src='img/scmhistory.png'>
+          </p>
+	  
+	</article>
+      </section>
+      <article class='smaller'>
+        <h3>
+          Historia de Git
+        </h3>
+	<ul class="build">
+	  <li>Git surge en el entorno del desarrollo de Linux.</li>
+	  <li><strong>antes de 02/2002</strong>. Para desarrollar Linux, se usaban parches y tar.gz (<em>y sin UML ni tonter&iacute;as de esas.</em>)</li>
+	  <li><strong>02/2002</strong>. Bitmover regala la licencia de BitKeeper un SCM distribuido privativo.</li>
+	  <li><strong>04/2005</strong>. BitMover retira la licencia tras roces.</li>
+	  <li><strong>04/2005</strong>. Linus Torvalds presenta Git, que ya re&uacute;ne ramas.</li>
+	  <li><strong>06/2005</strong>. Git se usa para gestionar Linux</li>
+	  <li><strong>02/2007</strong>. Git 1.5.0 es utilizable por mortales</li>
+	  <li><strong>11/2011</strong>. Git 1.7.7.3</li>
+
+
+
+	</ul>
+	
+      </article>
+
+      
+      
+      <article>
+        <h3>
+
+          SCV Centralizados
+        </h3>
+        <p>
+          <img class='centered' style='height: 450px' src='img/vccentral1.svg'>
+        </p>
+        <div style="text-align:center;font-size:28px;">
+          Tenemos nuestro repositorio central con todo dentro.
+        </div>
+      </article>
+
+      <article>
+        <h3>
+
+          SCV Centralizados: checkout
+        </h3>
+        <p>
+          <img class='centered' style='height: 450px' src='img/vccentral2.svg'>
+        </p>
+        <div style="text-align:center;font-size:28px;">
+	  Dos desarrolladores se traen su copia de trabajo.
+        </div>
+      </article>
+
+      <article>
+        <h3>
+
+          SCV Centralizados: commit
+        </h3>
+        <p>
+          <img class='centered' style='height: 450px' src='img/vccentral3.svg'>
+        </p>
+        <div style="text-align:center;font-size:28px;">
+	  Alice manda un cambio.
+        </div>
+      </article>
+
+      <article>
+        <h3>
+
+          SCV Centralizados: update
+        </h3>
+        <p>
+          <img class='centered' style='height: 450px' src='img/vccentral4.svg'>
+        </p>
+        <div style="text-align:center;font-size:28px;">
+	  Bob se trae el cambio.
+        </div>
+      </article>
+      
+      <article>
+        <h3>
+
+          SCV Centralizados: sin servidor
+        </h3>
+        <p>
+          <img class='centered' style='height: 450px' src='img/vccentral5.svg'>
+        </p>
+        <div style="text-align:center;font-size:28px;">
+	  ¿Y si no hay conexi&oacute;n al servidor?
+        </div>
+      </article>
+
+      <article>
+        <h3>
+
+          SCV distribuidos
+        </h3>
+        <p>
+          <img class='centered' style='height: 500px' src='img/vcdistri.svg'>
+        </p>
+        <div style="text-align:center;font-size:28px;">
+	  No hay centro. <em>Eppur si muove</em>
+        </div>
+      </article>
+
+
+      
+      <article>
+        <h3>
+          Ventajas de un SCV distribuido
+        </h3>
+	<ul >
+          <li>
+            <strong>Rapidez.</strong> Todo se hace en local, el disco duro es m&aacute;s r&aacute;pido que la red.
+          </li>
+	  <li>
+            <strong>Entorno de trabajo independiente.</strong> Nadie ve nada nuestro hasta que lo mandamos, sin embargo . . .
+
+          </li>
+	  <li>
+            Podemos ir haciendo revisiones pequeñas intermedias.
+
+          </li>
+	  <li>
+            Podemos hacer <strong>experimentos</strong> sin afectar al resto del equipo o al resto del proyecto.
+          </li>
+        </ul>
+      </article>
+      <article>
+        <h3>
+          Ventajas de un SCV distribuido II
+        </h3>
+	<ul >
+          <li>
+            <strong>Trabajo sin conexi&oacute;n</strong> En el tren, avi&oacute;n, en casa de tus suegros, etc.
+          </li>
+	  <li>
+            <strong>Robustez</strong> hay tantas copias como repositorios nos hayan clonado.
+          </li>
+        </ul>
+	<q style="font-size:30px;">
+	  Only wimps use tape backup: real men just upload their important stuff on ftp, and let the rest of the world mirror it ;) 
+        </q>
+        <div class='author'>
+          Linus Torvalds.
+        </div>
+      </article>
+
+      <article>
+        <p style="font-size:48px;margin: 6em auto;text-align:center;">
+	  Capitulo 2: lo b&aacute;sico.
+        </p>	
+	<audio controls >
+	  <source src="c2.ogg" type="audio/ogg" />
+	</audio>
+      </article>
+      <article class='smaller'>
+        <h3>
+          Configuraci&oacute;n inicial
+        </h3>
+	<h4> Identificaci&oacute;n</h4>
+        <section>
+          <pre>
+	    $ git config --global user.name "Mi Nombre"
+	    $ git config --global user.email mi@correo
+	  </pre>
+        </section>
+	<h4> Editor: por defecto Vi/Vim</h4>
+        <section>
+          <pre>
+	    $ git config --global core.editor emacs
+	  </pre>
+        </section>
+	<h4 > Algunos alias utiles</h4>
+        <section>
+          <pre>
+	    $ git config --global alias.ci commit
+	    $ git config --global alias.st status
+	    $ git config --global alias.ai "add -i"
+	  </pre>
+        </section>
+      </article>
+
+      <article class='smaller'>
+        <h3>
+	  GIT: Primeros pasos
+        </h3>
+	<h4> Crear un repositorio</h4>
+        <section>
+          <pre>
+	    $ mkdir DIR
+	    $ cd DIR
+	    DIR $ git init
+	    > Initialized empty Git repository in DIR
+	  </pre>
+        </section>
+	<h4> Creamos algo</h4>
+        <section>
+          <pre>
+	    $ touch fichero.txt
+	    $ echo "Winter is coming" >> fichero.txt
+	  </pre>
+        </section>
+	<h4> Primero hay que añadirlo al &aacute;rea de preparaci&oacute;n</h4>
+        <section>
+          <pre>
+	    $ git add fichero.txt
+	  </pre>
+        </section>
+
+      </article>
+
+
+      <article class='smaller'>
+        <h3>
+	  GIT: Segundos pasos
+        </h3>
+	<h4> Comprobamos que esta en el area</h4>
+        <section>
+          <pre>
+	    $ git status
+	    
+	    # On branch master
+	    #
+	    # Initial commit
+	    #
+	    # Changes to be committed:
+	    #   (use "git rm --cached <file>..." to unstage)
+	    #
+	    # new file:   fichero.txt
+	    #
+
+	  </pre>
+        </section>
+	<p style="text-align:center;">Una vez añadido, Git seguir&aacute; los cambios en el fichero, pero no lo incluir&aacute; en el commit hasta que no se lo indiquemos con <code>git add</code></p>
+
+      </article>
+      <article class='smaller'>
+        <h3>
+	  GIT: Commit inicial
+        </h3>
+	<h4> Subimos el cambio</h4>
+        <section>
+          <pre>
+	    $ git commit # Abrir&aacute; $EDITOR y nos pedir&aacute; que escribamos un mensaje.
+	    $ git commit -m "cambios menores" # con el par&aacute;metro -m 
+	    # le pasamos una cadena 
+	    # corta descriptiva. 
+	    # Ja!
+	  </pre>
+        </section>
+	<p class="red" style="text-align:center;">¡Ojo! el cambio solo esta en nuestro repositorio local</p>
+	<br />	
+	<h4> Miremos el log</h4>
+        <section>
+          <pre>
+	    $ git log
+	    commit 33d6f3beb5910a6fe70eacbc0fbdfea438da91a9
+	    Author: Fabián Sellés Rosa <fabian.sellesrosa@alum.uca.es>
+	    Date:   Thu Nov 10 22:17:06 2011 +0100
+
+	    cambios menores
+	  </pre>
+        </section>
+      </article>
+      <article>
+        <h3>
+
+	  El &aacute;rea de preparaci&oacute;n.
+        </h3>
+        <p>
+          <img class='centered' style='height: 450px' src='img/stage-area.png'>
+        </p>
+        
+      </article>
+      <article class='smaller'>
+        <h3>
+	  Preparando revisiones
+        </h3>
+
+        <section>
+          <pre>
+	    $ echo "escupitajo" >> vuduLargoLagrande.txt
+	    $ git add vuduLargoLagrande.txt
+	    $ echo "Una pizca de sus muertos" >> vuduLargoLagrande.txt
+	    $ echo "Un poco de su pelo" >> vuduLargoLagrande.txt
+	    $ echo "Raiz espiritual" >> matarLechuck.txt
+
+
+	  </pre>
+        </section>
+	<section>
+	  <pre>
+$ git diff --staged
+	    
+diff --git a/ejemplo/vuduLargoLagrande.txt b/ejemplo/vuduLargoLagrande.txt
+new file mode 100644
+index 0000000..81b2448
+--- /dev/null
++++ b/ejemplo/vuduLargoLagrande.txt
+@@ -0,0 +1 @@
++escupitajo
+	  </pre>
+	</section>
+      </article>
+
+      <article class='smaller'>
+        <h3>
+	  Preparando revisiones II
+        </h3>
+
+        <section>
+          <pre>
+$ git status
+
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   vuduLargoLagrande.txt
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   vuduLargoLagrande.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# matarLechuck.txt
+	  </pre>
+        </section>
+
+      </article>
+      <article class='smaller'>
+        <h3>
+	  Preparando revisiones III
+        </h3>
+
+        <section>
+          <pre style="font-size:14px;">
+$ git diff
+
+diff --git a/ejemplo/vuduLargoLagrande.txt b/ejemplo/vuduLargoLagrande.txt
+index 81b2448..140ee55 100644
+--- a/ejemplo/vuduLargoLagrande.txt
++++ b/ejemplo/vuduLargoLagrande.txt
+@@ -1 +1,3 @@
+escupitajo
++una pizca de sus muertos
++un poco de su pelo
+
+$ git commit -m "Voy a ser un pirata\!"
+[master d8b704f] Voy a ser un pirata\!
+1 files changed, 1 insertions(+), 0 deletions(-)
+$ git status
+# On branch master
+# Changed but not updated:
+#
+# modified:
+# vuduLargoLagrande.txt
+# Untracked files:
+# matarLechuck.txt
+
+	  </pre>
+        </section>
+
+
+      </article>
+
+      <article>
+	<h3>
+
+	  Estados por los que puede pasar un fichero.
+	</h3>
+	<p>
+	  <img class='centered' style='height: 450px' src='img/file-status.png'>
+	</p>
+	
+      </article>
+
+      <article>
+	<h3>
+
+	  Ordenes para añadir/eliminar
+	</h3>
+	<p>
+	  <img class='centered' style='height: 450px' src='img/addrmstage.png'>
+	</p>
+	
+      </article>
+
+      <article>
+	<h3>
+
+	  Ordenes para comparar entre el &aacute;rea, el directorio y el repositorio.
+	</h3>
+	<p>
+	  <img class='centered' style='height: 300px' src='img/diffstaged.png'>
+	</p>
+	
+      </article>
+      
+
+      <article class="fill">
+	<h3>
+	  Capitulo 3: lo interno
+	</h3>	
+	<iframe src="http://www.youtube.com/embed/xos2MnVxe-c"></iframe>
+      </article>
+
+      <article >
+	<h3>
+	  Modelo de datos de Git
+	</h3>
+	
+	<ul class="build" >
+	  <li>Un repositorio es un grafo orientado ac&iacute;clico de objetos.</li>
+	  <li>Hay 4 tipos de objetos: <em>commit, tree, blob y tag</em></li>
+	  <li>Los objetos son direccionables por contenido (resumen SHA1)</li>
+	  <li>Los objetos son inmutables: al cambiar su contenido, cambia su SHA1</li>
+	  <li>Git <strong>no</strong> gestiona informaci&oacute;n de ficheros movidos.</li>
+	  <li>Git almacena los objetos de manera eficiente. Nunca guarda m&aacute;s de un objeto, aunque aparezca en muchos sitios</li>
+	</ul>
+      </article>
+
+
+      <article>
+	<h3>
+
+	  Modelo de datos de Git
+	</h3>
+	<p>
+	  <img class='centered' style='height: 500px' src='img/datos.png'>
+	</p>
+	
+      </article>
+
+      <article>
+	<h3>
+
+	  El directorio <strong>.git</strong>
+	</h3>
+	<p>
+	  <img class='centered' style='height: 500px' src='img/gitdir.png'>
+	</p>
+	
+      </article>
+      <article class="fill">
+	<h3>
+	  Capitulo 4: Ramas, <em>merge</em> y <em>rebase</em>.
+	</h3>	
+	<p>
+          <img src='img/tree.jpg'>
+        </p> 
+      </article> 
+            <article >
+	<h3>
+	  Concepto: ramas.
+	</h3>	
+	<ul>
+	  <li>Crear y utilizar ramas es parte del modelo de datos, no un apaño con directorios.</li>
+	  <li><strong>Rama en Git:</strong> referencia mutable y compartible a una revisi&oacute;n</li>
+	  <li><strong>Etiqueta en Git:</strong> referencia <em>inmutable</em> a un objeto</li>
+	  <li>Cuando creamos un repositorio autom&aacute;ticamente se crea la rama <strong>master</strong> que es la principal.</li>
+	  <li>Podemos crear ramas que tendr&aacute;n largo recorrido (<em> por ejemplo para mantener versiones antiguas </em>)</li>
+	  <li>O crear una rama para desarrollar una funcionalidad para luego desecharla</li>
+
+	  </ul>
+      </article> 
+	     <article>
+	<h3>
+	  Ramas de largo recorrido
+	</h3>	
+	<p>
+          <img class="centered" src='img/longbranch.png' height="400px">
+        </p> 
+      </article>
+	     <article>
+	<h3>
+	  Rama seg&uacute;n necesidad
+	</h3>	
+	<p>
+          <img class="centered" src='img/featurebranch.png'>
+        </p> 
+      </article>
+
+	      <article>
+	<h3>
+	  Operaciones con ramas
+	</h3>	
+	<h4> Clonar repositorio remoto </h4>
+        <section>
+          <pre>
+$ git clone URL
+$ git clone git://github.com/gitster/git.git
+# donde URL puede ser una direccion http/s, git://, SSH o una ruta.
+# hay que tener en cuenta que el protocolo propio de git solo 
+# se utiliza para repositorios solo lectura.
+# y generalmente una ruta SSH se utilizara en aquellos repositorios
+# donde podamos escribir.
+	  </pre>
+        </section>
+
+	<h4> Listar ramas locales</h4>
+        <section>
+          <pre>
+$ git branch
+* master
+	  </pre>
+		        </section>
+
+      </article>
+	      <article class="smaller">
+
+	<h4> Listar ramas remotas </h4>
+        <section>
+          <pre>
+$ git branch -r
+origin/HEAD -> origin/master
+origin/ejemplo-conflicto
+origin/ejemplo-heuristicas
+origin/ejemplo-merge-ff
+origin/ejemplo-merge-master
+origin/ejemplo-merge-noff
+origin/ejemplo-rebase-i
+origin/master
+	  </pre>
+        </section>
+
+	<h4> Crear ramas </h4>
+        <section>
+          <pre>
+$ git branch mirama HEAD
+$ git branch
+* master
+mirama
+	  </pre>
+        </section>
+	
+</article>
+	      <article class="smaller">
+
+	<h4> Borrar ramas </h4>
+        <section>
+          <pre>
+$ git branch -d mirama
+Deleted branch mirama (was 7b40c82).
+
+	  </pre>
+        </section>
+	<h4> Cambiar a otra rama </h4>
+        <section>
+          <pre>
+$ git checkout rama
+Already on ’master’
+
+$git checkout -b ejemplo-merge-ff origin/ejemplo-merge-ff
+Switched to a new branch ’ejemplo-merge-ff’
+Branch ejemplo-merge-ff set up to track remote branch
+ejemplo-merge-ff from origin.
+	  </pre>
+        </section>
+
+	
+</article>
+
+<article>
+	<h3>
+	  Reuniendo ramas con <strong>git merge</strong> tipo: <em>fast forward</em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/ff1.png' height="250px">
+        </p> 
+	<section>
+          <pre>
+# Podemos comprobar c&oacute;mo están las ramas con:
+$ gitk origin/ejemplo-merge-master origin/ejemplo-merge-ff
+	  </pre>
+        </section>
+
+      </article>
+
+<article>
+	<h3>
+	  Reuniendo ramas con <strong>git merge</strong> tipo: <em>fast forward</em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/ff2.png' height="250px">
+        </p> 
+	<section>
+          <pre>
+# Vamos a crear la rama desde la que haremos la reuni&oacute;n:
+$ git checkout -b ej1 origin/ejemplo-merge-master
+Switched to a new branch ’ej1’
+Branch ej1 set up to track remote branch ejemplo-merge-master from
+origin.
+	  </pre>
+        </section>
+      </article>
+
+<article>
+	<h3>
+	  Reuniendo ramas con <strong>git merge</strong> tipo: <em>fast forward</em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/ff3.png' height="200px">
+        </p> 
+	<section >
+          <pre >
+# La reunión consiste en adelantar la referencia sin más:
+$ git merge origin/ejemplo-merge-ff
+Updating 1a96d58..382e2ad
+Fast-forward
+hola_mundo.c |
+2 +-
+1 files changed, 1 insertions(+), 1 deletions(-)
+	  </pre>
+        </section>
+      </article>
+
+<article>
+	<h3>
+	  Reuniendo ramas con <strong>git merge</strong> tipo: <em> merge by recursive </em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/merge1.png' height="250px">
+        </p> 
+	<section>
+          <pre>
+# Otra forma de ver las ramas es con:
+$ git log --graph --decorate \
+origin/ejemplo-merge-master origin/ejemplo-merge-noff
+	  </pre>
+        </section>
+
+      </article>
+
+<article>
+	<h3>
+	  Reuniendo ramas con <strong>git merge</strong> tipo: <em> merge by recursive </em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/merge2.png' height="230px">
+        </p> 
+	<section>
+          <pre>
+# Creamos otra vez una rama nueva para el punto de partida:
+$ git checkout -b ej2 origin/ejemplo-merge-master
+Switched to a new branch ’ej2’
+Branch ej2 set up to track remote branch ejemplo-merge-master from
+origin.
+
+	  </pre>
+        </section>
+
+      </article>
+
+<article>
+	<h3>
+	  Reuniendo ramas con <strong>git merge</strong> tipo: <em> merge by recursive </em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/merge3.png' height="200px">
+        </p> 
+	<section>
+          <pre>
+# La reunión tiene que crear una nueva revisión con dos padres:
+$ git merge origin/ejemplo-merge-noff
+Auto-merging hola_mundo.c
+Merge made by recursive.
+hola_mundo.c |
+4 ++++
+1 files changed, 4 insertions(+), 0 deletions(-)
+	  </pre>
+        </section>
+
+      </article>
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git merge</strong>: <em>conflicto</em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/conflict.png' height="280px">
+    </p> 
+	<section>
+          <pre>
+# Creamos otra vez una rama nueva para el punto de partida:
+$ git checkout -b ej2 origin/ejemplo-merge-master
+Switched to a new branch ’ej2’
+Branch ej2 set up to track remote branch ejemplo-merge-master from
+origin.
+
+	  </pre>
+        </section>
+      </article>
+
+ </article>
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong> </em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase1.png' style="margin-top: 3em;" height="400px">
+    </p> 
+	
+      </article>
+	  
+
+	  
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong> </em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase2.png' style="margin-top:3em;" height="300px">
+    </p> 
+	<section>
+	<pre>
+$ git checkout experiment
+$ git merge master
+	</pre>
+	</section>
+      </article> 
+	  
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong> </em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase3.png' style="margin-top:4em;" height="230px">
+    </p> 
+	
+	<section>
+	<pre>
+$ git checkout experiment
+$ git rebase master
+First, rewinding head to replay your work on top of it...
+Applying: added staged command
+	</pre>
+	</section>
+      </article>
+	  
+
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase4.png' style="margin-top:4em;" height="230px">
+    </p>
+	<section>
+	<pre>
+$ git checkout master
+$ git merge experiment
+Fast Forward
+	</pre>
+	</section>
+	
+      </article>
+	  
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase5.png' style="margin-top: 3em;" height="350px">
+    </p> 
+	
+      </article>
+
+
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase6.png' style="margin-top: 3em;" height="350px">
+    </p> 
+		<section>
+	<pre>
+$ git rebase --onto master server client
+	</pre>
+	</section>
+      </article>
+	  
+	  <article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase7.png' style="margin-top: 3em;" height="350px">
+    </p> 
+	<section>
+	<pre>
+$ git checkout master
+$ git merge client
+	</pre>
+	</section>
+      </article>
+
+
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase8.png' style="margin-top: 6em;" height="175px">
+    </p> 
+	<section style="margin-top:5em;">
+	<pre>
+$ git rebase master server
+	</pre>
+	</section>
+      </article>
+	  
+
+<article class="smaller">
+	<h3>
+	  Reuniendo ramas con <strong>git rebase</strong>: <em> complejo </em> 
+	</h3>	
+	<p>
+          <img class="centered" src='img/rebase9.png' style="margin-top: 6em;" height="100px">
+    </p> 
+	<section style="margin-top: 6em;">
+	<pre>
+$ git checkout master
+$ git merge server
+# ya podemos eliminar las ramas
+$ git branch -d client
+$ git branch -d server
+	</pre>
+	</section>
+      </article>
+
+
+<article class="smaller">
+	<h3>
+		Juramento solemne
+	</h3>	
+		<q class="red">Yo, usuario de git prometo nunca hacer un <code>git rebase</code> en una rama publicada.</q>
+		<div class='author' style="margin-top:3em;">
+          Mantra milenario del desarrollador que usa Git.
+        </div>
+      </article>	  
+
+
+<article class="smaller">
+	<h3>
+	  Trayendo cambios desde un remoto
+	</h3>	
+	<p>
+          <img class="centered" src='img/fetchremote.png' height="400px">
+    </p> 
+	<section>
+	<pre>
+$ git fetch REMOTE
+	</pre>
+	</section>
+      </article>
+
+<article >
+	<h3>
+	  Trabajando con remotos
+	</h3>	
+	<ul>
+	  <li><code>git fetch </code> se trae los cambios de un remoto.</li>
+	  <li><code>git fetch + git merge = git pull</code> actualiza una rama local desde una rama remota.</li>
+	  <li><code>git push REMOTO RAMA</code> inserta la rama en el remoto determinado.</li>
+	  </ul>
+      </article>	  
+
+
+
+<article>
+	<h3>
+	  Flujos de trabajo con Git: <em>centralizado</em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/workmodel1.png' style="margin-top: 3em;" height="350px">
+        </p> 
+
+      </article>
+
+<article>
+	<h3>
+	  Flujos de trabajo con Git: <em>integrador</em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/workmodel2.png' style="margin-top: 3em;" height="300px">
+        </p> 
+
+      </article>
+
+<article>
+	<h3>
+	  Flujos de trabajo con Git: <em>jer&aacute;rquico</em>
+	</h3>	
+	<p>
+          <img class="centered" src='img/workmodel3.png' style="margin-top: 2em;" height="400px">
+        </p> 
+
+      </article>
+
+
+
+      <article class="fill">
+	<h3>
+	  Capitulo 5: ¿Y ahora?
+	</h3>	
+	<iframe src="http://www.youtube.com/embed/Vz5iyEcIjbU"></iframe>
+      </article>
+
+      <article >
+	<h3>
+	  Para saber m&aacute;s
+	</h3>	
+	<ul class="build">
+	  <li>Cr&eacute;ate un repositorio p&uacute;blico en una de las forjas de Git como <a href="Gitorious"></a> o la m&aacute;s conocida <a href="">GitHub</a></li> 
+	  <li>Lee el fant&aacute;stico libro <a href="">Pro Git</a></li>
+	  <li>Busca en <code>git man</code> y <code>git help</code></li>
+
+
+
+	      <li>Integraci&oacute;n con SVN mediante <code>git-svn</code></li>
+	      <li>Crea y gestiona repositorios Git con <a href="">Gitosis</a> y/o <a href="">Gitolite</a></li>
+	  <li>Imparte un curso de <strong>Git</strong> :-)</li>
+
+
+	  
+	  
+
+	  
+
+	</ul>
+      </article>
+            <article >
+	  <p style="text-align:center;font-weight:600;margin-top:7em;">Muchas gracias por la atenci&oacute;n</p>
+	  <p style="text-align:center;font-weight:600;">¿Preguntas?</p>
+
+      </article>
+
+    </section>
+
+  </body>
+</html>

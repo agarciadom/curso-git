@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="600"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="central-base.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="-19.911056"
+     inkscape:cy="153.23598"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     width="600px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-132.92857,74.280747)">
+    <g
+       id="g3051"
+       inkscape:export-filename="/home/fsero/repositorios/fseros-mainline/presentaciones/semanaCiencia2011-html5/img/vccentral1.svg.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0.63923337,0,0,0.63923337,222.03446,-40.391477)">
+      <rect
+         ry="15"
+         rx="15"
+         y="255.21933"
+         x="133.42857"
+         height="125.71429"
+         width="451.42856"
+         id="rect2987"
+         style="fill:#e9c6af;stroke:#000000" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2989"
+         y="329.11163"
+         x="167.4827"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="329.11163"
+           x="167.4827"
+           id="tspan2991"
+           sodipodi:role="line">Repositorio Central</tspan></text>
+    </g>
+    <g
+       id="g3041"
+       transform="matrix(0.43630215,0,0,0.43630215,483.40474,-266.34601)">
+      <rect
+         ry="15"
+         rx="15"
+         y="536.64789"
+         x="68.571434"
+         height="125.71429"
+         width="451.42856"
+         id="rect2987-0"
+         style="fill:#aaccff;stroke:#000000" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2989-3"
+         y="610.54022"
+         x="247.10797"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="610.54022"
+           x="247.10797"
+           id="tspan2991-4"
+           sodipodi:role="line">Alice</tspan></text>
+    </g>
+    <g
+       id="g3046"
+       transform="matrix(0.49267193,0,0,0.49267193,148.1277,-75.799345)">
+      <rect
+         ry="15"
+         rx="15"
+         y="778.07648"
+         x="135.71429"
+         height="125.71429"
+         width="451.42856"
+         id="rect2987-0-6"
+         style="fill:#8080ff;stroke:#000000" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2989-3-1"
+         y="851.96881"
+         x="321.92664"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="851.96881"
+           x="321.92664"
+           id="tspan2991-4-3"
+           sodipodi:role="line">Bob</tspan></text>
+    </g>
+  </g>
+</svg>
