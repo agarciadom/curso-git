@@ -7,7 +7,7 @@ DOTTEX=\
   rebased-reunir-ramas.tex \
   fforward-reunir-ramas.tex
 
-.PHONY: clean
+.PHONY: clean install-deps
 
 $(DOC) :: $(DOTTEX) 
 
@@ -20,3 +20,6 @@ $(DOC) :: $(DOTTEX)
 
 clean:
 	$(RM) *~ $(DOTTEX) $(DOC)
+
+install-deps:
+	sudo pip install dot2tex
