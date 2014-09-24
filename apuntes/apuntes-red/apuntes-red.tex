@@ -9,8 +9,8 @@
 \usepackage{hyperref}
 \usepackage{subfig}
 
-\title{Apuntes de prácticas:\\Colaboración con Git}
-\author{Antonio García Domínguez\\nyoescape arroba gmail punto com}
+\title{Colaboración con Git}
+\author{Antonio García Domínguez\\antonio.garciadominguez@uca.es}
 \date{\today}
 
 \input{../../preambulo-guiones}
@@ -500,30 +500,36 @@ activar dicho servicio explícitamente con
 \orden{--enable=receive-pack}. Sólo se recomienda su uso en entornos
 muy amigables, como una LAN muy controlada.
 
-\subsection{Acceso por HTTP}
+\subsection{Acceso por HTTP(S)}
 \label{sec:acceso-http}
 
 Si nuestra mayor preocupación es el mantenimiento de conectividad
 incluso ante cortafuegos muy restrictivos, muy comunes en las grandes
-organizaciones, nuestra mejor opción es HTTP, el único protocolo
-permitido por la mayoría. No es el mejor en rendimiento, y requiere
-algo de cuidado en su uso, sin embargo, por lo que en caso de ser
-posible, se recomienda el uso de las dos opciones anteriores. Podemos
-conseguir cifrado y autenticación segura mediante SSL (incluso HTTP
-Digest no es del todo seguro~\cite{HTTPDigest}). Las URL son de la
-forma \url{http://host/ruta} o \url{https://host/ruta}.
+organizaciones, nuestra mejor opción usar HTTP o HTTPS, que son los
+únicos protocolos permitidos por la mayoría.
 
-\begin{nota}
-  actualmente (desde el commit \commitish{v1.6.0-rc1-92-g0d79a45}) se
-  está trabajando en un reemplazo que efectivamente consistiría en una
-  traducción a HTTP del protocolo Git, permitiendo así un acceso
-  eficiente, transparente para cortafuegos y autenticado. De todas
-  formas, a fecha de hoy (11 de agosto del 2008) sólo permite el
-  acceso para lectura, emulando al servidor <<tonto>> tradicional.
-\end{nota}
+La configuración de sólo lectura de Git para HTTP o HTTPS es muy
+sencilla: basta con ofrecer el repositorio <<bare>> por Apache y
+activar el <<hook>> \fichero{post-update} que viene de ejemplo en el
+código fuente de Git. En esta configuración, los envíos se seguirán
+haciendo a través de SSH.
 
-Para preparar un repositorio Git para su acceso de sólo lectura por
-HTTP, hay que seguir una serie de recomendaciones:
+Sin embargo, si se quiere dar acceso de escritura, hay dos opciones:
+la más antigua opera a través de WebDAV, y la más reciente (desde Git
+1.7.0) se conoce como <<smart HTTP>> y opera a través de un CGI
+proporcionado por Git. Hoy en día se recomienda evitar el acceso por
+WebDAV y usar sólo la opción de <<smart HTTP>>. De todos modos,
+veremos ambos casos.
+
+\subsubsection{Acceso por HTTP(S) a través de WebDAV}
+\label{sec:http-webdav}
+
+Antes de empezar, es importante notar que esta opción tiene problemas
+de rendimiento, requiere un trabajo \orden{cron} especial, no
+garantiza que las revisiones se registren de forma atómica y puede
+tener problemas de integridad si el cliente utiliza versiones con
+fallos de \fichero{libcurl}. Si de todos modos se desea ir por esta
+vía, habría que seguir estos pasos:
 
 \begin{enumerate}
 \item Debería de ser un repositorio <<pelado>>, como de costumbre.
@@ -571,6 +577,53 @@ en~\cite{GitHTTPS}):
   ejecuciones posteriores a la primera del guión
   \orden{git-update-server-info}.
 \end{enumerate}
+
+\subsubsection{Acceso por HTTP(S) a través de CGI}
+\label{sec:http-cgi}
+
+La mejor forma de acceder a un repositorio Git a través de HTTP(S) es
+mediante el CGI \fichero{git-http-backend} que viene incluido con
+Git. Este CGI ofrece sólo dos servicios: uno para subir cambios y otro
+para descargar código. En ambos casos, sólo se requiere una petición
+HTTP para cada orden que lancemos desde Git, por lo que el rendimiento
+es muy similar al de SSH, y tenemos garantizada la atomicidad de las
+revisiones.
+
+En un Apache con los módulos \fichero{cgi}, \fichero{alias} y
+\fichero{env} activados, asumiendo que los repositorios estén bajo
+\fichero{/srv/git} (escribibles por el usuario de Apache) y que
+\fichero{git-http-backend} está en la ruta por omisión en Ubuntu, se
+podría usar una configuración como:
+\begin{lstlisting}
+SetEnv GIT_PROJECT_ROOT /srv/git/
+SetEnv GIT_HTTP_EXPORT_ALL
+ScriptAlias /git/ /usr/libexec/git-core/git-http-backend/
+<Location /git>
+  Order allow,deny
+  Allow from all
+
+  AuthType Basic
+  AuthName Git
+  Require valid-user
+  ...
+</Location>
+\end{lstlisting}
+
+La base de datos de usuarios puede ser un \fichero{htpasswd} normal y
+corriente de Apache, o podemos integrar un manejador de autenticación
+personalizado. En el caso de Redmine se utilizan dos módulos Perl que
+proporciona el mismo proyecto.
+
+Sólo hay una pequeña incomodidad, y es que Git nos preguntará todo el
+rato por el usuario y contraseña. Para evitar esto, en GNU/Linux se
+pueden indicar estos datos en el fichero \fichero{\~{}/.netrc}, que
+sólo debería ser legible por nuestra cuenta de usuario:
+
+\begin{lstlisting}
+touch ~/.netrc
+chmod 600 ~/.netrc
+echo -e "machine host\nlogin usuario\npassword clave" > ~/.netrc
+\end{lstlisting}
 
 \subsection{Acceso por Web}
 \label{sec:acceso-por-web}

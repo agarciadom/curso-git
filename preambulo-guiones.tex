@@ -1,6 +1,7 @@
 \RequirePackage{amsthm}
 \RequirePackage{listings}
 \RequirePackage{tikz}
+\RequirePackage{verbatim}
 
 \newtheorem{pregunta}{Pregunta}
 
@@ -26,7 +27,10 @@
 \newcommand{\loadlp}{\setcounter{enumi}{\value{saveenum}}}
 \newenvironment{first-enumerate}{\begin{enumerate}}{\savelp{}\end{enumerate}}
 \newenvironment{continue-enumerate}{\begin{enumerate}\loadlp{}}{\savelp{}\end{enumerate}}
-\newenvironment{nota}{\begin{quote}\emph{Nota: }}{\end{quote}}
+
+% Comentar o descomentar en función de que queramos las notas o no
+%\newenvironment{nota}{\begin{quote}\emph{Nota: }}{\end{quote}}
+\newenvironment{nota}{\comment\emph{Nota: }}{\endcomment}
 
 \lstset{basicstyle=\small,breaklines=true,columns=fullflexible,frame=tb}
 

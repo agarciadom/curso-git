@@ -3,3 +3,6 @@ fetch-ff-*.tex
 flujo-*.tex
 ramas-repo-git.tex
 *.tex.bak
+*.bbl
+*.blg
+*.lof
