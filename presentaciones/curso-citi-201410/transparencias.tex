@@ -19,7 +19,7 @@
 
 \title[Introducción a Git]{Introducción al Sistema de Control de Versiones Distribuido Git}
 \author{Antonio García Domínguez}
-\date{\today}
+\date{16 octubre 2014}
 \institute{Universidad de Cádiz \\\vspace{2em} \includegraphics{../../cc-by-sa}}
 
 \AtBeginSection[]
@@ -78,9 +78,11 @@
 \begin{frame}{Contenidos}
   \tableofcontents[hideallsubsections]
 
-  Materiales y transparencias para Linux en
-  \url{http://osl2.uca.es/wikiformacion/index.php/Git} y
+  Materiales en \url{http://osl2.uca.es/wikiformacion/index.php/Git} y
   \url{http://gitorious.org/curso-git-osluca}.
+
+  Una versión más antigua de la presentación (para Linux) está
+  disponible en \url{http://goo.gl/2sCoK6}.
 \end{frame}
 
 \section{Introducción}
@@ -281,7 +283,11 @@
   \end{block}
 
   \begin{block}{Git no guarda metadatos}
-    No sirve como sistema de copias de seguridad
+    \begin{itemize}
+    \item No guarda el dueño de los ficheros
+    \item Sólo guarda si un fichero es ejecutable o no
+    \item No sirve como sistema de copias de seguridad
+    \end{itemize}
   \end{block}
 
 \end{frame}
@@ -290,7 +296,7 @@
 
 \subsection{Preparación}
 
-\begin{frame}{Instalación de Git (Windows)}
+\begin{frame}{Instalación de Git en Windows}
   \begin{block}{Clientes libres}
     \begin{itemize}
     \item El original: \structure{Git for Windows} (\url{http://msysgit.github.io/})
@@ -313,67 +319,25 @@
   \end{block}
 \end{frame}
 
-\begin{frame}{Instalación de Git (Linux)}
-  \begin{block}{Ubuntu Linux 14.04}
-    \begin{itemize}
-    \item \paquete{git} trae todo lo fundamental
-    \item \paquete{git-all} aporta muchos extras
-    \item \paquete{tkdiff} para resolver conflictos
-    \end{itemize}
-  \end{block}
-
-  \begin{block}{SuSE}
-    Hay paquetes actualizados en el openSUSE Build Service
-    (\paquete{devel:tools:scm} $\rightarrow$ \paquete{git}).
-  \end{block}
-\end{frame}
-
-\begin{frame}{Configuración inicial (Windows): acceso a opciones}
+\begin{frame}{Configuración inicial: acceso a opciones}
   \begin{center}
     \includegraphics[width=\textwidth,height=.8\textheight,keepaspectratio]{tomas/configinicial-00-menu}
   \end{center}
 \end{frame}
 
-\begin{frame}{Configuración inicial (Windows): datos personales}
+\begin{frame}{Configuración inicial: datos personales}
   \begin{center}
     \includegraphics[width=\textwidth,height=.8\textheight,keepaspectratio]{tomas/configinicial-01-pantalla}
   \end{center}
 \end{frame}
 
-\begin{frame}{Configuración inicial (Windows): gestor de credenciales}
+\begin{frame}{Configuración inicial: gestor de credenciales}
   \begin{center}
     \includegraphics[width=\textwidth,height=.8\textheight,keepaspectratio]{tomas/configinicial-02-creds}
   \end{center}
 \end{frame}
 
-\begin{frame}{Configuración inicial (Linux)}
-  \framesubtitle{Cambiamos la configuración global en \fichero{\$HOME/.gitconfig}}
-
-  \begin{block}{Identificación}
-    \orden{git config {-}-global user.name "Mi Nombre"}
-    \orden{git config {-}-global user.email mi@correo}
-  \end{block}
-
-  \begin{block}{Editor: por defecto Vi/Vim}
-    \orden{git config {-}-global core.editor emacs}
-  \end{block}
-
-  \begin{block}{Herramienta para resolver conflictos}
-    \orden{git config {-}-global merge.tool tkdiff}
-  \end{block}
-
-  \begin{block}{Algunos alias útiles}
-    \orden{git config {-}-global alias.ci commit}
-    \orden{git config {-}-global alias.st status}
-    \orden{git config {-}-global alias.ai "add -i"}
-  \end{block}
-
-\end{frame}
-
-% Limpiamos el área de trabajo
-\runcommand{rm -rf ejemplo}
-
-\begin{frame}{Creación de un repositorio (Windows): orden inicial}
+\begin{frame}{Creación de un repositorio: orden inicial}
   Sólo tenemos que crear un nuevo directorio y decirle a Git que cree
   un repositorio ahí.
 
@@ -382,7 +346,7 @@
   \end{center}
 \end{frame}
 
-\begin{frame}{Creación de un repositorio (Windows): repositorios ``pelados''}
+\begin{frame}{Creación de un repositorio: repositorios ``pelados''}
   Un repositorio \emph{bare} no tiene un directorio de trabajo
   asociado: sólo lleva el histórico. Normalmente se usan en
   servidores, como en \url{des-sinf.uca.es}.
@@ -394,14 +358,7 @@
   \end{center}
 \end{frame}
 
-\begin{frame}{Creación de un repositorio (Linux)}
-  \runandshowcommand{mkdir ejemplo}
-  \orden{cd ejemplo}
-  \orden{git init}
-  \showcommand{cd ejemplo; git init | fold -sw 70; git config user.name Antonio; git config user.email a@b.com; git config color.ui always; git config rerere.enabled false}
-\end{frame}
-
-\begin{frame}[t]{Nuestra primera revisión en la rama master (Windows)}
+\begin{frame}[t]{Nuestra primera revisión en <<master>>}
 
   \begin{overprint}
     \onslide<1>
@@ -472,7 +429,7 @@
 
 \end{frame}
 
-\begin{frame}{Nuestra segunda revisión en la rama master (Windows)}
+\begin{frame}{Nuestra segunda revisión en <<master>>}
 
   \begin{overprint}
     \onslide<1>
@@ -507,32 +464,28 @@
   \end{overprint}
 \end{frame}
 
-\begin{frame}{Nuestras dos primeras revisiones en la rama master (Linux)}
-  \orden{echo "hola" > f.txt}
-  \runcommand{echo "hola" | tee ejemplo/f.txt}
-  \orden{git add f.txt}
-  \showcommand{cd ejemplo; git add f.txt}
-  \orden{git commit -m "primer commit"}
-  \showcommand{cd ejemplo; git commit -m "primer commit"}
-  \orden{echo "adios" {>}> f.txt}
-  \runcommand{echo "adios" | tee -a ejemplo/f.txt}
-  \orden{git add f.txt}
-  \showcommand{cd ejemplo; git add f.txt}
-  \orden{git commit -m "segundo commit"}
-  \showcommand{cd ejemplo; git commit -m "segundo commit"}
-\end{frame}
-
-\begin{frame}{Preguntas tras estas dos revisiones}
-  \begin{itemize}
-  \item ¿Qué es ese identificador después de \enquote{root-commit}?
-  \item ¿Dónde se guardan mis cosas?
-  \item ¿\enquote{\texttt{git add}} dos veces en Linux?
-  \end{itemize}
-\end{frame}
+\runcommand{echo "hola" | tee ejemplo/f.txt}
+\runcommand{cd ejemplo; git add f.txt}
+\runcommand{cd ejemplo; git commit -m "primer commit"}
+\runcommand{echo "adios" | tee -a ejemplo/f.txt}
+\runcommand{cd ejemplo; git add f.txt}
+\runcommand{cd ejemplo; git commit -m "segundo commit"}
 
 \subsection{Conceptos}
 
 %% MODELO DE DATOS
+
+\begin{frame}{Estructura física de un repositorio Git}
+  \begin{itemize}
+  \item Directorio de trabajo: \fichero{ejemplo}
+  \item Grafo de objetos: directorio oculto \fichero{ejemplo/.git}
+  \item Área de preparación: \fichero{ejemplo/.git/index}
+  \end{itemize}
+
+  \begin{center}
+    \includegraphics[height=.55\textheight]{tomas/modelodatos-00-gitbash}
+  \end{center}
+\end{frame}
 
 \begin{frame}{Modelo de datos de Git}
   \begin{block}{Características}
@@ -546,8 +499,7 @@
 
   \begin{block}{Consecuencias del diseño}
     \begin{itemize}
-    \item Los objetos son inmutables: al cambiar su contenido, cambia
-      su SHA1
+    \item Los objetos son inmutables: al modificarse, cambia su SHA1
     \item Git \emph{no} gestiona información de ficheros movidos y demás
     \item Git \emph{nunca} guarda más de un objeto una vez en el DAG,
       aunque aparezca en muchos sitios
@@ -608,28 +560,16 @@
 
   \vfill
 
-  \orden{git tag -a v1.0 -m "version 1.0" HEAD}
   \runcommand{cd ejemplo; git tag -a v1.0 -m "version 1.0" HEAD}
   \orden{git cat-file -p v1.0}
   \showcommand{cd ejemplo; git cat-file -p v1.0}
+  \begin{tikzpicture}[remember picture,overlay]
+    \tikzset{shift={(current page.center)},xshift=4cm,yshift=-2.2cm}
+    \node (x) {\includegraphics[width=.4\textwidth]{tomas/creartag}};
+  \end{tikzpicture}
 \end{frame}
 
 %%% MODELO DE DATOS
-
-\begin{frame}{Estructura física de un repositorio Git}
-  \begin{block}{Partes de un repositorio Git}
-    \begin{itemize}
-    \item Directorio de trabajo
-    \item Grafo de objetos: directorio oculto \fichero{.git} en repositorios normales
-    \item Área de preparación: \fichero{.git/index}
-    \end{itemize}
-  \end{block}
-
-  \vfill
-
-  \orden{ls .git}
-  \showcommand{cd ejemplo; ls -C --color=always .git}
-\end{frame}
 
 \begin{frame}[t]{Algunos de los ficheros en \fichero{.git}}
 
@@ -683,34 +623,30 @@
       \showcommand{cat ejemplo/.git/config | sed -n '1,/logallrefupdates/p'}
     }
     \only<2>{
-      \orden{cat description}
-      \showcommand{cat ejemplo/.git/description}
-    }
-    \only<3>{
       \orden{cat HEAD}
       \showcommand{cat ejemplo/.git/HEAD}
     }
-    \only<4>{
+    \only<3>{
       \orden{ls hooks | head -5}
-      \showcommand{ls --color=always ejemplo/.git/hooks | head -5}
+      \showcommand{ls --color=always ejemplo/.git/hooks}
     }
-    \only<5>{
+    \only<4>{
       \orden{git ls-files -s}
       \showcommand{cd ejemplo; git ls-files -s}
     }
-    \only<6>{
+    \only<5>{
       \orden{cat info/exclude}
       \showcommand{cat ejemplo/.git/info/exclude}
     }
-    \only<7>{
+    \only<6>{
       \orden{git reflog}
-      \showcommand{cd ejemplo; git reflog}
+      \showcommand{cd ejemplo; git reflog | head -5}
     }
-    \only<8>{
+    \only<7>{
       \orden{ls -R refs}
       \showcommand{ls -CR --color=always ejemplo/.git/refs}
     }
-    \only<9>{
+    \only<8>{
       \orden{ls objects}
       \showcommand{ls -C --color=always ejemplo/.git/objects | ./chomp-last-newline.pl}
       \orden{ls objects/pack}
@@ -731,17 +667,23 @@
     Instantánea que vamos construyendo de la siguiente revisión.
   \end{block}
 
-  \begin{block}{Diferencia entre Git y otros SCV}
+  \begin{block}{``Add'' en herramientas para SVN y Git}
     \begin{itemize}
     \item \inlinecmd{svn add} = añadir fichero a control de versiones
+      \begin{itemize}
+      \item TortoiseSVN y TortoiseGit hacen esto
+      \end{itemize}
     \item \inlinecmd{git add} = añadir contenido a área de preparación
+      \begin{itemize}
+      \item ``Git Bash'' y ``Git GUI'' hacen esto
+      \end{itemize}
     \end{itemize}
   \end{block}
 
-  \begin{block}{Consecuencias}
+  \begin{block}{Pros y contras}
     \begin{itemize}
-    \item Controlamos exactamente qué va en cada revisión
-    \item Algo raro hasta acostumbrarse, pero es \emph{muy} potente
+    \item Controlamos exactamente qué va (y qué \alert{no}) en cada revisión
+    \item Algo raro hasta acostumbrarse
     \end{itemize}
   \end{block}
 \end{frame}
