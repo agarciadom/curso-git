@@ -78,7 +78,8 @@
 \begin{frame}{Contenidos}
   \tableofcontents[hideallsubsections]
 
-  Materiales en \url{http://osl2.uca.es/wikiformacion/index.php/Git} y
+  Materiales y transparencias para Linux en
+  \url{http://osl2.uca.es/wikiformacion/index.php/Git} y
   \url{http://gitorious.org/curso-git-osluca}.
 \end{frame}
 
@@ -400,11 +401,110 @@
   \showcommand{cd ejemplo; git init | fold -sw 70; git config user.name Antonio; git config user.email a@b.com; git config color.ui always; git config rerere.enabled false}
 \end{frame}
 
-\begin{frame}{Nuestras dos primeras revisiones en la rama master (Windows)}
-  \begin{enumerate}
-  \item Creamos un fichero \fichero{f.txt} con ``hola''
-  \item Lo añadimos
-  \end{enumerate}
+\begin{frame}[t]{Nuestra primera revisión en la rama master (Windows)}
+
+  \begin{overprint}
+    \onslide<1>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/primercommit-06-newfile}
+
+      \vfill
+
+      Creamos un fichero \fichero{f.txt} con ``hola''.
+    \end{center}
+
+    \onslide<2>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/primercommit-00-add}
+
+      \vfill
+
+      Añadimos el fichero a control de versiones mediante ``Add''.
+    \end{center}
+
+    \onslide<3>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/primercommit-01-dlgadd}
+
+      \vfill
+
+      Marcamos el fichero y pulsamos en ``OK''.
+    \end{center}
+
+    \onslide<4>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/primercommit-02-success}
+
+      \vfill
+
+      Se nos confirma el añadido.
+    \end{center}
+
+    \onslide<5>
+    \begin{center}
+      \vspace{.15\textheight}
+
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/primercommit-03-commit}
+
+      \vspace{.15\textheight}
+
+      Usamos ``Commit'' para iniciar la creación de la revisión.
+    \end{center}
+
+    \onslide<6>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/primercommit-04-dlgcommit}
+
+      \vfill
+
+      Introducimos el mensaje. En \url{des-sinf.uca.es}, no debemos olvidar poner \texttt{refs \#{}XYZ} al final de la primera línea.
+    \end{center}
+
+    \onslide<7-8>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/primercommit-05-okcommit}
+
+      \vfill
+
+      Se nos confirma el commit. \alert{Ojo}: no se envía a ningún lado. Para eso existe ``Push'', que veremos después.
+    \end{center}
+  \end{overprint}
+
+\end{frame}
+
+\begin{frame}{Nuestra segunda revisión en la rama master (Windows)}
+
+  \begin{overprint}
+    \onslide<1>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/segundocommit-00-changedfile}
+
+      Añadimos una línea con ``adiós'' a \fichero{f.txt}.
+    \end{center}
+
+    \onslide<2>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/segundocommit-01-emblem}
+
+      Se cambia el emblema de \fichero{f.txt}, indicando que su contenido no coincide con el de la revisión actual.
+    \end{center}
+
+    \onslide<3>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/segundocommit-02-dlgcommit}
+
+      Creamos la segunda revisión con el mensaje ``segundo
+      commit''. Podemos arreglar la última revisión (siempre que no la
+      hayamos subido) o ver qué cambios hemos introducido.
+    \end{center}
+
+    \onslide<4>
+    \begin{center}
+      \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/segundocommit-03-emblemok}
+
+      Se cambia el emblema de \fichero{f.txt}, indicando que su contenido sí coincide con el de la revisión actual.
+    \end{center}
+  \end{overprint}
 \end{frame}
 
 \begin{frame}{Nuestras dos primeras revisiones en la rama master (Linux)}
@@ -420,13 +520,13 @@
   \showcommand{cd ejemplo; git add f.txt}
   \orden{git commit -m "segundo commit"}
   \showcommand{cd ejemplo; git commit -m "segundo commit"}
+\end{frame}
 
-  \vfill
-
+\begin{frame}{Preguntas tras estas dos revisiones}
   \begin{itemize}
   \item ¿Qué es ese identificador después de \enquote{root-commit}?
   \item ¿Dónde se guardan mis cosas?
-  \item Usuario de SVN: \enquote{¿\texttt{git add} dos veces?}
+  \item ¿\enquote{\texttt{git add}} dos veces en Linux?
   \end{itemize}
 \end{frame}
 
@@ -520,7 +620,7 @@
   \begin{block}{Partes de un repositorio Git}
     \begin{itemize}
     \item Directorio de trabajo
-    \item Grafo de objetos: \fichero{.git}
+    \item Grafo de objetos: directorio oculto \fichero{.git} en repositorios normales
     \item Área de preparación: \fichero{.git/index}
     \end{itemize}
   \end{block}
@@ -540,42 +640,37 @@
       \end{block}
     }
     \only<2>{
-      \begin{block}{description}
-        Descripción corta textual para \paquete{gitweb}.
-      \end{block}
-    }
-    \only<3>{
       \begin{block}{HEAD}
         Referencia simbólica a la revisión sobre la que estamos
         trabajando.
       \end{block}
     }
-    \only<4>{
+    \only<3>{
       \begin{block}{hooks}
         Manejadores de eventos. Ahora sólo tenemos ejemplos.
       \end{block}
     }
-    \only<5>{
+    \only<4>{
       \begin{block}{index}
         Contiene el área de preparación (la veremos después).
       \end{block}
     }
-    \only<6>{
+    \only<5>{
       \begin{block}{info/exclude (también .gitignore y/o global)}
         Patrones de ficheros a ignorar.
       \end{block}
     }
-    \only<7>{
+    \only<6>{
       \begin{block}{logs}
         Historial de las referencias: medida de seguridad.
       \end{block}
     }
-    \only<8>{
+    \only<7>{
       \begin{block}{refs}
         Referencias simbólicas a puntas de cada rama y etiquetas.
       \end{block}
     }
-    \only<9>{
+    \only<8>{
       \begin{block}{objects}
         Objetos, sueltos (gzip) o empaquetados (delta + gzip).
       \end{block}
