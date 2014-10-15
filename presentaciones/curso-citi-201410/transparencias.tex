@@ -294,7 +294,7 @@
 
 \section[Local]{Trabajo local}
 
-\subsection{Preparación}
+\subsection{Primeras revisiones}
 
 \begin{frame}{Instalación de Git en Windows}
   \begin{block}{Clientes libres}
@@ -500,7 +500,9 @@
   \begin{block}{Consecuencias del diseño}
     \begin{itemize}
     \item Los objetos son inmutables: al modificarse, cambia su SHA1
-    \item Git \emph{no} gestiona información de ficheros movidos y demás
+    \item Git \emph{no} almacena información de ficheros
+      movidos/copiados: los detecta automáticamente, así que no hay
+      que mover/copiar de forma especial
     \item Git \emph{nunca} guarda más de un objeto una vez en el DAG,
       aunque aparezca en muchos sitios
     \end{itemize}
@@ -688,118 +690,151 @@
   \end{block}
 \end{frame}
 
-\begin{frame}{Preparando revisiones (I)}
-  \orden{echo "bueno" {>}> f.txt}
-  \runcommand{cd ejemplo; echo "bueno" | tee -a f.txt}
-  \orden{git add f.txt}
-  \showcommand{cd ejemplo; git add f.txt}
-  \orden{echo "malo" {>}> f.txt}
-  \runcommand{cd ejemplo; echo "malo" | tee -a f.txt}
-  \orden{echo "nuevo" > g.txt}
-  \runcommand{cd ejemplo; echo "nuevo" | tee g.txt}
+\begin{frame}{Preparación de una revisión parcial}
+  \begin{overlayarea}{\textwidth}{.65\textheight}
+    \only<1>{
+      \begin{center}
+        \vspace{.125\textheight}
+
+        \includegraphics[width=\textwidth,height=.4\textheight,keepaspectratio]{tomas/commitparcial-00-cambios}
+
+        \vspace{.125\textheight}
+      \end{center}
+    }
+    \only<2>{
+      \begin{center}
+        \vspace{.125\textheight}
+
+        \includegraphics[width=\textwidth,height=.4\textheight,keepaspectratio]{tomas/commitparcial-01-menugitgui}
+
+        \vspace{.125\textheight}
+      \end{center}
+    }
+    \only<3>{
+      \begin{center}
+        \includegraphics[height=.6\textheight]{tomas/commitparcial-02-dlggitgui}
+      \end{center}
+    }
+    \only<4>{
+      \begin{center}
+        \includegraphics[height=.6\textheight]{tomas/commitparcial-03-menustage}
+      \end{center}
+    }
+    \only<5>{
+      \begin{center}
+        \includegraphics[height=.6\textheight]{tomas/commitparcial-04-efectostage}
+      \end{center}
+    }
+    \only<6>{
+      \begin{center}
+        \includegraphics[height=.6\textheight]{tomas/commitparcial-05-msgcommit}
+      \end{center}
+    }
+    \only<7>{
+      \begin{center}
+        \includegraphics[height=.6\textheight]{tomas/commitparcial-06-commitcreado}
+      \end{center}
+    }
+    \only<8>{
+      \begin{center}
+        \includegraphics[height=.6\textheight]{tomas/commitparcial-07-restante}
+      \end{center}
+    }
+  \end{overlayarea}
+  \begin{overlayarea}{\textwidth}{3cm}
+    \only<1>{
+      \begin{center}
+        Añadimos una línea al principio y al final de \fichero{f.txt}.
+      \end{center}
+    }
+    \only<2>{
+      \begin{center}
+        Lanzamos ``Git GUI'' mediante el menú contextual del
+        directorio actual.
+      \end{center}
+    }
+    \only<3>{
+      \begin{center}
+        ``Git GUI'' nos muestra lo que no está aún en el área de
+        preparación.
+      \end{center}
+    }
+    \only<4>{
+      \begin{center}
+        Introducimos la línea añadida al principio de \fichero{f.txt}
+        en el área de preparación.
+      \end{center}
+    }
+    \only<5>{
+      \begin{center}
+        Ahora ya no sale esa línea como pendiente de añadir.
+      \end{center}
+    }
+    \only<6>{
+      \begin{center}
+        Por el contrario, sale en la sección de ``preparado''. Creamos
+        la revisión rellenando el mensaje y pulsando en ``Commit''.
+      \end{center}
+    }
+    \only<7>{
+      \begin{center}
+        ``Git GUI'' nos confirma que la nueva revisión ha sido creada
+        con éxito.
+      \end{center}
+    }
+    \only<8>{
+      \begin{center}
+        Podemos volver a lo que está pendiente: son las líneas que no
+        se introdujeron en la revisión anterior.
+      \end{center}
+    }
+  \end{overlayarea}
 \end{frame}
 
-\begin{frame}{Preparando revisiones (II)}
-  \orden{git status}
-  \showcommand{cd ejemplo; git status}
-\end{frame}
-
-\begin{frame}{Preparando revisiones (III)}
-  \begin{columns}
-    \column{.5\textwidth}
-    \orden{git diff {-}-staged}\showcommand{cd ejemplo; git diff --staged}
-
-    \column{.5\textwidth}
-    \orden{git diff} \showcommand{cd ejemplo; git diff}
-  \end{columns}
-\end{frame}
-
-\begin{frame}{Preparando revisiones (IV)}
-  \orden{git commit -m "tercer commit"}
-  \showcommand{cd ejemplo; git commit -m "tercer commit"}
-  \orden{git status}
-  \showcommand{cd ejemplo; git status}
-\end{frame}
-
-\begin{frame}{Esquemas de órdenes para añadir y eliminar}
-  \begin{center}
-    \input{stage-general.tikz}
-    \vfill
-    \input{stage-rm.tikz}
-  \end{center}
-\end{frame}
-
-\begin{frame}{Esquema de órdenes para comparar}
-  \begin{center}
-    \input{stage-diff.tikz}
-  \end{center}
-\end{frame}
+\runcommand{cd ejemplo; echo "bueno" | tee -a f.txt}
+\runcommand{cd ejemplo; git add f.txt}
+\runcommand{cd ejemplo; echo "malo" | tee -a f.txt}
+\runcommand{cd ejemplo; echo "nuevo" | tee g.txt}
+\runcommand{cd ejemplo; git commit -m "tercer commit"}
 
 \subsection{Operaciones comunes}
 
-\begin{frame}{Buscar cosas}
-  \inlinecmd{git grep} es como \inlinecmd{grep -R *}, pero sólo busca
-  entre los ficheros bajo control de versiones.
+\begin{frame}{Historial: ``Show Log''}
+  \begin{center}
+    \includegraphics[width=\textwidth,height=.7\textheight,keepaspectratio]{tomas/showlog.png}
+  \end{center}
 
-  \vfill
-
-  \orden{git grep hola}
-  \showcommand{cd ejemplo; git grep hola}
+  Permite visualizar el histórico, buscar sobre él, obtener
+  diferencias y operar sobre revisiones.
 \end{frame}
 
-\begin{frame}{Historial: por línea de órdenes (I)}
-  \orden{git log}
-  \showcommand{cd ejemplo; git log}
+\begin{frame}{Ver cambios desde la revisión actual: ``Diff...''}
+  \begin{center}
+    \includegraphics[width=\textwidth,height=.7\textheight,keepaspectratio]{tomas/diff.png}
+  \end{center}
+
+  Permite ver todos los cambios locales respecto a la revisión actual.
 \end{frame}
 
-\begin{frame}{Historial: por línea de órdenes (II)}
-  \orden{git log {-}-pretty=oneline}
-  \showcommand{cd ejemplo; git log --pretty=oneline}
+\begin{frame}{Deshacer cambios: ``Revert...''}
+  \begin{center}
+    \includegraphics[width=\textwidth,height=.7\textheight,keepaspectratio]{tomas/revert.png}
+  \end{center}
+
+  Permite deshacer algunos o todos los cambios locales respecto a la
+  revisión actual.
+
+  Nota: para deshacer revisiones anteriores se usa ``Revert changes by
+  this commit'' en la ventana del histórico.
 \end{frame}
 
-\begin{frame}{Historial: por línea de órdenes (III)}
-  \orden{git log {-}-graph {-}-pretty=oneline {-}-decorate=short {-}-abbrev-commit}
-  \showcommand{git log --graph --pretty=oneline --decorate=short --abbrev-commit 5f3c2bf..7eec99d | ./shorten.sh}
-\end{frame}
+\begin{frame}{Retirar ficheros inútiles: ``Clean Up...''}
+  \begin{center}
+    \includegraphics[width=\textwidth,height=.7\textheight,keepaspectratio]{tomas/cleanup.png}
+  \end{center}
 
-\begin{frame}{Historial: más cosas}
-  \begin{block}{Opciones útiles}
-    \begin{itemize}
-    \item Por autor: \inlinecmd{{-}-author, {-}-committer}
-    \item Por fecha: \inlinecmd{{-}-since, {-}-until}
-    \item Por cambio: \inlinecmd{-S}
-    \item Por mensaje: \inlinecmd{{-}-grep}
-    \item Con parches: \inlinecmd{-p} (resumidos: \inlinecmd{{-}-stat})
-    \end{itemize}
-  \end{block}
-
-  \begin{block}{Otras órdenes}
-    \begin{itemize}
-    \item \inlinecmd{git show}: una revisión determinada
-    \item \inlinecmd{git whatchanged}: estilo SVN
-    \item \inlinecmd{gitk}: interfaz gráfica
-    \item \inlinecmd{git instaweb}: interfaz Web (instalad desde fuentes)
-    \end{itemize}
-  \end{block}
-\end{frame}
-
-\begin{frame}{Ayuda}
-  \begin{block}{Listado de órdenes}
-    \begin{itemize}
-    \item \inlinecmd{git help} da un listado breve
-    \item \inlinecmd{git help {-}-all} las lista todas (144+)
-    \item Muchas son \enquote{fontanería}: sólo usamos la \enquote{porcelana}
-    \end{itemize}
-  \end{block}
-
-  \begin{block}{Sobre una orden concreta}
-    \begin{itemize}
-    \item \inlinecmd{man git-orden}
-    \item \inlinecmd{git help orden}
-    \item \inlinecmd{git help -w orden} (en navegador)
-    \item \inlinecmd{git orden -h}
-    \end{itemize}
-  \end{block}
+  Permite eliminar automáticamente los ficheros y/o directorios que no
+  están bajo control de versiones.
 \end{frame}
 
 \section[Distribuido]{Trabajo distribuido}
@@ -812,29 +847,16 @@
 
   \begin{block}{Métodos de acceso}
     \begin{itemize}
-    \item \url{git://}, SSH, HTTP(S) y \fichero{rsync}
-    \item Neptuno: \foreignquote{english}{smart HTTP} + SSL (nuevo en Git 1.6.6.2)
-    \item Integrado con autenticación Redmine:
-      \url{http://www.redmine.org/issues/4905}
+    \item Git permite \url{git://}, SSH, HTTP(S) y \fichero{rsync}
+    \item Nosotros: HTTPS con Apache + Redmine.pm + CGI de Git
     \end{itemize}
   \end{block}
 
-  \begin{block}{Autenticación}
-    \begin{itemize}
-    \item Proyecto público, pero requiere autenticación para escritura
-    \item Hay que crear \fichero{\$HOME/.netrc}, legible sólo por nosotros, con:
-\begin{verbatim}
-machine neptuno.uca.es
-login miusuario
-password micontraseña
-\end{verbatim}
-    \end{itemize}
-  \end{block}
+  \begin{center}
+    \includegraphics[width=\textwidth,height=.6\textheight,keepaspectratio]{tomas/clone}
+  \end{center}
 
-  \vfill
-
-  \orden{git clone https://neptuno.uca.es/git/sandbox-git}
-  \showcommand{git clone https://neptuno.uca.es/git/sandbox-git}
+  \runcommand{git clone https://neptuno.uca.es/git/sandbox-git}
 \end{frame}
 
 \begin{frame}{Ramas en Git}
@@ -1077,68 +1099,7 @@ password micontraseña
 
 \end{frame}
 
-\begin{frame}{Forjas con alojamiento Git}
-
-  \begin{block}{Sencillas y libres}
-    \begin{itemize}
-    \item Gitorious: \url{http://gitorious.org}
-    \item \url{http://repo.or.cz}
-    \end{itemize}
-  \end{block}
-
-  \begin{block}{La más popular: Github (\url{http://github.com})}
-    \begin{itemize}
-    \item Gratis para proyectos libres
-    \item De pago para proyectos cerrados
-    \item Integra aspectos sociales y nuevas funcionalidades
-    \item Basada en JGit, una reimplementación de Git en Java
-    \end{itemize}
-  \end{block}
-
-\end{frame}
-
-\begin{frame}{Interoperar con SVN}
-
-  \begin{block}{Limitaciones}
-    \begin{itemize}
-    \item No funciona con repositorios vacíos (al menos una revisión)
-    \item Hay que llamar a \inlinecmd{git svn} para ciertas cosas
-    \end{itemize}
-  \end{block}
-
-  \begin{block}{Órdenes básicas}
-    \begin{itemize}
-    \item \inlinecmd{git svn clone URL} clona (usar \inlinecmd{-s} si
-      se sigue el esquema branches/tags/trunk usual)
-    \item \inlinecmd{git svn rebase} = \inlinecmd{svn up} + replantea
-      nuestros \tipo{commits} locales en base a los nuevos
-    \item \inlinecmd{git svn dcommit} = \inlinecmd{svn commit} en
-      bloque de todo lo que tengamos pendiente (con
-      \inlinecmd{{-}-rmdir} borra directorios vacíos)
-    \end{itemize}
-  \end{block}
-
-  Usemos \url{https://neptuno.uca.es/svn/sandbox-svn-git}.
-
-\end{frame}
-
 \appendix
-
-\begin{frame}{Aspectos avanzados}
-  \begin{itemize}
-  \item \inlinecmd{bisect}: búsqueda binaria de defectos
-  \item \inlinecmd{blame}: autoría por líneas
-  \item \inlinecmd{bundle}: colaborar sin red
-  \item \inlinecmd{clean}: retirar ficheros fuera de control de versiones
-  \item \inlinecmd{daemon}: acceso eficiente sin autenticación
-  \item \inlinecmd{format-patch}: preparar parches para enviar por correo
-  \item \inlinecmd{rebase -i}: navaja suiza para reorganizar ramas
-  \item \inlinecmd{rebase}: replantear ramas en base a otras
-  \item \inlinecmd{reflog}: historial de referencias para recuperación
-  \item \inlinecmd{stash}: aparcar cambios en zona temporal
-  \item \inlinecmd{submodule}: incluir repositorios externos
-  \end{itemize}
-\end{frame}
 
 \begin{frame}{Fin de la presentación}
   \begin{center}
