@@ -4,3 +4,11 @@
 *.aux
 *.toc
 cc-by-sa.pdf
+*~
+*.fdb*
+*.synctex*
+*.vrb
+*.nav
+*.snm
+*.fls
+ansifilter*
