@@ -1,0 +1,22 @@
+% -*- latex -*-
+
+\usetikzlibrary{calc,positioning,shapes}
+
+\begin{tikzpicture}[
+  capa/.style={draw,rounded corners,fill=yellow!40,text width=8em,text centered,text height=1em}
+  ]
+
+  \draw[white] (5,1) rectangle (-4.75,-2.5);
+
+  \node[capa] (repo) {Repositorio};
+  \node[capa,below of=repo] (ap) {Área preparación};
+  \node[capa,below of=ap] (dt) {Dir. trabajo};
+
+  \node[left=2em of ap] {git rm} edge[->,very thick] (ap)
+    edge[->,out=270,in=180,very thick] (dt.west);
+  \node[right=2em of ap] {git rm {-}-cached}
+    edge[->,very thick] (ap);
+  \node[right=2em of dt] {rm}
+    edge[->,very thick] (dt);
+
+\end{tikzpicture}
