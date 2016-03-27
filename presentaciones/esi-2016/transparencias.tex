@@ -16,7 +16,7 @@
 \usepackage[htt]{hyphenat}
 \PrerenderUnicode{áéíóúÁÉÍÓÚçÇ}
 
-\title[Introducción a Git]{Introducción a Git y Github para desarrollo colaborativo}
+\title[Introducción a Git y Github]{Introducción a Git y Github para desarrollo colaborativo}
 \author{Antonio García Domínguez}
 \date{27 de marzo de 2016}
 \institute{University of York \\\vspace{2em} \includegraphics{../../cc-by-sa}}
@@ -895,7 +895,7 @@
 
   \begin{block}{Alojamiento propio}
     \begin{itemize}
-    \item Motor de \url{http://repo.or.cz}
+    \item \url{http://repo.or.cz}
     \item Gitlab: \url{https://about.gitlab.com/}
     \end{itemize}
   \end{block}
@@ -930,9 +930,218 @@
 
 \fi
 
+\section[Github]{Github: capa web/social sobre Git}
+
+\begin{frame}{Importancia de Github}
+  \begin{block}{Papel actual}
+    \begin{itemize}
+    \item Estándar \emph{de facto} al colaborar con Git
+    \item Añade capa social y más funciones
+    \item Impone algunas convenciones propias
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Formas de uso}
+    \begin{itemize}
+    \item Desarrollar proyectos propios (forja)
+    \item Seguir a otros proyectos (capa social)
+    \item Colaborar con otros (\emph{pull requests} y organizaciones)
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\subsection{Uso individual}
+
+\begin{frame}{Uso individual}
+  \begin{block}{Inicio como usuario}
+    \begin{enumerate}
+    \item Nos registramos en github.com
+    \item Generamos claves SSH en cada uno de nuestros equipos
+    \item Damos las mitades públicas a Github
+    \item Creamos repositorios y subimos nuestros cambios
+    \end{enumerate}
+  \end{block}
+
+  \begin{block}{Uso como forja}
+    \begin{itemize}
+    \item Usar \emph{issues} para gestionar defectos, mejoras, etc.
+    \item Publicar descargas como \emph{releases}
+    \item Aceptar \emph{pull requests} de otros usuarios
+    \item Llevar un \emph{wiki} para documentación colaborativa
+    \item Sacar estadísticas y aprovechar extensiones a Git
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Ejemplo de repositorio}
+  \begin{center}
+    \includegraphics[width=.9\textwidth,height=.8\textheight,keepaspectratio]{orientdb-repo}
+
+    \url{https://github.com/orienttechnologies/orientdb}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Ejemplo de usuario}
+  \begin{center}
+    \includegraphics[width=.9\textwidth,height=.8\textheight,keepaspectratio]{orientdb-user}
+
+    \url{https://github.com/robfrank}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Funciones adicionales}
+  \begin{block}{Visor Markdown}
+    \begin{itemize}
+    \item Convención: \texttt{README.md} en la raíz
+    \item Markdown con información básica del proyecto
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{GitHub Pages}
+    \begin{itemize}
+    \item Rama \texttt{gh-pages} de cualquier repositorio
+    \item \url{github.com/a/b} $\rightarrow$ \url{a.github.com/b}
+    \item Admite Jekyll como generador de webs estáticas
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Extensiones sobre Git}
+    \begin{itemize}
+    \item Ficheros individuales con historia: \url{https://gist.github.com}
+    \item Manejo de ficheros grandes: \url{https://git-lfs.github.com/}
+    \item Diferencias entre imágenes: \url{https://goo.gl/YHzUY3}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\subsection{Uso colaborativo}
+
+\begin{frame}{Capa social}
+  \begin{block}{Interacciones}
+    \begin{itemize}
+    \item Seguir a un usuario o a un repositorio
+    \item Marcar como favorito un repositorio
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Perfiles}
+    \begin{itemize}
+    \item Ejemplo: \url{https://github.com/robfrank}
+    \item Lista repositorios populares
+    \item Lista contribuciones a otros repositorios
+    \item Muy útil para \emph{recruiters}: mantened un portafolio
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Contribuir a otros repositorios}
+  \begin{block}{Problema común}
+    \begin{itemize}
+    \item Estáis usando un framework popular (Django) y os da un error
+    \item Localizáis el defecto y lo corregís
+    \item ¿Cómo contribuir el arreglo, si no tenéis permiso?
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Solución: crear una \emph{pull request}}
+    \begin{enumerate}
+    \item Crear \emph{fork}: vuestra propia copia del repositorio
+    \item Subir arreglo a una nueva rama
+    \item Proponer \emph{pull} a través de web
+    \item Recibir comentarios de desarrolladores y hacer mejoras
+    \item Rama externa es integrada, reconociendo la aportación
+    \end{enumerate}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Estadísticas de repositorios}
+  \begin{block}{Información disponible}
+    \begin{itemize}
+    \item ¿Qué desarrolladores son clave?
+    \item ¿Cuándo es más activo el proyecto?
+    \item ¿Cómo se relacionan los contribuidores?
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Ejercicio}
+    Comparad django/django con orienttechnologies/orientdb:
+    \begin{itemize}
+    \item ¿Qué proyecto parece más robusto?
+    \item ¿Ha habido rotación a lo largo del tiempo?
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Organizaciones}
+  \begin{block}{Concepto}
+    \begin{itemize}
+    \item Una organización tiene varios equipos
+    \item Un miembro está en 1+ equipos
+    \item Cada equipo tiene una serie de permisos
+    \end{itemize}
+  \end{block}
+  
+  \begin{block}{Ejemplos}
+    \begin{itemize}
+    \item Proyecto de código abierto: \url{http://github.com/pentaho}
+    \item Proyecto europeo: \url{http://github.com/mondo-project}
+    \item Se pueden comprar planes privados para empresas
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\subsection{Integraciones}
+
+\begin{frame}{Más allá de Github: integraciones}
+  \begin{block}{Webhooks: caseras}
+    \begin{itemize}
+    \item Github puede invocar a otros servicios web cuando pasa algo
+    \item Realiza una petición POST enviando un JSON con lo que pase
+    \item Nos podemos guisar cualquier cosa
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Servicios: prefabricadas}
+    \begin{itemize}
+    \item Catálogo: \url{https://github.com/integrations}
+    \item Integración continua: Travis
+    \item Análisis de código: Codacy
+    \item Chat: Gitter, Slack
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}{Ejemplo de servicio: Travis}
+  \begin{center}
+    \includegraphics[width=.9\textwidth,height=.8\textheight,keepaspectratio]{travis}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Como fuente de datos para investigación}
+  \begin{block}{API de GitHub}
+    \begin{itemize}
+    \item Podemos buscar entre repositorios
+    \item Útil para ver popularidad de una tecnología
+    \end{itemize}
+  \end{block}
+  
+  \begin{block}{GHTorrent: volcado de GitHub mediante torrent}
+    \begin{itemize}
+    \item El API de GitHub tiene muchos límites
+    \item Volcados por BitTorrent: \url{http://ghtorrent.org/}
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Artículo interesante}
+    \scriptsize
+    \url{http://modeling-languages.com/believe-research-github-mining/}    
+  \end{block}
+
+\end{frame}
+
 \appendix
 
-\begin{frame}{Otras órdenes disponibles}
+\begin{frame}{Otras órdenes disponibles en Git}
   \begin{itemize}
   \item \inlinecmd{bisect}: búsqueda binaria de defectos
   \item \inlinecmd{blame}: autoría por líneas
